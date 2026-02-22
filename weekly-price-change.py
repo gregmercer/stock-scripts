@@ -7,39 +7,39 @@ def get_weekly_etf_performance(tickers, num_weeks=1):
     # We need num_weeks + 1 data points to calculate num_weeks of changes
     period = f"{max(3, (num_weeks + 2) // 4)}mo"  # Ensure we have enough data
     df = yf.download(tickers, period=period, interval="1wk", progress=False)
-    
+
     # Use 'Adj Close' if available, otherwise fall back to 'Close'
     if 'Adj Close' in df.columns.levels[0]:
         data = df['Adj Close']
     else:
         data = df['Close']
-    
+
     # Calculate percentage change for each week
     # pct_change() returns decimal (0.01), so we multiply by 100 for percentage (1.0%)
     pct_changes = data.pct_change() * 100
-    
+
     # Get the last num_weeks of changes
     recent_changes = pct_changes.iloc[-num_weeks:]
-    
+
     # Create a DataFrame with ETF tickers and multiple week columns
     results = pd.DataFrame({'ETF Ticker': data.columns})
-    
+
     # Add each week as a column (most recent first)
     for i, (idx, row) in enumerate(recent_changes.iloc[::-1].iterrows()):
         week_label = f"Week {i+1}" if i > 0 else "Week 1 (Latest)"
         results[week_label] = row.values.round(2)
-    
+
     # Count number of positive weeks
     week_columns = [col for col in results.columns if col.startswith('Week')]
     results['Weeks Positive'] = (results[week_columns] > 0).sum(axis=1)
-    
+
     # Reorder columns to put Weeks Positive after ETF Ticker
     cols = ['ETF Ticker', 'Weeks Positive'] + week_columns
     results = results[cols]
-    
+
     # Sort by the most recent week (Week 1)
     results = results.sort_values(by='Week 1 (Latest)', ascending=False)
-    
+
     return results
 
 # List of ETFs to track
@@ -92,28 +92,30 @@ if __name__ == "__main__":
     parser.add_argument('-w', '--weeks', type=int, default=10,
                         help='Number of weeks to display (default: 10)')
     args = parser.parse_args()
-    
+
     # Get performance data
     performance = get_weekly_etf_performance(etf_list, num_weeks=args.weeks)
-    
-    # Display results
-    print(f"--- Weekly Performance Report ({args.weeks} weeks) ---")
+
+    # Set display options
     pd.set_option('display.max_columns', None)
     pd.set_option('display.width', None)
     pd.set_option('display.max_colwidth', None)
-    print(performance.to_string(index=False))
-    
-    # Display top 5 by Weeks Positive
-    print(f"\n--- Top 5 ETFs by Weeks Positive ---")
+
+    # Display top 5 by Weeks Positive FIRST
+    print(f"--- Top 5 ETFs by Weeks Positive ({args.weeks} weeks) ---")
     top_5 = performance.sort_values(by='Weeks Positive', ascending=False).head(5)
     print(top_5.to_string(index=False))
-    
-    # Display short legend for top 5
+
+    # Display legend for top 5
     print("\nTop 5 Legend:")
     for ticker in top_5['ETF Ticker']:
         print(f"{ticker:6} - {etf_names[ticker]}")
-    
-    # Display legend
-    print("\n--- ETF Legend ---")
+
+    # Display full results
+    print(f"\n--- Full Weekly Performance Report ({args.weeks} weeks) ---")
+    print(performance.to_string(index=False))
+
+    # Display full legend
+    print("\n--- Complete ETF Legend ---")
     for ticker in sorted(etf_list):
         print(f"{ticker:6} - {etf_names[ticker]}")
