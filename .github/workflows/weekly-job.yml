@@ -39,7 +39,28 @@ jobs:
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git add output/
-          REPORT_DATE=$(TZ=America/Los_Angeles date +%Y-%m-%d)
-          git commit -m "Weekly report ${REPORT_DATE}" || exit 0
-          git push
+
+          # Show what files were generated
+          echo "Files generated in output/:"
+          ls -lh output/
+
+          # Add all output files
+          git add output/*.txt output/*.json
+
+          # Check if there are changes to commit
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+          else
+            REPORT_DATE=$(TZ=America/Los_Angeles date +%Y-%m-%d)
+            git commit -m "Weekly report ${REPORT_DATE}
+
+Generated files:
+- week-report-${REPORT_DATE}.txt
+- weekly-performance-${REPORT_DATE}.json
+- rolling-performance-${REPORT_DATE}.json
+- report-rolling-performance-${REPORT_DATE}.txt
+- report-running-portfolio-${REPORT_DATE}.txt
+- report-dollar-return-${REPORT_DATE}.txt"
+            git push
+            echo "Changes pushed successfully"
+          fi
