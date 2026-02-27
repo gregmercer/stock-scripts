@@ -1,0 +1,44 @@
+--- Top 5 ETFs by Weeks Positive (10 weeks) ---
+ETF Ticker  Weeks Positive  Week 1 (Latest)  Week 2  Week 3  Week 4  Week 5  Week 6  Week 7  Week 8  Week 9  Week 10
+       XHS               0              NaN     NaN     NaN     NaN     NaN     NaN     NaN     NaN     NaN      NaN
+
+Top 5 Legend:
+XHS    - SPDR S&P Health Care Services ETF
+
+--- Full Weekly Performance Report (10 weeks) ---
+ETF Ticker  Weeks Positive  Week 1 (Latest)  Week 2  Week 3  Week 4  Week 5  Week 6  Week 7  Week 8  Week 9  Week 10
+       XHS               0              NaN     NaN     NaN     NaN     NaN     NaN     NaN     NaN     NaN      NaN
+
+--- Complete ETF Legend ---
+KBE    - SPDR S&P Bank ETF
+KCE    - SPDR S&P Capital Markets ETF
+KIE    - SPDR S&P Insurance ETF
+KRE    - SPDR S&P Regional Banking ETF
+RWR    - SPDR Dow Jones REIT ETF
+XAR    - SPDR S&P Aerospace & Defense ETF
+XBI    - SPDR S&P Biotech ETF
+XES    - SPDR S&P Oil & Gas Equipment & Services ETF
+XHB    - SPDR S&P Homebuilders ETF
+XHE    - SPDR S&P Health Care Equipment ETF
+XHS    - SPDR S&P Health Care Services ETF
+XLB    - Materials Select Sector SPDR Fund
+XLC    - Communication Services Select Sector SPDR Fund
+XLE    - Energy Select Sector SPDR Fund
+XLF    - Financial Select Sector SPDR Fund
+XLG    - Invesco S&P 500 Top 50 ETF
+XLI    - Industrial Select Sector SPDR Fund
+XLK    - Technology Select Sector SPDR Fund
+XLP    - Consumer Staples Select Sector SPDR Fund
+XLRE   - Real Estate Select Sector SPDR Fund
+XLU    - Utilities Select Sector SPDR Fund
+XLV    - Health Care Select Sector SPDR Fund
+XLY    - Consumer Discretionary Select Sector SPDR Fund
+XME    - SPDR S&P Metals & Mining ETF
+XNTK   - SPDR NYSE Technology ETF
+XOP    - SPDR S&P Oil & Gas Exploration & Production ETF
+XPH    - SPDR S&P Pharmaceuticals ETF
+XRT    - SPDR S&P Retail ETF
+XSD    - SPDR S&P Semiconductor ETF
+XSW    - SPDR S&P Software & Services ETF
+XTL    - SPDR S&P Telecom ETF
+XTN    - SPDR S&P Transportation ETF
