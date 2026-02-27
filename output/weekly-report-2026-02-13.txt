@@ -1,3 +1,18 @@
+--- Top 5 ETFs by Weeks Positive ---
+ETF Ticker  Weeks Positive  Week 1 (Latest)  Week 2  Week 3  Week 4  Week 5  Week 6  Week 7  Week 8  Week 9  Week 10
+       XLB               9             3.49    4.55   -1.40    2.65    0.87    4.64    0.54    1.63    0.49     2.40
+       XES               8             4.43    5.71    3.56    4.00    3.19    4.79    5.67    0.37   -4.92    -2.38
+       XTL               8             3.19    2.90    2.86   -0.28    2.18    1.00    1.56    1.05   -0.27     1.30
+       XLE               8             2.07    4.31    3.78    3.15    2.19    2.23    4.16    0.16   -3.03    -0.89
+       XLP               8             1.79    5.30    0.72    0.97    3.61    2.01    0.11   -0.70   -0.81     1.22
+
+Top 5 Legend:
+XLB    - Materials Select Sector SPDR Fund
+XES    - SPDR S&P Oil & Gas Equipment & Services ETF
+XTL    - SPDR S&P Telecom ETF
+XLE    - Energy Select Sector SPDR Fund
+XLP    - Consumer Staples Select Sector SPDR Fund
+
 --- Weekly Performance Report (10 weeks) ---
 ETF Ticker  Weeks Positive  Week 1 (Latest)  Week 2  Week 3  Week 4  Week 5  Week 6  Week 7  Week 8  Week 9  Week 10
        XLU               6             7.27    0.23    1.62   -1.91    2.07   -1.55    1.69    0.35   -0.47    -1.09
@@ -32,21 +47,6 @@ ETF Ticker  Weeks Positive  Week 1 (Latest)  Week 2  Week 3  Week 4  Week 5  Wee
        XME               7            -3.81    3.18   -9.68    5.88    6.19    8.71   -0.17    2.54    2.97     2.41
        XTN               4            -4.32   10.42   -2.10   -0.23    0.40    5.70   -0.10   -0.09   -1.02     2.24
        XLF               5            -4.81    1.53    0.70   -2.52   -2.31    1.46   -0.90    1.42   -0.20     2.37
-
---- Top 5 ETFs by Weeks Positive ---
-ETF Ticker  Weeks Positive  Week 1 (Latest)  Week 2  Week 3  Week 4  Week 5  Week 6  Week 7  Week 8  Week 9  Week 10
-       XLB               9             3.49    4.55   -1.40    2.65    0.87    4.64    0.54    1.63    0.49     2.40
-       XES               8             4.43    5.71    3.56    4.00    3.19    4.79    5.67    0.37   -4.92    -2.38
-       XTL               8             3.19    2.90    2.86   -0.28    2.18    1.00    1.56    1.05   -0.27     1.30
-       XLE               8             2.07    4.31    3.78    3.15    2.19    2.23    4.16    0.16   -3.03    -0.89
-       XLP               8             1.79    5.30    0.72    0.97    3.61    2.01    0.11   -0.70   -0.81     1.22
-
-Top 5 Legend:
-XLB    - Materials Select Sector SPDR Fund
-XES    - SPDR S&P Oil & Gas Equipment & Services ETF
-XTL    - SPDR S&P Telecom ETF
-XLE    - Energy Select Sector SPDR Fund
-XLP    - Consumer Staples Select Sector SPDR Fund
 
 --- ETF Legend ---
 KBE    - SPDR S&P Bank ETF
