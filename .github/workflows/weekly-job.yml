@@ -52,15 +52,14 @@ jobs:
             echo "No changes to commit"
           else
             REPORT_DATE=$(TZ=America/Los_Angeles date +%Y-%m-%d)
-            git commit -m "Weekly report ${REPORT_DATE}
-
-Generated files:
-- week-report-${REPORT_DATE}.txt
-- weekly-performance-${REPORT_DATE}.json
-- rolling-performance-${REPORT_DATE}.json
-- report-rolling-performance-${REPORT_DATE}.txt
-- report-running-portfolio-${REPORT_DATE}.txt
-- report-dollar-return-${REPORT_DATE}.txt"
+            git commit -m "Weekly report ${REPORT_DATE}" \
+                       -m "Generated files:" \
+                       -m "- week-report-${REPORT_DATE}.txt" \
+                       -m "- weekly-performance-${REPORT_DATE}.json" \
+                       -m "- rolling-performance-${REPORT_DATE}.json" \
+                       -m "- report-rolling-performance-${REPORT_DATE}.txt" \
+                       -m "- report-running-portfolio-${REPORT_DATE}.txt" \
+                       -m "- report-dollar-return-${REPORT_DATE}.txt"
             git push
             echo "Changes pushed successfully"
           fi
