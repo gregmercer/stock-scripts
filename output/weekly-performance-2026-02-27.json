@@ -1,0 +1,8582 @@
+[
+  {
+    "week_ending": "2025-03-07",
+    "etfs": [
+      {
+        "ticker": "XHB",
+        "price": 101.08,
+        "change_percent": 0.48
+      },
+      {
+        "ticker": "XLV",
+        "price": 146.7,
+        "change_percent": 0.24
+      },
+      {
+        "ticker": "XLP",
+        "price": 80.66,
+        "change_percent": -0.26
+      },
+      {
+        "ticker": "XPH",
+        "price": 43.98,
+        "change_percent": -0.29
+      },
+      {
+        "ticker": "XHS",
+        "price": 96.72,
+        "change_percent": -0.68
+      },
+      {
+        "ticker": "XLB",
+        "price": 43.05,
+        "change_percent": -1.06
+      },
+      {
+        "ticker": "XLI",
+        "price": 132.43,
+        "change_percent": -1.53
+      },
+      {
+        "ticker": "XLRE",
+        "price": 41.06,
+        "change_percent": -1.58
+      },
+      {
+        "ticker": "XBI",
+        "price": 86.98,
+        "change_percent": -1.59
+      },
+      {
+        "ticker": "XSD",
+        "price": 222.22,
+        "change_percent": -1.66
+      },
+      {
+        "ticker": "XLC",
+        "price": 99.08,
+        "change_percent": -1.68
+      },
+      {
+        "ticker": "KIE",
+        "price": 58.12,
+        "change_percent": -1.7
+      },
+      {
+        "ticker": "RWR",
+        "price": 97.81,
+        "change_percent": -1.84
+      },
+      {
+        "ticker": "XTL",
+        "price": 104.05,
+        "change_percent": -1.84
+      },
+      {
+        "ticker": "XNTK",
+        "price": 201.19,
+        "change_percent": -2.31
+      },
+      {
+        "ticker": "XLU",
+        "price": 37.57,
+        "change_percent": -2.44
+      },
+      {
+        "ticker": "XHE",
+        "price": 85.81,
+        "change_percent": -3.0
+      },
+      {
+        "ticker": "XLK",
+        "price": 108.59,
+        "change_percent": -3.1
+      },
+      {
+        "ticker": "XAR",
+        "price": 160.23,
+        "change_percent": -3.18
+      },
+      {
+        "ticker": "XRT",
+        "price": 71.14,
+        "change_percent": -3.24
+      },
+      {
+        "ticker": "XLG",
+        "price": 47.59,
+        "change_percent": -3.41
+      },
+      {
+        "ticker": "XME",
+        "price": 55.73,
+        "change_percent": -3.6
+      },
+      {
+        "ticker": "XLE",
+        "price": 42.3,
+        "change_percent": -3.92
+      },
+      {
+        "ticker": "XSW",
+        "price": 168.76,
+        "change_percent": -4.13
+      },
+      {
+        "ticker": "XTN",
+        "price": 78.75,
+        "change_percent": -4.61
+      },
+      {
+        "ticker": "XLY",
+        "price": 101.95,
+        "change_percent": -4.76
+      },
+      {
+        "ticker": "XLF",
+        "price": 48.45,
+        "change_percent": -5.86
+      },
+      {
+        "ticker": "XES",
+        "price": 68.36,
+        "change_percent": -6.17
+      },
+      {
+        "ticker": "KBE",
+        "price": 52.33,
+        "change_percent": -6.26
+      },
+      {
+        "ticker": "XOP",
+        "price": 119.48,
+        "change_percent": -6.38
+      },
+      {
+        "ticker": "KCE",
+        "price": 127.12,
+        "change_percent": -6.66
+      },
+      {
+        "ticker": "KRE",
+        "price": 56.22,
+        "change_percent": -7.06
+      }
+    ]
+  },
+  {
+    "week_ending": "2025-03-14",
+    "etfs": [
+      {
+        "ticker": "XOP",
+        "price": 123.74,
+        "change_percent": 3.57
+      },
+      {
+        "ticker": "XME",
+        "price": 57.42,
+        "change_percent": 3.02
+      },
+      {
+        "ticker": "XLE",
+        "price": 43.43,
+        "change_percent": 2.66
+      },
+      {
+        "ticker": "XLU",
+        "price": 38.34,
+        "change_percent": 2.04
+      },
+      {
+        "ticker": "XAR",
+        "price": 161.05,
+        "change_percent": 0.51
+      },
+      {
+        "ticker": "KIE",
+        "price": 58.23,
+        "change_percent": 0.19
+      },
+      {
+        "ticker": "XBI",
+        "price": 86.81,
+        "change_percent": -0.19
+      },
+      {
+        "ticker": "XES",
+        "price": 68.12,
+        "change_percent": -0.36
+      },
+      {
+        "ticker": "XNTK",
+        "price": 198.91,
+        "change_percent": -1.13
+      },
+      {
+        "ticker": "XLF",
+        "price": 47.85,
+        "change_percent": -1.22
+      },
+      {
+        "ticker": "KRE",
+        "price": 55.31,
+        "change_percent": -1.61
+      },
+      {
+        "ticker": "XSW",
+        "price": 166.01,
+        "change_percent": -1.63
+      },
+      {
+        "ticker": "XSD",
+        "price": 218.42,
+        "change_percent": -1.71
+      },
+      {
+        "ticker": "XHS",
+        "price": 95.04,
+        "change_percent": -1.74
+      },
+      {
+        "ticker": "KBE",
+        "price": 51.38,
+        "change_percent": -1.82
+      },
+      {
+        "ticker": "XLB",
+        "price": 42.15,
+        "change_percent": -2.1
+      },
+      {
+        "ticker": "XLK",
+        "price": 106.31,
+        "change_percent": -2.1
+      },
+      {
+        "ticker": "XLI",
+        "price": 129.35,
+        "change_percent": -2.32
+      },
+      {
+        "ticker": "XLRE",
+        "price": 40.07,
+        "change_percent": -2.4
+      },
+      {
+        "ticker": "XLG",
+        "price": 46.4,
+        "change_percent": -2.48
+      },
+      {
+        "ticker": "XTL",
+        "price": 101.13,
+        "change_percent": -2.8
+      },
+      {
+        "ticker": "XLV",
+        "price": 142.42,
+        "change_percent": -2.91
+      },
+      {
+        "ticker": "KCE",
+        "price": 123.36,
+        "change_percent": -2.96
+      },
+      {
+        "ticker": "RWR",
+        "price": 94.64,
+        "change_percent": -3.24
+      },
+      {
+        "ticker": "XPH",
+        "price": 42.52,
+        "change_percent": -3.33
+      },
+      {
+        "ticker": "XLC",
+        "price": 95.42,
+        "change_percent": -3.7
+      },
+      {
+        "ticker": "XHE",
+        "price": 82.39,
+        "change_percent": -3.99
+      },
+      {
+        "ticker": "XLP",
+        "price": 77.4,
+        "change_percent": -4.04
+      },
+      {
+        "ticker": "XHB",
+        "price": 96.74,
+        "change_percent": -4.29
+      },
+      {
+        "ticker": "XLY",
+        "price": 97.51,
+        "change_percent": -4.36
+      },
+      {
+        "ticker": "XTN",
+        "price": 74.29,
+        "change_percent": -5.65
+      },
+      {
+        "ticker": "XRT",
+        "price": 66.96,
+        "change_percent": -5.87
+      }
+    ]
+  },
+  {
+    "week_ending": "2025-03-21",
+    "etfs": [
+      {
+        "ticker": "XOP",
+        "price": 128.05,
+        "change_percent": 3.49
+      },
+      {
+        "ticker": "XLE",
+        "price": 44.76,
+        "change_percent": 3.07
+      },
+      {
+        "ticker": "KCE",
+        "price": 126.56,
+        "change_percent": 2.6
+      },
+      {
+        "ticker": "XPH",
+        "price": 43.59,
+        "change_percent": 2.51
+      },
+      {
+        "ticker": "XES",
+        "price": 69.7,
+        "change_percent": 2.32
+      },
+      {
+        "ticker": "XRT",
+        "price": 68.46,
+        "change_percent": 2.24
+      },
+      {
+        "ticker": "XLF",
+        "price": 48.78,
+        "change_percent": 1.94
+      },
+      {
+        "ticker": "XHS",
+        "price": 96.68,
+        "change_percent": 1.73
+      },
+      {
+        "ticker": "XAR",
+        "price": 163.65,
+        "change_percent": 1.61
+      },
+      {
+        "ticker": "XLV",
+        "price": 144.07,
+        "change_percent": 1.15
+      },
+      {
+        "ticker": "XLC",
+        "price": 96.43,
+        "change_percent": 1.06
+      },
+      {
+        "ticker": "KBE",
+        "price": 51.89,
+        "change_percent": 1.0
+      },
+      {
+        "ticker": "KRE",
+        "price": 55.8,
+        "change_percent": 0.88
+      },
+      {
+        "ticker": "XTL",
+        "price": 102.02,
+        "change_percent": 0.88
+      },
+      {
+        "ticker": "XLI",
+        "price": 130.46,
+        "change_percent": 0.85
+      },
+      {
+        "ticker": "XSW",
+        "price": 167.38,
+        "change_percent": 0.82
+      },
+      {
+        "ticker": "XNTK",
+        "price": 200.27,
+        "change_percent": 0.68
+      },
+      {
+        "ticker": "XHE",
+        "price": 82.87,
+        "change_percent": 0.58
+      },
+      {
+        "ticker": "XTN",
+        "price": 74.69,
+        "change_percent": 0.53
+      },
+      {
+        "ticker": "XLY",
+        "price": 97.88,
+        "change_percent": 0.38
+      },
+      {
+        "ticker": "XLG",
+        "price": 46.57,
+        "change_percent": 0.36
+      },
+      {
+        "ticker": "KIE",
+        "price": 58.4,
+        "change_percent": 0.29
+      },
+      {
+        "ticker": "XLRE",
+        "price": 40.13,
+        "change_percent": 0.14
+      },
+      {
+        "ticker": "XLK",
+        "price": 106.32,
+        "change_percent": 0.01
+      },
+      {
+        "ticker": "XBI",
+        "price": 86.8,
+        "change_percent": -0.01
+      },
+      {
+        "ticker": "XHB",
+        "price": 96.65,
+        "change_percent": -0.09
+      },
+      {
+        "ticker": "XLU",
+        "price": 38.28,
+        "change_percent": -0.15
+      },
+      {
+        "ticker": "XLB",
+        "price": 42.06,
+        "change_percent": -0.22
+      },
+      {
+        "ticker": "XLP",
+        "price": 77.22,
+        "change_percent": -0.23
+      },
+      {
+        "ticker": "RWR",
+        "price": 94.17,
+        "change_percent": -0.5
+      },
+      {
+        "ticker": "XME",
+        "price": 57.12,
+        "change_percent": -0.52
+      },
+      {
+        "ticker": "XSD",
+        "price": 216.76,
+        "change_percent": -0.76
+      }
+    ]
+  },
+  {
+    "week_ending": "2025-03-28",
+    "etfs": [
+      {
+        "ticker": "KIE",
+        "price": 59.2,
+        "change_percent": 1.38
+      },
+      {
+        "ticker": "XLP",
+        "price": 78.27,
+        "change_percent": 1.36
+      },
+      {
+        "ticker": "RWR",
+        "price": 94.62,
+        "change_percent": 0.48
+      },
+      {
+        "ticker": "XHS",
+        "price": 97.11,
+        "change_percent": 0.44
+      },
+      {
+        "ticker": "XES",
+        "price": 69.97,
+        "change_percent": 0.39
+      },
+      {
+        "ticker": "XLE",
+        "price": 44.72,
+        "change_percent": -0.1
+      },
+      {
+        "ticker": "XLY",
+        "price": 97.67,
+        "change_percent": -0.21
+      },
+      {
+        "ticker": "XLRE",
+        "price": 40.03,
+        "change_percent": -0.24
+      },
+      {
+        "ticker": "XLF",
+        "price": 48.53,
+        "change_percent": -0.51
+      },
+      {
+        "ticker": "XOP",
+        "price": 127.39,
+        "change_percent": -0.52
+      },
+      {
+        "ticker": "XRT",
+        "price": 67.96,
+        "change_percent": -0.72
+      },
+      {
+        "ticker": "XLB",
+        "price": 41.69,
+        "change_percent": -0.86
+      },
+      {
+        "ticker": "XLU",
+        "price": 37.91,
+        "change_percent": -0.98
+      },
+      {
+        "ticker": "XHE",
+        "price": 81.78,
+        "change_percent": -1.31
+      },
+      {
+        "ticker": "XHB",
+        "price": 95.34,
+        "change_percent": -1.35
+      },
+      {
+        "ticker": "XME",
+        "price": 56.34,
+        "change_percent": -1.36
+      },
+      {
+        "ticker": "XLV",
+        "price": 142.02,
+        "change_percent": -1.42
+      },
+      {
+        "ticker": "KBE",
+        "price": 51.14,
+        "change_percent": -1.44
+      },
+      {
+        "ticker": "KRE",
+        "price": 54.97,
+        "change_percent": -1.48
+      },
+      {
+        "ticker": "XAR",
+        "price": 161.15,
+        "change_percent": -1.53
+      },
+      {
+        "ticker": "XLI",
+        "price": 128.39,
+        "change_percent": -1.59
+      },
+      {
+        "ticker": "XTN",
+        "price": 73.43,
+        "change_percent": -1.69
+      },
+      {
+        "ticker": "XLC",
+        "price": 94.59,
+        "change_percent": -1.91
+      },
+      {
+        "ticker": "XLG",
+        "price": 45.52,
+        "change_percent": -2.26
+      },
+      {
+        "ticker": "KCE",
+        "price": 123.58,
+        "change_percent": -2.36
+      },
+      {
+        "ticker": "XTL",
+        "price": 99.33,
+        "change_percent": -2.64
+      },
+      {
+        "ticker": "XBI",
+        "price": 84.09,
+        "change_percent": -3.12
+      },
+      {
+        "ticker": "XSW",
+        "price": 162.12,
+        "change_percent": -3.14
+      },
+      {
+        "ticker": "XLK",
+        "price": 102.55,
+        "change_percent": -3.54
+      },
+      {
+        "ticker": "XPH",
+        "price": 41.88,
+        "change_percent": -3.93
+      },
+      {
+        "ticker": "XNTK",
+        "price": 191.99,
+        "change_percent": -4.13
+      },
+      {
+        "ticker": "XSD",
+        "price": 201.47,
+        "change_percent": -7.05
+      }
+    ]
+  },
+  {
+    "week_ending": "2025-04-04",
+    "etfs": [
+      {
+        "ticker": "XLP",
+        "price": 76.78,
+        "change_percent": -1.91
+      },
+      {
+        "ticker": "XHB",
+        "price": 92.43,
+        "change_percent": -3.05
+      },
+      {
+        "ticker": "XHS",
+        "price": 93.78,
+        "change_percent": -3.44
+      },
+      {
+        "ticker": "XLU",
+        "price": 36.49,
+        "change_percent": -3.75
+      },
+      {
+        "ticker": "XRT",
+        "price": 64.51,
+        "change_percent": -5.08
+      },
+      {
+        "ticker": "XLRE",
+        "price": 37.9,
+        "change_percent": -5.31
+      },
+      {
+        "ticker": "XLV",
+        "price": 133.46,
+        "change_percent": -6.03
+      },
+      {
+        "ticker": "RWR",
+        "price": 88.41,
+        "change_percent": -6.56
+      },
+      {
+        "ticker": "XLY",
+        "price": 90.86,
+        "change_percent": -6.98
+      },
+      {
+        "ticker": "KIE",
+        "price": 54.78,
+        "change_percent": -7.47
+      },
+      {
+        "ticker": "XLB",
+        "price": 38.36,
+        "change_percent": -7.99
+      },
+      {
+        "ticker": "XHE",
+        "price": 75.04,
+        "change_percent": -8.23
+      },
+      {
+        "ticker": "XPH",
+        "price": 38.31,
+        "change_percent": -8.52
+      },
+      {
+        "ticker": "XLC",
+        "price": 86.44,
+        "change_percent": -8.62
+      },
+      {
+        "ticker": "XLI",
+        "price": 116.7,
+        "change_percent": -9.1
+      },
+      {
+        "ticker": "XLG",
+        "price": 41.35,
+        "change_percent": -9.16
+      },
+      {
+        "ticker": "XLF",
+        "price": 43.75,
+        "change_percent": -9.85
+      },
+      {
+        "ticker": "XSW",
+        "price": 145.82,
+        "change_percent": -10.06
+      },
+      {
+        "ticker": "XAR",
+        "price": 144.44,
+        "change_percent": -10.37
+      },
+      {
+        "ticker": "KBE",
+        "price": 45.68,
+        "change_percent": -10.68
+      },
+      {
+        "ticker": "XTN",
+        "price": 65.21,
+        "change_percent": -11.19
+      },
+      {
+        "ticker": "KCE",
+        "price": 109.51,
+        "change_percent": -11.38
+      },
+      {
+        "ticker": "XLK",
+        "price": 90.78,
+        "change_percent": -11.48
+      },
+      {
+        "ticker": "XTL",
+        "price": 87.75,
+        "change_percent": -11.66
+      },
+      {
+        "ticker": "XNTK",
+        "price": 168.91,
+        "change_percent": -12.03
+      },
+      {
+        "ticker": "KRE",
+        "price": 48.32,
+        "change_percent": -12.09
+      },
+      {
+        "ticker": "XBI",
+        "price": 73.39,
+        "change_percent": -12.72
+      },
+      {
+        "ticker": "XLE",
+        "price": 38.4,
+        "change_percent": -14.12
+      },
+      {
+        "ticker": "XME",
+        "price": 48.3,
+        "change_percent": -14.27
+      },
+      {
+        "ticker": "XSD",
+        "price": 166.95,
+        "change_percent": -17.13
+      },
+      {
+        "ticker": "XOP",
+        "price": 104.63,
+        "change_percent": -17.87
+      },
+      {
+        "ticker": "XES",
+        "price": 54.82,
+        "change_percent": -21.65
+      }
+    ]
+  },
+  {
+    "week_ending": "2025-04-11",
+    "etfs": [
+      {
+        "ticker": "XAR",
+        "price": 161.84,
+        "change_percent": 12.05
+      },
+      {
+        "ticker": "XME",
+        "price": 53.6,
+        "change_percent": 10.97
+      },
+      {
+        "ticker": "XLK",
+        "price": 98.73,
+        "change_percent": 8.76
+      },
+      {
+        "ticker": "XNTK",
+        "price": 180.42,
+        "change_percent": 6.82
+      },
+      {
+        "ticker": "XLG",
+        "price": 44.16,
+        "change_percent": 6.78
+      },
+      {
+        "ticker": "XLI",
+        "price": 124.35,
+        "change_percent": 6.55
+      },
+      {
+        "ticker": "XSD",
+        "price": 176.38,
+        "change_percent": 5.65
+      },
+      {
+        "ticker": "XLF",
+        "price": 46.2,
+        "change_percent": 5.59
+      },
+      {
+        "ticker": "KCE",
+        "price": 114.77,
+        "change_percent": 4.81
+      },
+      {
+        "ticker": "XLC",
+        "price": 90.44,
+        "change_percent": 4.63
+      },
+      {
+        "ticker": "XSW",
+        "price": 152.38,
+        "change_percent": 4.5
+      },
+      {
+        "ticker": "XLY",
+        "price": 94.31,
+        "change_percent": 3.79
+      },
+      {
+        "ticker": "XTL",
+        "price": 91.01,
+        "change_percent": 3.72
+      },
+      {
+        "ticker": "XLB",
+        "price": 39.65,
+        "change_percent": 3.36
+      },
+      {
+        "ticker": "XHS",
+        "price": 96.58,
+        "change_percent": 2.99
+      },
+      {
+        "ticker": "XLP",
+        "price": 78.63,
+        "change_percent": 2.41
+      },
+      {
+        "ticker": "XLU",
+        "price": 37.36,
+        "change_percent": 2.4
+      },
+      {
+        "ticker": "XRT",
+        "price": 65.93,
+        "change_percent": 2.19
+      },
+      {
+        "ticker": "XTN",
+        "price": 66.59,
+        "change_percent": 2.12
+      },
+      {
+        "ticker": "KIE",
+        "price": 55.82,
+        "change_percent": 1.9
+      },
+      {
+        "ticker": "XES",
+        "price": 55.76,
+        "change_percent": 1.71
+      },
+      {
+        "ticker": "XLV",
+        "price": 135.02,
+        "change_percent": 1.18
+      },
+      {
+        "ticker": "XBI",
+        "price": 74.06,
+        "change_percent": 0.91
+      },
+      {
+        "ticker": "XOP",
+        "price": 105.47,
+        "change_percent": 0.81
+      },
+      {
+        "ticker": "XHE",
+        "price": 75.5,
+        "change_percent": 0.61
+      },
+      {
+        "ticker": "XLE",
+        "price": 38.47,
+        "change_percent": 0.17
+      },
+      {
+        "ticker": "KRE",
+        "price": 48.32,
+        "change_percent": 0.0
+      },
+      {
+        "ticker": "XLRE",
+        "price": 37.87,
+        "change_percent": -0.1
+      },
+      {
+        "ticker": "KBE",
+        "price": 45.56,
+        "change_percent": -0.26
+      },
+      {
+        "ticker": "RWR",
+        "price": 87.93,
+        "change_percent": -0.55
+      },
+      {
+        "ticker": "XHB",
+        "price": 90.84,
+        "change_percent": -1.72
+      },
+      {
+        "ticker": "XPH",
+        "price": 37.41,
+        "change_percent": -2.33
+      }
+    ]
+  },
+  {
+    "week_ending": "2025-04-18",
+    "etfs": [
+      {
+        "ticker": "XES",
+        "price": 58.26,
+        "change_percent": 4.49
+      },
+      {
+        "ticker": "KRE",
+        "price": 50.44,
+        "change_percent": 4.38
+      },
+      {
+        "ticker": "RWR",
+        "price": 91.51,
+        "change_percent": 4.07
+      },
+      {
+        "ticker": "XOP",
+        "price": 109.75,
+        "change_percent": 4.05
+      },
+      {
+        "ticker": "XLRE",
+        "price": 39.35,
+        "change_percent": 3.93
+      },
+      {
+        "ticker": "KBE",
+        "price": 47.16,
+        "change_percent": 3.51
+      },
+      {
+        "ticker": "XLE",
+        "price": 39.74,
+        "change_percent": 3.31
+      },
+      {
+        "ticker": "XBI",
+        "price": 75.65,
+        "change_percent": 2.15
+      },
+      {
+        "ticker": "XPH",
+        "price": 38.17,
+        "change_percent": 2.02
+      },
+      {
+        "ticker": "XLU",
+        "price": 38.07,
+        "change_percent": 1.9
+      },
+      {
+        "ticker": "XLP",
+        "price": 80.12,
+        "change_percent": 1.89
+      },
+      {
+        "ticker": "XME",
+        "price": 54.53,
+        "change_percent": 1.73
+      },
+      {
+        "ticker": "XTN",
+        "price": 67.37,
+        "change_percent": 1.16
+      },
+      {
+        "ticker": "KCE",
+        "price": 115.54,
+        "change_percent": 0.67
+      },
+      {
+        "ticker": "KIE",
+        "price": 56.1,
+        "change_percent": 0.5
+      },
+      {
+        "ticker": "XLB",
+        "price": 39.78,
+        "change_percent": 0.31
+      },
+      {
+        "ticker": "XRT",
+        "price": 66.11,
+        "change_percent": 0.29
+      },
+      {
+        "ticker": "XAR",
+        "price": 162.3,
+        "change_percent": 0.28
+      },
+      {
+        "ticker": "XLF",
+        "price": 46.18,
+        "change_percent": -0.04
+      },
+      {
+        "ticker": "XHE",
+        "price": 75.36,
+        "change_percent": -0.19
+      },
+      {
+        "ticker": "XLI",
+        "price": 123.98,
+        "change_percent": -0.29
+      },
+      {
+        "ticker": "XTL",
+        "price": 90.74,
+        "change_percent": -0.3
+      },
+      {
+        "ticker": "XHB",
+        "price": 90.42,
+        "change_percent": -0.46
+      },
+      {
+        "ticker": "XLV",
+        "price": 133.66,
+        "change_percent": -1.01
+      },
+      {
+        "ticker": "XLC",
+        "price": 89.39,
+        "change_percent": -1.16
+      },
+      {
+        "ticker": "XSW",
+        "price": 150.34,
+        "change_percent": -1.34
+      },
+      {
+        "ticker": "XNTK",
+        "price": 177.47,
+        "change_percent": -1.64
+      },
+      {
+        "ticker": "XSD",
+        "price": 172.42,
+        "change_percent": -2.25
+      },
+      {
+        "ticker": "XLY",
+        "price": 92.16,
+        "change_percent": -2.28
+      },
+      {
+        "ticker": "XHS",
+        "price": 93.98,
+        "change_percent": -2.7
+      },
+      {
+        "ticker": "XLG",
+        "price": 42.96,
+        "change_percent": -2.7
+      },
+      {
+        "ticker": "XLK",
+        "price": 96.0,
+        "change_percent": -2.77
+      }
+    ]
+  },
+  {
+    "week_ending": "2025-04-25",
+    "etfs": [
+      {
+        "ticker": "XSD",
+        "price": 194.25,
+        "change_percent": 12.66
+      },
+      {
+        "ticker": "XNTK",
+        "price": 194.5,
+        "change_percent": 9.6
+      },
+      {
+        "ticker": "XSW",
+        "price": 163.06,
+        "change_percent": 8.46
+      },
+      {
+        "ticker": "XLK",
+        "price": 103.77,
+        "change_percent": 8.09
+      },
+      {
+        "ticker": "XLY",
+        "price": 98.22,
+        "change_percent": 6.58
+      },
+      {
+        "ticker": "XLG",
+        "price": 45.45,
+        "change_percent": 5.79
+      },
+      {
+        "ticker": "XBI",
+        "price": 79.96,
+        "change_percent": 5.69
+      },
+      {
+        "ticker": "XHE",
+        "price": 79.51,
+        "change_percent": 5.5
+      },
+      {
+        "ticker": "KCE",
+        "price": 121.46,
+        "change_percent": 5.12
+      },
+      {
+        "ticker": "KRE",
+        "price": 52.92,
+        "change_percent": 4.92
+      },
+      {
+        "ticker": "KBE",
+        "price": 49.33,
+        "change_percent": 4.6
+      },
+      {
+        "ticker": "XLC",
+        "price": 93.5,
+        "change_percent": 4.6
+      },
+      {
+        "ticker": "XPH",
+        "price": 39.9,
+        "change_percent": 4.53
+      },
+      {
+        "ticker": "XAR",
+        "price": 169.13,
+        "change_percent": 4.21
+      },
+      {
+        "ticker": "XTL",
+        "price": 94.07,
+        "change_percent": 3.68
+      },
+      {
+        "ticker": "XME",
+        "price": 56.33,
+        "change_percent": 3.31
+      },
+      {
+        "ticker": "XHB",
+        "price": 93.17,
+        "change_percent": 3.04
+      },
+      {
+        "ticker": "XRT",
+        "price": 68.08,
+        "change_percent": 2.98
+      },
+      {
+        "ticker": "XLI",
+        "price": 127.65,
+        "change_percent": 2.96
+      },
+      {
+        "ticker": "XLF",
+        "price": 47.53,
+        "change_percent": 2.94
+      },
+      {
+        "ticker": "XLB",
+        "price": 40.7,
+        "change_percent": 2.32
+      },
+      {
+        "ticker": "XLV",
+        "price": 136.19,
+        "change_percent": 1.89
+      },
+      {
+        "ticker": "XOP",
+        "price": 111.17,
+        "change_percent": 1.3
+      },
+      {
+        "ticker": "XTN",
+        "price": 68.11,
+        "change_percent": 1.11
+      },
+      {
+        "ticker": "XLE",
+        "price": 40.17,
+        "change_percent": 1.09
+      },
+      {
+        "ticker": "XHS",
+        "price": 94.86,
+        "change_percent": 0.94
+      },
+      {
+        "ticker": "XLU",
+        "price": 38.29,
+        "change_percent": 0.57
+      },
+      {
+        "ticker": "RWR",
+        "price": 91.9,
+        "change_percent": 0.43
+      },
+      {
+        "ticker": "XLRE",
+        "price": 39.43,
+        "change_percent": 0.2
+      },
+      {
+        "ticker": "XES",
+        "price": 58.28,
+        "change_percent": 0.03
+      },
+      {
+        "ticker": "KIE",
+        "price": 55.94,
+        "change_percent": -0.28
+      },
+      {
+        "ticker": "XLP",
+        "price": 79.11,
+        "change_percent": -1.26
+      }
+    ]
+  },
+  {
+    "week_ending": "2025-05-02",
+    "etfs": [
+      {
+        "ticker": "XTN",
+        "price": 71.63,
+        "change_percent": 5.16
+      },
+      {
+        "ticker": "XSD",
+        "price": 203.65,
+        "change_percent": 4.84
+      },
+      {
+        "ticker": "KCE",
+        "price": 127.15,
+        "change_percent": 4.68
+      },
+      {
+        "ticker": "XNTK",
+        "price": 203.45,
+        "change_percent": 4.6
+      },
+      {
+        "ticker": "XAR",
+        "price": 176.55,
+        "change_percent": 4.39
+      },
+      {
+        "ticker": "XTL",
+        "price": 98.16,
+        "change_percent": 4.35
+      },
+      {
+        "ticker": "XLI",
+        "price": 133.16,
+        "change_percent": 4.32
+      },
+      {
+        "ticker": "KRE",
+        "price": 55.17,
+        "change_percent": 4.24
+      },
+      {
+        "ticker": "KBE",
+        "price": 51.37,
+        "change_percent": 4.14
+      },
+      {
+        "ticker": "XBI",
+        "price": 83.19,
+        "change_percent": 4.05
+      },
+      {
+        "ticker": "XLK",
+        "price": 107.82,
+        "change_percent": 3.9
+      },
+      {
+        "ticker": "XHB",
+        "price": 96.78,
+        "change_percent": 3.88
+      },
+      {
+        "ticker": "XLF",
+        "price": 49.26,
+        "change_percent": 3.62
+      },
+      {
+        "ticker": "XLRE",
+        "price": 40.79,
+        "change_percent": 3.45
+      },
+      {
+        "ticker": "XES",
+        "price": 60.18,
+        "change_percent": 3.26
+      },
+      {
+        "ticker": "XLC",
+        "price": 96.53,
+        "change_percent": 3.24
+      },
+      {
+        "ticker": "XRT",
+        "price": 70.17,
+        "change_percent": 3.07
+      },
+      {
+        "ticker": "KIE",
+        "price": 57.62,
+        "change_percent": 3.01
+      },
+      {
+        "ticker": "RWR",
+        "price": 94.58,
+        "change_percent": 2.91
+      },
+      {
+        "ticker": "XSW",
+        "price": 167.75,
+        "change_percent": 2.88
+      },
+      {
+        "ticker": "XLB",
+        "price": 41.83,
+        "change_percent": 2.8
+      },
+      {
+        "ticker": "XLG",
+        "price": 46.69,
+        "change_percent": 2.74
+      },
+      {
+        "ticker": "XPH",
+        "price": 40.76,
+        "change_percent": 2.17
+      },
+      {
+        "ticker": "XHS",
+        "price": 96.73,
+        "change_percent": 1.97
+      },
+      {
+        "ticker": "XLU",
+        "price": 39.04,
+        "change_percent": 1.97
+      },
+      {
+        "ticker": "XLY",
+        "price": 100.13,
+        "change_percent": 1.94
+      },
+      {
+        "ticker": "XME",
+        "price": 57.31,
+        "change_percent": 1.73
+      },
+      {
+        "ticker": "XOP",
+        "price": 112.71,
+        "change_percent": 1.38
+      },
+      {
+        "ticker": "XHE",
+        "price": 80.39,
+        "change_percent": 1.11
+      },
+      {
+        "ticker": "XLP",
+        "price": 79.81,
+        "change_percent": 0.89
+      },
+      {
+        "ticker": "XLV",
+        "price": 136.66,
+        "change_percent": 0.35
+      },
+      {
+        "ticker": "XLE",
+        "price": 39.97,
+        "change_percent": -0.5
+      }
+    ]
+  },
+  {
+    "week_ending": "2025-05-09",
+    "etfs": [
+      {
+        "ticker": "XOP",
+        "price": 116.52,
+        "change_percent": 3.38
+      },
+      {
+        "ticker": "XSD",
+        "price": 210.23,
+        "change_percent": 3.23
+      },
+      {
+        "ticker": "XSW",
+        "price": 173.07,
+        "change_percent": 3.17
+      },
+      {
+        "ticker": "XTN",
+        "price": 73.43,
+        "change_percent": 2.51
+      },
+      {
+        "ticker": "KCE",
+        "price": 129.84,
+        "change_percent": 2.12
+      },
+      {
+        "ticker": "XME",
+        "price": 58.18,
+        "change_percent": 1.53
+      },
+      {
+        "ticker": "XTL",
+        "price": 99.58,
+        "change_percent": 1.44
+      },
+      {
+        "ticker": "XLI",
+        "price": 134.68,
+        "change_percent": 1.14
+      },
+      {
+        "ticker": "KIE",
+        "price": 58.03,
+        "change_percent": 0.7
+      },
+      {
+        "ticker": "XLU",
+        "price": 39.28,
+        "change_percent": 0.61
+      },
+      {
+        "ticker": "KRE",
+        "price": 55.5,
+        "change_percent": 0.6
+      },
+      {
+        "ticker": "KBE",
+        "price": 51.65,
+        "change_percent": 0.55
+      },
+      {
+        "ticker": "XLE",
+        "price": 40.19,
+        "change_percent": 0.55
+      },
+      {
+        "ticker": "XLY",
+        "price": 100.61,
+        "change_percent": 0.49
+      },
+      {
+        "ticker": "XLK",
+        "price": 108.32,
+        "change_percent": 0.46
+      },
+      {
+        "ticker": "XNTK",
+        "price": 204.31,
+        "change_percent": 0.42
+      },
+      {
+        "ticker": "XHS",
+        "price": 97.13,
+        "change_percent": 0.41
+      },
+      {
+        "ticker": "XHE",
+        "price": 80.71,
+        "change_percent": 0.4
+      },
+      {
+        "ticker": "XLF",
+        "price": 49.35,
+        "change_percent": 0.2
+      },
+      {
+        "ticker": "XES",
+        "price": 60.29,
+        "change_percent": 0.18
+      },
+      {
+        "ticker": "XAR",
+        "price": 176.69,
+        "change_percent": 0.08
+      },
+      {
+        "ticker": "XLC",
+        "price": 96.3,
+        "change_percent": -0.25
+      },
+      {
+        "ticker": "XRT",
+        "price": 69.97,
+        "change_percent": -0.28
+      },
+      {
+        "ticker": "XLB",
+        "price": 41.65,
+        "change_percent": -0.44
+      },
+      {
+        "ticker": "RWR",
+        "price": 94.04,
+        "change_percent": -0.56
+      },
+      {
+        "ticker": "XLG",
+        "price": 46.36,
+        "change_percent": -0.72
+      },
+      {
+        "ticker": "XLRE",
+        "price": 40.48,
+        "change_percent": -0.76
+      },
+      {
+        "ticker": "XLP",
+        "price": 79.18,
+        "change_percent": -0.8
+      },
+      {
+        "ticker": "XHB",
+        "price": 95.94,
+        "change_percent": -0.87
+      },
+      {
+        "ticker": "XPH",
+        "price": 39.34,
+        "change_percent": -3.49
+      },
+      {
+        "ticker": "XLV",
+        "price": 130.89,
+        "change_percent": -4.22
+      },
+      {
+        "ticker": "XBI",
+        "price": 76.11,
+        "change_percent": -8.51
+      }
+    ]
+  },
+  {
+    "week_ending": "2025-05-16",
+    "etfs": [
+      {
+        "ticker": "XSD",
+        "price": 235.07,
+        "change_percent": 11.81
+      },
+      {
+        "ticker": "XRT",
+        "price": 76.03,
+        "change_percent": 8.65
+      },
+      {
+        "ticker": "XLK",
+        "price": 116.92,
+        "change_percent": 7.95
+      },
+      {
+        "ticker": "XNTK",
+        "price": 219.87,
+        "change_percent": 7.62
+      },
+      {
+        "ticker": "XLY",
+        "price": 108.2,
+        "change_percent": 7.54
+      },
+      {
+        "ticker": "XTN",
+        "price": 78.64,
+        "change_percent": 7.09
+      },
+      {
+        "ticker": "XAR",
+        "price": 188.63,
+        "change_percent": 6.76
+      },
+      {
+        "ticker": "XSW",
+        "price": 183.62,
+        "change_percent": 6.1
+      },
+      {
+        "ticker": "XLG",
+        "price": 49.17,
+        "change_percent": 6.07
+      },
+      {
+        "ticker": "KCE",
+        "price": 137.36,
+        "change_percent": 5.79
+      },
+      {
+        "ticker": "XLI",
+        "price": 142.27,
+        "change_percent": 5.64
+      },
+      {
+        "ticker": "XOP",
+        "price": 123.01,
+        "change_percent": 5.56
+      },
+      {
+        "ticker": "XTL",
+        "price": 104.88,
+        "change_percent": 5.32
+      },
+      {
+        "ticker": "KBE",
+        "price": 54.1,
+        "change_percent": 4.75
+      },
+      {
+        "ticker": "XLC",
+        "price": 100.85,
+        "change_percent": 4.73
+      },
+      {
+        "ticker": "KRE",
+        "price": 58.11,
+        "change_percent": 4.7
+      },
+      {
+        "ticker": "XHB",
+        "price": 100.42,
+        "change_percent": 4.67
+      },
+      {
+        "ticker": "XLE",
+        "price": 41.68,
+        "change_percent": 3.7
+      },
+      {
+        "ticker": "XHE",
+        "price": 83.66,
+        "change_percent": 3.65
+      },
+      {
+        "ticker": "XHS",
+        "price": 100.52,
+        "change_percent": 3.49
+      },
+      {
+        "ticker": "XLF",
+        "price": 51.07,
+        "change_percent": 3.47
+      },
+      {
+        "ticker": "XBI",
+        "price": 78.73,
+        "change_percent": 3.44
+      },
+      {
+        "ticker": "XLB",
+        "price": 42.88,
+        "change_percent": 2.94
+      },
+      {
+        "ticker": "XES",
+        "price": 61.8,
+        "change_percent": 2.5
+      },
+      {
+        "ticker": "XPH",
+        "price": 40.31,
+        "change_percent": 2.47
+      },
+      {
+        "ticker": "XLU",
+        "price": 40.23,
+        "change_percent": 2.42
+      },
+      {
+        "ticker": "KIE",
+        "price": 59.07,
+        "change_percent": 1.81
+      },
+      {
+        "ticker": "XME",
+        "price": 59.22,
+        "change_percent": 1.78
+      },
+      {
+        "ticker": "RWR",
+        "price": 95.57,
+        "change_percent": 1.63
+      },
+      {
+        "ticker": "XLP",
+        "price": 80.31,
+        "change_percent": 1.43
+      },
+      {
+        "ticker": "XLRE",
+        "price": 40.87,
+        "change_percent": 0.96
+      },
+      {
+        "ticker": "XLV",
+        "price": 131.3,
+        "change_percent": 0.31
+      }
+    ]
+  },
+  {
+    "week_ending": "2025-05-23",
+    "etfs": [
+      {
+        "ticker": "XME",
+        "price": 59.64,
+        "change_percent": 0.71
+      },
+      {
+        "ticker": "XBI",
+        "price": 78.75,
+        "change_percent": 0.03
+      },
+      {
+        "ticker": "XLP",
+        "price": 79.85,
+        "change_percent": -0.57
+      },
+      {
+        "ticker": "XLU",
+        "price": 39.68,
+        "change_percent": -1.36
+      },
+      {
+        "ticker": "XLB",
+        "price": 42.21,
+        "change_percent": -1.55
+      },
+      {
+        "ticker": "XLC",
+        "price": 99.28,
+        "change_percent": -1.56
+      },
+      {
+        "ticker": "XAR",
+        "price": 185.45,
+        "change_percent": -1.69
+      },
+      {
+        "ticker": "XPH",
+        "price": 39.61,
+        "change_percent": -1.75
+      },
+      {
+        "ticker": "XLI",
+        "price": 139.35,
+        "change_percent": -2.05
+      },
+      {
+        "ticker": "XLV",
+        "price": 128.58,
+        "change_percent": -2.07
+      },
+      {
+        "ticker": "XRT",
+        "price": 74.25,
+        "change_percent": -2.34
+      },
+      {
+        "ticker": "XLG",
+        "price": 47.93,
+        "change_percent": -2.53
+      },
+      {
+        "ticker": "XNTK",
+        "price": 213.74,
+        "change_percent": -2.79
+      },
+      {
+        "ticker": "XLF",
+        "price": 49.54,
+        "change_percent": -2.99
+      },
+      {
+        "ticker": "XSW",
+        "price": 177.99,
+        "change_percent": -3.06
+      },
+      {
+        "ticker": "XLY",
+        "price": 104.71,
+        "change_percent": -3.23
+      },
+      {
+        "ticker": "XLRE",
+        "price": 39.54,
+        "change_percent": -3.26
+      },
+      {
+        "ticker": "XTL",
+        "price": 101.46,
+        "change_percent": -3.26
+      },
+      {
+        "ticker": "KIE",
+        "price": 57.1,
+        "change_percent": -3.35
+      },
+      {
+        "ticker": "XLK",
+        "price": 112.9,
+        "change_percent": -3.44
+      },
+      {
+        "ticker": "KCE",
+        "price": 132.53,
+        "change_percent": -3.52
+      },
+      {
+        "ticker": "XOP",
+        "price": 118.49,
+        "change_percent": -3.67
+      },
+      {
+        "ticker": "RWR",
+        "price": 92.04,
+        "change_percent": -3.7
+      },
+      {
+        "ticker": "XLE",
+        "price": 39.98,
+        "change_percent": -4.08
+      },
+      {
+        "ticker": "XHE",
+        "price": 79.93,
+        "change_percent": -4.45
+      },
+      {
+        "ticker": "XES",
+        "price": 59.02,
+        "change_percent": -4.5
+      },
+      {
+        "ticker": "KBE",
+        "price": 51.66,
+        "change_percent": -4.51
+      },
+      {
+        "ticker": "KRE",
+        "price": 55.32,
+        "change_percent": -4.79
+      },
+      {
+        "ticker": "XTN",
+        "price": 74.87,
+        "change_percent": -4.79
+      },
+      {
+        "ticker": "XHS",
+        "price": 95.26,
+        "change_percent": -5.23
+      },
+      {
+        "ticker": "XSD",
+        "price": 222.66,
+        "change_percent": -5.28
+      },
+      {
+        "ticker": "XHB",
+        "price": 94.26,
+        "change_percent": -6.14
+      }
+    ]
+  },
+  {
+    "week_ending": "2025-05-30",
+    "etfs": [
+      {
+        "ticker": "RWR",
+        "price": 94.73,
+        "change_percent": 2.93
+      },
+      {
+        "ticker": "XAR",
+        "price": 190.62,
+        "change_percent": 2.79
+      },
+      {
+        "ticker": "XLRE",
+        "price": 40.6,
+        "change_percent": 2.68
+      },
+      {
+        "ticker": "KIE",
+        "price": 58.5,
+        "change_percent": 2.46
+      },
+      {
+        "ticker": "XLG",
+        "price": 48.98,
+        "change_percent": 2.2
+      },
+      {
+        "ticker": "XHS",
+        "price": 97.17,
+        "change_percent": 2.0
+      },
+      {
+        "ticker": "XTN",
+        "price": 76.32,
+        "change_percent": 1.94
+      },
+      {
+        "ticker": "XLF",
+        "price": 50.44,
+        "change_percent": 1.82
+      },
+      {
+        "ticker": "XLK",
+        "price": 114.94,
+        "change_percent": 1.81
+      },
+      {
+        "ticker": "XLV",
+        "price": 130.85,
+        "change_percent": 1.76
+      },
+      {
+        "ticker": "XPH",
+        "price": 40.29,
+        "change_percent": 1.73
+      },
+      {
+        "ticker": "XRT",
+        "price": 75.49,
+        "change_percent": 1.67
+      },
+      {
+        "ticker": "XLP",
+        "price": 81.05,
+        "change_percent": 1.51
+      },
+      {
+        "ticker": "XLY",
+        "price": 106.27,
+        "change_percent": 1.5
+      },
+      {
+        "ticker": "XHE",
+        "price": 81.11,
+        "change_percent": 1.47
+      },
+      {
+        "ticker": "XLI",
+        "price": 141.32,
+        "change_percent": 1.41
+      },
+      {
+        "ticker": "XLC",
+        "price": 100.48,
+        "change_percent": 1.21
+      },
+      {
+        "ticker": "XLU",
+        "price": 40.11,
+        "change_percent": 1.06
+      },
+      {
+        "ticker": "KBE",
+        "price": 52.17,
+        "change_percent": 0.99
+      },
+      {
+        "ticker": "KRE",
+        "price": 55.79,
+        "change_percent": 0.85
+      },
+      {
+        "ticker": "XNTK",
+        "price": 215.49,
+        "change_percent": 0.82
+      },
+      {
+        "ticker": "XLB",
+        "price": 42.53,
+        "change_percent": 0.75
+      },
+      {
+        "ticker": "KCE",
+        "price": 133.39,
+        "change_percent": 0.65
+      },
+      {
+        "ticker": "XSW",
+        "price": 179.03,
+        "change_percent": 0.58
+      },
+      {
+        "ticker": "XME",
+        "price": 59.88,
+        "change_percent": 0.4
+      },
+      {
+        "ticker": "XBI",
+        "price": 78.9,
+        "change_percent": 0.19
+      },
+      {
+        "ticker": "XES",
+        "price": 59.08,
+        "change_percent": 0.1
+      },
+      {
+        "ticker": "XTL",
+        "price": 101.14,
+        "change_percent": -0.31
+      },
+      {
+        "ticker": "XHB",
+        "price": 93.82,
+        "change_percent": -0.46
+      },
+      {
+        "ticker": "XLE",
+        "price": 39.76,
+        "change_percent": -0.56
+      },
+      {
+        "ticker": "XSD",
+        "price": 220.64,
+        "change_percent": -0.91
+      },
+      {
+        "ticker": "XOP",
+        "price": 117.22,
+        "change_percent": -1.07
+      }
+    ]
+  },
+  {
+    "week_ending": "2025-06-06",
+    "etfs": [
+      {
+        "ticker": "XES",
+        "price": 63.64,
+        "change_percent": 7.72
+      },
+      {
+        "ticker": "XME",
+        "price": 64.17,
+        "change_percent": 7.17
+      },
+      {
+        "ticker": "XSD",
+        "price": 234.78,
+        "change_percent": 6.41
+      },
+      {
+        "ticker": "XBI",
+        "price": 83.95,
+        "change_percent": 6.4
+      },
+      {
+        "ticker": "XSW",
+        "price": 186.96,
+        "change_percent": 4.43
+      },
+      {
+        "ticker": "XTL",
+        "price": 105.47,
+        "change_percent": 4.28
+      },
+      {
+        "ticker": "XAR",
+        "price": 197.65,
+        "change_percent": 3.69
+      },
+      {
+        "ticker": "XPH",
+        "price": 41.66,
+        "change_percent": 3.4
+      },
+      {
+        "ticker": "XLK",
+        "price": 118.65,
+        "change_percent": 3.23
+      },
+      {
+        "ticker": "XNTK",
+        "price": 222.39,
+        "change_percent": 3.2
+      },
+      {
+        "ticker": "XRT",
+        "price": 77.88,
+        "change_percent": 3.16
+      },
+      {
+        "ticker": "XOP",
+        "price": 120.83,
+        "change_percent": 3.08
+      },
+      {
+        "ticker": "XLE",
+        "price": 40.67,
+        "change_percent": 2.31
+      },
+      {
+        "ticker": "XLC",
+        "price": 102.77,
+        "change_percent": 2.28
+      },
+      {
+        "ticker": "KRE",
+        "price": 56.91,
+        "change_percent": 2.0
+      },
+      {
+        "ticker": "XLG",
+        "price": 49.88,
+        "change_percent": 1.83
+      },
+      {
+        "ticker": "KCE",
+        "price": 135.82,
+        "change_percent": 1.82
+      },
+      {
+        "ticker": "KBE",
+        "price": 53.07,
+        "change_percent": 1.71
+      },
+      {
+        "ticker": "XLB",
+        "price": 43.24,
+        "change_percent": 1.67
+      },
+      {
+        "ticker": "XTN",
+        "price": 77.58,
+        "change_percent": 1.65
+      },
+      {
+        "ticker": "XLI",
+        "price": 143.4,
+        "change_percent": 1.48
+      },
+      {
+        "ticker": "XLV",
+        "price": 132.57,
+        "change_percent": 1.31
+      },
+      {
+        "ticker": "XHE",
+        "price": 82.13,
+        "change_percent": 1.26
+      },
+      {
+        "ticker": "XHS",
+        "price": 98.28,
+        "change_percent": 1.15
+      },
+      {
+        "ticker": "XHB",
+        "price": 94.68,
+        "change_percent": 0.92
+      },
+      {
+        "ticker": "KIE",
+        "price": 58.88,
+        "change_percent": 0.64
+      },
+      {
+        "ticker": "XLF",
+        "price": 50.76,
+        "change_percent": 0.63
+      },
+      {
+        "ticker": "RWR",
+        "price": 95.11,
+        "change_percent": 0.4
+      },
+      {
+        "ticker": "XLRE",
+        "price": 40.74,
+        "change_percent": 0.36
+      },
+      {
+        "ticker": "XLY",
+        "price": 105.46,
+        "change_percent": -0.76
+      },
+      {
+        "ticker": "XLU",
+        "price": 39.75,
+        "change_percent": -0.89
+      },
+      {
+        "ticker": "XLP",
+        "price": 79.94,
+        "change_percent": -1.38
+      }
+    ]
+  },
+  {
+    "week_ending": "2025-06-13",
+    "etfs": [
+      {
+        "ticker": "XOP",
+        "price": 130.19,
+        "change_percent": 7.75
+      },
+      {
+        "ticker": "XES",
+        "price": 67.94,
+        "change_percent": 6.75
+      },
+      {
+        "ticker": "XLE",
+        "price": 42.96,
+        "change_percent": 5.62
+      },
+      {
+        "ticker": "XME",
+        "price": 65.12,
+        "change_percent": 1.47
+      },
+      {
+        "ticker": "XLV",
+        "price": 134.29,
+        "change_percent": 1.3
+      },
+      {
+        "ticker": "XSD",
+        "price": 236.73,
+        "change_percent": 0.83
+      },
+      {
+        "ticker": "XLK",
+        "price": 119.05,
+        "change_percent": 0.34
+      },
+      {
+        "ticker": "XLU",
+        "price": 39.86,
+        "change_percent": 0.28
+      },
+      {
+        "ticker": "XNTK",
+        "price": 222.81,
+        "change_percent": 0.19
+      },
+      {
+        "ticker": "XLRE",
+        "price": 40.75,
+        "change_percent": 0.02
+      },
+      {
+        "ticker": "XLG",
+        "price": 49.86,
+        "change_percent": -0.04
+      },
+      {
+        "ticker": "XLY",
+        "price": 105.25,
+        "change_percent": -0.2
+      },
+      {
+        "ticker": "XAR",
+        "price": 197.15,
+        "change_percent": -0.25
+      },
+      {
+        "ticker": "XTL",
+        "price": 105.15,
+        "change_percent": -0.3
+      },
+      {
+        "ticker": "RWR",
+        "price": 94.71,
+        "change_percent": -0.42
+      },
+      {
+        "ticker": "XLB",
+        "price": 43.04,
+        "change_percent": -0.46
+      },
+      {
+        "ticker": "XBI",
+        "price": 83.29,
+        "change_percent": -0.78
+      },
+      {
+        "ticker": "XLP",
+        "price": 79.22,
+        "change_percent": -0.89
+      },
+      {
+        "ticker": "XHB",
+        "price": 93.79,
+        "change_percent": -0.95
+      },
+      {
+        "ticker": "XLC",
+        "price": 101.65,
+        "change_percent": -1.09
+      },
+      {
+        "ticker": "XPH",
+        "price": 41.16,
+        "change_percent": -1.22
+      },
+      {
+        "ticker": "XLI",
+        "price": 141.15,
+        "change_percent": -1.57
+      },
+      {
+        "ticker": "XHS",
+        "price": 96.44,
+        "change_percent": -1.88
+      },
+      {
+        "ticker": "KCE",
+        "price": 133.12,
+        "change_percent": -1.98
+      },
+      {
+        "ticker": "XTN",
+        "price": 75.82,
+        "change_percent": -2.28
+      },
+      {
+        "ticker": "KBE",
+        "price": 51.85,
+        "change_percent": -2.29
+      },
+      {
+        "ticker": "XLF",
+        "price": 49.45,
+        "change_percent": -2.57
+      },
+      {
+        "ticker": "XHE",
+        "price": 80.01,
+        "change_percent": -2.58
+      },
+      {
+        "ticker": "KIE",
+        "price": 57.35,
+        "change_percent": -2.59
+      },
+      {
+        "ticker": "KRE",
+        "price": 55.16,
+        "change_percent": -3.09
+      },
+      {
+        "ticker": "XRT",
+        "price": 74.91,
+        "change_percent": -3.8
+      },
+      {
+        "ticker": "XSW",
+        "price": 179.21,
+        "change_percent": -4.14
+      }
+    ]
+  },
+  {
+    "week_ending": "2025-06-20",
+    "etfs": [
+      {
+        "ticker": "XTL",
+        "price": 108.51,
+        "change_percent": 3.19
+      },
+      {
+        "ticker": "XSD",
+        "price": 243.67,
+        "change_percent": 2.93
+      },
+      {
+        "ticker": "XRT",
+        "price": 76.56,
+        "change_percent": 2.2
+      },
+      {
+        "ticker": "KCE",
+        "price": 135.67,
+        "change_percent": 1.91
+      },
+      {
+        "ticker": "KIE",
+        "price": 58.25,
+        "change_percent": 1.57
+      },
+      {
+        "ticker": "XOP",
+        "price": 131.93,
+        "change_percent": 1.33
+      },
+      {
+        "ticker": "KRE",
+        "price": 55.87,
+        "change_percent": 1.3
+      },
+      {
+        "ticker": "KBE",
+        "price": 52.38,
+        "change_percent": 1.02
+      },
+      {
+        "ticker": "XLE",
+        "price": 43.39,
+        "change_percent": 1.0
+      },
+      {
+        "ticker": "XLF",
+        "price": 49.85,
+        "change_percent": 0.8
+      },
+      {
+        "ticker": "XHB",
+        "price": 94.36,
+        "change_percent": 0.62
+      },
+      {
+        "ticker": "XLK",
+        "price": 119.74,
+        "change_percent": 0.57
+      },
+      {
+        "ticker": "XTN",
+        "price": 76.22,
+        "change_percent": 0.54
+      },
+      {
+        "ticker": "XAR",
+        "price": 197.97,
+        "change_percent": 0.41
+      },
+      {
+        "ticker": "XNTK",
+        "price": 223.7,
+        "change_percent": 0.4
+      },
+      {
+        "ticker": "XME",
+        "price": 65.29,
+        "change_percent": 0.26
+      },
+      {
+        "ticker": "XLC",
+        "price": 101.9,
+        "change_percent": 0.25
+      },
+      {
+        "ticker": "XSW",
+        "price": 179.46,
+        "change_percent": 0.14
+      },
+      {
+        "ticker": "XLP",
+        "price": 79.28,
+        "change_percent": 0.07
+      },
+      {
+        "ticker": "XLRE",
+        "price": 40.7,
+        "change_percent": -0.14
+      },
+      {
+        "ticker": "XHS",
+        "price": 96.27,
+        "change_percent": -0.18
+      },
+      {
+        "ticker": "XLI",
+        "price": 140.87,
+        "change_percent": -0.2
+      },
+      {
+        "ticker": "RWR",
+        "price": 94.51,
+        "change_percent": -0.21
+      },
+      {
+        "ticker": "XLG",
+        "price": 49.66,
+        "change_percent": -0.4
+      },
+      {
+        "ticker": "XLY",
+        "price": 104.72,
+        "change_percent": -0.5
+      },
+      {
+        "ticker": "XLU",
+        "price": 39.55,
+        "change_percent": -0.79
+      },
+      {
+        "ticker": "XHE",
+        "price": 79.28,
+        "change_percent": -0.91
+      },
+      {
+        "ticker": "XLB",
+        "price": 42.57,
+        "change_percent": -1.1
+      },
+      {
+        "ticker": "XBI",
+        "price": 82.08,
+        "change_percent": -1.46
+      },
+      {
+        "ticker": "XPH",
+        "price": 40.35,
+        "change_percent": -1.96
+      },
+      {
+        "ticker": "XES",
+        "price": 66.52,
+        "change_percent": -2.09
+      },
+      {
+        "ticker": "XLV",
+        "price": 130.81,
+        "change_percent": -2.59
+      }
+    ]
+  },
+  {
+    "week_ending": "2025-06-27",
+    "etfs": [
+      {
+        "ticker": "XTL",
+        "price": 115.17,
+        "change_percent": 6.14
+      },
+      {
+        "ticker": "XAR",
+        "price": 209.09,
+        "change_percent": 5.62
+      },
+      {
+        "ticker": "XTN",
+        "price": 80.31,
+        "change_percent": 5.36
+      },
+      {
+        "ticker": "KCE",
+        "price": 142.55,
+        "change_percent": 5.07
+      },
+      {
+        "ticker": "XSD",
+        "price": 255.52,
+        "change_percent": 4.86
+      },
+      {
+        "ticker": "XNTK",
+        "price": 234.41,
+        "change_percent": 4.79
+      },
+      {
+        "ticker": "XLC",
+        "price": 106.7,
+        "change_percent": 4.71
+      },
+      {
+        "ticker": "KRE",
+        "price": 58.32,
+        "change_percent": 4.37
+      },
+      {
+        "ticker": "KBE",
+        "price": 54.66,
+        "change_percent": 4.36
+      },
+      {
+        "ticker": "XLK",
+        "price": 124.83,
+        "change_percent": 4.25
+      },
+      {
+        "ticker": "XLG",
+        "price": 51.59,
+        "change_percent": 3.89
+      },
+      {
+        "ticker": "XSW",
+        "price": 186.39,
+        "change_percent": 3.86
+      },
+      {
+        "ticker": "XHB",
+        "price": 98.0,
+        "change_percent": 3.85
+      },
+      {
+        "ticker": "XLY",
+        "price": 108.66,
+        "change_percent": 3.75
+      },
+      {
+        "ticker": "XLF",
+        "price": 51.41,
+        "change_percent": 3.14
+      },
+      {
+        "ticker": "XLI",
+        "price": 145.24,
+        "change_percent": 3.1
+      },
+      {
+        "ticker": "XHS",
+        "price": 98.73,
+        "change_percent": 2.56
+      },
+      {
+        "ticker": "XHE",
+        "price": 80.81,
+        "change_percent": 1.93
+      },
+      {
+        "ticker": "XLB",
+        "price": 43.29,
+        "change_percent": 1.7
+      },
+      {
+        "ticker": "XME",
+        "price": 66.13,
+        "change_percent": 1.3
+      },
+      {
+        "ticker": "XLV",
+        "price": 132.12,
+        "change_percent": 1.0
+      },
+      {
+        "ticker": "XBI",
+        "price": 82.71,
+        "change_percent": 0.76
+      },
+      {
+        "ticker": "XLU",
+        "price": 39.82,
+        "change_percent": 0.68
+      },
+      {
+        "ticker": "KIE",
+        "price": 58.53,
+        "change_percent": 0.48
+      },
+      {
+        "ticker": "XRT",
+        "price": 76.9,
+        "change_percent": 0.44
+      },
+      {
+        "ticker": "XPH",
+        "price": 40.36,
+        "change_percent": 0.02
+      },
+      {
+        "ticker": "XLP",
+        "price": 78.82,
+        "change_percent": -0.58
+      },
+      {
+        "ticker": "XLRE",
+        "price": 40.01,
+        "change_percent": -1.7
+      },
+      {
+        "ticker": "RWR",
+        "price": 92.87,
+        "change_percent": -1.73
+      },
+      {
+        "ticker": "XLE",
+        "price": 41.59,
+        "change_percent": -4.14
+      },
+      {
+        "ticker": "XOP",
+        "price": 124.72,
+        "change_percent": -5.46
+      },
+      {
+        "ticker": "XES",
+        "price": 62.74,
+        "change_percent": -5.67
+      }
+    ]
+  },
+  {
+    "week_ending": "2025-07-04",
+    "etfs": [
+      {
+        "ticker": "KRE",
+        "price": 62.45,
+        "change_percent": 7.09
+      },
+      {
+        "ticker": "KBE",
+        "price": 58.08,
+        "change_percent": 6.25
+      },
+      {
+        "ticker": "XME",
+        "price": 69.91,
+        "change_percent": 5.7
+      },
+      {
+        "ticker": "XES",
+        "price": 65.95,
+        "change_percent": 5.1
+      },
+      {
+        "ticker": "XSW",
+        "price": 195.67,
+        "change_percent": 4.98
+      },
+      {
+        "ticker": "XTN",
+        "price": 84.02,
+        "change_percent": 4.63
+      },
+      {
+        "ticker": "XRT",
+        "price": 80.38,
+        "change_percent": 4.52
+      },
+      {
+        "ticker": "XLB",
+        "price": 45.24,
+        "change_percent": 4.49
+      },
+      {
+        "ticker": "XHB",
+        "price": 102.28,
+        "change_percent": 4.37
+      },
+      {
+        "ticker": "KCE",
+        "price": 147.97,
+        "change_percent": 3.8
+      },
+      {
+        "ticker": "XSD",
+        "price": 264.79,
+        "change_percent": 3.63
+      },
+      {
+        "ticker": "XTL",
+        "price": 118.64,
+        "change_percent": 3.01
+      },
+      {
+        "ticker": "XLE",
+        "price": 42.78,
+        "change_percent": 2.86
+      },
+      {
+        "ticker": "XLF",
+        "price": 52.83,
+        "change_percent": 2.76
+      },
+      {
+        "ticker": "RWR",
+        "price": 95.41,
+        "change_percent": 2.73
+      },
+      {
+        "ticker": "XLP",
+        "price": 80.97,
+        "change_percent": 2.72
+      },
+      {
+        "ticker": "XBI",
+        "price": 84.93,
+        "change_percent": 2.7
+      },
+      {
+        "ticker": "XLK",
+        "price": 128.12,
+        "change_percent": 2.64
+      },
+      {
+        "ticker": "XLRE",
+        "price": 41.03,
+        "change_percent": 2.57
+      },
+      {
+        "ticker": "XOP",
+        "price": 127.37,
+        "change_percent": 2.12
+      },
+      {
+        "ticker": "XLI",
+        "price": 148.3,
+        "change_percent": 2.1
+      },
+      {
+        "ticker": "XPH",
+        "price": 41.11,
+        "change_percent": 1.84
+      },
+      {
+        "ticker": "XLG",
+        "price": 52.44,
+        "change_percent": 1.66
+      },
+      {
+        "ticker": "XLV",
+        "price": 134.31,
+        "change_percent": 1.66
+      },
+      {
+        "ticker": "XLY",
+        "price": 110.19,
+        "change_percent": 1.41
+      },
+      {
+        "ticker": "XLU",
+        "price": 40.34,
+        "change_percent": 1.33
+      },
+      {
+        "ticker": "XHE",
+        "price": 81.8,
+        "change_percent": 1.22
+      },
+      {
+        "ticker": "XNTK",
+        "price": 237.05,
+        "change_percent": 1.12
+      },
+      {
+        "ticker": "XLC",
+        "price": 107.32,
+        "change_percent": 0.58
+      },
+      {
+        "ticker": "KIE",
+        "price": 58.39,
+        "change_percent": -0.25
+      },
+      {
+        "ticker": "XAR",
+        "price": 208.35,
+        "change_percent": -0.35
+      },
+      {
+        "ticker": "XHS",
+        "price": 96.66,
+        "change_percent": -2.1
+      }
+    ]
+  },
+  {
+    "week_ending": "2025-07-11",
+    "etfs": [
+      {
+        "ticker": "XME",
+        "price": 72.96,
+        "change_percent": 4.37
+      },
+      {
+        "ticker": "XES",
+        "price": 68.27,
+        "change_percent": 3.52
+      },
+      {
+        "ticker": "XOP",
+        "price": 131.21,
+        "change_percent": 3.02
+      },
+      {
+        "ticker": "XLE",
+        "price": 43.81,
+        "change_percent": 2.41
+      },
+      {
+        "ticker": "XHB",
+        "price": 104.42,
+        "change_percent": 2.1
+      },
+      {
+        "ticker": "XBI",
+        "price": 86.71,
+        "change_percent": 2.09
+      },
+      {
+        "ticker": "XPH",
+        "price": 41.9,
+        "change_percent": 1.94
+      },
+      {
+        "ticker": "XTN",
+        "price": 85.47,
+        "change_percent": 1.72
+      },
+      {
+        "ticker": "XAR",
+        "price": 211.45,
+        "change_percent": 1.49
+      },
+      {
+        "ticker": "XLU",
+        "price": 40.64,
+        "change_percent": 0.75
+      },
+      {
+        "ticker": "KCE",
+        "price": 149.01,
+        "change_percent": 0.7
+      },
+      {
+        "ticker": "XLI",
+        "price": 149.07,
+        "change_percent": 0.52
+      },
+      {
+        "ticker": "XLB",
+        "price": 45.31,
+        "change_percent": 0.16
+      },
+      {
+        "ticker": "XLY",
+        "price": 110.3,
+        "change_percent": 0.1
+      },
+      {
+        "ticker": "XLG",
+        "price": 52.38,
+        "change_percent": -0.11
+      },
+      {
+        "ticker": "XSD",
+        "price": 264.34,
+        "change_percent": -0.17
+      },
+      {
+        "ticker": "XLV",
+        "price": 134.0,
+        "change_percent": -0.23
+      },
+      {
+        "ticker": "RWR",
+        "price": 95.15,
+        "change_percent": -0.27
+      },
+      {
+        "ticker": "XNTK",
+        "price": 236.27,
+        "change_percent": -0.33
+      },
+      {
+        "ticker": "XLK",
+        "price": 127.57,
+        "change_percent": -0.43
+      },
+      {
+        "ticker": "XRT",
+        "price": 80.01,
+        "change_percent": -0.46
+      },
+      {
+        "ticker": "KRE",
+        "price": 62.12,
+        "change_percent": -0.54
+      },
+      {
+        "ticker": "XLRE",
+        "price": 40.81,
+        "change_percent": -0.55
+      },
+      {
+        "ticker": "KBE",
+        "price": 57.42,
+        "change_percent": -1.14
+      },
+      {
+        "ticker": "XLP",
+        "price": 79.62,
+        "change_percent": -1.67
+      },
+      {
+        "ticker": "XLC",
+        "price": 105.3,
+        "change_percent": -1.88
+      },
+      {
+        "ticker": "XTL",
+        "price": 116.4,
+        "change_percent": -1.88
+      },
+      {
+        "ticker": "XLF",
+        "price": 51.81,
+        "change_percent": -1.94
+      },
+      {
+        "ticker": "XHS",
+        "price": 94.51,
+        "change_percent": -2.22
+      },
+      {
+        "ticker": "XHE",
+        "price": 79.9,
+        "change_percent": -2.32
+      },
+      {
+        "ticker": "KIE",
+        "price": 56.42,
+        "change_percent": -3.36
+      },
+      {
+        "ticker": "XSW",
+        "price": 185.99,
+        "change_percent": -4.95
+      }
+    ]
+  },
+  {
+    "week_ending": "2025-07-18",
+    "etfs": [
+      {
+        "ticker": "XAR",
+        "price": 221.73,
+        "change_percent": 4.86
+      },
+      {
+        "ticker": "XSW",
+        "price": 191.96,
+        "change_percent": 3.21
+      },
+      {
+        "ticker": "XTL",
+        "price": 119.98,
+        "change_percent": 3.07
+      },
+      {
+        "ticker": "XME",
+        "price": 75.0,
+        "change_percent": 2.8
+      },
+      {
+        "ticker": "XSD",
+        "price": 270.21,
+        "change_percent": 2.22
+      },
+      {
+        "ticker": "KCE",
+        "price": 152.26,
+        "change_percent": 2.18
+      },
+      {
+        "ticker": "XLK",
+        "price": 130.08,
+        "change_percent": 1.97
+      },
+      {
+        "ticker": "XNTK",
+        "price": 240.06,
+        "change_percent": 1.61
+      },
+      {
+        "ticker": "XLU",
+        "price": 41.29,
+        "change_percent": 1.58
+      },
+      {
+        "ticker": "KIE",
+        "price": 57.14,
+        "change_percent": 1.27
+      },
+      {
+        "ticker": "XLG",
+        "price": 52.95,
+        "change_percent": 1.08
+      },
+      {
+        "ticker": "XLI",
+        "price": 150.32,
+        "change_percent": 0.84
+      },
+      {
+        "ticker": "XLF",
+        "price": 52.19,
+        "change_percent": 0.73
+      },
+      {
+        "ticker": "XLRE",
+        "price": 41.07,
+        "change_percent": 0.65
+      },
+      {
+        "ticker": "KRE",
+        "price": 62.49,
+        "change_percent": 0.6
+      },
+      {
+        "ticker": "KBE",
+        "price": 57.71,
+        "change_percent": 0.5
+      },
+      {
+        "ticker": "XLY",
+        "price": 110.67,
+        "change_percent": 0.33
+      },
+      {
+        "ticker": "XLC",
+        "price": 105.48,
+        "change_percent": 0.17
+      },
+      {
+        "ticker": "XLP",
+        "price": 79.7,
+        "change_percent": 0.1
+      },
+      {
+        "ticker": "XPH",
+        "price": 41.91,
+        "change_percent": 0.02
+      },
+      {
+        "ticker": "RWR",
+        "price": 95.02,
+        "change_percent": -0.14
+      },
+      {
+        "ticker": "XRT",
+        "price": 79.42,
+        "change_percent": -0.74
+      },
+      {
+        "ticker": "XTN",
+        "price": 84.78,
+        "change_percent": -0.8
+      },
+      {
+        "ticker": "XBI",
+        "price": 85.96,
+        "change_percent": -0.86
+      },
+      {
+        "ticker": "XLB",
+        "price": 44.67,
+        "change_percent": -1.42
+      },
+      {
+        "ticker": "XLV",
+        "price": 130.68,
+        "change_percent": -2.48
+      },
+      {
+        "ticker": "XOP",
+        "price": 127.6,
+        "change_percent": -2.75
+      },
+      {
+        "ticker": "XHB",
+        "price": 101.11,
+        "change_percent": -3.17
+      },
+      {
+        "ticker": "XLE",
+        "price": 42.26,
+        "change_percent": -3.56
+      },
+      {
+        "ticker": "XHS",
+        "price": 90.8,
+        "change_percent": -3.93
+      },
+      {
+        "ticker": "XHE",
+        "price": 76.66,
+        "change_percent": -4.05
+      },
+      {
+        "ticker": "XES",
+        "price": 63.61,
+        "change_percent": -6.82
+      }
+    ]
+  },
+  {
+    "week_ending": "2025-07-25",
+    "etfs": [
+      {
+        "ticker": "XES",
+        "price": 67.87,
+        "change_percent": 6.7
+      },
+      {
+        "ticker": "XHB",
+        "price": 106.2,
+        "change_percent": 5.03
+      },
+      {
+        "ticker": "XHE",
+        "price": 79.64,
+        "change_percent": 3.88
+      },
+      {
+        "ticker": "XLV",
+        "price": 135.28,
+        "change_percent": 3.52
+      },
+      {
+        "ticker": "XME",
+        "price": 77.42,
+        "change_percent": 3.22
+      },
+      {
+        "ticker": "XTN",
+        "price": 87.2,
+        "change_percent": 2.85
+      },
+      {
+        "ticker": "XPH",
+        "price": 43.1,
+        "change_percent": 2.83
+      },
+      {
+        "ticker": "XRT",
+        "price": 81.51,
+        "change_percent": 2.64
+      },
+      {
+        "ticker": "XLB",
+        "price": 45.73,
+        "change_percent": 2.38
+      },
+      {
+        "ticker": "XLI",
+        "price": 153.83,
+        "change_percent": 2.33
+      },
+      {
+        "ticker": "XLRE",
+        "price": 42.01,
+        "change_percent": 2.27
+      },
+      {
+        "ticker": "XLF",
+        "price": 53.08,
+        "change_percent": 1.71
+      },
+      {
+        "ticker": "XBI",
+        "price": 87.3,
+        "change_percent": 1.55
+      },
+      {
+        "ticker": "XLC",
+        "price": 106.9,
+        "change_percent": 1.35
+      },
+      {
+        "ticker": "XLE",
+        "price": 42.82,
+        "change_percent": 1.33
+      },
+      {
+        "ticker": "XLG",
+        "price": 53.65,
+        "change_percent": 1.32
+      },
+      {
+        "ticker": "RWR",
+        "price": 96.26,
+        "change_percent": 1.31
+      },
+      {
+        "ticker": "KCE",
+        "price": 154.24,
+        "change_percent": 1.3
+      },
+      {
+        "ticker": "XLY",
+        "price": 112.02,
+        "change_percent": 1.22
+      },
+      {
+        "ticker": "XLU",
+        "price": 41.67,
+        "change_percent": 0.92
+      },
+      {
+        "ticker": "XLP",
+        "price": 80.3,
+        "change_percent": 0.75
+      },
+      {
+        "ticker": "XSW",
+        "price": 193.28,
+        "change_percent": 0.69
+      },
+      {
+        "ticker": "XLK",
+        "price": 130.63,
+        "change_percent": 0.42
+      },
+      {
+        "ticker": "KIE",
+        "price": 57.22,
+        "change_percent": 0.14
+      },
+      {
+        "ticker": "XHS",
+        "price": 90.61,
+        "change_percent": -0.21
+      },
+      {
+        "ticker": "XNTK",
+        "price": 239.56,
+        "change_percent": -0.21
+      },
+      {
+        "ticker": "XTL",
+        "price": 119.42,
+        "change_percent": -0.46
+      },
+      {
+        "ticker": "XAR",
+        "price": 219.87,
+        "change_percent": -0.84
+      },
+      {
+        "ticker": "XOP",
+        "price": 126.23,
+        "change_percent": -1.07
+      },
+      {
+        "ticker": "KBE",
+        "price": 57.03,
+        "change_percent": -1.18
+      },
+      {
+        "ticker": "XSD",
+        "price": 265.16,
+        "change_percent": -1.87
+      },
+      {
+        "ticker": "KRE",
+        "price": 61.17,
+        "change_percent": -2.12
+      }
+    ]
+  },
+  {
+    "week_ending": "2025-08-01",
+    "etfs": [
+      {
+        "ticker": "XLU",
+        "price": 42.3,
+        "change_percent": 1.51
+      },
+      {
+        "ticker": "XLC",
+        "price": 105.41,
+        "change_percent": -1.39
+      },
+      {
+        "ticker": "XSD",
+        "price": 261.39,
+        "change_percent": -1.42
+      },
+      {
+        "ticker": "XLP",
+        "price": 78.98,
+        "change_percent": -1.64
+      },
+      {
+        "ticker": "XLE",
+        "price": 42.07,
+        "change_percent": -1.73
+      },
+      {
+        "ticker": "XLG",
+        "price": 52.65,
+        "change_percent": -1.86
+      },
+      {
+        "ticker": "XLK",
+        "price": 128.18,
+        "change_percent": -1.88
+      },
+      {
+        "ticker": "XBI",
+        "price": 85.62,
+        "change_percent": -1.92
+      },
+      {
+        "ticker": "XTL",
+        "price": 116.43,
+        "change_percent": -2.5
+      },
+      {
+        "ticker": "XHB",
+        "price": 103.54,
+        "change_percent": -2.51
+      },
+      {
+        "ticker": "XAR",
+        "price": 213.69,
+        "change_percent": -2.81
+      },
+      {
+        "ticker": "XHS",
+        "price": 87.84,
+        "change_percent": -3.05
+      },
+      {
+        "ticker": "RWR",
+        "price": 93.18,
+        "change_percent": -3.2
+      },
+      {
+        "ticker": "XOP",
+        "price": 121.97,
+        "change_percent": -3.37
+      },
+      {
+        "ticker": "XLI",
+        "price": 148.61,
+        "change_percent": -3.39
+      },
+      {
+        "ticker": "KIE",
+        "price": 55.26,
+        "change_percent": -3.42
+      },
+      {
+        "ticker": "XLRE",
+        "price": 40.53,
+        "change_percent": -3.51
+      },
+      {
+        "ticker": "XNTK",
+        "price": 231.12,
+        "change_percent": -3.52
+      },
+      {
+        "ticker": "XPH",
+        "price": 41.53,
+        "change_percent": -3.63
+      },
+      {
+        "ticker": "XLF",
+        "price": 51.05,
+        "change_percent": -3.82
+      },
+      {
+        "ticker": "KCE",
+        "price": 148.33,
+        "change_percent": -3.83
+      },
+      {
+        "ticker": "XLY",
+        "price": 107.64,
+        "change_percent": -3.9
+      },
+      {
+        "ticker": "XLV",
+        "price": 129.98,
+        "change_percent": -3.92
+      },
+      {
+        "ticker": "XHE",
+        "price": 76.43,
+        "change_percent": -4.03
+      },
+      {
+        "ticker": "KBE",
+        "price": 54.57,
+        "change_percent": -4.31
+      },
+      {
+        "ticker": "XRT",
+        "price": 77.61,
+        "change_percent": -4.79
+      },
+      {
+        "ticker": "KRE",
+        "price": 58.1,
+        "change_percent": -5.02
+      },
+      {
+        "ticker": "XLB",
+        "price": 42.93,
+        "change_percent": -6.12
+      },
+      {
+        "ticker": "XSW",
+        "price": 180.98,
+        "change_percent": -6.36
+      },
+      {
+        "ticker": "XME",
+        "price": 72.24,
+        "change_percent": -6.69
+      },
+      {
+        "ticker": "XES",
+        "price": 63.29,
+        "change_percent": -6.75
+      },
+      {
+        "ticker": "XTN",
+        "price": 80.18,
+        "change_percent": -8.05
+      }
+    ]
+  },
+  {
+    "week_ending": "2025-08-08",
+    "etfs": [
+      {
+        "ticker": "XME",
+        "price": 79.1,
+        "change_percent": 9.5
+      },
+      {
+        "ticker": "XTL",
+        "price": 124.77,
+        "change_percent": 7.16
+      },
+      {
+        "ticker": "XNTK",
+        "price": 243.15,
+        "change_percent": 5.2
+      },
+      {
+        "ticker": "XHB",
+        "price": 107.81,
+        "change_percent": 4.13
+      },
+      {
+        "ticker": "XRT",
+        "price": 80.52,
+        "change_percent": 3.75
+      },
+      {
+        "ticker": "XLY",
+        "price": 111.47,
+        "change_percent": 3.56
+      },
+      {
+        "ticker": "XPH",
+        "price": 42.99,
+        "change_percent": 3.5
+      },
+      {
+        "ticker": "XLK",
+        "price": 132.59,
+        "change_percent": 3.44
+      },
+      {
+        "ticker": "XHS",
+        "price": 90.84,
+        "change_percent": 3.41
+      },
+      {
+        "ticker": "XLG",
+        "price": 54.45,
+        "change_percent": 3.41
+      },
+      {
+        "ticker": "XSD",
+        "price": 269.81,
+        "change_percent": 3.22
+      },
+      {
+        "ticker": "XLP",
+        "price": 81.27,
+        "change_percent": 2.89
+      },
+      {
+        "ticker": "XES",
+        "price": 64.77,
+        "change_percent": 2.33
+      },
+      {
+        "ticker": "KIE",
+        "price": 56.48,
+        "change_percent": 2.21
+      },
+      {
+        "ticker": "KCE",
+        "price": 151.54,
+        "change_percent": 2.17
+      },
+      {
+        "ticker": "XHE",
+        "price": 77.92,
+        "change_percent": 1.95
+      },
+      {
+        "ticker": "XLB",
+        "price": 43.74,
+        "change_percent": 1.88
+      },
+      {
+        "ticker": "KBE",
+        "price": 55.36,
+        "change_percent": 1.45
+      },
+      {
+        "ticker": "XLC",
+        "price": 106.91,
+        "change_percent": 1.42
+      },
+      {
+        "ticker": "KRE",
+        "price": 58.83,
+        "change_percent": 1.26
+      },
+      {
+        "ticker": "XLF",
+        "price": 51.5,
+        "change_percent": 0.88
+      },
+      {
+        "ticker": "XLI",
+        "price": 149.7,
+        "change_percent": 0.73
+      },
+      {
+        "ticker": "XTN",
+        "price": 80.62,
+        "change_percent": 0.55
+      },
+      {
+        "ticker": "RWR",
+        "price": 93.63,
+        "change_percent": 0.48
+      },
+      {
+        "ticker": "XLU",
+        "price": 42.48,
+        "change_percent": 0.44
+      },
+      {
+        "ticker": "XAR",
+        "price": 213.8,
+        "change_percent": 0.05
+      },
+      {
+        "ticker": "XLRE",
+        "price": 40.49,
+        "change_percent": -0.1
+      },
+      {
+        "ticker": "XOP",
+        "price": 121.27,
+        "change_percent": -0.57
+      },
+      {
+        "ticker": "XBI",
+        "price": 85.12,
+        "change_percent": -0.58
+      },
+      {
+        "ticker": "XLV",
+        "price": 129.02,
+        "change_percent": -0.74
+      },
+      {
+        "ticker": "XLE",
+        "price": 41.75,
+        "change_percent": -0.77
+      },
+      {
+        "ticker": "XSW",
+        "price": 178.93,
+        "change_percent": -1.13
+      }
+    ]
+  },
+  {
+    "week_ending": "2025-08-15",
+    "etfs": [
+      {
+        "ticker": "XPH",
+        "price": 45.89,
+        "change_percent": 6.74
+      },
+      {
+        "ticker": "XBI",
+        "price": 90.36,
+        "change_percent": 6.15
+      },
+      {
+        "ticker": "XHS",
+        "price": 95.6,
+        "change_percent": 5.24
+      },
+      {
+        "ticker": "XHB",
+        "price": 112.99,
+        "change_percent": 4.8
+      },
+      {
+        "ticker": "XLV",
+        "price": 135.01,
+        "change_percent": 4.65
+      },
+      {
+        "ticker": "XTN",
+        "price": 84.35,
+        "change_percent": 4.63
+      },
+      {
+        "ticker": "XSD",
+        "price": 280.47,
+        "change_percent": 3.95
+      },
+      {
+        "ticker": "XHE",
+        "price": 80.72,
+        "change_percent": 3.59
+      },
+      {
+        "ticker": "XLC",
+        "price": 110.73,
+        "change_percent": 3.58
+      },
+      {
+        "ticker": "XRT",
+        "price": 83.31,
+        "change_percent": 3.47
+      },
+      {
+        "ticker": "KRE",
+        "price": 60.83,
+        "change_percent": 3.41
+      },
+      {
+        "ticker": "KBE",
+        "price": 57.11,
+        "change_percent": 3.18
+      },
+      {
+        "ticker": "XSW",
+        "price": 183.99,
+        "change_percent": 2.83
+      },
+      {
+        "ticker": "XLY",
+        "price": 114.09,
+        "change_percent": 2.35
+      },
+      {
+        "ticker": "XLB",
+        "price": 44.57,
+        "change_percent": 1.9
+      },
+      {
+        "ticker": "KIE",
+        "price": 57.39,
+        "change_percent": 1.62
+      },
+      {
+        "ticker": "XOP",
+        "price": 122.78,
+        "change_percent": 1.24
+      },
+      {
+        "ticker": "XLF",
+        "price": 52.11,
+        "change_percent": 1.18
+      },
+      {
+        "ticker": "KCE",
+        "price": 153.08,
+        "change_percent": 1.01
+      },
+      {
+        "ticker": "XLG",
+        "price": 54.95,
+        "change_percent": 0.93
+      },
+      {
+        "ticker": "RWR",
+        "price": 94.42,
+        "change_percent": 0.85
+      },
+      {
+        "ticker": "XLE",
+        "price": 42.06,
+        "change_percent": 0.74
+      },
+      {
+        "ticker": "XME",
+        "price": 79.59,
+        "change_percent": 0.62
+      },
+      {
+        "ticker": "XTL",
+        "price": 125.49,
+        "change_percent": 0.58
+      },
+      {
+        "ticker": "XAR",
+        "price": 214.91,
+        "change_percent": 0.52
+      },
+      {
+        "ticker": "XLRE",
+        "price": 40.57,
+        "change_percent": 0.19
+      },
+      {
+        "ticker": "XNTK",
+        "price": 243.41,
+        "change_percent": 0.11
+      },
+      {
+        "ticker": "XES",
+        "price": 64.74,
+        "change_percent": -0.05
+      },
+      {
+        "ticker": "XLK",
+        "price": 132.48,
+        "change_percent": -0.08
+      },
+      {
+        "ticker": "XLI",
+        "price": 149.31,
+        "change_percent": -0.26
+      },
+      {
+        "ticker": "XLP",
+        "price": 80.81,
+        "change_percent": -0.56
+      },
+      {
+        "ticker": "XLU",
+        "price": 42.21,
+        "change_percent": -0.65
+      }
+    ]
+  },
+  {
+    "week_ending": "2025-08-22",
+    "etfs": [
+      {
+        "ticker": "XES",
+        "price": 68.83,
+        "change_percent": 6.32
+      },
+      {
+        "ticker": "KRE",
+        "price": 64.04,
+        "change_percent": 5.28
+      },
+      {
+        "ticker": "KBE",
+        "price": 59.92,
+        "change_percent": 4.91
+      },
+      {
+        "ticker": "XTN",
+        "price": 87.16,
+        "change_percent": 3.33
+      },
+      {
+        "ticker": "XOP",
+        "price": 126.82,
+        "change_percent": 3.29
+      },
+      {
+        "ticker": "XHB",
+        "price": 116.64,
+        "change_percent": 3.23
+      },
+      {
+        "ticker": "XHS",
+        "price": 98.66,
+        "change_percent": 3.2
+      },
+      {
+        "ticker": "XHE",
+        "price": 83.29,
+        "change_percent": 3.18
+      },
+      {
+        "ticker": "XLE",
+        "price": 43.33,
+        "change_percent": 3.02
+      },
+      {
+        "ticker": "KIE",
+        "price": 59.08,
+        "change_percent": 2.94
+      },
+      {
+        "ticker": "RWR",
+        "price": 97.07,
+        "change_percent": 2.81
+      },
+      {
+        "ticker": "XPH",
+        "price": 47.12,
+        "change_percent": 2.69
+      },
+      {
+        "ticker": "XTL",
+        "price": 128.59,
+        "change_percent": 2.47
+      },
+      {
+        "ticker": "XLRE",
+        "price": 41.57,
+        "change_percent": 2.44
+      },
+      {
+        "ticker": "XLB",
+        "price": 45.64,
+        "change_percent": 2.39
+      },
+      {
+        "ticker": "XSW",
+        "price": 188.21,
+        "change_percent": 2.29
+      },
+      {
+        "ticker": "XLF",
+        "price": 53.21,
+        "change_percent": 2.12
+      },
+      {
+        "ticker": "XRT",
+        "price": 85.01,
+        "change_percent": 2.05
+      },
+      {
+        "ticker": "XSD",
+        "price": 285.71,
+        "change_percent": 1.87
+      },
+      {
+        "ticker": "XLI",
+        "price": 151.99,
+        "change_percent": 1.79
+      },
+      {
+        "ticker": "XLY",
+        "price": 116.11,
+        "change_percent": 1.77
+      },
+      {
+        "ticker": "XLV",
+        "price": 136.96,
+        "change_percent": 1.44
+      },
+      {
+        "ticker": "KCE",
+        "price": 154.67,
+        "change_percent": 1.04
+      },
+      {
+        "ticker": "XLP",
+        "price": 81.26,
+        "change_percent": 0.55
+      },
+      {
+        "ticker": "XLU",
+        "price": 42.41,
+        "change_percent": 0.49
+      },
+      {
+        "ticker": "XME",
+        "price": 79.94,
+        "change_percent": 0.44
+      },
+      {
+        "ticker": "XAR",
+        "price": 215.55,
+        "change_percent": 0.3
+      },
+      {
+        "ticker": "XBI",
+        "price": 90.59,
+        "change_percent": 0.26
+      },
+      {
+        "ticker": "XLC",
+        "price": 110.57,
+        "change_percent": -0.15
+      },
+      {
+        "ticker": "XLG",
+        "price": 54.64,
+        "change_percent": -0.58
+      },
+      {
+        "ticker": "XNTK",
+        "price": 241.72,
+        "change_percent": -0.69
+      },
+      {
+        "ticker": "XLK",
+        "price": 130.84,
+        "change_percent": -1.23
+      }
+    ]
+  },
+  {
+    "week_ending": "2025-08-29",
+    "etfs": [
+      {
+        "ticker": "XOP",
+        "price": 131.15,
+        "change_percent": 3.41
+      },
+      {
+        "ticker": "XTL",
+        "price": 132.7,
+        "change_percent": 3.2
+      },
+      {
+        "ticker": "XME",
+        "price": 82.14,
+        "change_percent": 2.75
+      },
+      {
+        "ticker": "XLE",
+        "price": 44.43,
+        "change_percent": 2.55
+      },
+      {
+        "ticker": "XES",
+        "price": 70.02,
+        "change_percent": 1.73
+      },
+      {
+        "ticker": "XSW",
+        "price": 190.78,
+        "change_percent": 1.37
+      },
+      {
+        "ticker": "RWR",
+        "price": 98.16,
+        "change_percent": 1.12
+      },
+      {
+        "ticker": "KRE",
+        "price": 64.7,
+        "change_percent": 1.03
+      },
+      {
+        "ticker": "XLF",
+        "price": 53.63,
+        "change_percent": 0.78
+      },
+      {
+        "ticker": "KBE",
+        "price": 60.29,
+        "change_percent": 0.63
+      },
+      {
+        "ticker": "XAR",
+        "price": 216.84,
+        "change_percent": 0.6
+      },
+      {
+        "ticker": "XHS",
+        "price": 99.18,
+        "change_percent": 0.54
+      },
+      {
+        "ticker": "XPH",
+        "price": 47.27,
+        "change_percent": 0.32
+      },
+      {
+        "ticker": "XLG",
+        "price": 54.75,
+        "change_percent": 0.2
+      },
+      {
+        "ticker": "XLB",
+        "price": 45.69,
+        "change_percent": 0.11
+      },
+      {
+        "ticker": "XLC",
+        "price": 110.64,
+        "change_percent": 0.07
+      },
+      {
+        "ticker": "XSD",
+        "price": 285.86,
+        "change_percent": 0.05
+      },
+      {
+        "ticker": "XLK",
+        "price": 130.86,
+        "change_percent": 0.01
+      },
+      {
+        "ticker": "XNTK",
+        "price": 241.6,
+        "change_percent": -0.05
+      },
+      {
+        "ticker": "XLRE",
+        "price": 41.54,
+        "change_percent": -0.07
+      },
+      {
+        "ticker": "KCE",
+        "price": 154.3,
+        "change_percent": -0.24
+      },
+      {
+        "ticker": "XLV",
+        "price": 136.22,
+        "change_percent": -0.54
+      },
+      {
+        "ticker": "XLY",
+        "price": 115.44,
+        "change_percent": -0.58
+      },
+      {
+        "ticker": "XLI",
+        "price": 150.87,
+        "change_percent": -0.74
+      },
+      {
+        "ticker": "KIE",
+        "price": 58.39,
+        "change_percent": -1.18
+      },
+      {
+        "ticker": "XBI",
+        "price": 89.53,
+        "change_percent": -1.18
+      },
+      {
+        "ticker": "XRT",
+        "price": 83.93,
+        "change_percent": -1.28
+      },
+      {
+        "ticker": "XHE",
+        "price": 82.08,
+        "change_percent": -1.45
+      },
+      {
+        "ticker": "XTN",
+        "price": 85.75,
+        "change_percent": -1.61
+      },
+      {
+        "ticker": "XLU",
+        "price": 41.57,
+        "change_percent": -2.0
+      },
+      {
+        "ticker": "XLP",
+        "price": 79.59,
+        "change_percent": -2.05
+      },
+      {
+        "ticker": "XHB",
+        "price": 113.65,
+        "change_percent": -2.56
+      }
+    ]
+  },
+  {
+    "week_ending": "2025-09-05",
+    "etfs": [
+      {
+        "ticker": "XBI",
+        "price": 95.13,
+        "change_percent": 6.25
+      },
+      {
+        "ticker": "XHB",
+        "price": 118.99,
+        "change_percent": 4.7
+      },
+      {
+        "ticker": "XRT",
+        "price": 87.08,
+        "change_percent": 3.75
+      },
+      {
+        "ticker": "XLC",
+        "price": 113.92,
+        "change_percent": 2.96
+      },
+      {
+        "ticker": "XME",
+        "price": 83.73,
+        "change_percent": 1.94
+      },
+      {
+        "ticker": "XLY",
+        "price": 117.12,
+        "change_percent": 1.45
+      },
+      {
+        "ticker": "XTL",
+        "price": 134.58,
+        "change_percent": 1.41
+      },
+      {
+        "ticker": "XNTK",
+        "price": 244.78,
+        "change_percent": 1.32
+      },
+      {
+        "ticker": "XSD",
+        "price": 289.29,
+        "change_percent": 1.2
+      },
+      {
+        "ticker": "XPH",
+        "price": 47.65,
+        "change_percent": 0.8
+      },
+      {
+        "ticker": "XLG",
+        "price": 55.17,
+        "change_percent": 0.78
+      },
+      {
+        "ticker": "XHE",
+        "price": 82.71,
+        "change_percent": 0.77
+      },
+      {
+        "ticker": "RWR",
+        "price": 98.64,
+        "change_percent": 0.5
+      },
+      {
+        "ticker": "XLV",
+        "price": 136.69,
+        "change_percent": 0.34
+      },
+      {
+        "ticker": "KBE",
+        "price": 60.39,
+        "change_percent": 0.16
+      },
+      {
+        "ticker": "XHS",
+        "price": 99.34,
+        "change_percent": 0.16
+      },
+      {
+        "ticker": "XLK",
+        "price": 131.06,
+        "change_percent": 0.16
+      },
+      {
+        "ticker": "XLP",
+        "price": 79.68,
+        "change_percent": 0.11
+      },
+      {
+        "ticker": "XSW",
+        "price": 190.92,
+        "change_percent": 0.07
+      },
+      {
+        "ticker": "KIE",
+        "price": 58.39,
+        "change_percent": 0.0
+      },
+      {
+        "ticker": "KRE",
+        "price": 64.64,
+        "change_percent": -0.09
+      },
+      {
+        "ticker": "XLRE",
+        "price": 41.41,
+        "change_percent": -0.31
+      },
+      {
+        "ticker": "XLB",
+        "price": 45.53,
+        "change_percent": -0.35
+      },
+      {
+        "ticker": "XAR",
+        "price": 216.04,
+        "change_percent": -0.37
+      },
+      {
+        "ticker": "XTN",
+        "price": 85.2,
+        "change_percent": -0.65
+      },
+      {
+        "ticker": "XLI",
+        "price": 149.8,
+        "change_percent": -0.71
+      },
+      {
+        "ticker": "XLU",
+        "price": 41.15,
+        "change_percent": -1.01
+      },
+      {
+        "ticker": "XES",
+        "price": 69.2,
+        "change_percent": -1.17
+      },
+      {
+        "ticker": "XLF",
+        "price": 52.71,
+        "change_percent": -1.7
+      },
+      {
+        "ticker": "KCE",
+        "price": 151.4,
+        "change_percent": -1.88
+      },
+      {
+        "ticker": "XOP",
+        "price": 127.83,
+        "change_percent": -2.53
+      },
+      {
+        "ticker": "XLE",
+        "price": 42.94,
+        "change_percent": -3.35
+      }
+    ]
+  },
+  {
+    "week_ending": "2025-09-12",
+    "etfs": [
+      {
+        "ticker": "XNTK",
+        "price": 257.21,
+        "change_percent": 5.08
+      },
+      {
+        "ticker": "XSD",
+        "price": 298.41,
+        "change_percent": 3.15
+      },
+      {
+        "ticker": "XLK",
+        "price": 135.06,
+        "change_percent": 3.05
+      },
+      {
+        "ticker": "KCE",
+        "price": 155.12,
+        "change_percent": 2.46
+      },
+      {
+        "ticker": "XLU",
+        "price": 42.15,
+        "change_percent": 2.43
+      },
+      {
+        "ticker": "XLG",
+        "price": 56.47,
+        "change_percent": 2.35
+      },
+      {
+        "ticker": "XLC",
+        "price": 116.56,
+        "change_percent": 2.32
+      },
+      {
+        "ticker": "XAR",
+        "price": 220.71,
+        "change_percent": 2.16
+      },
+      {
+        "ticker": "XME",
+        "price": 85.37,
+        "change_percent": 1.95
+      },
+      {
+        "ticker": "XSW",
+        "price": 194.01,
+        "change_percent": 1.62
+      },
+      {
+        "ticker": "XTL",
+        "price": 136.67,
+        "change_percent": 1.56
+      },
+      {
+        "ticker": "XLY",
+        "price": 118.87,
+        "change_percent": 1.5
+      },
+      {
+        "ticker": "XLE",
+        "price": 43.55,
+        "change_percent": 1.42
+      },
+      {
+        "ticker": "XLF",
+        "price": 53.44,
+        "change_percent": 1.38
+      },
+      {
+        "ticker": "XES",
+        "price": 69.87,
+        "change_percent": 0.97
+      },
+      {
+        "ticker": "KIE",
+        "price": 58.72,
+        "change_percent": 0.58
+      },
+      {
+        "ticker": "RWR",
+        "price": 99.13,
+        "change_percent": 0.5
+      },
+      {
+        "ticker": "XLI",
+        "price": 150.44,
+        "change_percent": 0.43
+      },
+      {
+        "ticker": "XLRE",
+        "price": 41.57,
+        "change_percent": 0.4
+      },
+      {
+        "ticker": "XOP",
+        "price": 128.31,
+        "change_percent": 0.38
+      },
+      {
+        "ticker": "XLV",
+        "price": 136.9,
+        "change_percent": 0.15
+      },
+      {
+        "ticker": "KBE",
+        "price": 60.23,
+        "change_percent": -0.28
+      },
+      {
+        "ticker": "XTN",
+        "price": 84.95,
+        "change_percent": -0.29
+      },
+      {
+        "ticker": "XLB",
+        "price": 45.39,
+        "change_percent": -0.3
+      },
+      {
+        "ticker": "XHS",
+        "price": 98.68,
+        "change_percent": -0.67
+      },
+      {
+        "ticker": "XLP",
+        "price": 79.14,
+        "change_percent": -0.68
+      },
+      {
+        "ticker": "KRE",
+        "price": 64.19,
+        "change_percent": -0.7
+      },
+      {
+        "ticker": "XRT",
+        "price": 86.07,
+        "change_percent": -1.16
+      },
+      {
+        "ticker": "XBI",
+        "price": 93.78,
+        "change_percent": -1.41
+      },
+      {
+        "ticker": "XHE",
+        "price": 80.57,
+        "change_percent": -2.59
+      },
+      {
+        "ticker": "XHB",
+        "price": 115.8,
+        "change_percent": -2.68
+      },
+      {
+        "ticker": "XPH",
+        "price": 46.3,
+        "change_percent": -2.82
+      }
+    ]
+  },
+  {
+    "week_ending": "2025-09-19",
+    "etfs": [
+      {
+        "ticker": "XSD",
+        "price": 318.36,
+        "change_percent": 6.68
+      },
+      {
+        "ticker": "XME",
+        "price": 90.18,
+        "change_percent": 5.63
+      },
+      {
+        "ticker": "XNTK",
+        "price": 269.36,
+        "change_percent": 4.72
+      },
+      {
+        "ticker": "XSW",
+        "price": 201.98,
+        "change_percent": 4.11
+      },
+      {
+        "ticker": "XLK",
+        "price": 139.07,
+        "change_percent": 2.97
+      },
+      {
+        "ticker": "XAR",
+        "price": 226.28,
+        "change_percent": 2.53
+      },
+      {
+        "ticker": "XTL",
+        "price": 139.43,
+        "change_percent": 2.02
+      },
+      {
+        "ticker": "XLC",
+        "price": 118.61,
+        "change_percent": 1.76
+      },
+      {
+        "ticker": "XLG",
+        "price": 57.43,
+        "change_percent": 1.69
+      },
+      {
+        "ticker": "XBI",
+        "price": 95.26,
+        "change_percent": 1.57
+      },
+      {
+        "ticker": "XLY",
+        "price": 120.24,
+        "change_percent": 1.16
+      },
+      {
+        "ticker": "XRT",
+        "price": 87.02,
+        "change_percent": 1.1
+      },
+      {
+        "ticker": "XLI",
+        "price": 151.97,
+        "change_percent": 1.02
+      },
+      {
+        "ticker": "XLF",
+        "price": 53.88,
+        "change_percent": 0.84
+      },
+      {
+        "ticker": "KBE",
+        "price": 60.58,
+        "change_percent": 0.59
+      },
+      {
+        "ticker": "KRE",
+        "price": 64.54,
+        "change_percent": 0.54
+      },
+      {
+        "ticker": "KCE",
+        "price": 155.33,
+        "change_percent": 0.13
+      },
+      {
+        "ticker": "XPH",
+        "price": 46.36,
+        "change_percent": 0.13
+      },
+      {
+        "ticker": "XTN",
+        "price": 85.01,
+        "change_percent": 0.07
+      },
+      {
+        "ticker": "XOP",
+        "price": 128.28,
+        "change_percent": -0.02
+      },
+      {
+        "ticker": "XLE",
+        "price": 43.51,
+        "change_percent": -0.09
+      },
+      {
+        "ticker": "XHS",
+        "price": 98.54,
+        "change_percent": -0.14
+      },
+      {
+        "ticker": "XES",
+        "price": 69.66,
+        "change_percent": -0.3
+      },
+      {
+        "ticker": "KIE",
+        "price": 58.51,
+        "change_percent": -0.37
+      },
+      {
+        "ticker": "XLV",
+        "price": 136.09,
+        "change_percent": -0.59
+      },
+      {
+        "ticker": "XLU",
+        "price": 41.88,
+        "change_percent": -0.64
+      },
+      {
+        "ticker": "XLB",
+        "price": 44.97,
+        "change_percent": -0.93
+      },
+      {
+        "ticker": "XHE",
+        "price": 79.81,
+        "change_percent": -0.94
+      },
+      {
+        "ticker": "XLP",
+        "price": 78.21,
+        "change_percent": -1.17
+      },
+      {
+        "ticker": "XLRE",
+        "price": 41.08,
+        "change_percent": -1.18
+      },
+      {
+        "ticker": "RWR",
+        "price": 97.45,
+        "change_percent": -1.7
+      },
+      {
+        "ticker": "XHB",
+        "price": 112.67,
+        "change_percent": -2.7
+      }
+    ]
+  },
+  {
+    "week_ending": "2025-09-26",
+    "etfs": [
+      {
+        "ticker": "XES",
+        "price": 73.87,
+        "change_percent": 6.03
+      },
+      {
+        "ticker": "XOP",
+        "price": 135.32,
+        "change_percent": 5.49
+      },
+      {
+        "ticker": "XLE",
+        "price": 45.22,
+        "change_percent": 3.92
+      },
+      {
+        "ticker": "XBI",
+        "price": 97.6,
+        "change_percent": 2.46
+      },
+      {
+        "ticker": "XHS",
+        "price": 100.95,
+        "change_percent": 2.45
+      },
+      {
+        "ticker": "XLU",
+        "price": 42.79,
+        "change_percent": 2.19
+      },
+      {
+        "ticker": "XME",
+        "price": 91.98,
+        "change_percent": 2.0
+      },
+      {
+        "ticker": "XAR",
+        "price": 229.69,
+        "change_percent": 1.51
+      },
+      {
+        "ticker": "XPH",
+        "price": 46.82,
+        "change_percent": 0.99
+      },
+      {
+        "ticker": "KIE",
+        "price": 58.69,
+        "change_percent": 0.32
+      },
+      {
+        "ticker": "XLRE",
+        "price": 41.11,
+        "change_percent": 0.07
+      },
+      {
+        "ticker": "XNTK",
+        "price": 269.47,
+        "change_percent": 0.04
+      },
+      {
+        "ticker": "XLK",
+        "price": 139.03,
+        "change_percent": -0.03
+      },
+      {
+        "ticker": "RWR",
+        "price": 97.34,
+        "change_percent": -0.11
+      },
+      {
+        "ticker": "XSD",
+        "price": 317.8,
+        "change_percent": -0.18
+      },
+      {
+        "ticker": "XLI",
+        "price": 151.43,
+        "change_percent": -0.35
+      },
+      {
+        "ticker": "XLY",
+        "price": 119.41,
+        "change_percent": -0.7
+      },
+      {
+        "ticker": "XLF",
+        "price": 53.5,
+        "change_percent": -0.72
+      },
+      {
+        "ticker": "XLG",
+        "price": 56.97,
+        "change_percent": -0.8
+      },
+      {
+        "ticker": "XRT",
+        "price": 86.29,
+        "change_percent": -0.84
+      },
+      {
+        "ticker": "XLC",
+        "price": 117.38,
+        "change_percent": -1.04
+      },
+      {
+        "ticker": "XSW",
+        "price": 199.51,
+        "change_percent": -1.22
+      },
+      {
+        "ticker": "XTL",
+        "price": 137.71,
+        "change_percent": -1.23
+      },
+      {
+        "ticker": "XLV",
+        "price": 134.31,
+        "change_percent": -1.3
+      },
+      {
+        "ticker": "XTN",
+        "price": 83.68,
+        "change_percent": -1.56
+      },
+      {
+        "ticker": "KBE",
+        "price": 59.59,
+        "change_percent": -1.63
+      },
+      {
+        "ticker": "KRE",
+        "price": 63.4,
+        "change_percent": -1.76
+      },
+      {
+        "ticker": "XLP",
+        "price": 76.81,
+        "change_percent": -1.79
+      },
+      {
+        "ticker": "XLB",
+        "price": 43.98,
+        "change_percent": -2.19
+      },
+      {
+        "ticker": "KCE",
+        "price": 151.75,
+        "change_percent": -2.3
+      },
+      {
+        "ticker": "XHE",
+        "price": 77.97,
+        "change_percent": -2.3
+      },
+      {
+        "ticker": "XHB",
+        "price": 110.06,
+        "change_percent": -2.32
+      }
+    ]
+  },
+  {
+    "week_ending": "2025-10-03",
+    "etfs": [
+      {
+        "ticker": "XLV",
+        "price": 144.21,
+        "change_percent": 7.37
+      },
+      {
+        "ticker": "XTL",
+        "price": 146.19,
+        "change_percent": 6.16
+      },
+      {
+        "ticker": "XME",
+        "price": 97.44,
+        "change_percent": 5.93
+      },
+      {
+        "ticker": "XBI",
+        "price": 103.26,
+        "change_percent": 5.8
+      },
+      {
+        "ticker": "XAR",
+        "price": 240.55,
+        "change_percent": 4.73
+      },
+      {
+        "ticker": "XPH",
+        "price": 48.9,
+        "change_percent": 4.44
+      },
+      {
+        "ticker": "XSD",
+        "price": 329.66,
+        "change_percent": 3.73
+      },
+      {
+        "ticker": "XHE",
+        "price": 80.76,
+        "change_percent": 3.58
+      },
+      {
+        "ticker": "XNTK",
+        "price": 278.3,
+        "change_percent": 3.28
+      },
+      {
+        "ticker": "XLU",
+        "price": 44.12,
+        "change_percent": 3.11
+      },
+      {
+        "ticker": "XLK",
+        "price": 142.14,
+        "change_percent": 2.24
+      },
+      {
+        "ticker": "KIE",
+        "price": 59.78,
+        "change_percent": 1.85
+      },
+      {
+        "ticker": "RWR",
+        "price": 99.05,
+        "change_percent": 1.75
+      },
+      {
+        "ticker": "XHB",
+        "price": 111.93,
+        "change_percent": 1.7
+      },
+      {
+        "ticker": "XLB",
+        "price": 44.7,
+        "change_percent": 1.63
+      },
+      {
+        "ticker": "XLI",
+        "price": 153.88,
+        "change_percent": 1.62
+      },
+      {
+        "ticker": "XTN",
+        "price": 84.84,
+        "change_percent": 1.39
+      },
+      {
+        "ticker": "XLRE",
+        "price": 41.63,
+        "change_percent": 1.24
+      },
+      {
+        "ticker": "XLG",
+        "price": 57.54,
+        "change_percent": 1.0
+      },
+      {
+        "ticker": "XHS",
+        "price": 101.94,
+        "change_percent": 0.98
+      },
+      {
+        "ticker": "XLP",
+        "price": 77.41,
+        "change_percent": 0.78
+      },
+      {
+        "ticker": "XRT",
+        "price": 86.82,
+        "change_percent": 0.61
+      },
+      {
+        "ticker": "XLF",
+        "price": 53.53,
+        "change_percent": 0.07
+      },
+      {
+        "ticker": "XSW",
+        "price": 199.44,
+        "change_percent": -0.04
+      },
+      {
+        "ticker": "KCE",
+        "price": 151.58,
+        "change_percent": -0.11
+      },
+      {
+        "ticker": "KRE",
+        "price": 63.06,
+        "change_percent": -0.54
+      },
+      {
+        "ticker": "XLY",
+        "price": 118.69,
+        "change_percent": -0.6
+      },
+      {
+        "ticker": "XES",
+        "price": 73.05,
+        "change_percent": -1.1
+      },
+      {
+        "ticker": "XLC",
+        "price": 116.01,
+        "change_percent": -1.16
+      },
+      {
+        "ticker": "KBE",
+        "price": 58.89,
+        "change_percent": -1.18
+      },
+      {
+        "ticker": "XOP",
+        "price": 132.22,
+        "change_percent": -2.29
+      },
+      {
+        "ticker": "XLE",
+        "price": 44.08,
+        "change_percent": -2.52
+      }
+    ]
+  },
+  {
+    "week_ending": "2025-10-10",
+    "etfs": [
+      {
+        "ticker": "XME",
+        "price": 100.76,
+        "change_percent": 3.4
+      },
+      {
+        "ticker": "XLU",
+        "price": 44.76,
+        "change_percent": 1.45
+      },
+      {
+        "ticker": "XBI",
+        "price": 104.64,
+        "change_percent": 1.34
+      },
+      {
+        "ticker": "XLP",
+        "price": 77.48,
+        "change_percent": 0.09
+      },
+      {
+        "ticker": "XTL",
+        "price": 145.22,
+        "change_percent": -0.66
+      },
+      {
+        "ticker": "XAR",
+        "price": 238.82,
+        "change_percent": -0.72
+      },
+      {
+        "ticker": "XLV",
+        "price": 141.51,
+        "change_percent": -1.87
+      },
+      {
+        "ticker": "XLG",
+        "price": 56.41,
+        "change_percent": -1.96
+      },
+      {
+        "ticker": "XHS",
+        "price": 99.72,
+        "change_percent": -2.18
+      },
+      {
+        "ticker": "XLK",
+        "price": 138.98,
+        "change_percent": -2.22
+      },
+      {
+        "ticker": "XSW",
+        "price": 194.52,
+        "change_percent": -2.47
+      },
+      {
+        "ticker": "KIE",
+        "price": 58.09,
+        "change_percent": -2.83
+      },
+      {
+        "ticker": "XLF",
+        "price": 51.98,
+        "change_percent": -2.9
+      },
+      {
+        "ticker": "XLI",
+        "price": 149.39,
+        "change_percent": -2.92
+      },
+      {
+        "ticker": "XLC",
+        "price": 112.44,
+        "change_percent": -3.08
+      },
+      {
+        "ticker": "XLRE",
+        "price": 40.24,
+        "change_percent": -3.33
+      },
+      {
+        "ticker": "XLB",
+        "price": 43.2,
+        "change_percent": -3.35
+      },
+      {
+        "ticker": "XPH",
+        "price": 47.22,
+        "change_percent": -3.43
+      },
+      {
+        "ticker": "RWR",
+        "price": 95.51,
+        "change_percent": -3.57
+      },
+      {
+        "ticker": "XNTK",
+        "price": 268.35,
+        "change_percent": -3.57
+      },
+      {
+        "ticker": "XLY",
+        "price": 114.15,
+        "change_percent": -3.83
+      },
+      {
+        "ticker": "KCE",
+        "price": 145.7,
+        "change_percent": -3.87
+      },
+      {
+        "ticker": "XLE",
+        "price": 42.25,
+        "change_percent": -4.15
+      },
+      {
+        "ticker": "XTN",
+        "price": 81.2,
+        "change_percent": -4.29
+      },
+      {
+        "ticker": "XSD",
+        "price": 315.41,
+        "change_percent": -4.32
+      },
+      {
+        "ticker": "XHE",
+        "price": 77.17,
+        "change_percent": -4.44
+      },
+      {
+        "ticker": "KBE",
+        "price": 56.11,
+        "change_percent": -4.72
+      },
+      {
+        "ticker": "KRE",
+        "price": 59.82,
+        "change_percent": -5.14
+      },
+      {
+        "ticker": "XOP",
+        "price": 123.06,
+        "change_percent": -6.93
+      },
+      {
+        "ticker": "XRT",
+        "price": 80.77,
+        "change_percent": -6.97
+      },
+      {
+        "ticker": "XES",
+        "price": 67.8,
+        "change_percent": -7.19
+      },
+      {
+        "ticker": "XHB",
+        "price": 103.54,
+        "change_percent": -7.49
+      }
+    ]
+  },
+  {
+    "week_ending": "2025-10-17",
+    "etfs": [
+      {
+        "ticker": "XSD",
+        "price": 342.95,
+        "change_percent": 8.73
+      },
+      {
+        "ticker": "XES",
+        "price": 71.47,
+        "change_percent": 5.41
+      },
+      {
+        "ticker": "RWR",
+        "price": 99.43,
+        "change_percent": 4.11
+      },
+      {
+        "ticker": "XTN",
+        "price": 84.53,
+        "change_percent": 4.1
+      },
+      {
+        "ticker": "XHB",
+        "price": 107.58,
+        "change_percent": 3.9
+      },
+      {
+        "ticker": "XRT",
+        "price": 83.85,
+        "change_percent": 3.82
+      },
+      {
+        "ticker": "XNTK",
+        "price": 277.78,
+        "change_percent": 3.51
+      },
+      {
+        "ticker": "XLRE",
+        "price": 41.59,
+        "change_percent": 3.34
+      },
+      {
+        "ticker": "XHE",
+        "price": 79.48,
+        "change_percent": 2.99
+      },
+      {
+        "ticker": "XBI",
+        "price": 107.44,
+        "change_percent": 2.68
+      },
+      {
+        "ticker": "XLY",
+        "price": 116.98,
+        "change_percent": 2.48
+      },
+      {
+        "ticker": "XLK",
+        "price": 142.29,
+        "change_percent": 2.38
+      },
+      {
+        "ticker": "XLP",
+        "price": 79.1,
+        "change_percent": 2.09
+      },
+      {
+        "ticker": "XLC",
+        "price": 114.57,
+        "change_percent": 1.9
+      },
+      {
+        "ticker": "XHS",
+        "price": 101.58,
+        "change_percent": 1.86
+      },
+      {
+        "ticker": "XLG",
+        "price": 57.46,
+        "change_percent": 1.86
+      },
+      {
+        "ticker": "XPH",
+        "price": 48.1,
+        "change_percent": 1.86
+      },
+      {
+        "ticker": "XTL",
+        "price": 147.73,
+        "change_percent": 1.73
+      },
+      {
+        "ticker": "XLU",
+        "price": 45.44,
+        "change_percent": 1.52
+      },
+      {
+        "ticker": "XME",
+        "price": 102.13,
+        "change_percent": 1.37
+      },
+      {
+        "ticker": "XLI",
+        "price": 151.21,
+        "change_percent": 1.22
+      },
+      {
+        "ticker": "XLB",
+        "price": 43.71,
+        "change_percent": 1.19
+      },
+      {
+        "ticker": "XLE",
+        "price": 42.63,
+        "change_percent": 0.89
+      },
+      {
+        "ticker": "XLV",
+        "price": 142.66,
+        "change_percent": 0.82
+      },
+      {
+        "ticker": "KCE",
+        "price": 146.44,
+        "change_percent": 0.51
+      },
+      {
+        "ticker": "XSW",
+        "price": 195.34,
+        "change_percent": 0.42
+      },
+      {
+        "ticker": "XLF",
+        "price": 52.0,
+        "change_percent": 0.04
+      },
+      {
+        "ticker": "XOP",
+        "price": 122.67,
+        "change_percent": -0.31
+      },
+      {
+        "ticker": "KBE",
+        "price": 55.5,
+        "change_percent": -1.1
+      },
+      {
+        "ticker": "XAR",
+        "price": 235.31,
+        "change_percent": -1.47
+      },
+      {
+        "ticker": "KRE",
+        "price": 58.7,
+        "change_percent": -1.86
+      },
+      {
+        "ticker": "KIE",
+        "price": 56.48,
+        "change_percent": -2.77
+      }
+    ]
+  },
+  {
+    "week_ending": "2025-10-24",
+    "etfs": [
+      {
+        "ticker": "XES",
+        "price": 78.45,
+        "change_percent": 9.77
+      },
+      {
+        "ticker": "XAR",
+        "price": 249.92,
+        "change_percent": 6.21
+      },
+      {
+        "ticker": "XOP",
+        "price": 127.53,
+        "change_percent": 3.96
+      },
+      {
+        "ticker": "XHS",
+        "price": 105.56,
+        "change_percent": 3.92
+      },
+      {
+        "ticker": "KRE",
+        "price": 60.84,
+        "change_percent": 3.64
+      },
+      {
+        "ticker": "XSW",
+        "price": 202.28,
+        "change_percent": 3.55
+      },
+      {
+        "ticker": "KBE",
+        "price": 57.42,
+        "change_percent": 3.47
+      },
+      {
+        "ticker": "XLK",
+        "price": 146.57,
+        "change_percent": 3.01
+      },
+      {
+        "ticker": "XNTK",
+        "price": 286.12,
+        "change_percent": 3.0
+      },
+      {
+        "ticker": "XLE",
+        "price": 43.66,
+        "change_percent": 2.43
+      },
+      {
+        "ticker": "XHE",
+        "price": 81.18,
+        "change_percent": 2.14
+      },
+      {
+        "ticker": "XLI",
+        "price": 154.38,
+        "change_percent": 2.1
+      },
+      {
+        "ticker": "XLG",
+        "price": 58.59,
+        "change_percent": 1.98
+      },
+      {
+        "ticker": "XLV",
+        "price": 145.41,
+        "change_percent": 1.93
+      },
+      {
+        "ticker": "KCE",
+        "price": 149.18,
+        "change_percent": 1.87
+      },
+      {
+        "ticker": "XLF",
+        "price": 52.93,
+        "change_percent": 1.78
+      },
+      {
+        "ticker": "XTL",
+        "price": 150.08,
+        "change_percent": 1.59
+      },
+      {
+        "ticker": "XLRE",
+        "price": 42.19,
+        "change_percent": 1.45
+      },
+      {
+        "ticker": "XLY",
+        "price": 118.59,
+        "change_percent": 1.38
+      },
+      {
+        "ticker": "XLB",
+        "price": 44.28,
+        "change_percent": 1.29
+      },
+      {
+        "ticker": "XPH",
+        "price": 48.62,
+        "change_percent": 1.08
+      },
+      {
+        "ticker": "RWR",
+        "price": 100.44,
+        "change_percent": 1.01
+      },
+      {
+        "ticker": "XHB",
+        "price": 108.63,
+        "change_percent": 0.98
+      },
+      {
+        "ticker": "XRT",
+        "price": 84.62,
+        "change_percent": 0.92
+      },
+      {
+        "ticker": "KIE",
+        "price": 56.86,
+        "change_percent": 0.69
+      },
+      {
+        "ticker": "XSD",
+        "price": 345.06,
+        "change_percent": 0.61
+      },
+      {
+        "ticker": "XBI",
+        "price": 108.03,
+        "change_percent": 0.55
+      },
+      {
+        "ticker": "XLC",
+        "price": 115.18,
+        "change_percent": 0.53
+      },
+      {
+        "ticker": "XLU",
+        "price": 45.36,
+        "change_percent": -0.2
+      },
+      {
+        "ticker": "XTN",
+        "price": 84.04,
+        "change_percent": -0.59
+      },
+      {
+        "ticker": "XLP",
+        "price": 78.46,
+        "change_percent": -0.8
+      },
+      {
+        "ticker": "XME",
+        "price": 99.7,
+        "change_percent": -2.39
+      }
+    ]
+  },
+  {
+    "week_ending": "2025-10-31",
+    "etfs": [
+      {
+        "ticker": "XBI",
+        "price": 112.34,
+        "change_percent": 3.99
+      },
+      {
+        "ticker": "XTL",
+        "price": 155.38,
+        "change_percent": 3.54
+      },
+      {
+        "ticker": "XES",
+        "price": 80.55,
+        "change_percent": 2.68
+      },
+      {
+        "ticker": "XLK",
+        "price": 150.11,
+        "change_percent": 2.42
+      },
+      {
+        "ticker": "XLG",
+        "price": 59.8,
+        "change_percent": 2.06
+      },
+      {
+        "ticker": "XSD",
+        "price": 352.05,
+        "change_percent": 2.02
+      },
+      {
+        "ticker": "XPH",
+        "price": 49.57,
+        "change_percent": 1.95
+      },
+      {
+        "ticker": "XNTK",
+        "price": 291.47,
+        "change_percent": 1.87
+      },
+      {
+        "ticker": "XTN",
+        "price": 85.01,
+        "change_percent": 1.16
+      },
+      {
+        "ticker": "XLY",
+        "price": 119.73,
+        "change_percent": 0.96
+      },
+      {
+        "ticker": "XLI",
+        "price": 154.53,
+        "change_percent": 0.1
+      },
+      {
+        "ticker": "XLE",
+        "price": 43.69,
+        "change_percent": 0.07
+      },
+      {
+        "ticker": "XAR",
+        "price": 248.43,
+        "change_percent": -0.6
+      },
+      {
+        "ticker": "XLC",
+        "price": 114.44,
+        "change_percent": -0.64
+      },
+      {
+        "ticker": "XLV",
+        "price": 143.64,
+        "change_percent": -1.22
+      },
+      {
+        "ticker": "XOP",
+        "price": 125.9,
+        "change_percent": -1.28
+      },
+      {
+        "ticker": "KIE",
+        "price": 56.1,
+        "change_percent": -1.35
+      },
+      {
+        "ticker": "XLF",
+        "price": 52.19,
+        "change_percent": -1.39
+      },
+      {
+        "ticker": "XHE",
+        "price": 79.77,
+        "change_percent": -1.74
+      },
+      {
+        "ticker": "KBE",
+        "price": 56.37,
+        "change_percent": -1.83
+      },
+      {
+        "ticker": "XSW",
+        "price": 198.53,
+        "change_percent": -1.85
+      },
+      {
+        "ticker": "KRE",
+        "price": 59.63,
+        "change_percent": -1.99
+      },
+      {
+        "ticker": "XLU",
+        "price": 44.22,
+        "change_percent": -2.51
+      },
+      {
+        "ticker": "KCE",
+        "price": 145.16,
+        "change_percent": -2.7
+      },
+      {
+        "ticker": "XHS",
+        "price": 102.57,
+        "change_percent": -2.84
+      },
+      {
+        "ticker": "RWR",
+        "price": 97.48,
+        "change_percent": -2.94
+      },
+      {
+        "ticker": "XME",
+        "price": 96.47,
+        "change_percent": -3.24
+      },
+      {
+        "ticker": "XHB",
+        "price": 104.85,
+        "change_percent": -3.48
+      },
+      {
+        "ticker": "XLP",
+        "price": 75.67,
+        "change_percent": -3.55
+      },
+      {
+        "ticker": "XLB",
+        "price": 42.62,
+        "change_percent": -3.75
+      },
+      {
+        "ticker": "XLRE",
+        "price": 40.46,
+        "change_percent": -4.1
+      },
+      {
+        "ticker": "XRT",
+        "price": 80.87,
+        "change_percent": -4.43
+      }
+    ]
+  },
+  {
+    "week_ending": "2025-11-07",
+    "etfs": [
+      {
+        "ticker": "KIE",
+        "price": 58.32,
+        "change_percent": 3.95
+      },
+      {
+        "ticker": "XOP",
+        "price": 128.54,
+        "change_percent": 2.1
+      },
+      {
+        "ticker": "KRE",
+        "price": 60.63,
+        "change_percent": 1.68
+      },
+      {
+        "ticker": "XLE",
+        "price": 44.39,
+        "change_percent": 1.6
+      },
+      {
+        "ticker": "RWR",
+        "price": 99.03,
+        "change_percent": 1.58
+      },
+      {
+        "ticker": "XLV",
+        "price": 145.52,
+        "change_percent": 1.31
+      },
+      {
+        "ticker": "XHE",
+        "price": 80.78,
+        "change_percent": 1.27
+      },
+      {
+        "ticker": "KBE",
+        "price": 57.07,
+        "change_percent": 1.25
+      },
+      {
+        "ticker": "XLRE",
+        "price": 40.82,
+        "change_percent": 0.9
+      },
+      {
+        "ticker": "XHS",
+        "price": 103.46,
+        "change_percent": 0.87
+      },
+      {
+        "ticker": "XLF",
+        "price": 52.6,
+        "change_percent": 0.78
+      },
+      {
+        "ticker": "XLU",
+        "price": 44.51,
+        "change_percent": 0.66
+      },
+      {
+        "ticker": "XLP",
+        "price": 76.1,
+        "change_percent": 0.56
+      },
+      {
+        "ticker": "XHB",
+        "price": 105.38,
+        "change_percent": 0.5
+      },
+      {
+        "ticker": "XTN",
+        "price": 85.3,
+        "change_percent": 0.34
+      },
+      {
+        "ticker": "KCE",
+        "price": 145.52,
+        "change_percent": 0.25
+      },
+      {
+        "ticker": "XLB",
+        "price": 42.69,
+        "change_percent": 0.18
+      },
+      {
+        "ticker": "XES",
+        "price": 79.65,
+        "change_percent": -1.11
+      },
+      {
+        "ticker": "XLI",
+        "price": 152.81,
+        "change_percent": -1.12
+      },
+      {
+        "ticker": "XRT",
+        "price": 79.74,
+        "change_percent": -1.39
+      },
+      {
+        "ticker": "XLY",
+        "price": 117.7,
+        "change_percent": -1.7
+      },
+      {
+        "ticker": "XLC",
+        "price": 111.75,
+        "change_percent": -2.35
+      },
+      {
+        "ticker": "XLG",
+        "price": 58.35,
+        "change_percent": -2.42
+      },
+      {
+        "ticker": "XPH",
+        "price": 48.2,
+        "change_percent": -2.76
+      },
+      {
+        "ticker": "XME",
+        "price": 93.45,
+        "change_percent": -3.14
+      },
+      {
+        "ticker": "XBI",
+        "price": 108.6,
+        "change_percent": -3.33
+      },
+      {
+        "ticker": "XSW",
+        "price": 191.04,
+        "change_percent": -3.77
+      },
+      {
+        "ticker": "XLK",
+        "price": 143.86,
+        "change_percent": -4.16
+      },
+      {
+        "ticker": "XNTK",
+        "price": 278.6,
+        "change_percent": -4.42
+      },
+      {
+        "ticker": "XAR",
+        "price": 234.22,
+        "change_percent": -5.72
+      },
+      {
+        "ticker": "XTL",
+        "price": 144.88,
+        "change_percent": -6.76
+      },
+      {
+        "ticker": "XSD",
+        "price": 326.51,
+        "change_percent": -7.25
+      }
+    ]
+  },
+  {
+    "week_ending": "2025-11-14",
+    "etfs": [
+      {
+        "ticker": "XPH",
+        "price": 50.66,
+        "change_percent": 5.09
+      },
+      {
+        "ticker": "XBI",
+        "price": 113.63,
+        "change_percent": 4.63
+      },
+      {
+        "ticker": "XLV",
+        "price": 151.19,
+        "change_percent": 3.89
+      },
+      {
+        "ticker": "XOP",
+        "price": 133.04,
+        "change_percent": 3.5
+      },
+      {
+        "ticker": "XLE",
+        "price": 45.62,
+        "change_percent": 2.77
+      },
+      {
+        "ticker": "XHE",
+        "price": 82.13,
+        "change_percent": 1.67
+      },
+      {
+        "ticker": "XLB",
+        "price": 43.16,
+        "change_percent": 1.11
+      },
+      {
+        "ticker": "KIE",
+        "price": 58.73,
+        "change_percent": 0.72
+      },
+      {
+        "ticker": "XLP",
+        "price": 76.65,
+        "change_percent": 0.72
+      },
+      {
+        "ticker": "XLG",
+        "price": 58.55,
+        "change_percent": 0.34
+      },
+      {
+        "ticker": "XRT",
+        "price": 79.87,
+        "change_percent": 0.16
+      },
+      {
+        "ticker": "XLK",
+        "price": 143.86,
+        "change_percent": -0.0
+      },
+      {
+        "ticker": "KRE",
+        "price": 60.54,
+        "change_percent": -0.15
+      },
+      {
+        "ticker": "XES",
+        "price": 79.5,
+        "change_percent": -0.19
+      },
+      {
+        "ticker": "KBE",
+        "price": 56.89,
+        "change_percent": -0.33
+      },
+      {
+        "ticker": "XLF",
+        "price": 52.27,
+        "change_percent": -0.63
+      },
+      {
+        "ticker": "XLC",
+        "price": 110.97,
+        "change_percent": -0.7
+      },
+      {
+        "ticker": "XLRE",
+        "price": 40.51,
+        "change_percent": -0.78
+      },
+      {
+        "ticker": "XLI",
+        "price": 151.49,
+        "change_percent": -0.86
+      },
+      {
+        "ticker": "RWR",
+        "price": 98.17,
+        "change_percent": -0.87
+      },
+      {
+        "ticker": "XLU",
+        "price": 44.05,
+        "change_percent": -1.04
+      },
+      {
+        "ticker": "KCE",
+        "price": 143.9,
+        "change_percent": -1.11
+      },
+      {
+        "ticker": "XNTK",
+        "price": 274.46,
+        "change_percent": -1.49
+      },
+      {
+        "ticker": "XME",
+        "price": 91.73,
+        "change_percent": -1.84
+      },
+      {
+        "ticker": "XHS",
+        "price": 101.28,
+        "change_percent": -2.1
+      },
+      {
+        "ticker": "XLY",
+        "price": 115.22,
+        "change_percent": -2.11
+      },
+      {
+        "ticker": "XHB",
+        "price": 103.14,
+        "change_percent": -2.12
+      },
+      {
+        "ticker": "XTL",
+        "price": 141.25,
+        "change_percent": -2.5
+      },
+      {
+        "ticker": "XTN",
+        "price": 83.04,
+        "change_percent": -2.65
+      },
+      {
+        "ticker": "XAR",
+        "price": 227.93,
+        "change_percent": -2.68
+      },
+      {
+        "ticker": "XSW",
+        "price": 184.89,
+        "change_percent": -3.22
+      },
+      {
+        "ticker": "XSD",
+        "price": 309.79,
+        "change_percent": -5.12
+      }
+    ]
+  },
+  {
+    "week_ending": "2025-11-21",
+    "etfs": [
+      {
+        "ticker": "XHS",
+        "price": 106.11,
+        "change_percent": 4.77
+      },
+      {
+        "ticker": "XHE",
+        "price": 85.15,
+        "change_percent": 3.68
+      },
+      {
+        "ticker": "XPH",
+        "price": 52.09,
+        "change_percent": 2.82
+      },
+      {
+        "ticker": "XBI",
+        "price": 116.27,
+        "change_percent": 2.32
+      },
+      {
+        "ticker": "XLV",
+        "price": 153.95,
+        "change_percent": 1.83
+      },
+      {
+        "ticker": "KRE",
+        "price": 61.23,
+        "change_percent": 1.13
+      },
+      {
+        "ticker": "XLP",
+        "price": 77.28,
+        "change_percent": 0.83
+      },
+      {
+        "ticker": "XHB",
+        "price": 103.96,
+        "change_percent": 0.79
+      },
+      {
+        "ticker": "KBE",
+        "price": 57.28,
+        "change_percent": 0.7
+      },
+      {
+        "ticker": "RWR",
+        "price": 98.85,
+        "change_percent": 0.69
+      },
+      {
+        "ticker": "XLC",
+        "price": 111.54,
+        "change_percent": 0.51
+      },
+      {
+        "ticker": "KIE",
+        "price": 58.68,
+        "change_percent": -0.08
+      },
+      {
+        "ticker": "XRT",
+        "price": 79.78,
+        "change_percent": -0.11
+      },
+      {
+        "ticker": "XLRE",
+        "price": 40.46,
+        "change_percent": -0.12
+      },
+      {
+        "ticker": "XLB",
+        "price": 42.95,
+        "change_percent": -0.48
+      },
+      {
+        "ticker": "XLU",
+        "price": 43.75,
+        "change_percent": -0.69
+      },
+      {
+        "ticker": "XTN",
+        "price": 82.01,
+        "change_percent": -1.24
+      },
+      {
+        "ticker": "XLF",
+        "price": 51.49,
+        "change_percent": -1.49
+      },
+      {
+        "ticker": "XLI",
+        "price": 149.12,
+        "change_percent": -1.57
+      },
+      {
+        "ticker": "XLG",
+        "price": 57.25,
+        "change_percent": -2.23
+      },
+      {
+        "ticker": "XLY",
+        "price": 112.53,
+        "change_percent": -2.33
+      },
+      {
+        "ticker": "XES",
+        "price": 77.52,
+        "change_percent": -2.49
+      },
+      {
+        "ticker": "XLE",
+        "price": 44.33,
+        "change_percent": -2.83
+      },
+      {
+        "ticker": "KCE",
+        "price": 139.47,
+        "change_percent": -3.08
+      },
+      {
+        "ticker": "XOP",
+        "price": 128.8,
+        "change_percent": -3.19
+      },
+      {
+        "ticker": "XME",
+        "price": 88.57,
+        "change_percent": -3.44
+      },
+      {
+        "ticker": "XAR",
+        "price": 219.97,
+        "change_percent": -3.49
+      },
+      {
+        "ticker": "XSW",
+        "price": 178.44,
+        "change_percent": -3.49
+      },
+      {
+        "ticker": "XTL",
+        "price": 135.35,
+        "change_percent": -4.18
+      },
+      {
+        "ticker": "XSD",
+        "price": 295.22,
+        "change_percent": -4.7
+      },
+      {
+        "ticker": "XLK",
+        "price": 136.39,
+        "change_percent": -5.19
+      },
+      {
+        "ticker": "XNTK",
+        "price": 259.16,
+        "change_percent": -5.58
+      }
+    ]
+  },
+  {
+    "week_ending": "2025-11-28",
+    "etfs": [
+      {
+        "ticker": "XME",
+        "price": 96.97,
+        "change_percent": 9.48
+      },
+      {
+        "ticker": "XSD",
+        "price": 321.14,
+        "change_percent": 8.78
+      },
+      {
+        "ticker": "XTL",
+        "price": 146.31,
+        "change_percent": 8.1
+      },
+      {
+        "ticker": "XNTK",
+        "price": 275.85,
+        "change_percent": 6.44
+      },
+      {
+        "ticker": "XTN",
+        "price": 86.62,
+        "change_percent": 5.62
+      },
+      {
+        "ticker": "XBI",
+        "price": 122.75,
+        "change_percent": 5.58
+      },
+      {
+        "ticker": "XRT",
+        "price": 84.18,
+        "change_percent": 5.52
+      },
+      {
+        "ticker": "XPH",
+        "price": 54.69,
+        "change_percent": 5.0
+      },
+      {
+        "ticker": "XLY",
+        "price": 118.0,
+        "change_percent": 4.86
+      },
+      {
+        "ticker": "XLK",
+        "price": 142.89,
+        "change_percent": 4.77
+      },
+      {
+        "ticker": "XAR",
+        "price": 230.18,
+        "change_percent": 4.64
+      },
+      {
+        "ticker": "XHB",
+        "price": 108.69,
+        "change_percent": 4.55
+      },
+      {
+        "ticker": "XSW",
+        "price": 186.39,
+        "change_percent": 4.46
+      },
+      {
+        "ticker": "XHS",
+        "price": 110.8,
+        "change_percent": 4.41
+      },
+      {
+        "ticker": "XHE",
+        "price": 88.9,
+        "change_percent": 4.4
+      },
+      {
+        "ticker": "XES",
+        "price": 80.87,
+        "change_percent": 4.32
+      },
+      {
+        "ticker": "KCE",
+        "price": 145.1,
+        "change_percent": 4.03
+      },
+      {
+        "ticker": "XLG",
+        "price": 59.49,
+        "change_percent": 3.92
+      },
+      {
+        "ticker": "XLB",
+        "price": 44.47,
+        "change_percent": 3.53
+      },
+      {
+        "ticker": "XOP",
+        "price": 133.05,
+        "change_percent": 3.3
+      },
+      {
+        "ticker": "XLF",
+        "price": 53.14,
+        "change_percent": 3.21
+      },
+      {
+        "ticker": "XLC",
+        "price": 115.02,
+        "change_percent": 3.12
+      },
+      {
+        "ticker": "XLU",
+        "price": 44.98,
+        "change_percent": 2.81
+      },
+      {
+        "ticker": "XLI",
+        "price": 153.17,
+        "change_percent": 2.71
+      },
+      {
+        "ticker": "KBE",
+        "price": 58.59,
+        "change_percent": 2.29
+      },
+      {
+        "ticker": "KRE",
+        "price": 62.6,
+        "change_percent": 2.24
+      },
+      {
+        "ticker": "XLV",
+        "price": 156.98,
+        "change_percent": 1.97
+      },
+      {
+        "ticker": "RWR",
+        "price": 100.74,
+        "change_percent": 1.92
+      },
+      {
+        "ticker": "XLP",
+        "price": 78.74,
+        "change_percent": 1.89
+      },
+      {
+        "ticker": "XLRE",
+        "price": 41.22,
+        "change_percent": 1.88
+      },
+      {
+        "ticker": "KIE",
+        "price": 59.7,
+        "change_percent": 1.73
+      },
+      {
+        "ticker": "XLE",
+        "price": 44.84,
+        "change_percent": 1.15
+      }
+    ]
+  },
+  {
+    "week_ending": "2025-12-05",
+    "etfs": [
+      {
+        "ticker": "XES",
+        "price": 86.34,
+        "change_percent": 6.76
+      },
+      {
+        "ticker": "XSD",
+        "price": 341.74,
+        "change_percent": 6.42
+      },
+      {
+        "ticker": "XTN",
+        "price": 91.79,
+        "change_percent": 5.97
+      },
+      {
+        "ticker": "XTL",
+        "price": 150.92,
+        "change_percent": 3.15
+      },
+      {
+        "ticker": "XNTK",
+        "price": 284.37,
+        "change_percent": 3.09
+      },
+      {
+        "ticker": "XSW",
+        "price": 191.7,
+        "change_percent": 2.85
+      },
+      {
+        "ticker": "KRE",
+        "price": 64.32,
+        "change_percent": 2.75
+      },
+      {
+        "ticker": "XME",
+        "price": 99.62,
+        "change_percent": 2.73
+      },
+      {
+        "ticker": "KCE",
+        "price": 148.97,
+        "change_percent": 2.67
+      },
+      {
+        "ticker": "XLK",
+        "price": 146.38,
+        "change_percent": 2.44
+      },
+      {
+        "ticker": "KBE",
+        "price": 59.93,
+        "change_percent": 2.27
+      },
+      {
+        "ticker": "XRT",
+        "price": 86.06,
+        "change_percent": 2.23
+      },
+      {
+        "ticker": "XOP",
+        "price": 135.7,
+        "change_percent": 1.99
+      },
+      {
+        "ticker": "XLE",
+        "price": 45.53,
+        "change_percent": 1.54
+      },
+      {
+        "ticker": "XLC",
+        "price": 116.75,
+        "change_percent": 1.51
+      },
+      {
+        "ticker": "XLY",
+        "price": 119.49,
+        "change_percent": 1.27
+      },
+      {
+        "ticker": "XLF",
+        "price": 53.49,
+        "change_percent": 0.66
+      },
+      {
+        "ticker": "XLI",
+        "price": 154.05,
+        "change_percent": 0.58
+      },
+      {
+        "ticker": "XHE",
+        "price": 89.32,
+        "change_percent": 0.47
+      },
+      {
+        "ticker": "XLG",
+        "price": 59.64,
+        "change_percent": 0.25
+      },
+      {
+        "ticker": "XAR",
+        "price": 230.71,
+        "change_percent": 0.23
+      },
+      {
+        "ticker": "XBI",
+        "price": 123.0,
+        "change_percent": 0.2
+      },
+      {
+        "ticker": "XPH",
+        "price": 54.25,
+        "change_percent": -0.8
+      },
+      {
+        "ticker": "XLP",
+        "price": 77.84,
+        "change_percent": -1.15
+      },
+      {
+        "ticker": "XHB",
+        "price": 107.23,
+        "change_percent": -1.35
+      },
+      {
+        "ticker": "XLB",
+        "price": 43.86,
+        "change_percent": -1.36
+      },
+      {
+        "ticker": "XLRE",
+        "price": 40.55,
+        "change_percent": -1.63
+      },
+      {
+        "ticker": "RWR",
+        "price": 99.08,
+        "change_percent": -1.65
+      },
+      {
+        "ticker": "KIE",
+        "price": 58.43,
+        "change_percent": -2.13
+      },
+      {
+        "ticker": "XLV",
+        "price": 152.61,
+        "change_percent": -2.78
+      },
+      {
+        "ticker": "XHS",
+        "price": 107.04,
+        "change_percent": -3.39
+      },
+      {
+        "ticker": "XLU",
+        "price": 42.98,
+        "change_percent": -4.45
+      }
+    ]
+  },
+  {
+    "week_ending": "2025-12-12",
+    "etfs": [
+      {
+        "ticker": "KRE",
+        "price": 66.66,
+        "change_percent": 3.65
+      },
+      {
+        "ticker": "KBE",
+        "price": 62.07,
+        "change_percent": 3.58
+      },
+      {
+        "ticker": "XPH",
+        "price": 56.14,
+        "change_percent": 3.48
+      },
+      {
+        "ticker": "KIE",
+        "price": 60.22,
+        "change_percent": 3.06
+      },
+      {
+        "ticker": "XAR",
+        "price": 236.58,
+        "change_percent": 2.54
+      },
+      {
+        "ticker": "XME",
+        "price": 102.01,
+        "change_percent": 2.41
+      },
+      {
+        "ticker": "XLB",
+        "price": 44.92,
+        "change_percent": 2.4
+      },
+      {
+        "ticker": "XLF",
+        "price": 54.76,
+        "change_percent": 2.37
+      },
+      {
+        "ticker": "XHS",
+        "price": 109.48,
+        "change_percent": 2.28
+      },
+      {
+        "ticker": "XTN",
+        "price": 93.84,
+        "change_percent": 2.24
+      },
+      {
+        "ticker": "XRT",
+        "price": 87.72,
+        "change_percent": 1.93
+      },
+      {
+        "ticker": "KCE",
+        "price": 151.29,
+        "change_percent": 1.56
+      },
+      {
+        "ticker": "XLI",
+        "price": 156.21,
+        "change_percent": 1.4
+      },
+      {
+        "ticker": "XTL",
+        "price": 152.88,
+        "change_percent": 1.3
+      },
+      {
+        "ticker": "XLP",
+        "price": 78.79,
+        "change_percent": 1.22
+      },
+      {
+        "ticker": "XLY",
+        "price": 120.46,
+        "change_percent": 0.81
+      },
+      {
+        "ticker": "XLV",
+        "price": 153.41,
+        "change_percent": 0.52
+      },
+      {
+        "ticker": "XSW",
+        "price": 192.58,
+        "change_percent": 0.46
+      },
+      {
+        "ticker": "XHB",
+        "price": 107.7,
+        "change_percent": 0.44
+      },
+      {
+        "ticker": "XHE",
+        "price": 89.34,
+        "change_percent": 0.02
+      },
+      {
+        "ticker": "XBI",
+        "price": 122.72,
+        "change_percent": -0.23
+      },
+      {
+        "ticker": "XLC",
+        "price": 116.17,
+        "change_percent": -0.5
+      },
+      {
+        "ticker": "XLRE",
+        "price": 40.31,
+        "change_percent": -0.59
+      },
+      {
+        "ticker": "XLE",
+        "price": 45.13,
+        "change_percent": -0.89
+      },
+      {
+        "ticker": "RWR",
+        "price": 98.12,
+        "change_percent": -0.98
+      },
+      {
+        "ticker": "XLU",
+        "price": 42.51,
+        "change_percent": -1.09
+      },
+      {
+        "ticker": "XLG",
+        "price": 58.91,
+        "change_percent": -1.22
+      },
+      {
+        "ticker": "XLK",
+        "price": 143.47,
+        "change_percent": -1.98
+      },
+      {
+        "ticker": "XNTK",
+        "price": 278.05,
+        "change_percent": -2.22
+      },
+      {
+        "ticker": "XES",
+        "price": 84.29,
+        "change_percent": -2.38
+      },
+      {
+        "ticker": "XOP",
+        "price": 130.78,
+        "change_percent": -3.63
+      },
+      {
+        "ticker": "XSD",
+        "price": 327.92,
+        "change_percent": -4.04
+      }
+    ]
+  },
+  {
+    "week_ending": "2025-12-19",
+    "etfs": [
+      {
+        "ticker": "XME",
+        "price": 105.04,
+        "change_percent": 2.97
+      },
+      {
+        "ticker": "XAR",
+        "price": 241.16,
+        "change_percent": 1.94
+      },
+      {
+        "ticker": "XLY",
+        "price": 121.61,
+        "change_percent": 0.95
+      },
+      {
+        "ticker": "KIE",
+        "price": 60.62,
+        "change_percent": 0.68
+      },
+      {
+        "ticker": "XLK",
+        "price": 144.38,
+        "change_percent": 0.63
+      },
+      {
+        "ticker": "XLV",
+        "price": 154.28,
+        "change_percent": 0.57
+      },
+      {
+        "ticker": "XLB",
+        "price": 45.14,
+        "change_percent": 0.49
+      },
+      {
+        "ticker": "XNTK",
+        "price": 279.22,
+        "change_percent": 0.42
+      },
+      {
+        "ticker": "KRE",
+        "price": 66.82,
+        "change_percent": 0.24
+      },
+      {
+        "ticker": "XBI",
+        "price": 123.02,
+        "change_percent": 0.24
+      },
+      {
+        "ticker": "XLG",
+        "price": 59.05,
+        "change_percent": 0.24
+      },
+      {
+        "ticker": "KBE",
+        "price": 62.21,
+        "change_percent": 0.22
+      },
+      {
+        "ticker": "XLC",
+        "price": 116.14,
+        "change_percent": -0.03
+      },
+      {
+        "ticker": "XPH",
+        "price": 56.1,
+        "change_percent": -0.07
+      },
+      {
+        "ticker": "XLF",
+        "price": 54.65,
+        "change_percent": -0.2
+      },
+      {
+        "ticker": "XTL",
+        "price": 152.46,
+        "change_percent": -0.27
+      },
+      {
+        "ticker": "XSD",
+        "price": 326.96,
+        "change_percent": -0.29
+      },
+      {
+        "ticker": "XRT",
+        "price": 87.34,
+        "change_percent": -0.43
+      },
+      {
+        "ticker": "XLU",
+        "price": 42.31,
+        "change_percent": -0.47
+      },
+      {
+        "ticker": "XHE",
+        "price": 88.9,
+        "change_percent": -0.49
+      },
+      {
+        "ticker": "RWR",
+        "price": 97.62,
+        "change_percent": -0.5
+      },
+      {
+        "ticker": "XLI",
+        "price": 155.33,
+        "change_percent": -0.56
+      },
+      {
+        "ticker": "KCE",
+        "price": 150.2,
+        "change_percent": -0.72
+      },
+      {
+        "ticker": "XLP",
+        "price": 78.15,
+        "change_percent": -0.81
+      },
+      {
+        "ticker": "XSW",
+        "price": 190.72,
+        "change_percent": -0.97
+      },
+      {
+        "ticker": "XTN",
+        "price": 92.89,
+        "change_percent": -1.02
+      },
+      {
+        "ticker": "XLRE",
+        "price": 39.89,
+        "change_percent": -1.03
+      },
+      {
+        "ticker": "XHS",
+        "price": 108.19,
+        "change_percent": -1.18
+      },
+      {
+        "ticker": "XHB",
+        "price": 104.89,
+        "change_percent": -2.6
+      },
+      {
+        "ticker": "XLE",
+        "price": 43.76,
+        "change_percent": -3.03
+      },
+      {
+        "ticker": "XOP",
+        "price": 124.65,
+        "change_percent": -4.68
+      },
+      {
+        "ticker": "XES",
+        "price": 80.14,
+        "change_percent": -4.92
+      }
+    ]
+  },
+  {
+    "week_ending": "2025-12-26",
+    "etfs": [
+      {
+        "ticker": "XME",
+        "price": 107.71,
+        "change_percent": 2.54
+      },
+      {
+        "ticker": "XAR",
+        "price": 246.3,
+        "change_percent": 2.13
+      },
+      {
+        "ticker": "XPH",
+        "price": 57.28,
+        "change_percent": 2.12
+      },
+      {
+        "ticker": "XLB",
+        "price": 45.87,
+        "change_percent": 1.63
+      },
+      {
+        "ticker": "KCE",
+        "price": 152.41,
+        "change_percent": 1.47
+      },
+      {
+        "ticker": "XLF",
+        "price": 55.43,
+        "change_percent": 1.42
+      },
+      {
+        "ticker": "XLG",
+        "price": 59.88,
+        "change_percent": 1.4
+      },
+      {
+        "ticker": "XLK",
+        "price": 146.31,
+        "change_percent": 1.33
+      },
+      {
+        "ticker": "XBI",
+        "price": 124.57,
+        "change_percent": 1.26
+      },
+      {
+        "ticker": "XLC",
+        "price": 117.59,
+        "change_percent": 1.24
+      },
+      {
+        "ticker": "XNTK",
+        "price": 282.42,
+        "change_percent": 1.15
+      },
+      {
+        "ticker": "XTL",
+        "price": 154.05,
+        "change_percent": 1.05
+      },
+      {
+        "ticker": "XLI",
+        "price": 156.67,
+        "change_percent": 0.87
+      },
+      {
+        "ticker": "XLV",
+        "price": 155.39,
+        "change_percent": 0.72
+      },
+      {
+        "ticker": "XHE",
+        "price": 89.39,
+        "change_percent": 0.55
+      },
+      {
+        "ticker": "XLRE",
+        "price": 40.08,
+        "change_percent": 0.47
+      },
+      {
+        "ticker": "XES",
+        "price": 80.44,
+        "change_percent": 0.37
+      },
+      {
+        "ticker": "XLU",
+        "price": 42.46,
+        "change_percent": 0.35
+      },
+      {
+        "ticker": "XHS",
+        "price": 108.5,
+        "change_percent": 0.29
+      },
+      {
+        "ticker": "XSD",
+        "price": 327.9,
+        "change_percent": 0.29
+      },
+      {
+        "ticker": "XSW",
+        "price": 191.14,
+        "change_percent": 0.22
+      },
+      {
+        "ticker": "XLE",
+        "price": 43.83,
+        "change_percent": 0.16
+      },
+      {
+        "ticker": "XLY",
+        "price": 121.81,
+        "change_percent": 0.16
+      },
+      {
+        "ticker": "XHB",
+        "price": 104.81,
+        "change_percent": -0.08
+      },
+      {
+        "ticker": "XTN",
+        "price": 92.81,
+        "change_percent": -0.09
+      },
+      {
+        "ticker": "RWR",
+        "price": 97.46,
+        "change_percent": -0.17
+      },
+      {
+        "ticker": "XRT",
+        "price": 87.06,
+        "change_percent": -0.32
+      },
+      {
+        "ticker": "KIE",
+        "price": 60.42,
+        "change_percent": -0.34
+      },
+      {
+        "ticker": "XOP",
+        "price": 124.05,
+        "change_percent": -0.48
+      },
+      {
+        "ticker": "KBE",
+        "price": 61.8,
+        "change_percent": -0.65
+      },
+      {
+        "ticker": "XLP",
+        "price": 77.61,
+        "change_percent": -0.7
+      },
+      {
+        "ticker": "KRE",
+        "price": 66.11,
+        "change_percent": -1.07
+      }
+    ]
+  },
+  {
+    "week_ending": "2026-01-02",
+    "etfs": [
+      {
+        "ticker": "XES",
+        "price": 85.0,
+        "change_percent": 5.67
+      },
+      {
+        "ticker": "XLE",
+        "price": 45.65,
+        "change_percent": 4.16
+      },
+      {
+        "ticker": "XOP",
+        "price": 128.96,
+        "change_percent": 3.95
+      },
+      {
+        "ticker": "XSD",
+        "price": 335.36,
+        "change_percent": 2.27
+      },
+      {
+        "ticker": "XLU",
+        "price": 43.18,
+        "change_percent": 1.69
+      },
+      {
+        "ticker": "XAR",
+        "price": 250.4,
+        "change_percent": 1.66
+      },
+      {
+        "ticker": "XTL",
+        "price": 156.46,
+        "change_percent": 1.56
+      },
+      {
+        "ticker": "RWR",
+        "price": 98.42,
+        "change_percent": 0.99
+      },
+      {
+        "ticker": "XLI",
+        "price": 157.98,
+        "change_percent": 0.83
+      },
+      {
+        "ticker": "XLRE",
+        "price": 40.38,
+        "change_percent": 0.74
+      },
+      {
+        "ticker": "XLB",
+        "price": 46.12,
+        "change_percent": 0.54
+      },
+      {
+        "ticker": "XLP",
+        "price": 77.69,
+        "change_percent": 0.11
+      },
+      {
+        "ticker": "XLV",
+        "price": 155.51,
+        "change_percent": 0.08
+      },
+      {
+        "ticker": "XTN",
+        "price": 92.71,
+        "change_percent": -0.1
+      },
+      {
+        "ticker": "XME",
+        "price": 107.53,
+        "change_percent": -0.17
+      },
+      {
+        "ticker": "XHB",
+        "price": 104.55,
+        "change_percent": -0.25
+      },
+      {
+        "ticker": "KCE",
+        "price": 151.61,
+        "change_percent": -0.53
+      },
+      {
+        "ticker": "XLC",
+        "price": 116.9,
+        "change_percent": -0.59
+      },
+      {
+        "ticker": "XLF",
+        "price": 54.93,
+        "change_percent": -0.9
+      },
+      {
+        "ticker": "XNTK",
+        "price": 279.64,
+        "change_percent": -0.98
+      },
+      {
+        "ticker": "KBE",
+        "price": 61.17,
+        "change_percent": -1.03
+      },
+      {
+        "ticker": "XHS",
+        "price": 107.32,
+        "change_percent": -1.09
+      },
+      {
+        "ticker": "KRE",
+        "price": 65.24,
+        "change_percent": -1.31
+      },
+      {
+        "ticker": "XRT",
+        "price": 85.9,
+        "change_percent": -1.33
+      },
+      {
+        "ticker": "XLG",
+        "price": 59.07,
+        "change_percent": -1.36
+      },
+      {
+        "ticker": "XLK",
+        "price": 144.3,
+        "change_percent": -1.37
+      },
+      {
+        "ticker": "KIE",
+        "price": 59.5,
+        "change_percent": -1.51
+      },
+      {
+        "ticker": "XHE",
+        "price": 87.51,
+        "change_percent": -2.1
+      },
+      {
+        "ticker": "XBI",
+        "price": 121.52,
+        "change_percent": -2.45
+      },
+      {
+        "ticker": "XLY",
+        "price": 118.35,
+        "change_percent": -2.84
+      },
+      {
+        "ticker": "XPH",
+        "price": 55.21,
+        "change_percent": -3.62
+      },
+      {
+        "ticker": "XSW",
+        "price": 183.76,
+        "change_percent": -3.86
+      }
+    ]
+  },
+  {
+    "week_ending": "2026-01-09",
+    "etfs": [
+      {
+        "ticker": "XAR",
+        "price": 276.64,
+        "change_percent": 10.48
+      },
+      {
+        "ticker": "XME",
+        "price": 116.9,
+        "change_percent": 8.71
+      },
+      {
+        "ticker": "XHB",
+        "price": 113.2,
+        "change_percent": 8.27
+      },
+      {
+        "ticker": "XTN",
+        "price": 97.99,
+        "change_percent": 5.7
+      },
+      {
+        "ticker": "XHE",
+        "price": 92.24,
+        "change_percent": 5.41
+      },
+      {
+        "ticker": "XLY",
+        "price": 124.41,
+        "change_percent": 5.12
+      },
+      {
+        "ticker": "XRT",
+        "price": 90.09,
+        "change_percent": 4.88
+      },
+      {
+        "ticker": "XES",
+        "price": 89.07,
+        "change_percent": 4.79
+      },
+      {
+        "ticker": "XLB",
+        "price": 48.26,
+        "change_percent": 4.64
+      },
+      {
+        "ticker": "XSD",
+        "price": 347.9,
+        "change_percent": 3.74
+      },
+      {
+        "ticker": "XSW",
+        "price": 190.29,
+        "change_percent": 3.55
+      },
+      {
+        "ticker": "KRE",
+        "price": 67.48,
+        "change_percent": 3.43
+      },
+      {
+        "ticker": "KBE",
+        "price": 63.25,
+        "change_percent": 3.4
+      },
+      {
+        "ticker": "KCE",
+        "price": 156.67,
+        "change_percent": 3.34
+      },
+      {
+        "ticker": "XHS",
+        "price": 110.2,
+        "change_percent": 2.68
+      },
+      {
+        "ticker": "XNTK",
+        "price": 286.91,
+        "change_percent": 2.6
+      },
+      {
+        "ticker": "XLI",
+        "price": 161.93,
+        "change_percent": 2.5
+      },
+      {
+        "ticker": "XBI",
+        "price": 124.5,
+        "change_percent": 2.45
+      },
+      {
+        "ticker": "XLE",
+        "price": 46.67,
+        "change_percent": 2.23
+      },
+      {
+        "ticker": "XLP",
+        "price": 79.25,
+        "change_percent": 2.01
+      },
+      {
+        "ticker": "XLF",
+        "price": 55.73,
+        "change_percent": 1.46
+      },
+      {
+        "ticker": "RWR",
+        "price": 99.71,
+        "change_percent": 1.31
+      },
+      {
+        "ticker": "XLK",
+        "price": 146.15,
+        "change_percent": 1.28
+      },
+      {
+        "ticker": "XLV",
+        "price": 157.31,
+        "change_percent": 1.16
+      },
+      {
+        "ticker": "XPH",
+        "price": 55.76,
+        "change_percent": 1.0
+      },
+      {
+        "ticker": "XTL",
+        "price": 158.02,
+        "change_percent": 1.0
+      },
+      {
+        "ticker": "XLG",
+        "price": 59.59,
+        "change_percent": 0.88
+      },
+      {
+        "ticker": "XLC",
+        "price": 117.91,
+        "change_percent": 0.86
+      },
+      {
+        "ticker": "KIE",
+        "price": 59.94,
+        "change_percent": 0.74
+      },
+      {
+        "ticker": "XLRE",
+        "price": 40.5,
+        "change_percent": 0.3
+      },
+      {
+        "ticker": "XOP",
+        "price": 127.41,
+        "change_percent": -1.2
+      },
+      {
+        "ticker": "XLU",
+        "price": 42.51,
+        "change_percent": -1.55
+      }
+    ]
+  },
+  {
+    "week_ending": "2026-01-16",
+    "etfs": [
+      {
+        "ticker": "XME",
+        "price": 124.14,
+        "change_percent": 6.19
+      },
+      {
+        "ticker": "XAR",
+        "price": 292.74,
+        "change_percent": 5.82
+      },
+      {
+        "ticker": "XLRE",
+        "price": 42.21,
+        "change_percent": 4.22
+      },
+      {
+        "ticker": "XLP",
+        "price": 82.11,
+        "change_percent": 3.61
+      },
+      {
+        "ticker": "XES",
+        "price": 91.91,
+        "change_percent": 3.19
+      },
+      {
+        "ticker": "KCE",
+        "price": 161.48,
+        "change_percent": 3.07
+      },
+      {
+        "ticker": "XLI",
+        "price": 166.9,
+        "change_percent": 3.07
+      },
+      {
+        "ticker": "RWR",
+        "price": 102.59,
+        "change_percent": 2.89
+      },
+      {
+        "ticker": "XOP",
+        "price": 130.29,
+        "change_percent": 2.26
+      },
+      {
+        "ticker": "XLE",
+        "price": 47.69,
+        "change_percent": 2.19
+      },
+      {
+        "ticker": "XSD",
+        "price": 355.47,
+        "change_percent": 2.18
+      },
+      {
+        "ticker": "XTL",
+        "price": 161.46,
+        "change_percent": 2.18
+      },
+      {
+        "ticker": "XLU",
+        "price": 43.39,
+        "change_percent": 2.07
+      },
+      {
+        "ticker": "XHB",
+        "price": 114.56,
+        "change_percent": 1.2
+      },
+      {
+        "ticker": "XLB",
+        "price": 48.68,
+        "change_percent": 0.87
+      },
+      {
+        "ticker": "KRE",
+        "price": 67.85,
+        "change_percent": 0.55
+      },
+      {
+        "ticker": "XTN",
+        "price": 98.38,
+        "change_percent": 0.4
+      },
+      {
+        "ticker": "XRT",
+        "price": 90.42,
+        "change_percent": 0.37
+      },
+      {
+        "ticker": "KBE",
+        "price": 63.26,
+        "change_percent": 0.02
+      },
+      {
+        "ticker": "XPH",
+        "price": 55.71,
+        "change_percent": -0.09
+      },
+      {
+        "ticker": "XHS",
+        "price": 110.08,
+        "change_percent": -0.11
+      },
+      {
+        "ticker": "XBI",
+        "price": 124.18,
+        "change_percent": -0.26
+      },
+      {
+        "ticker": "XLK",
+        "price": 145.62,
+        "change_percent": -0.36
+      },
+      {
+        "ticker": "XNTK",
+        "price": 284.63,
+        "change_percent": -0.79
+      },
+      {
+        "ticker": "XLV",
+        "price": 155.74,
+        "change_percent": -1.0
+      },
+      {
+        "ticker": "XLG",
+        "price": 58.85,
+        "change_percent": -1.24
+      },
+      {
+        "ticker": "XLY",
+        "price": 122.3,
+        "change_percent": -1.7
+      },
+      {
+        "ticker": "XLF",
+        "price": 54.44,
+        "change_percent": -2.31
+      },
+      {
+        "ticker": "XLC",
+        "price": 115.17,
+        "change_percent": -2.32
+      },
+      {
+        "ticker": "KIE",
+        "price": 58.53,
+        "change_percent": -2.35
+      },
+      {
+        "ticker": "XHE",
+        "price": 89.57,
+        "change_percent": -2.89
+      },
+      {
+        "ticker": "XSW",
+        "price": 180.73,
+        "change_percent": -5.02
+      }
+    ]
+  },
+  {
+    "week_ending": "2026-01-23",
+    "etfs": [
+      {
+        "ticker": "XME",
+        "price": 131.44,
+        "change_percent": 5.88
+      },
+      {
+        "ticker": "XES",
+        "price": 95.59,
+        "change_percent": 4.0
+      },
+      {
+        "ticker": "XOP",
+        "price": 135.22,
+        "change_percent": 3.78
+      },
+      {
+        "ticker": "XLE",
+        "price": 49.19,
+        "change_percent": 3.15
+      },
+      {
+        "ticker": "XBI",
+        "price": 128.04,
+        "change_percent": 3.11
+      },
+      {
+        "ticker": "XLB",
+        "price": 49.97,
+        "change_percent": 2.65
+      },
+      {
+        "ticker": "XLC",
+        "price": 116.96,
+        "change_percent": 1.55
+      },
+      {
+        "ticker": "XLV",
+        "price": 157.48,
+        "change_percent": 1.12
+      },
+      {
+        "ticker": "XPH",
+        "price": 56.28,
+        "change_percent": 1.02
+      },
+      {
+        "ticker": "XHS",
+        "price": 111.19,
+        "change_percent": 1.01
+      },
+      {
+        "ticker": "XLP",
+        "price": 82.91,
+        "change_percent": 0.97
+      },
+      {
+        "ticker": "XLY",
+        "price": 123.13,
+        "change_percent": 0.68
+      },
+      {
+        "ticker": "XNTK",
+        "price": 284.29,
+        "change_percent": -0.12
+      },
+      {
+        "ticker": "XTN",
+        "price": 98.15,
+        "change_percent": -0.23
+      },
+      {
+        "ticker": "XTL",
+        "price": 161.01,
+        "change_percent": -0.28
+      },
+      {
+        "ticker": "KRE",
+        "price": 67.61,
+        "change_percent": -0.35
+      },
+      {
+        "ticker": "XLK",
+        "price": 145.09,
+        "change_percent": -0.36
+      },
+      {
+        "ticker": "XLG",
+        "price": 58.63,
+        "change_percent": -0.37
+      },
+      {
+        "ticker": "XSW",
+        "price": 179.98,
+        "change_percent": -0.41
+      },
+      {
+        "ticker": "XSD",
+        "price": 353.34,
+        "change_percent": -0.6
+      },
+      {
+        "ticker": "KBE",
+        "price": 62.79,
+        "change_percent": -0.74
+      },
+      {
+        "ticker": "KIE",
+        "price": 57.88,
+        "change_percent": -1.11
+      },
+      {
+        "ticker": "XLI",
+        "price": 164.22,
+        "change_percent": -1.61
+      },
+      {
+        "ticker": "XHE",
+        "price": 88.05,
+        "change_percent": -1.7
+      },
+      {
+        "ticker": "XRT",
+        "price": 88.86,
+        "change_percent": -1.73
+      },
+      {
+        "ticker": "XLU",
+        "price": 42.56,
+        "change_percent": -1.91
+      },
+      {
+        "ticker": "RWR",
+        "price": 100.3,
+        "change_percent": -2.23
+      },
+      {
+        "ticker": "XLRE",
+        "price": 41.25,
+        "change_percent": -2.27
+      },
+      {
+        "ticker": "KCE",
+        "price": 157.74,
+        "change_percent": -2.32
+      },
+      {
+        "ticker": "XHB",
+        "price": 111.69,
+        "change_percent": -2.51
+      },
+      {
+        "ticker": "XLF",
+        "price": 53.07,
+        "change_percent": -2.52
+      },
+      {
+        "ticker": "XAR",
+        "price": 283.18,
+        "change_percent": -3.27
+      }
+    ]
+  },
+  {
+    "week_ending": "2026-01-30",
+    "etfs": [
+      {
+        "ticker": "XLE",
+        "price": 51.05,
+        "change_percent": 3.78
+      },
+      {
+        "ticker": "XOP",
+        "price": 140.24,
+        "change_percent": 3.71
+      },
+      {
+        "ticker": "XES",
+        "price": 98.99,
+        "change_percent": 3.56
+      },
+      {
+        "ticker": "XTL",
+        "price": 165.61,
+        "change_percent": 2.86
+      },
+      {
+        "ticker": "XLC",
+        "price": 120.08,
+        "change_percent": 2.67
+      },
+      {
+        "ticker": "KRE",
+        "price": 68.81,
+        "change_percent": 1.77
+      },
+      {
+        "ticker": "XLU",
+        "price": 43.25,
+        "change_percent": 1.62
+      },
+      {
+        "ticker": "KBE",
+        "price": 63.57,
+        "change_percent": 1.24
+      },
+      {
+        "ticker": "KIE",
+        "price": 58.44,
+        "change_percent": 0.97
+      },
+      {
+        "ticker": "XLI",
+        "price": 165.44,
+        "change_percent": 0.74
+      },
+      {
+        "ticker": "XLP",
+        "price": 83.51,
+        "change_percent": 0.72
+      },
+      {
+        "ticker": "XLF",
+        "price": 53.44,
+        "change_percent": 0.7
+      },
+      {
+        "ticker": "XLG",
+        "price": 59.01,
+        "change_percent": 0.65
+      },
+      {
+        "ticker": "RWR",
+        "price": 100.92,
+        "change_percent": 0.62
+      },
+      {
+        "ticker": "XLRE",
+        "price": 41.43,
+        "change_percent": 0.44
+      },
+      {
+        "ticker": "XLK",
+        "price": 143.88,
+        "change_percent": -0.83
+      },
+      {
+        "ticker": "XNTK",
+        "price": 281.69,
+        "change_percent": -0.91
+      },
+      {
+        "ticker": "KCE",
+        "price": 155.87,
+        "change_percent": -1.19
+      },
+      {
+        "ticker": "XLB",
+        "price": 49.27,
+        "change_percent": -1.4
+      },
+      {
+        "ticker": "XPH",
+        "price": 55.43,
+        "change_percent": -1.51
+      },
+      {
+        "ticker": "XLY",
+        "price": 121.17,
+        "change_percent": -1.59
+      },
+      {
+        "ticker": "XHE",
+        "price": 86.57,
+        "change_percent": -1.68
+      },
+      {
+        "ticker": "XLV",
+        "price": 154.74,
+        "change_percent": -1.74
+      },
+      {
+        "ticker": "XSD",
+        "price": 346.7,
+        "change_percent": -1.88
+      },
+      {
+        "ticker": "XTN",
+        "price": 96.09,
+        "change_percent": -2.1
+      },
+      {
+        "ticker": "XBI",
+        "price": 124.75,
+        "change_percent": -2.57
+      },
+      {
+        "ticker": "XRT",
+        "price": 86.33,
+        "change_percent": -2.85
+      },
+      {
+        "ticker": "XHB",
+        "price": 108.4,
+        "change_percent": -2.95
+      },
+      {
+        "ticker": "XAR",
+        "price": 272.96,
+        "change_percent": -3.61
+      },
+      {
+        "ticker": "XHS",
+        "price": 106.86,
+        "change_percent": -3.89
+      },
+      {
+        "ticker": "XSW",
+        "price": 167.19,
+        "change_percent": -7.11
+      },
+      {
+        "ticker": "XME",
+        "price": 118.72,
+        "change_percent": -9.68
+      }
+    ]
+  },
+  {
+    "week_ending": "2026-02-06",
+    "etfs": [
+      {
+        "ticker": "XTN",
+        "price": 106.1,
+        "change_percent": 10.42
+      },
+      {
+        "ticker": "XHB",
+        "price": 117.27,
+        "change_percent": 8.18
+      },
+      {
+        "ticker": "KRE",
+        "price": 73.63,
+        "change_percent": 7.0
+      },
+      {
+        "ticker": "KBE",
+        "price": 67.41,
+        "change_percent": 6.04
+      },
+      {
+        "ticker": "XES",
+        "price": 104.64,
+        "change_percent": 5.71
+      },
+      {
+        "ticker": "XLP",
+        "price": 87.94,
+        "change_percent": 5.3
+      },
+      {
+        "ticker": "XLI",
+        "price": 173.18,
+        "change_percent": 4.68
+      },
+      {
+        "ticker": "XLB",
+        "price": 51.51,
+        "change_percent": 4.55
+      },
+      {
+        "ticker": "XOP",
+        "price": 146.41,
+        "change_percent": 4.4
+      },
+      {
+        "ticker": "XLE",
+        "price": 53.25,
+        "change_percent": 4.31
+      },
+      {
+        "ticker": "XRT",
+        "price": 89.73,
+        "change_percent": 3.94
+      },
+      {
+        "ticker": "XSD",
+        "price": 358.8,
+        "change_percent": 3.49
+      },
+      {
+        "ticker": "XPH",
+        "price": 57.27,
+        "change_percent": 3.32
+      },
+      {
+        "ticker": "XME",
+        "price": 122.5,
+        "change_percent": 3.18
+      },
+      {
+        "ticker": "RWR",
+        "price": 103.98,
+        "change_percent": 3.03
+      },
+      {
+        "ticker": "XTL",
+        "price": 170.41,
+        "change_percent": 2.9
+      },
+      {
+        "ticker": "KIE",
+        "price": 59.6,
+        "change_percent": 1.98
+      },
+      {
+        "ticker": "XLV",
+        "price": 157.71,
+        "change_percent": 1.92
+      },
+      {
+        "ticker": "XLF",
+        "price": 54.26,
+        "change_percent": 1.53
+      },
+      {
+        "ticker": "XLRE",
+        "price": 41.99,
+        "change_percent": 1.35
+      },
+      {
+        "ticker": "XBI",
+        "price": 125.51,
+        "change_percent": 0.61
+      },
+      {
+        "ticker": "XLU",
+        "price": 43.35,
+        "change_percent": 0.23
+      },
+      {
+        "ticker": "XAR",
+        "price": 272.23,
+        "change_percent": -0.27
+      },
+      {
+        "ticker": "XHS",
+        "price": 106.27,
+        "change_percent": -0.55
+      },
+      {
+        "ticker": "XHE",
+        "price": 86.06,
+        "change_percent": -0.59
+      },
+      {
+        "ticker": "XLG",
+        "price": 58.31,
+        "change_percent": -1.19
+      },
+      {
+        "ticker": "XLK",
+        "price": 141.13,
+        "change_percent": -1.91
+      },
+      {
+        "ticker": "XLY",
+        "price": 117.99,
+        "change_percent": -2.62
+      },
+      {
+        "ticker": "KCE",
+        "price": 150.57,
+        "change_percent": -3.4
+      },
+      {
+        "ticker": "XLC",
+        "price": 115.76,
+        "change_percent": -3.6
+      },
+      {
+        "ticker": "XNTK",
+        "price": 269.74,
+        "change_percent": -4.24
+      },
+      {
+        "ticker": "XSW",
+        "price": 155.57,
+        "change_percent": -6.95
+      }
+    ]
+  },
+  {
+    "week_ending": "2026-02-13",
+    "etfs": [
+      {
+        "ticker": "XLU",
+        "price": 46.5,
+        "change_percent": 7.27
+      },
+      {
+        "ticker": "XES",
+        "price": 109.28,
+        "change_percent": 4.43
+      },
+      {
+        "ticker": "XLRE",
+        "price": 43.5,
+        "change_percent": 3.6
+      },
+      {
+        "ticker": "XHB",
+        "price": 121.36,
+        "change_percent": 3.49
+      },
+      {
+        "ticker": "XLB",
+        "price": 53.31,
+        "change_percent": 3.49
+      },
+      {
+        "ticker": "XTL",
+        "price": 175.85,
+        "change_percent": 3.19
+      },
+      {
+        "ticker": "RWR",
+        "price": 106.76,
+        "change_percent": 2.67
+      },
+      {
+        "ticker": "XLE",
+        "price": 54.35,
+        "change_percent": 2.07
+      },
+      {
+        "ticker": "XLP",
+        "price": 89.51,
+        "change_percent": 1.79
+      },
+      {
+        "ticker": "XHS",
+        "price": 108.15,
+        "change_percent": 1.77
+      },
+      {
+        "ticker": "XSD",
+        "price": 362.54,
+        "change_percent": 1.04
+      },
+      {
+        "ticker": "XOP",
+        "price": 147.89,
+        "change_percent": 1.01
+      },
+      {
+        "ticker": "XLI",
+        "price": 174.17,
+        "change_percent": 0.57
+      },
+      {
+        "ticker": "XLV",
+        "price": 157.67,
+        "change_percent": -0.03
+      },
+      {
+        "ticker": "XAR",
+        "price": 270.72,
+        "change_percent": -0.55
+      },
+      {
+        "ticker": "XPH",
+        "price": 56.84,
+        "change_percent": -0.75
+      },
+      {
+        "ticker": "XNTK",
+        "price": 267.51,
+        "change_percent": -0.83
+      },
+      {
+        "ticker": "XLC",
+        "price": 114.58,
+        "change_percent": -1.02
+      },
+      {
+        "ticker": "XLK",
+        "price": 139.56,
+        "change_percent": -1.11
+      },
+      {
+        "ticker": "XLY",
+        "price": 116.18,
+        "change_percent": -1.53
+      },
+      {
+        "ticker": "XBI",
+        "price": 122.86,
+        "change_percent": -2.11
+      },
+      {
+        "ticker": "XRT",
+        "price": 87.84,
+        "change_percent": -2.11
+      },
+      {
+        "ticker": "XHE",
+        "price": 84.16,
+        "change_percent": -2.21
+      },
+      {
+        "ticker": "XLG",
+        "price": 56.86,
+        "change_percent": -2.49
+      },
+      {
+        "ticker": "XSW",
+        "price": 151.49,
+        "change_percent": -2.62
+      },
+      {
+        "ticker": "KCE",
+        "price": 146.22,
+        "change_percent": -2.89
+      },
+      {
+        "ticker": "KRE",
+        "price": 71.28,
+        "change_percent": -3.19
+      },
+      {
+        "ticker": "KBE",
+        "price": 65.09,
+        "change_percent": -3.44
+      },
+      {
+        "ticker": "KIE",
+        "price": 57.45,
+        "change_percent": -3.61
+      },
+      {
+        "ticker": "XME",
+        "price": 117.83,
+        "change_percent": -3.81
+      },
+      {
+        "ticker": "XTN",
+        "price": 101.52,
+        "change_percent": -4.32
+      },
+      {
+        "ticker": "XLF",
+        "price": 51.65,
+        "change_percent": -4.81
+      }
+    ]
+  },
+  {
+    "week_ending": "2026-02-20",
+    "etfs": [
+      {
+        "ticker": "XAR",
+        "price": 282.01,
+        "change_percent": 4.17
+      },
+      {
+        "ticker": "XHE",
+        "price": 87.29,
+        "change_percent": 3.72
+      },
+      {
+        "ticker": "XOP",
+        "price": 151.86,
+        "change_percent": 2.68
+      },
+      {
+        "ticker": "XTN",
+        "price": 104.04,
+        "change_percent": 2.48
+      },
+      {
+        "ticker": "XES",
+        "price": 111.55,
+        "change_percent": 2.08
+      },
+      {
+        "ticker": "XLC",
+        "price": 116.8,
+        "change_percent": 1.94
+      },
+      {
+        "ticker": "XLI",
+        "price": 177.23,
+        "change_percent": 1.76
+      },
+      {
+        "ticker": "XTL",
+        "price": 178.73,
+        "change_percent": 1.64
+      },
+      {
+        "ticker": "XLF",
+        "price": 52.49,
+        "change_percent": 1.63
+      },
+      {
+        "ticker": "XBI",
+        "price": 124.78,
+        "change_percent": 1.56
+      },
+      {
+        "ticker": "XLG",
+        "price": 57.65,
+        "change_percent": 1.39
+      },
+      {
+        "ticker": "XLY",
+        "price": 117.45,
+        "change_percent": 1.09
+      },
+      {
+        "ticker": "XLE",
+        "price": 54.88,
+        "change_percent": 0.98
+      },
+      {
+        "ticker": "XLK",
+        "price": 140.88,
+        "change_percent": 0.95
+      },
+      {
+        "ticker": "XRT",
+        "price": 88.66,
+        "change_percent": 0.93
+      },
+      {
+        "ticker": "KRE",
+        "price": 71.9,
+        "change_percent": 0.87
+      },
+      {
+        "ticker": "XNTK",
+        "price": 269.71,
+        "change_percent": 0.82
+      },
+      {
+        "ticker": "KBE",
+        "price": 65.52,
+        "change_percent": 0.66
+      },
+      {
+        "ticker": "KIE",
+        "price": 57.69,
+        "change_percent": 0.42
+      },
+      {
+        "ticker": "RWR",
+        "price": 107.15,
+        "change_percent": 0.37
+      },
+      {
+        "ticker": "XPH",
+        "price": 57.03,
+        "change_percent": 0.33
+      },
+      {
+        "ticker": "XLRE",
+        "price": 43.56,
+        "change_percent": 0.14
+      },
+      {
+        "ticker": "KCE",
+        "price": 146.12,
+        "change_percent": -0.07
+      },
+      {
+        "ticker": "XHS",
+        "price": 107.86,
+        "change_percent": -0.27
+      },
+      {
+        "ticker": "XME",
+        "price": 117.46,
+        "change_percent": -0.31
+      },
+      {
+        "ticker": "XLU",
+        "price": 46.33,
+        "change_percent": -0.37
+      },
+      {
+        "ticker": "XLV",
+        "price": 156.82,
+        "change_percent": -0.54
+      },
+      {
+        "ticker": "XLB",
+        "price": 52.96,
+        "change_percent": -0.66
+      },
+      {
+        "ticker": "XSW",
+        "price": 149.41,
+        "change_percent": -1.37
+      },
+      {
+        "ticker": "XSD",
+        "price": 356.98,
+        "change_percent": -1.53
+      },
+      {
+        "ticker": "XLP",
+        "price": 87.89,
+        "change_percent": -1.81
+      },
+      {
+        "ticker": "XHB",
+        "price": 118.91,
+        "change_percent": -2.02
+      }
+    ]
+  },
+  {
+    "week_ending": "2026-02-27",
+    "etfs": [
+      {
+        "ticker": "XLU",
+        "price": 47.73,
+        "change_percent": 3.02
+      },
+      {
+        "ticker": "XTL",
+        "price": 184.02,
+        "change_percent": 2.96
+      },
+      {
+        "ticker": "XLP",
+        "price": 90.01,
+        "change_percent": 2.41
+      },
+      {
+        "ticker": "XLV",
+        "price": 160.2,
+        "change_percent": 2.16
+      },
+      {
+        "ticker": "XBI",
+        "price": 127.37,
+        "change_percent": 2.08
+      },
+      {
+        "ticker": "XLE",
+        "price": 55.92,
+        "change_percent": 1.9
+      },
+      {
+        "ticker": "XME",
+        "price": 119.35,
+        "change_percent": 1.61
+      },
+      {
+        "ticker": "XES",
+        "price": 113.05,
+        "change_percent": 1.34
+      },
+      {
+        "ticker": "XHE",
+        "price": 88.4,
+        "change_percent": 1.27
+      },
+      {
+        "ticker": "XOP",
+        "price": 153.72,
+        "change_percent": 1.22
+      },
+      {
+        "ticker": "XLC",
+        "price": 118.05,
+        "change_percent": 1.07
+      },
+      {
+        "ticker": "RWR",
+        "price": 108.15,
+        "change_percent": 0.93
+      },
+      {
+        "ticker": "XLB",
+        "price": 53.41,
+        "change_percent": 0.85
+      },
+      {
+        "ticker": "KIE",
+        "price": 58.13,
+        "change_percent": 0.76
+      },
+      {
+        "ticker": "XSW",
+        "price": 150.55,
+        "change_percent": 0.76
+      },
+      {
+        "ticker": "XLRE",
+        "price": 43.84,
+        "change_percent": 0.64
+      },
+      {
+        "ticker": "XPH",
+        "price": 57.34,
+        "change_percent": 0.54
+      },
+      {
+        "ticker": "XHS",
+        "price": 108.31,
+        "change_percent": 0.42
+      },
+      {
+        "ticker": "XAR",
+        "price": 282.94,
+        "change_percent": 0.33
+      },
+      {
+        "ticker": "XLI",
+        "price": 177.14,
+        "change_percent": -0.05
+      },
+      {
+        "ticker": "XNTK",
+        "price": 268.48,
+        "change_percent": -0.46
+      },
+      {
+        "ticker": "XLY",
+        "price": 116.86,
+        "change_percent": -0.5
+      },
+      {
+        "ticker": "KCE",
+        "price": 144.9,
+        "change_percent": -0.83
+      },
+      {
+        "ticker": "XLG",
+        "price": 57.12,
+        "change_percent": -0.92
+      },
+      {
+        "ticker": "XLK",
+        "price": 138.76,
+        "change_percent": -1.5
+      },
+      {
+        "ticker": "XTN",
+        "price": 102.35,
+        "change_percent": -1.62
+      },
+      {
+        "ticker": "XSD",
+        "price": 351.04,
+        "change_percent": -1.66
+      },
+      {
+        "ticker": "XRT",
+        "price": 86.98,
+        "change_percent": -1.89
+      },
+      {
+        "ticker": "XLF",
+        "price": 51.43,
+        "change_percent": -2.02
+      },
+      {
+        "ticker": "XHB",
+        "price": 115.34,
+        "change_percent": -3.0
+      },
+      {
+        "ticker": "KBE",
+        "price": 61.05,
+        "change_percent": -6.82
+      },
+      {
+        "ticker": "KRE",
+        "price": 66.77,
+        "change_percent": -7.13
+      }
+    ]
+  }
+]
