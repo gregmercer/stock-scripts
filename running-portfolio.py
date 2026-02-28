@@ -82,11 +82,11 @@ def generate_portfolio_report(portfolio_history, rolling_data):
     report_lines = []
     report_lines.append("=" * 100)
     report_lines.append("Running Portfolio Report")
-    report_lines.append("Maintains Top 5 ETFs with Momentum-Based Rotation")
+    report_lines.append("Maintains Top 5 ETFs with Momentum-Based Rotation (by Geometric Average)")
     report_lines.append("=" * 100)
     report_lines.append("")
     report_lines.append("Rules:")
-    report_lines.append("  - Start with top 5 from first period")
+    report_lines.append("  - Start with top 5 from first period (ranked by geometric average)")
     report_lines.append("  - Keep holdings if they remain in top 10")
     report_lines.append("  - Drop holdings that fall out of top 10")
     report_lines.append("  - Fill empty slots with highest ranked ETFs not already held")
@@ -143,16 +143,17 @@ def generate_portfolio_report(portfolio_history, rolling_data):
     for period in rolling_data:
         report_lines.append(f"Period: {period['period_start']} to {period['period_end']}")
         report_lines.append("-" * 100)
-        report_lines.append(f"{'Rank':<6} {'Ticker':<8} {'Weeks Positive':<16} {'Most Recent %':<16}")
+        report_lines.append(f"{'Rank':<6} {'Ticker':<8} {'Geo Avg %':<14} {'Weeks Positive':<16} {'Most Recent %':<16}")
         report_lines.append("-" * 100)
 
         for rank, etf in enumerate(period['top_10_etfs'], 1):
             ticker = etf['ticker']
+            geo_avg = etf.get('geometric_avg', 0.0)
             weeks_pos = etf['weeks_positive']
             recent_change = etf['most_recent_change']
 
             report_lines.append(
-                f"{rank:<6} {ticker:<8} {weeks_pos:<16} {recent_change:>14.2f}%"
+                f"{rank:<6} {ticker:<8} {geo_avg:>12.2f}% {weeks_pos:<16} {recent_change:>14.2f}%"
             )
 
         report_lines.append("")

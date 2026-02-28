@@ -1,7 +1,30 @@
 import json
 import argparse
+import numpy as np
 from pathlib import Path
 from datetime import datetime
+
+def calculate_geometric_average(changes):
+    """
+    Calculate geometric average return from a list of percentage returns.
+    Formula: [(1 + r1/100) * (1 + r2/100) * ... * (1 + rn/100)]^(1/n) - 1
+    Returns percentage value.
+    """
+    if not changes or all(c is None for c in changes):
+        return None
+
+    # Filter out None values
+    valid_changes = [c for c in changes if c is not None]
+    if len(valid_changes) == 0:
+        return None
+
+    # Convert percentage to decimal, add 1, multiply together
+    product = np.prod([1 + c / 100 for c in valid_changes])
+
+    # Take nth root and subtract 1, convert back to percentage
+    geo_avg = (product ** (1 / len(valid_changes)) - 1) * 100
+
+    return geo_avg
 
 def calculate_rolling_ten_week_scores(weekly_data):
     """
@@ -46,18 +69,22 @@ def calculate_rolling_ten_week_scores(weekly_data):
                 if change_percent > 0:
                     etf_scores[ticker]['weeks_positive'] += 1
 
-        # Convert to list and sort by weeks_positive, then by most recent week
+        # Convert to list and calculate geometric average for each ETF
         etf_list = []
         for ticker, data in etf_scores.items():
+            changes = [w['change'] for w in data['weekly_changes']]
+            geo_avg = calculate_geometric_average(changes)
+
             etf_list.append({
                 'ticker': ticker,
+                'geometric_avg': geo_avg,
                 'weeks_positive': data['weeks_positive'],
                 'most_recent_change': data['weekly_changes'][-1]['change'],
                 'weekly_changes': data['weekly_changes']
             })
 
-        # Sort by weeks_positive (descending), then by most_recent_change (descending)
-        etf_list.sort(key=lambda x: (x['weeks_positive'], x['most_recent_change']), reverse=True)
+        # Sort by geometric_avg (descending), then by weeks_positive (descending)
+        etf_list.sort(key=lambda x: (x['geometric_avg'] if x['geometric_avg'] is not None else -float('inf'), x['weeks_positive']), reverse=True)
 
         # Get top 10
         top_10 = etf_list[:10]
@@ -69,6 +96,7 @@ def calculate_rolling_ten_week_scores(weekly_data):
             'top_10_etfs': [
                 {
                     'ticker': etf['ticker'],
+                    'geometric_avg': round(etf['geometric_avg'], 2) if etf['geometric_avg'] is not None else None,
                     'weeks_positive': etf['weeks_positive'],
                     'most_recent_change': round(etf['most_recent_change'], 2),
                     'weekly_changes': [

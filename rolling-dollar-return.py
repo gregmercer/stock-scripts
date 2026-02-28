@@ -316,6 +316,7 @@ def generate_dollar_return_report(weekly_portfolio_values):
     report_lines = []
     report_lines.append("=" * 140)
     report_lines.append("Rolling Portfolio Dollar Return Report")
+    report_lines.append("Portfolio Selection Based on Geometric Average Rankings")
     report_lines.append(f"Initial Portfolio Value: ${INITIAL_PORTFOLIO_VALUE:,.2f}")
     report_lines.append(f"Initial Position Size: ${INITIAL_POSITION_VALUE:,.2f} per position")
     report_lines.append("=" * 140)

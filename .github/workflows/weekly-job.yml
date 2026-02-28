@@ -26,10 +26,10 @@ jobs:
         run: |
           uv sync
 
-      - name: Run weekly price change report
+      - name: Run weekly performance report
         run: |
           REPORT_DATE=$(TZ=America/Los_Angeles date +%Y-%m-%d)
-          uv run weekly-price-change.py > output/weekly-report-${REPORT_DATE}.txt
+          uv run weekly-performance.py > output/weekly-performance-report-${REPORT_DATE}.txt
 
       - name: Run complete analysis pipeline
         run: |
@@ -54,7 +54,7 @@ jobs:
             REPORT_DATE=$(TZ=America/Los_Angeles date +%Y-%m-%d)
             git commit -m "Weekly report ${REPORT_DATE}" \
                        -m "Generated files:" \
-                       -m "- week-report-${REPORT_DATE}.txt" \
+                       -m "- weekly-performance-report-${REPORT_DATE}.txt" \
                        -m "- weekly-performance-${REPORT_DATE}.json" \
                        -m "- rolling-performance-${REPORT_DATE}.json" \
                        -m "- report-rolling-performance-${REPORT_DATE}.txt" \

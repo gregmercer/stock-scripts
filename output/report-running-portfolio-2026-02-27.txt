@@ -1,10 +1,10 @@
 ====================================================================================================
 Running Portfolio Report
-Maintains Top 5 ETFs with Momentum-Based Rotation
+Maintains Top 5 ETFs with Momentum-Based Rotation (by Geometric Average)
 ====================================================================================================
 
 Rules:
-  - Start with top 5 from first period
+  - Start with top 5 from first period (ranked by geometric average)
   - Keep holdings if they remain in top 10
   - Drop holdings that fall out of top 10
   - Fill empty slots with highest ranked ETFs not already held
@@ -13,49 +13,49 @@ Rules:
 
 Period                         | Portfolio (5 ETFs)                       | Changes
 ----------------------------------------------------------------------------------------------------
-2025-03-07 - 2025-05-09        | XOP, KIE, XES, XAR, XTN                  | +XOP, KIE, XES, XAR, XTN
-2025-03-14 - 2025-05-16        | XOP, KIE, XES, XAR, XTN                  | No changes
-2025-03-21 - 2025-05-23        | XOP, KIE, XES, XAR, XTN                  | No changes
-2025-03-28 - 2025-05-30        | KIE, XES, XAR, XTN, XME                  | +XME -XOP
-2025-04-04 - 2025-06-06        | XES, XAR, XTN, XME, XBI                  | +XBI -KIE
-2025-04-11 - 2025-06-13        | XES, XAR, XTN, XME, XBI                  | No changes
-2025-04-18 - 2025-06-20        | XES, XAR, XTN, XME, KCE                  | +KCE -XBI
-2025-04-25 - 2025-06-27        | XAR, XTN, XME, KCE, XNTK                 | +XNTK -XES
-2025-05-02 - 2025-07-04        | XTN, XME, KCE, XNTK, XLK                 | +XLK -XAR
-2025-05-09 - 2025-07-11        | XTN, XME, KCE, XNTK, XLK                 | No changes
-2025-05-16 - 2025-07-18        | XME, KCE, XNTK, XLK, XAR                 | +XAR -XTN
-2025-05-23 - 2025-07-25        | XME, KCE, XLK, XTN, XPH                  | +XTN, XPH -XNTK, XAR
-2025-05-30 - 2025-08-01        | XME, KCE, XLK, XPH, XLU                  | +XLU -XTN
-2025-06-06 - 2025-08-08        | XME, KCE, XLK, XPH, XLU                  | No changes
-2025-06-13 - 2025-08-15        | XME, KCE, XPH, XLU, XHB                  | +XHB -XLK
-2025-06-20 - 2025-08-22        | XME, KCE, XPH, XLU, XHB                  | No changes
-2025-06-27 - 2025-08-29        | XME, KCE, XPH, XLU, XLF                  | +XLF -XHB
-2025-07-04 - 2025-09-05        | XME, XPH, XLY, XHB, XLC                  | +XLY, XHB, XLC -KCE, XLU, XLF
-2025-07-11 - 2025-09-12        | XME, XPH, XLY, XLC, XSD                  | +XSD -XHB
-2025-07-18 - 2025-09-19        | XME, XPH, XLY, XLC, XSD                  | No changes
-2025-07-25 - 2025-09-26        | XME, XPH, XLY, XLC, XSD                  | No changes
-2025-08-01 - 2025-10-03        | XME, XPH, XSD, XTL, XAR                  | +XTL, XAR -XLY, XLC
-2025-08-08 - 2025-10-10        | XME, XPH, XSD, XTL, XAR                  | No changes
-2025-08-15 - 2025-10-17        | XME, XPH, XSD, XTL, XBI                  | +XBI -XAR
-2025-08-22 - 2025-10-24        | XME, XPH, XSD, XTL, XBI                  | No changes
-2025-08-29 - 2025-10-31        | XME, XPH, XSD, XTL, XBI                  | No changes
-2025-09-05 - 2025-11-07        | XME, XPH, XSD, XTL, XBI                  | No changes
-2025-09-12 - 2025-11-14        | XPH, XBI, XLE, XLG, XNTK                 | +XLE, XLG, XNTK -XME, XSD, XTL
-2025-09-19 - 2025-11-21        | XPH, XBI, XLE, XLG, XNTK                 | No changes
-2025-09-26 - 2025-11-28        | XPH, XBI, XLE, XLG, XNTK                 | No changes
-2025-10-03 - 2025-12-05        | XPH, XBI, XLE, XLG, XHE                  | +XHE -XNTK
-2025-10-10 - 2025-12-12        | XPH, XBI, XLE, XHE, XLP                  | +XLP -XLG
-2025-10-17 - 2025-12-19        | XPH, XBI, XLE, XHE, XLV                  | +XLV -XLP
-2025-10-24 - 2025-12-26        | XPH, XBI, XLE, XHE, XLV                  | No changes
-2025-10-31 - 2026-01-02        | XBI, XLE, XHE, XLV, XLB                  | +XLB -XPH
-2025-11-07 - 2026-01-09        | XBI, XLE, XHE, XLV, XLB                  | No changes
-2025-11-14 - 2026-01-16        | XLE, XLV, XLB, XAR, XME                  | +XAR, XME -XBI, XHE
-2025-11-21 - 2026-01-23        | XLE, XLV, XLB, XAR, XME                  | No changes
-2025-11-28 - 2026-01-30        | XLE, XLB, XAR, XME, XES                  | +XES -XLV
-2025-12-05 - 2026-02-06        | XLE, XLB, XME, XES, XLI                  | +XLI -XAR
-2025-12-12 - 2026-02-13        | XLE, XLB, XME, XES, XLI                  | No changes
-2025-12-19 - 2026-02-20        | XLE, XLB, XES, XLI, XTL                  | +XTL -XME
-2025-12-26 - 2026-02-27        | XLE, XLB, XES, XLI, XTL                  | No changes
+2025-03-07 - 2025-05-09        | XAR, XLU, XME, XLI, XHS                  | +XAR, XLU, XME, XLI, XHS
+2025-03-14 - 2025-05-16        | XAR, XLU, XME, XLI, XNTK                 | +XNTK -XHS
+2025-03-21 - 2025-05-23        | XAR, XME, XLI, XNTK, XRT                 | +XRT -XLU
+2025-03-28 - 2025-05-30        | XAR, XLI, XNTK, XRT, XLY                 | +XLY -XME
+2025-04-04 - 2025-06-06        | XAR, XLI, XNTK, XRT, XSD                 | +XSD -XLY
+2025-04-11 - 2025-06-13        | XAR, XLI, XNTK, XSD, XME                 | +XME -XRT
+2025-04-18 - 2025-06-20        | XAR, XNTK, XSD, XME, XOP                 | +XOP -XLI
+2025-04-25 - 2025-06-27        | XAR, XNTK, XSD, XME, XLK                 | +XLK -XOP
+2025-05-02 - 2025-07-04        | XAR, XNTK, XSD, XME, XLK                 | No changes
+2025-05-09 - 2025-07-11        | XAR, XNTK, XSD, XME, XLK                 | No changes
+2025-05-16 - 2025-07-18        | XAR, XNTK, XSD, XME, XLK                 | No changes
+2025-05-23 - 2025-07-25        | XAR, XSD, XME, XLK, XTL                  | +XTL -XNTK
+2025-05-30 - 2025-08-01        | XAR, XSD, XME, XLK, XTL                  | No changes
+2025-06-06 - 2025-08-08        | XAR, XSD, XME, XLK, XTL                  | No changes
+2025-06-13 - 2025-08-15        | XAR, XSD, XME, XLK, XTL                  | No changes
+2025-06-20 - 2025-08-22        | XSD, XME, XTL, XHB, KCE                  | +XHB, KCE -XAR, XLK
+2025-06-27 - 2025-08-29        | XSD, XME, XTL, XHB, KCE                  | No changes
+2025-07-04 - 2025-09-05        | XSD, XME, XTL, XHB, XPH                  | +XPH -KCE
+2025-07-11 - 2025-09-12        | XSD, XME, XTL, XHB, XPH                  | No changes
+2025-07-18 - 2025-09-19        | XSD, XME, XTL, XPH, XNTK                 | +XNTK -XHB
+2025-07-25 - 2025-09-26        | XSD, XME, XTL, XPH, XNTK                 | No changes
+2025-08-01 - 2025-10-03        | XSD, XME, XTL, XPH, XNTK                 | No changes
+2025-08-08 - 2025-10-10        | XSD, XME, XTL, XPH, XNTK                 | No changes
+2025-08-15 - 2025-10-17        | XSD, XME, XTL, XPH, XNTK                 | No changes
+2025-08-22 - 2025-10-24        | XSD, XME, XTL, XNTK, XES                 | +XES -XPH
+2025-08-29 - 2025-10-31        | XSD, XME, XTL, XNTK, XES                 | No changes
+2025-09-05 - 2025-11-07        | XSD, XME, XTL, XNTK, XES                 | No changes
+2025-09-12 - 2025-11-14        | XSD, XME, XNTK, XES, XBI                 | +XBI -XTL
+2025-09-19 - 2025-11-21        | XME, XES, XBI, XPH, XLV                  | +XPH, XLV -XSD, XNTK
+2025-09-26 - 2025-11-28        | XME, XES, XBI, XPH, XLV                  | No changes
+2025-10-03 - 2025-12-05        | XME, XES, XBI, XPH, XLV                  | No changes
+2025-10-10 - 2025-12-12        | XME, XES, XBI, XPH, XLV                  | No changes
+2025-10-17 - 2025-12-19        | XES, XBI, XPH, XLV, XHE                  | +XHE -XME
+2025-10-24 - 2025-12-26        | XES, XBI, XPH, XLV, XHE                  | No changes
+2025-10-31 - 2026-01-02        | XES, XBI, XPH, XLV, XHE                  | No changes
+2025-11-07 - 2026-01-09        | XBI, XPH, XHE, XME, XTN                  | +XME, XTN -XES, XLV
+2025-11-14 - 2026-01-16        | XBI, XPH, XME, XTN, XAR                  | +XAR -XHE
+2025-11-21 - 2026-01-23        | XBI, XME, XTN, XAR, XES                  | +XES -XPH
+2025-11-28 - 2026-01-30        | XME, XTN, XAR, XES, XTL                  | +XTL -XBI
+2025-12-05 - 2026-02-06        | XME, XTN, XAR, XES, XTL                  | No changes
+2025-12-12 - 2026-02-13        | XME, XAR, XES, XTL, XLB                  | +XLB -XTN
+2025-12-19 - 2026-02-20        | XME, XAR, XES, XTL, XLB                  | No changes
+2025-12-26 - 2026-02-27        | XME, XAR, XES, XTL, XLB                  | No changes
 
 ====================================================================================================
 Detailed Period Breakdown
@@ -63,240 +63,237 @@ Detailed Period Breakdown
 
 Period: 2025-03-07 to 2025-05-09
 ----------------------------------------------------------------------------------------------------
-Portfolio: XOP, KIE, XES, XAR, XTN
-Added:    XOP, KIE, XES, XAR, XTN
+Portfolio: XAR, XLU, XME, XLI, XHS
+Added:    XAR, XLU, XME, XLI, XHS
 
 Period: 2025-03-14 to 2025-05-16
 ----------------------------------------------------------------------------------------------------
-Portfolio: XOP, KIE, XES, XAR, XTN
-No changes from previous period
+Portfolio: XAR, XLU, XME, XLI, XNTK
+Added:    XNTK
+Dropped:  XHS
 
 Period: 2025-03-21 to 2025-05-23
 ----------------------------------------------------------------------------------------------------
-Portfolio: XOP, KIE, XES, XAR, XTN
-No changes from previous period
+Portfolio: XAR, XME, XLI, XNTK, XRT
+Added:    XRT
+Dropped:  XLU
 
 Period: 2025-03-28 to 2025-05-30
 ----------------------------------------------------------------------------------------------------
-Portfolio: KIE, XES, XAR, XTN, XME
-Added:    XME
-Dropped:  XOP
+Portfolio: XAR, XLI, XNTK, XRT, XLY
+Added:    XLY
+Dropped:  XME
 
 Period: 2025-04-04 to 2025-06-06
 ----------------------------------------------------------------------------------------------------
-Portfolio: XES, XAR, XTN, XME, XBI
-Added:    XBI
-Dropped:  KIE
+Portfolio: XAR, XLI, XNTK, XRT, XSD
+Added:    XSD
+Dropped:  XLY
 
 Period: 2025-04-11 to 2025-06-13
 ----------------------------------------------------------------------------------------------------
-Portfolio: XES, XAR, XTN, XME, XBI
-No changes from previous period
+Portfolio: XAR, XLI, XNTK, XSD, XME
+Added:    XME
+Dropped:  XRT
 
 Period: 2025-04-18 to 2025-06-20
 ----------------------------------------------------------------------------------------------------
-Portfolio: XES, XAR, XTN, XME, KCE
-Added:    KCE
-Dropped:  XBI
+Portfolio: XAR, XNTK, XSD, XME, XOP
+Added:    XOP
+Dropped:  XLI
 
 Period: 2025-04-25 to 2025-06-27
 ----------------------------------------------------------------------------------------------------
-Portfolio: XAR, XTN, XME, KCE, XNTK
-Added:    XNTK
-Dropped:  XES
+Portfolio: XAR, XNTK, XSD, XME, XLK
+Added:    XLK
+Dropped:  XOP
 
 Period: 2025-05-02 to 2025-07-04
 ----------------------------------------------------------------------------------------------------
-Portfolio: XTN, XME, KCE, XNTK, XLK
-Added:    XLK
-Dropped:  XAR
+Portfolio: XAR, XNTK, XSD, XME, XLK
+No changes from previous period
 
 Period: 2025-05-09 to 2025-07-11
 ----------------------------------------------------------------------------------------------------
-Portfolio: XTN, XME, KCE, XNTK, XLK
+Portfolio: XAR, XNTK, XSD, XME, XLK
 No changes from previous period
 
 Period: 2025-05-16 to 2025-07-18
 ----------------------------------------------------------------------------------------------------
-Portfolio: XME, KCE, XNTK, XLK, XAR
-Added:    XAR
-Dropped:  XTN
+Portfolio: XAR, XNTK, XSD, XME, XLK
+No changes from previous period
 
 Period: 2025-05-23 to 2025-07-25
 ----------------------------------------------------------------------------------------------------
-Portfolio: XME, KCE, XLK, XTN, XPH
-Added:    XTN, XPH
-Dropped:  XNTK, XAR
+Portfolio: XAR, XSD, XME, XLK, XTL
+Added:    XTL
+Dropped:  XNTK
 
 Period: 2025-05-30 to 2025-08-01
 ----------------------------------------------------------------------------------------------------
-Portfolio: XME, KCE, XLK, XPH, XLU
-Added:    XLU
-Dropped:  XTN
+Portfolio: XAR, XSD, XME, XLK, XTL
+No changes from previous period
 
 Period: 2025-06-06 to 2025-08-08
 ----------------------------------------------------------------------------------------------------
-Portfolio: XME, KCE, XLK, XPH, XLU
+Portfolio: XAR, XSD, XME, XLK, XTL
 No changes from previous period
 
 Period: 2025-06-13 to 2025-08-15
 ----------------------------------------------------------------------------------------------------
-Portfolio: XME, KCE, XPH, XLU, XHB
-Added:    XHB
-Dropped:  XLK
+Portfolio: XAR, XSD, XME, XLK, XTL
+No changes from previous period
 
 Period: 2025-06-20 to 2025-08-22
 ----------------------------------------------------------------------------------------------------
-Portfolio: XME, KCE, XPH, XLU, XHB
-No changes from previous period
+Portfolio: XSD, XME, XTL, XHB, KCE
+Added:    XHB, KCE
+Dropped:  XAR, XLK
 
 Period: 2025-06-27 to 2025-08-29
 ----------------------------------------------------------------------------------------------------
-Portfolio: XME, KCE, XPH, XLU, XLF
-Added:    XLF
-Dropped:  XHB
+Portfolio: XSD, XME, XTL, XHB, KCE
+No changes from previous period
 
 Period: 2025-07-04 to 2025-09-05
 ----------------------------------------------------------------------------------------------------
-Portfolio: XME, XPH, XLY, XHB, XLC
-Added:    XLY, XHB, XLC
-Dropped:  KCE, XLU, XLF
+Portfolio: XSD, XME, XTL, XHB, XPH
+Added:    XPH
+Dropped:  KCE
 
 Period: 2025-07-11 to 2025-09-12
 ----------------------------------------------------------------------------------------------------
-Portfolio: XME, XPH, XLY, XLC, XSD
-Added:    XSD
-Dropped:  XHB
+Portfolio: XSD, XME, XTL, XHB, XPH
+No changes from previous period
 
 Period: 2025-07-18 to 2025-09-19
 ----------------------------------------------------------------------------------------------------
-Portfolio: XME, XPH, XLY, XLC, XSD
-No changes from previous period
+Portfolio: XSD, XME, XTL, XPH, XNTK
+Added:    XNTK
+Dropped:  XHB
 
 Period: 2025-07-25 to 2025-09-26
 ----------------------------------------------------------------------------------------------------
-Portfolio: XME, XPH, XLY, XLC, XSD
+Portfolio: XSD, XME, XTL, XPH, XNTK
 No changes from previous period
 
 Period: 2025-08-01 to 2025-10-03
 ----------------------------------------------------------------------------------------------------
-Portfolio: XME, XPH, XSD, XTL, XAR
-Added:    XTL, XAR
-Dropped:  XLY, XLC
+Portfolio: XSD, XME, XTL, XPH, XNTK
+No changes from previous period
 
 Period: 2025-08-08 to 2025-10-10
 ----------------------------------------------------------------------------------------------------
-Portfolio: XME, XPH, XSD, XTL, XAR
+Portfolio: XSD, XME, XTL, XPH, XNTK
 No changes from previous period
 
 Period: 2025-08-15 to 2025-10-17
 ----------------------------------------------------------------------------------------------------
-Portfolio: XME, XPH, XSD, XTL, XBI
-Added:    XBI
-Dropped:  XAR
+Portfolio: XSD, XME, XTL, XPH, XNTK
+No changes from previous period
 
 Period: 2025-08-22 to 2025-10-24
 ----------------------------------------------------------------------------------------------------
-Portfolio: XME, XPH, XSD, XTL, XBI
-No changes from previous period
+Portfolio: XSD, XME, XTL, XNTK, XES
+Added:    XES
+Dropped:  XPH
 
 Period: 2025-08-29 to 2025-10-31
 ----------------------------------------------------------------------------------------------------
-Portfolio: XME, XPH, XSD, XTL, XBI
+Portfolio: XSD, XME, XTL, XNTK, XES
 No changes from previous period
 
 Period: 2025-09-05 to 2025-11-07
 ----------------------------------------------------------------------------------------------------
-Portfolio: XME, XPH, XSD, XTL, XBI
+Portfolio: XSD, XME, XTL, XNTK, XES
 No changes from previous period
 
 Period: 2025-09-12 to 2025-11-14
 ----------------------------------------------------------------------------------------------------
-Portfolio: XPH, XBI, XLE, XLG, XNTK
-Added:    XLE, XLG, XNTK
-Dropped:  XME, XSD, XTL
+Portfolio: XSD, XME, XNTK, XES, XBI
+Added:    XBI
+Dropped:  XTL
 
 Period: 2025-09-19 to 2025-11-21
 ----------------------------------------------------------------------------------------------------
-Portfolio: XPH, XBI, XLE, XLG, XNTK
-No changes from previous period
+Portfolio: XME, XES, XBI, XPH, XLV
+Added:    XPH, XLV
+Dropped:  XSD, XNTK
 
 Period: 2025-09-26 to 2025-11-28
 ----------------------------------------------------------------------------------------------------
-Portfolio: XPH, XBI, XLE, XLG, XNTK
+Portfolio: XME, XES, XBI, XPH, XLV
 No changes from previous period
 
 Period: 2025-10-03 to 2025-12-05
 ----------------------------------------------------------------------------------------------------
-Portfolio: XPH, XBI, XLE, XLG, XHE
-Added:    XHE
-Dropped:  XNTK
+Portfolio: XME, XES, XBI, XPH, XLV
+No changes from previous period
 
 Period: 2025-10-10 to 2025-12-12
 ----------------------------------------------------------------------------------------------------
-Portfolio: XPH, XBI, XLE, XHE, XLP
-Added:    XLP
-Dropped:  XLG
+Portfolio: XME, XES, XBI, XPH, XLV
+No changes from previous period
 
 Period: 2025-10-17 to 2025-12-19
 ----------------------------------------------------------------------------------------------------
-Portfolio: XPH, XBI, XLE, XHE, XLV
-Added:    XLV
-Dropped:  XLP
+Portfolio: XES, XBI, XPH, XLV, XHE
+Added:    XHE
+Dropped:  XME
 
 Period: 2025-10-24 to 2025-12-26
 ----------------------------------------------------------------------------------------------------
-Portfolio: XPH, XBI, XLE, XHE, XLV
+Portfolio: XES, XBI, XPH, XLV, XHE
 No changes from previous period
 
 Period: 2025-10-31 to 2026-01-02
 ----------------------------------------------------------------------------------------------------
-Portfolio: XBI, XLE, XHE, XLV, XLB
-Added:    XLB
-Dropped:  XPH
+Portfolio: XES, XBI, XPH, XLV, XHE
+No changes from previous period
 
 Period: 2025-11-07 to 2026-01-09
 ----------------------------------------------------------------------------------------------------
-Portfolio: XBI, XLE, XHE, XLV, XLB
-No changes from previous period
+Portfolio: XBI, XPH, XHE, XME, XTN
+Added:    XME, XTN
+Dropped:  XES, XLV
 
 Period: 2025-11-14 to 2026-01-16
 ----------------------------------------------------------------------------------------------------
-Portfolio: XLE, XLV, XLB, XAR, XME
-Added:    XAR, XME
-Dropped:  XBI, XHE
+Portfolio: XBI, XPH, XME, XTN, XAR
+Added:    XAR
+Dropped:  XHE
 
 Period: 2025-11-21 to 2026-01-23
 ----------------------------------------------------------------------------------------------------
-Portfolio: XLE, XLV, XLB, XAR, XME
-No changes from previous period
+Portfolio: XBI, XME, XTN, XAR, XES
+Added:    XES
+Dropped:  XPH
 
 Period: 2025-11-28 to 2026-01-30
 ----------------------------------------------------------------------------------------------------
-Portfolio: XLE, XLB, XAR, XME, XES
-Added:    XES
-Dropped:  XLV
+Portfolio: XME, XTN, XAR, XES, XTL
+Added:    XTL
+Dropped:  XBI
 
 Period: 2025-12-05 to 2026-02-06
 ----------------------------------------------------------------------------------------------------
-Portfolio: XLE, XLB, XME, XES, XLI
-Added:    XLI
-Dropped:  XAR
+Portfolio: XME, XTN, XAR, XES, XTL
+No changes from previous period
 
 Period: 2025-12-12 to 2026-02-13
 ----------------------------------------------------------------------------------------------------
-Portfolio: XLE, XLB, XME, XES, XLI
-No changes from previous period
+Portfolio: XME, XAR, XES, XTL, XLB
+Added:    XLB
+Dropped:  XTN
 
 Period: 2025-12-19 to 2026-02-20
 ----------------------------------------------------------------------------------------------------
-Portfolio: XLE, XLB, XES, XLI, XTL
-Added:    XTL
-Dropped:  XME
+Portfolio: XME, XAR, XES, XTL, XLB
+No changes from previous period
 
 Period: 2025-12-26 to 2026-02-27
 ----------------------------------------------------------------------------------------------------
-Portfolio: XLE, XLB, XES, XLI, XTL
+Portfolio: XME, XAR, XES, XTL, XLB
 No changes from previous period
 
 ====================================================================================================
@@ -305,645 +302,645 @@ Top 10 Reference Data (for verification)
 
 Period: 2025-03-07 to 2025-05-09
 ----------------------------------------------------------------------------------------------------
-Rank   Ticker   Weeks Positive   Most Recent %   
+Rank   Ticker   Geo Avg %      Weeks Positive   Most Recent %   
 ----------------------------------------------------------------------------------------------------
-1      XOP      7                          3.38%
-2      KIE      7                          0.70%
-3      XES      7                          0.18%
-4      XAR      7                          0.08%
-5      XTN      6                          2.51%
-6      KCE      6                          2.12%
-7      XME      6                          1.53%
-8      XLU      6                          0.61%
-9      XLE      6                          0.55%
-10     XHS      6                          0.41%
+1      XAR              0.66% 7                          0.08%
+2      XLU              0.20% 6                          0.61%
+3      XME              0.06% 6                          1.53%
+4      XLI              0.01% 5                          1.14%
+5      XHS             -0.03% 6                          0.41%
+6      XNTK            -0.08% 5                          0.42%
+7      XSW             -0.17% 5                          3.17%
+8      KIE             -0.19% 7                          0.70%
+9      XLP             -0.21% 4                         -0.80%
+10     XLRE            -0.30% 4                         -0.76%
 
 Period: 2025-03-14 to 2025-05-16
 ----------------------------------------------------------------------------------------------------
-Rank   Ticker   Weeks Positive   Most Recent %   
+Rank   Ticker   Geo Avg %      Weeks Positive   Most Recent %   
 ----------------------------------------------------------------------------------------------------
-1      XAR      8                          6.76%
-2      XOP      8                          5.56%
-3      XES      8                          2.50%
-4      KIE      8                          1.81%
-5      XTN      7                          7.09%
-6      KCE      7                          5.79%
-7      XLE      7                          3.70%
-8      XHS      7                          3.49%
-9      XLU      7                          2.42%
-10     XME      7                          1.78%
+1      XAR              1.64% 8                          6.76%
+2      XNTK             0.89% 6                          7.62%
+3      XSW              0.85% 6                          6.10%
+4      KCE              0.78% 7                          5.79%
+5      XLK              0.74% 6                          7.95%
+6      XLI              0.72% 6                          5.64%
+7      XLU              0.69% 7                          2.42%
+8      XRT              0.67% 6                          8.65%
+9      XME              0.61% 7                          1.78%
+10     XLY              0.60% 6                          7.54%
 
 Period: 2025-03-21 to 2025-05-23
 ----------------------------------------------------------------------------------------------------
-Rank   Ticker   Weeks Positive   Most Recent %   
+Rank   Ticker   Geo Avg %      Weeks Positive   Most Recent %   
 ----------------------------------------------------------------------------------------------------
-1      XES      8                         -4.50%
-2      XME      7                          0.71%
-3      XAR      7                         -1.69%
-4      KIE      7                         -3.35%
-5      KCE      7                         -3.52%
-6      XOP      7                         -3.67%
-7      XTN      7                         -4.79%
-8      XHS      7                         -5.23%
-9      XBI      6                          0.03%
-10     XLU      6                         -1.36%
+1      XAR              1.42% 7                         -1.69%
+2      XRT              1.04% 6                         -2.34%
+3      XLI              0.75% 6                         -2.05%
+4      XNTK             0.72% 6                         -2.79%
+5      KCE              0.72% 7                         -3.52%
+6      XLY              0.71% 6                         -3.23%
+7      XSW              0.70% 6                         -3.06%
+8      XLK              0.60% 6                         -3.44%
+9      XLC              0.40% 5                         -1.56%
+10     XME              0.38% 7                          0.71%
 
 Period: 2025-03-28 to 2025-05-30
 ----------------------------------------------------------------------------------------------------
-Rank   Ticker   Weeks Positive   Most Recent %   
+Rank   Ticker   Geo Avg %      Weeks Positive   Most Recent %   
 ----------------------------------------------------------------------------------------------------
-1      XME      8                          0.40%
-2      XES      8                          0.10%
-3      XAR      7                          2.79%
-4      KIE      7                          2.46%
-5      XHS      7                          2.00%
-6      XTN      7                          1.94%
-7      XLU      7                          1.06%
-8      KCE      7                          0.65%
-9      XBI      7                          0.19%
-10     RWR      6                          2.93%
+1      XAR              1.54% 7                          2.79%
+2      XRT              0.98% 6                          1.67%
+3      XLY              0.83% 6                          1.50%
+4      XLI              0.80% 6                          1.41%
+5      XLK              0.78% 6                          1.81%
+6      XNTK             0.73% 6                          0.82%
+7      XSW              0.68% 6                          0.58%
+8      KCE              0.53% 7                          0.65%
+9      XLG              0.51% 5                          2.20%
+10     XLP              0.48% 6                          1.51%
 
 Period: 2025-04-04 to 2025-06-06
 ----------------------------------------------------------------------------------------------------
-Rank   Ticker   Weeks Positive   Most Recent %   
+Rank   Ticker   Geo Avg %      Weeks Positive   Most Recent %   
 ----------------------------------------------------------------------------------------------------
-1      XME      9                          7.17%
-2      XES      8                          7.72%
-3      XBI      8                          6.40%
-4      XAR      8                          3.69%
-5      KCE      8                          1.82%
-6      XTN      8                          1.65%
-7      XSW      7                          4.43%
-8      XLK      7                          3.23%
-9      XNTK     7                          3.20%
-10     XRT      7                          3.16%
+1      XAR              2.06% 8                          3.69%
+2      XSD              1.54% 6                          6.41%
+3      XNTK             1.48% 7                          3.20%
+4      XLK              1.47% 7                          3.23%
+5      XSW              1.44% 7                          4.43%
+6      XRT              1.37% 7                          3.16%
+7      XME              1.31% 9                          7.17%
+8      XLI              1.11% 7                          1.48%
+9      KCE              0.95% 8                          1.82%
+10     XLG              0.92% 6                          1.83%
 
 Period: 2025-04-11 to 2025-06-13
 ----------------------------------------------------------------------------------------------------
-Rank   Ticker   Weeks Positive   Most Recent %   
+Rank   Ticker   Geo Avg %      Weeks Positive   Most Recent %   
 ----------------------------------------------------------------------------------------------------
-1      XME      10                         1.47%
-2      XES      9                          6.75%
-3      XOP      8                          7.75%
-4      XLK      8                          0.34%
-5      XLU      8                          0.28%
-6      XNTK     8                          0.19%
-7      XAR      8                         -0.25%
-8      XBI      8                         -0.78%
-9      KCE      8                         -1.98%
-10     XTN      8                         -2.28%
+1      XSD              3.55% 7                          0.83%
+2      XAR              3.16% 8                         -0.25%
+3      XME              3.03% 10                         1.47%
+4      XNTK             2.81% 8                          0.19%
+5      XLK              2.75% 8                          0.34%
+6      XOP              2.21% 8                          7.75%
+7      XES              2.17% 9                          6.75%
+8      XSW              2.08% 7                         -4.14%
+9      KCE              1.97% 8                         -1.98%
+10     XLI              1.92% 7                         -1.57%
 
 Period: 2025-04-18 to 2025-06-20
 ----------------------------------------------------------------------------------------------------
-Rank   Ticker   Weeks Positive   Most Recent %   
+Rank   Ticker   Geo Avg %      Weeks Positive   Most Recent %   
 ----------------------------------------------------------------------------------------------------
-1      XME      10                         0.26%
-2      KCE      8                          1.91%
-3      XOP      8                          1.33%
-4      KRE      8                          1.30%
-5      KBE      8                          1.02%
-6      XLK      8                          0.57%
-7      XTN      8                          0.54%
-8      XAR      8                          0.41%
-9      XNTK     8                          0.40%
-10     XES      8                         -2.09%
+1      XSD              3.28% 7                          2.93%
+2      XOP              2.26% 8                          1.33%
+3      XNTK             2.17% 8                          0.40%
+4      XAR              2.04% 8                          0.41%
+5      XME              1.99% 10                         0.26%
+6      XLK              1.95% 8                          0.57%
+7      XES              1.78% 8                         -2.09%
+8      XTL              1.77% 6                          3.19%
+9      KCE              1.69% 8                          1.91%
+10     XSW              1.65% 7                          0.14%
 
 Period: 2025-04-25 to 2025-06-27
 ----------------------------------------------------------------------------------------------------
-Rank   Ticker   Weeks Positive   Most Recent %   
+Rank   Ticker   Geo Avg %      Weeks Positive   Most Recent %   
 ----------------------------------------------------------------------------------------------------
-1      XME      10                         1.30%
-2      XNTK     9                          4.79%
-3      XLK      9                          4.25%
-4      XAR      8                          5.62%
-5      XTN      8                          5.36%
-6      KCE      8                          5.07%
-7      XSD      8                          4.86%
-8      KRE      8                          4.37%
-9      KBE      8                          4.36%
-10     XSW      8                          3.86%
+1      XSD              4.01% 8                          4.86%
+2      XNTK             2.82% 9                          4.79%
+3      XLK              2.66% 9                          4.25%
+4      XAR              2.57% 8                          5.62%
+5      XTL              2.41% 7                          6.14%
+6      XSW              2.17% 8                          3.86%
+7      KCE              2.12% 8                          5.07%
+8      XME              1.95% 10                         1.30%
+9      XLG              1.85% 6                          3.89%
+10     XLC              1.79% 7                          4.71%
 
 Period: 2025-05-02 to 2025-07-04
 ----------------------------------------------------------------------------------------------------
-Rank   Ticker   Weeks Positive   Most Recent %   
+Rank   Ticker   Geo Avg %      Weeks Positive   Most Recent %   
 ----------------------------------------------------------------------------------------------------
-1      XME      10                         5.70%
-2      XLK      9                          2.64%
-3      XNTK     9                          1.12%
-4      KRE      8                          7.09%
-5      KBE      8                          6.25%
-6      XSW      8                          4.98%
-7      XTN      8                          4.63%
-8      KCE      8                          3.80%
-9      XSD      8                          3.63%
-10     XLF      8                          2.76%
+1      XSD              3.15% 8                          3.63%
+2      XTL              2.35% 7                          3.01%
+3      XME              2.18% 10                         5.70%
+4      XLK              2.13% 9                          2.64%
+5      XTN              2.12% 8                          4.63%
+6      XAR              2.11% 7                         -0.35%
+7      XNTK             2.00% 9                          1.12%
+8      KCE              1.99% 8                          3.80%
+9      XSW              1.84% 8                          4.98%
+10     XRT              1.67% 7                          4.52%
 
 Period: 2025-05-09 to 2025-07-11
 ----------------------------------------------------------------------------------------------------
-Rank   Ticker   Weeks Positive   Most Recent %   
+Rank   Ticker   Geo Avg %      Weeks Positive   Most Recent %   
 ----------------------------------------------------------------------------------------------------
-1      XME      10                         4.37%
-2      XTN      8                          1.72%
-3      KCE      8                          0.70%
-4      XNTK     8                         -0.33%
-5      XLK      8                         -0.43%
-6      XES      7                          3.52%
-7      XOP      7                          3.02%
-8      XLE      7                          2.41%
-9      XBI      7                          2.09%
-10     XAR      7                          1.49%
+1      XSD              2.64% 7                         -0.17%
+2      XME              2.44% 10                         4.37%
+3      XAR              1.82% 7                          1.49%
+4      XTN              1.78% 8                          1.72%
+5      XTL              1.72% 6                         -1.88%
+6      XLK              1.70% 8                         -0.43%
+7      KCE              1.60% 8                          0.70%
+8      XOP              1.53% 7                          3.02%
+9      XNTK             1.51% 8                         -0.33%
+10     XRT              1.32% 6                         -0.46%
 
 Period: 2025-05-16 to 2025-07-18
 ----------------------------------------------------------------------------------------------------
-Rank   Ticker   Weeks Positive   Most Recent %   
+Rank   Ticker   Geo Avg %      Weeks Positive   Most Recent %   
 ----------------------------------------------------------------------------------------------------
-1      XME      10                         2.80%
-2      KCE      8                          2.18%
-3      XLK      8                          1.97%
-4      XNTK     8                          1.61%
-5      XAR      7                          4.86%
-6      XSW      7                          3.21%
-7      XSD      7                          2.22%
-8      XLU      7                          1.58%
-9      XLI      7                          0.84%
-10     XLF      7                          0.73%
+1      XME              2.57% 10                         2.80%
+2      XSD              2.54% 7                          2.22%
+3      XAR              2.30% 7                          4.86%
+4      XTL              1.88% 6                          3.07%
+5      XLK              1.85% 8                          1.97%
+6      XNTK             1.63% 8                          1.61%
+7      KCE              1.60% 8                          2.18%
+8      XTN              1.45% 7                         -0.80%
+9      XLG              1.34% 6                          1.08%
+10     XRT              1.27% 6                         -0.74%
 
 Period: 2025-05-23 to 2025-07-25
 ----------------------------------------------------------------------------------------------------
-Rank   Ticker   Weeks Positive   Most Recent %   
+Rank   Ticker   Geo Avg %      Weeks Positive   Most Recent %   
 ----------------------------------------------------------------------------------------------------
-1      XME      10                         3.22%
-2      KCE      8                          1.30%
-3      XLK      8                          0.42%
-4      XTN      7                          2.85%
-5      XPH      7                          2.83%
-6      XLI      7                          2.33%
-7      XLF      7                          1.71%
-8      XBI      7                          1.55%
-9      XLC      7                          1.35%
-10     XLU      7                          0.92%
+1      XME              2.72% 10                         3.22%
+2      XAR              1.54% 6                         -0.84%
+3      XTL              1.31% 5                         -0.46%
+4      XSD              1.21% 6                         -1.87%
+5      KCE              1.16% 8                          1.30%
+6      XLK              1.11% 8                          0.42%
+7      XTN              1.04% 7                          2.85%
+8      XBI              1.04% 7                          1.55%
+9      XES              0.94% 6                          6.70%
+10     XLG              0.88% 6                          1.32%
 
 Period: 2025-05-30 to 2025-08-01
 ----------------------------------------------------------------------------------------------------
-Rank   Ticker   Weeks Positive   Most Recent %   
+Rank   Ticker   Geo Avg %      Weeks Positive   Most Recent %   
 ----------------------------------------------------------------------------------------------------
-1      XME      9                         -6.69%
-2      XLU      8                          1.51%
-3      XLK      8                         -1.88%
-4      KCE      8                         -3.83%
-5      XLC      7                         -1.39%
-6      XLI      7                         -3.39%
-7      XNTK     7                         -3.52%
-8      XPH      7                         -3.63%
-9      XLF      7                         -3.82%
-10     XSW      7                         -6.36%
+1      XME              1.93% 9                         -6.69%
+2      XSD              1.62% 6                         -1.42%
+3      XAR              1.43% 6                         -2.81%
+4      XTL              1.39% 5                         -2.50%
+5      XLK              1.28% 8                         -1.88%
+6      KCE              1.13% 8                         -3.83%
+7      XLG              0.95% 6                         -1.86%
+8      XHB              0.94% 6                         -2.51%
+9      XBI              0.84% 6                         -1.92%
+10     XNTK             0.79% 7                         -3.52%
 
 Period: 2025-06-06 to 2025-08-08
 ----------------------------------------------------------------------------------------------------
-Rank   Ticker   Weeks Positive   Most Recent %   
+Rank   Ticker   Geo Avg %      Weeks Positive   Most Recent %   
 ----------------------------------------------------------------------------------------------------
-1      XME      9                          9.50%
-2      XLK      8                          3.44%
-3      KCE      8                          2.17%
-4      XLU      8                          0.44%
-5      XNTK     7                          5.20%
-6      XHB      7                          4.13%
-7      XPH      7                          3.50%
-8      XSD      7                          3.22%
-9      XLC      7                          1.42%
-10     XLF      7                          0.88%
+1      XME              2.82% 9                          9.50%
+2      XTL              2.12% 6                          7.16%
+3      XSD              2.03% 7                          3.22%
+4      XLK              1.44% 8                          3.44%
+5      XHB              1.40% 7                          4.13%
+6      KCE              1.28% 8                          2.17%
+7      XNTK             1.21% 7                          5.20%
+8      XAR              1.15% 6                          0.05%
+9      XLG              1.06% 6                          3.41%
+10     XES              0.92% 6                          2.33%
 
 Period: 2025-06-13 to 2025-08-15
 ----------------------------------------------------------------------------------------------------
-Rank   Ticker   Weeks Positive   Most Recent %   
+Rank   Ticker   Geo Avg %      Weeks Positive   Most Recent %   
 ----------------------------------------------------------------------------------------------------
-1      XME      9                          0.62%
-2      KCE      8                          1.01%
-3      XLU      8                         -0.65%
-4      XPH      7                          6.74%
-5      XHB      7                          4.80%
-6      XTN      7                          4.63%
-7      XSD      7                          3.95%
-8      XLC      7                          3.58%
-9      XLY      7                          2.35%
-10     XLF      7                          1.18%
+1      XME              2.18% 9                          0.62%
+2      XSD              1.79% 7                          3.95%
+3      XHB              1.78% 7                          4.80%
+4      XTL              1.75% 6                          0.58%
+5      KCE              1.20% 8                          1.01%
+6      XLK              1.11% 7                         -0.08%
+7      XLG              0.97% 6                          0.93%
+8      XPH              0.97% 7                          6.74%
+9      XNTK             0.91% 7                          0.11%
+10     XAR              0.84% 6                          0.52%
 
 Period: 2025-06-20 to 2025-08-22
 ----------------------------------------------------------------------------------------------------
-Rank   Ticker   Weeks Positive   Most Recent %   
+Rank   Ticker   Geo Avg %      Weeks Positive   Most Recent %   
 ----------------------------------------------------------------------------------------------------
-1      KCE      9                          1.04%
-2      XME      9                          0.44%
-3      XTN      8                          3.33%
-4      XHB      8                          3.23%
-5      XPH      8                          2.69%
-6      XLF      8                          2.12%
-7      XLY      8                          1.77%
-8      XLU      8                          0.49%
-9      KRE      7                          5.28%
-10     KBE      7                          4.91%
+1      XHB              2.20% 8                          3.23%
+2      XME              2.07% 9                          0.44%
+3      XTL              2.03% 7                          2.47%
+4      XSD              1.90% 7                          1.87%
+5      KCE              1.51% 9                          1.04%
+6      KRE              1.50% 7                          5.28%
+7      KBE              1.46% 7                          4.91%
+8      XTN              1.41% 8                          3.33%
+9      XPH              1.36% 8                          2.69%
+10     XRT              1.27% 7                          2.05%
 
 Period: 2025-06-27 to 2025-08-29
 ----------------------------------------------------------------------------------------------------
-Rank   Ticker   Weeks Positive   Most Recent %   
+Rank   Ticker   Geo Avg %      Weeks Positive   Most Recent %   
 ----------------------------------------------------------------------------------------------------
-1      XME      9                          2.75%
-2      XPH      9                          0.32%
-3      XLF      8                          0.78%
-4      XLB      8                          0.11%
-5      KCE      8                         -0.24%
-6      XLY      8                         -0.58%
-7      XLU      8                         -2.00%
-8      XTL      7                          3.20%
-9      XSW      7                          1.37%
-10     KRE      7                          1.03%
+1      XME              2.32% 9                          2.75%
+2      XTL              2.03% 7                          3.20%
+3      XHB              1.88% 7                         -2.56%
+4      XSD              1.61% 7                          0.05%
+5      XPH              1.59% 9                          0.32%
+6      KRE              1.48% 7                          1.03%
+7      KBE              1.42% 7                          0.63%
+8      KCE              1.29% 8                         -0.24%
+9      XTN              1.19% 7                         -1.61%
+10     XLG              0.98% 7                          0.20%
 
 Period: 2025-07-04 to 2025-09-05
 ----------------------------------------------------------------------------------------------------
-Rank   Ticker   Weeks Positive   Most Recent %   
+Rank   Ticker   Geo Avg %      Weeks Positive   Most Recent %   
 ----------------------------------------------------------------------------------------------------
-1      XME      9                          1.94%
-2      XPH      9                          0.80%
-3      XLY      8                          1.45%
-4      XHB      7                          4.70%
-5      XLC      7                          2.96%
-6      XTL      7                          1.41%
-7      XSD      7                          1.20%
-8      XLG      7                          0.78%
-9      RWR      7                          0.50%
-10     KBE      7                          0.16%
+1      XME              2.39% 9                          1.94%
+2      XHB              1.96% 7                          4.70%
+3      XPH              1.67% 9                          0.80%
+4      XTL              1.57% 7                          1.41%
+5      XBI              1.41% 6                          6.25%
+6      XRT              1.25% 6                          3.75%
+7      XSD              1.25% 7                          1.20%
+8      KRE              1.04% 6                         -0.09%
+9      KBE              1.00% 7                          0.16%
+10     XES              0.98% 6                         -1.17%
 
 Period: 2025-07-11 to 2025-09-12
 ----------------------------------------------------------------------------------------------------
-Rank   Ticker   Weeks Positive   Most Recent %   
+Rank   Ticker   Geo Avg %      Weeks Positive   Most Recent %   
 ----------------------------------------------------------------------------------------------------
-1      XME      9                          1.95%
-2      XLY      8                          1.50%
-3      XPH      8                         -2.82%
-4      XSD      7                          3.15%
-5      KCE      7                          2.46%
-6      XLU      7                          2.43%
-7      XLG      7                          2.35%
-8      XLC      7                          2.32%
-9      XAR      7                          2.16%
-10     XSW      7                          1.62%
+1      XME              2.02% 9                          1.95%
+2      XTL              1.43% 7                          1.56%
+3      XHB              1.25% 6                         -2.68%
+4      XSD              1.20% 7                          3.15%
+5      XPH              1.20% 8                         -2.82%
+6      XBI              1.00% 5                         -1.41%
+7      XLC              0.83% 7                          2.32%
+8      XNTK             0.82% 5                          5.08%
+9      XLY              0.76% 8                          1.50%
+10     XLG              0.74% 7                          2.35%
 
 Period: 2025-07-18 to 2025-09-19
 ----------------------------------------------------------------------------------------------------
-Rank   Ticker   Weeks Positive   Most Recent %   
+Rank   Ticker   Geo Avg %      Weeks Positive   Most Recent %   
 ----------------------------------------------------------------------------------------------------
-1      XME      9                          5.63%
-2      XSD      8                          6.68%
-3      XSW      8                          4.11%
-4      XTL      8                          2.02%
-5      XLC      8                          1.76%
-6      XLG      8                          1.69%
-7      XLY      8                          1.16%
-8      XLF      8                          0.84%
-9      XPH      8                          0.13%
-10     XLK      7                          2.97%
+1      XME              2.14% 9                          5.63%
+2      XSD              1.88% 8                          6.68%
+3      XTL              1.82% 8                          2.02%
+4      XNTK             1.32% 6                          4.72%
+5      XLC              1.20% 8                          1.76%
+6      XPH              1.02% 8                          0.13%
+7      XBI              0.94% 5                          1.57%
+8      XLG              0.92% 8                          1.69%
+9      XLY              0.87% 8                          1.16%
+10     XLK              0.87% 7                          2.97%
 
 Period: 2025-07-25 to 2025-09-26
 ----------------------------------------------------------------------------------------------------
-Rank   Ticker   Weeks Positive   Most Recent %   
+Rank   Ticker   Geo Avg %      Weeks Positive   Most Recent %   
 ----------------------------------------------------------------------------------------------------
-1      XME      9                          2.00%
-2      XPH      8                          0.99%
-3      XAR      7                          1.51%
-4      RWR      7                         -0.11%
-5      XSD      7                         -0.18%
-6      XLY      7                         -0.70%
-7      XLF      7                         -0.72%
-8      XLG      7                         -0.80%
-9      XLC      7                         -1.04%
-10     XSW      7                         -1.22%
+1      XME              2.06% 9                          2.00%
+2      XSD              1.63% 7                         -0.18%
+3      XES              1.50% 6                          6.03%
+4      XTL              1.39% 7                         -1.23%
+5      XBI              1.28% 6                          2.46%
+6      XNTK             1.16% 6                          0.04%
+7      XPH              1.11% 8                          0.99%
+8      XLC              1.08% 7                         -1.04%
+9      XHS              1.07% 6                          2.45%
+10     XHB              0.85% 5                         -2.32%
 
 Period: 2025-08-01 to 2025-10-03
 ----------------------------------------------------------------------------------------------------
-Rank   Ticker   Weeks Positive   Most Recent %   
+Rank   Ticker   Geo Avg %      Weeks Positive   Most Recent %   
 ----------------------------------------------------------------------------------------------------
-1      XME      9                          5.93%
-2      XTL      8                          6.16%
-3      XAR      8                          4.73%
-4      XPH      8                          4.44%
-5      XSD      8                          3.73%
-6      XNTK     7                          3.28%
-7      RWR      7                          1.75%
-8      XLG      7                          1.00%
-9      XHS      7                          0.98%
-10     XLF      7                          0.07%
+1      XME              2.33% 9                          5.93%
+2      XSD              2.20% 8                          3.73%
+3      XTL              2.04% 8                          6.16%
+4      XBI              1.69% 6                          5.80%
+5      XNTK             1.51% 7                          3.28%
+6      XPH              1.27% 8                          4.44%
+7      XHS              1.19% 7                          0.98%
+8      XAR              0.90% 8                          4.73%
+9      XLK              0.85% 6                          2.24%
+10     XLC              0.82% 6                         -1.16%
 
 Period: 2025-08-08 to 2025-10-10
 ----------------------------------------------------------------------------------------------------
-Rank   Ticker   Weeks Positive   Most Recent %   
+Rank   Ticker   Geo Avg %      Weeks Positive   Most Recent %   
 ----------------------------------------------------------------------------------------------------
-1      XME      10                         3.40%
-2      XTL      8                         -0.66%
-3      XAR      8                         -0.72%
-4      XPH      8                         -3.43%
-5      XSD      8                         -4.32%
-6      XBI      7                          1.34%
-7      XLG      7                         -1.96%
-8      XHS      7                         -2.18%
-9      XLF      7                         -2.90%
-10     XNTK     7                         -3.57%
+1      XME              3.38% 10                         3.40%
+2      XTL              2.24% 8                         -0.66%
+3      XBI              2.03% 7                          1.34%
+4      XSD              1.89% 8                         -4.32%
+5      XNTK             1.51% 7                         -3.57%
+6      XPH              1.29% 8                         -3.43%
+7      XHS              1.28% 7                         -2.18%
+8      XAR              1.12% 8                         -0.72%
+9      XLV              0.85% 5                         -1.87%
+10     XLK              0.81% 6                         -2.22%
 
 Period: 2025-08-15 to 2025-10-17
 ----------------------------------------------------------------------------------------------------
-Rank   Ticker   Weeks Positive   Most Recent %   
+Rank   Ticker   Geo Avg %      Weeks Positive   Most Recent %   
 ----------------------------------------------------------------------------------------------------
-1      XME      10                         1.37%
-2      XSD      8                          8.73%
-3      XBI      8                          2.68%
-4      XPH      8                          1.86%
-5      XTL      8                          1.73%
-6      RWR      7                          4.11%
-7      XNTK     7                          3.51%
-8      XHS      7                          1.86%
-9      XLG      7                          1.86%
-10     XSW      7                          0.42%
+1      XME              2.59% 10                         1.37%
+2      XSD              2.43% 8                          8.73%
+3      XBI              2.36% 8                          2.68%
+4      XTL              1.71% 8                          1.73%
+5      XNTK             1.34% 7                          3.51%
+6      XPH              1.13% 8                          1.86%
+7      XHS              1.12% 7                          1.86%
+8      XLV              1.01% 6                          0.82%
+9      XES              0.99% 5                          5.41%
+10     XAR              0.96% 7                         -1.47%
 
 Period: 2025-08-22 to 2025-10-24
 ----------------------------------------------------------------------------------------------------
-Rank   Ticker   Weeks Positive   Most Recent %   
+Rank   Ticker   Geo Avg %      Weeks Positive   Most Recent %   
 ----------------------------------------------------------------------------------------------------
-1      XME      9                         -2.39%
-2      XTL      8                          1.59%
-3      XPH      8                          1.08%
-4      XSD      8                          0.61%
-5      XBI      8                          0.55%
-6      XAR      7                          6.21%
-7      XHS      7                          3.92%
-8      XSW      7                          3.55%
-9      XLK      7                          3.01%
-10     XNTK     7                          3.00%
+1      XME              2.28% 9                         -2.39%
+2      XSD              2.09% 8                          0.61%
+3      XES              1.94% 6                          9.77%
+4      XTL              1.81% 8                          1.59%
+5      XBI              1.80% 8                          0.55%
+6      XNTK             1.63% 7                          3.00%
+7      XAR              1.52% 7                          6.21%
+8      XLK              1.02% 7                          3.01%
+9      XHS              1.00% 7                          3.92%
+10     XSW              0.95% 7                          3.55%
 
 Period: 2025-08-29 to 2025-10-31
 ----------------------------------------------------------------------------------------------------
-Rank   Ticker   Weeks Positive   Most Recent %   
+Rank   Ticker   Geo Avg %      Weeks Positive   Most Recent %   
 ----------------------------------------------------------------------------------------------------
-1      XBI      8                          3.99%
-2      XTL      8                          3.54%
-3      XLK      8                          2.42%
-4      XLG      8                          2.06%
-5      XSD      8                          2.02%
-6      XPH      8                          1.95%
-7      XNTK     8                          1.87%
-8      XME      8                         -3.24%
-9      XES      6                          2.68%
-10     XLY      6                          0.96%
+1      XBI              2.18% 8                          3.99%
+2      XSD              2.11% 8                          2.02%
+3      XTL              1.91% 8                          3.54%
+4      XME              1.90% 8                         -3.24%
+5      XNTK             1.89% 8                          1.87%
+6      XES              1.59% 6                          2.68%
+7      XAR              1.43% 6                         -0.60%
+8      XLK              1.38% 8                          2.42%
+9      XLG              0.91% 8                          2.06%
+10     XSW              0.54% 6                         -1.85%
 
 Period: 2025-09-05 to 2025-11-07
 ----------------------------------------------------------------------------------------------------
-Rank   Ticker   Weeks Positive   Most Recent %   
+Rank   Ticker   Geo Avg %      Weeks Positive   Most Recent %   
 ----------------------------------------------------------------------------------------------------
-1      XBI      8                         -3.33%
-2      XNTK     8                         -4.42%
-3      XLG      7                         -2.42%
-4      XPH      7                         -2.76%
-5      XME      7                         -3.14%
-6      XLK      7                         -4.16%
-7      XTL      7                         -6.76%
-8      XSD      7                         -7.25%
-9      XLE      6                          1.60%
-10     RWR      6                          1.58%
+1      XBI              1.95% 8                         -3.33%
+2      XNTK             1.44% 8                         -4.42%
+3      XSD              1.34% 7                         -7.25%
+4      XES              1.30% 5                         -1.11%
+5      XME              1.30% 7                         -3.14%
+6      XLK              0.95% 7                         -4.16%
+7      XTL              0.88% 7                         -6.76%
+8      XAR              0.77% 5                         -5.72%
+9      XLU              0.69% 6                          0.66%
+10     XLV              0.66% 6                          1.31%
 
 Period: 2025-09-12 to 2025-11-14
 ----------------------------------------------------------------------------------------------------
-Rank   Ticker   Weeks Positive   Most Recent %   
+Rank   Ticker   Geo Avg %      Weeks Positive   Most Recent %   
 ----------------------------------------------------------------------------------------------------
-1      XBI      8                          4.63%
-2      XPH      7                          5.09%
-3      XLE      7                          2.77%
-4      XLG      7                          0.34%
-5      XNTK     7                         -1.49%
-6      XLV      6                          3.89%
-7      KIE      6                          0.72%
-8      XLK      6                         -0.00%
-9      XLF      6                         -0.63%
-10     XLRE     6                         -0.78%
+1      XBI              1.79% 8                          4.63%
+2      XES              1.40% 5                         -0.19%
+3      XNTK             1.15% 7                         -1.49%
+4      XLV              1.01% 6                          3.89%
+5      XLK              0.94% 6                         -0.00%
+6      XME              0.91% 6                         -1.84%
+7      XSD              0.69% 6                         -5.12%
+8      XLU              0.68% 6                         -1.04%
+9      XPH              0.61% 7                          5.09%
+10     XLE              0.61% 7                          2.77%
 
 Period: 2025-09-19 to 2025-11-21
 ----------------------------------------------------------------------------------------------------
-Rank   Ticker   Weeks Positive   Most Recent %   
+Rank   Ticker   Geo Avg %      Weeks Positive   Most Recent %   
 ----------------------------------------------------------------------------------------------------
-1      XBI      9                          2.32%
-2      XPH      8                          2.82%
-3      XHS      6                          4.77%
-4      XHE      6                          3.68%
-5      XLV      6                          1.83%
-6      XLP      6                          0.83%
-7      XLG      6                         -2.23%
-8      XLE      6                         -2.83%
-9      XNTK     6                         -5.58%
-10     XHB      5                          0.79%
+1      XBI              2.17% 9                          2.32%
+2      XPH              1.18% 8                          2.82%
+3      XLV              1.18% 6                          1.83%
+4      XES              1.04% 4                         -2.49%
+5      XHS              0.73% 6                          4.77%
+6      XHE              0.56% 6                          3.68%
+7      XLU              0.37% 5                         -0.69%
+8      XME              0.37% 5                         -3.44%
+9      XLE              0.18% 6                         -2.83%
+10     XLG              0.14% 6                         -2.23%
 
 Period: 2025-09-26 to 2025-11-28
 ----------------------------------------------------------------------------------------------------
-Rank   Ticker   Weeks Positive   Most Recent %   
+Rank   Ticker   Geo Avg %      Weeks Positive   Most Recent %   
 ----------------------------------------------------------------------------------------------------
-1      XBI      9                          5.58%
-2      XPH      8                          5.00%
-3      XHS      7                          4.41%
-4      XHE      7                          4.40%
-5      XLV      7                          1.97%
-6      XLP      7                          1.89%
-7      XLE      7                          1.15%
-8      XNTK     6                          6.44%
-9      XHB      6                          4.55%
-10     XLG      6                          3.92%
+1      XBI              2.57% 9                          5.58%
+2      XPH              1.67% 8                          5.00%
+3      XES              1.50% 5                          4.32%
+4      XLV              1.44% 7                          1.97%
+5      XHS              1.18% 7                          4.41%
+6      XHE              1.09% 7                          4.40%
+7      XME              0.73% 5                          9.48%
+8      XLU              0.72% 6                          2.81%
+9      XTL              0.48% 5                          8.10%
+10     XOP              0.37% 5                          3.30%
 
 Period: 2025-10-03 to 2025-12-05
 ----------------------------------------------------------------------------------------------------
-Rank   Ticker   Weeks Positive   Most Recent %   
+Rank   Ticker   Geo Avg %      Weeks Positive   Most Recent %   
 ----------------------------------------------------------------------------------------------------
-1      XBI      9                          0.20%
-2      XHE      8                          0.47%
-3      XLE      7                          1.54%
-4      XLG      7                          0.25%
-5      XPH      7                         -0.80%
-6      XLP      7                         -1.15%
-7      XLV      7                         -2.78%
-8      XSD      6                          6.42%
-9      XTN      6                          5.97%
-10     XTL      6                          3.15%
+1      XBI              2.34% 9                          0.20%
+2      XES              1.57% 5                          6.76%
+3      XPH              1.48% 7                         -0.80%
+4      XHE              1.37% 8                          0.47%
+5      XLV              1.29% 7                         -2.78%
+6      XTN              0.93% 6                          5.97%
+7      XTL              0.92% 6                          3.15%
+8      XME              0.80% 5                          2.73%
+9      XSD              0.73% 6                          6.42%
+10     XHS              0.59% 6                         -3.39%
 
 Period: 2025-10-10 to 2025-12-12
 ----------------------------------------------------------------------------------------------------
-Rank   Ticker   Weeks Positive   Most Recent %   
+Rank   Ticker   Geo Avg %      Weeks Positive   Most Recent %   
 ----------------------------------------------------------------------------------------------------
-1      XHE      8                          0.02%
-2      XBI      8                         -0.23%
-3      XPH      7                          3.48%
-4      XLP      7                          1.22%
-5      XLV      7                          0.52%
-6      XLE      7                         -0.89%
-7      KRE      6                          3.65%
-8      KBE      6                          3.58%
-9      XLB      6                          2.40%
-10     XLF      6                          2.37%
+1      XBI              1.74% 8                         -0.23%
+2      XES              1.44% 5                         -2.38%
+3      XPH              1.39% 7                          3.48%
+4      XHE              1.01% 8                          0.02%
+5      XTN              1.01% 6                          2.24%
+6      XHS              0.72% 6                          2.28%
+7      XLV              0.62% 7                          0.52%
+8      KRE              0.56% 6                          3.65%
+9      KBE              0.53% 6                          3.58%
+10     XME              0.46% 5                          2.41%
 
 Period: 2025-10-17 to 2025-12-19
 ----------------------------------------------------------------------------------------------------
-Rank   Ticker   Weeks Positive   Most Recent %   
+Rank   Ticker   Geo Avg %      Weeks Positive   Most Recent %   
 ----------------------------------------------------------------------------------------------------
-1      XLV      8                          0.57%
-2      XBI      8                          0.24%
-3      XHE      8                         -0.49%
-4      XLY      7                          0.95%
-5      XLB      7                          0.49%
-6      XLG      7                          0.24%
-7      KRE      7                          0.24%
-8      KBE      7                          0.22%
-9      XPH      7                         -0.07%
-10     XLE      7                         -3.03%
+1      XPH              1.74% 7                         -0.07%
+2      XES              1.69% 5                         -4.92%
+3      XBI              1.63% 8                          0.24%
+4      XHE              1.42% 8                         -0.49%
+5      XTN              1.35% 6                         -1.02%
+6      KRE              1.11% 7                          0.24%
+7      KBE              1.04% 7                          0.22%
+8      XLV              0.87% 8                          0.57%
+9      XHS              0.82% 6                         -1.18%
+10     XRT              0.79% 6                         -0.43%
 
 Period: 2025-10-24 to 2025-12-26
 ----------------------------------------------------------------------------------------------------
-Rank   Ticker   Weeks Positive   Most Recent %   
+Rank   Ticker   Geo Avg %      Weeks Positive   Most Recent %   
 ----------------------------------------------------------------------------------------------------
-1      XBI      8                          1.26%
-2      XLV      8                          0.72%
-3      XHE      8                          0.55%
-4      XPH      7                          2.12%
-5      XLB      7                          1.63%
-6      XLG      7                          1.40%
-7      XLE      7                          0.16%
-8      XLY      7                          0.16%
-9      KBE      7                         -0.65%
-10     KRE      7                         -1.07%
+1      XPH              1.76% 7                          2.12%
+2      XBI              1.49% 8                          1.26%
+3      KRE              1.20% 7                         -1.07%
+4      XES              1.19% 5                          0.37%
+5      XHE              1.18% 8                          0.55%
+6      KBE              1.08% 7                         -0.65%
+7      XTN              0.94% 5                         -0.09%
+8      XLV              0.86% 8                          0.72%
+9      KIE              0.68% 6                         -0.34%
+10     XHS              0.66% 6                          0.29%
 
 Period: 2025-10-31 to 2026-01-02
 ----------------------------------------------------------------------------------------------------
-Rank   Ticker   Weeks Positive   Most Recent %   
+Rank   Ticker   Geo Avg %      Weeks Positive   Most Recent %   
 ----------------------------------------------------------------------------------------------------
-1      XLV      8                          0.08%
-2      XLE      7                          4.16%
-3      XLB      7                          0.54%
-4      XHE      7                         -2.10%
-5      XBI      7                         -2.45%
-6      XAR      6                          1.66%
-7      XTL      6                          1.56%
-8      XLI      6                          0.83%
-9      XLP      6                          0.11%
-10     KBE      6                         -1.03%
+1      XPH              1.28% 6                         -3.62%
+2      XBI              1.18% 7                         -2.45%
+3      XTN              0.99% 5                         -0.10%
+4      XES              0.81% 5                          5.67%
+5      XME              0.76% 5                         -0.17%
+6      XHE              0.75% 7                         -2.10%
+7      KRE              0.70% 6                         -1.31%
+8      XLV              0.67% 8                          0.08%
+9      KBE              0.63% 6                         -1.03%
+10     KIE              0.46% 5                         -1.51%
 
 Period: 2025-11-07 to 2026-01-09
 ----------------------------------------------------------------------------------------------------
-Rank   Ticker   Weeks Positive   Most Recent %   
+Rank   Ticker   Geo Avg %      Weeks Positive   Most Recent %   
 ----------------------------------------------------------------------------------------------------
-1      XLV      9                          1.16%
-2      XHE      8                          5.41%
-3      XLB      8                          4.64%
-4      XAR      7                         10.48%
-5      KRE      7                          3.43%
-6      KBE      7                          3.40%
-7      XBI      7                          2.45%
-8      XLE      7                          2.23%
-9      XLP      7                          2.01%
-10     XME      6                          8.71%
+1      XME              1.94% 6                          8.71%
+2      XHE              1.46% 8                          5.41%
+3      XTN              1.43% 5                          5.70%
+4      XLB              1.25% 8                          4.64%
+5      KRE              1.24% 7                          3.43%
+6      XPH              1.18% 6                          1.00%
+7      KBE              1.16% 7                          3.40%
+8      XRT              1.09% 5                          4.88%
+9      XAR              1.08% 7                         10.48%
+10     XBI              1.03% 7                          2.45%
 
 Period: 2025-11-14 to 2026-01-16
 ----------------------------------------------------------------------------------------------------
-Rank   Ticker   Weeks Positive   Most Recent %   
+Rank   Ticker   Geo Avg %      Weeks Positive   Most Recent %   
 ----------------------------------------------------------------------------------------------------
-1      XAR      8                          5.82%
-2      XLB      8                          0.87%
-3      XLV      8                         -1.00%
-4      XME      7                          6.19%
-5      XLP      7                          3.61%
-6      XLI      7                          3.07%
-7      XLE      7                          2.19%
-8      XTL      7                          2.18%
-9      KRE      7                          0.55%
-10     KBE      7                          0.02%
+1      XME              2.88% 7                          6.19%
+2      XAR              2.26% 8                          5.82%
+3      XPH              1.46% 6                         -0.09%
+4      XES              1.44% 6                          3.19%
+5      XTN              1.44% 5                          0.40%
+6      XBI              1.35% 7                         -0.26%
+7      XLB              1.32% 8                          0.87%
+8      XRT              1.27% 6                          0.37%
+9      KRE              1.13% 7                          0.55%
+10     XTL              1.09% 7                          2.18%
 
 Period: 2025-11-21 to 2026-01-23
 ----------------------------------------------------------------------------------------------------
-Rank   Ticker   Weeks Positive   Most Recent %   
+Rank   Ticker   Geo Avg %      Weeks Positive   Most Recent %   
 ----------------------------------------------------------------------------------------------------
-1      XME      8                          5.88%
-2      XLB      8                          2.65%
-3      XLV      8                          1.12%
-4      XAR      8                         -3.27%
-5      XES      7                          4.00%
-6      XLE      7                          3.15%
-7      XBI      7                          3.11%
-8      XLP      7                          0.97%
-9      XLY      7                          0.68%
-10     XTL      7                         -0.28%
+1      XME              3.66% 8                          5.88%
+2      XAR              2.19% 8                         -3.27%
+3      XES              1.86% 7                          4.00%
+4      XTN              1.69% 5                         -0.23%
+5      XLB              1.48% 8                          2.65%
+6      XSD              1.33% 6                         -0.60%
+7      XTL              1.32% 7                         -0.28%
+8      XBI              1.20% 7                          3.11%
+9      KRE              1.11% 7                         -0.35%
+10     XRT              1.07% 5                         -1.73%
 
 Period: 2025-11-28 to 2026-01-30
 ----------------------------------------------------------------------------------------------------
-Rank   Ticker   Weeks Positive   Most Recent %   
+Rank   Ticker   Geo Avg %      Weeks Positive   Most Recent %   
 ----------------------------------------------------------------------------------------------------
-1      XLE      8                          3.78%
-2      XES      8                          3.56%
-3      XTL      8                          2.86%
-4      XLI      8                          0.74%
-5      XLB      8                         -1.40%
-6      XAR      8                         -3.61%
-7      XME      8                         -9.68%
-8      KRE      7                          1.77%
-9      KBE      7                          1.24%
-10     XLP      7                          0.72%
+1      XME              2.97% 8                         -9.68%
+2      XES              2.47% 8                          3.56%
+3      XAR              2.18% 8                         -3.61%
+4      XTL              2.04% 8                          2.86%
+5      XSD              1.62% 6                         -1.88%
+6      XTN              1.60% 5                         -2.10%
+7      XLE              1.42% 8                          3.78%
+8      XLB              1.38% 8                         -1.40%
+9      KRE              1.18% 7                          1.77%
+10     KCE              1.12% 6                         -1.19%
 
 Period: 2025-12-05 to 2026-02-06
 ----------------------------------------------------------------------------------------------------
-Rank   Ticker   Weeks Positive   Most Recent %   
+Rank   Ticker   Geo Avg %      Weeks Positive   Most Recent %   
 ----------------------------------------------------------------------------------------------------
-1      XES      8                          5.71%
-2      XLI      8                          4.68%
-3      XLB      8                          4.55%
-4      XLE      8                          4.31%
-5      XME      8                          3.18%
-6      XTL      8                          2.90%
-7      KRE      7                          7.00%
-8      KBE      7                          6.04%
-9      XLP      7                          5.30%
-10     XLV      7                          1.92%
+1      XES              2.61% 8                          5.71%
+2      XME              2.36% 8                          3.18%
+3      XTN              2.05% 5                         10.42%
+4      XLE              1.73% 8                          4.31%
+5      XAR              1.69% 7                         -0.27%
+6      KRE              1.64% 7                          7.00%
+7      XTL              1.54% 8                          2.90%
+8      XLB              1.48% 8                          4.55%
+9      KBE              1.41% 7                          6.04%
+10     XLI              1.24% 8                          4.68%
 
 Period: 2025-12-12 to 2026-02-13
 ----------------------------------------------------------------------------------------------------
-Rank   Ticker   Weeks Positive   Most Recent %   
+Rank   Ticker   Geo Avg %      Weeks Positive   Most Recent %   
 ----------------------------------------------------------------------------------------------------
-1      XLB      9                          3.49%
-2      XES      8                          4.43%
-3      XTL      8                          3.19%
-4      XLE      8                          2.07%
-5      XLP      8                          1.79%
-6      XLI      8                          0.57%
-7      XLRE     7                          3.60%
-8      XLV      7                         -0.03%
-9      XME      7                         -3.81%
-10     XLU      6                          7.27%
+1      XES              2.38% 8                          4.43%
+2      XLB              1.97% 9                          3.49%
+3      XLE              1.79% 8                          2.07%
+4      XME              1.69% 7                         -3.81%
+5      XAR              1.61% 6                         -0.55%
+6      XTL              1.54% 8                          3.19%
+7      XLP              1.41% 8                          1.79%
+8      XHB              1.24% 5                          3.49%
+9      XLI              1.23% 8                          0.57%
+10     KRE              1.03% 6                         -3.19%
 
 Period: 2025-12-19 to 2026-02-20
 ----------------------------------------------------------------------------------------------------
-Rank   Ticker   Weeks Positive   Most Recent %   
+Rank   Ticker   Geo Avg %      Weeks Positive   Most Recent %   
 ----------------------------------------------------------------------------------------------------
-1      XES      9                          2.08%
-2      XLE      9                          0.98%
-3      XLI      8                          1.76%
-4      XTL      8                          1.64%
-5      XLRE     8                          0.14%
-6      XLB      8                         -0.66%
-7      XOP      7                          2.68%
-8      RWR      7                          0.37%
-9      XLP      7                         -1.81%
-10     XAR      6                          4.17%
+1      XES              2.84% 9                          2.08%
+2      XLE              1.98% 9                          0.98%
+3      XAR              1.77% 6                          4.17%
+4      XLB              1.66% 8                         -0.66%
+5      XTL              1.58% 8                          1.64%
+6      XOP              1.50% 7                          2.68%
+7      XME              1.42% 6                         -0.31%
+8      XLI              1.27% 8                          1.76%
+9      XLP              1.10% 7                         -1.81%
+10     XTN              1.04% 4                          2.48%
 
 Period: 2025-12-26 to 2026-02-27
 ----------------------------------------------------------------------------------------------------
-Rank   Ticker   Weeks Positive   Most Recent %   
+Rank   Ticker   Geo Avg %      Weeks Positive   Most Recent %   
 ----------------------------------------------------------------------------------------------------
-1      XLE      10                         1.90%
-2      XES      10                         1.34%
-3      XTL      9                          2.96%
-4      XLRE     9                          0.64%
-5      XLP      8                          2.41%
-6      XOP      8                          1.22%
-7      RWR      8                          0.93%
-8      XLB      8                          0.85%
-9      XLI      8                         -0.05%
-10     XLU      7                          3.02%
+1      XES              3.50% 10                         1.34%
+2      XLE              2.48% 10                         1.90%
+3      XOP              2.12% 8                          1.22%
+4      XTL              1.90% 9                          2.96%
+5      XLB              1.70% 8                          0.85%
+6      XAR              1.61% 6                          0.33%
+7      XLP              1.42% 8                          2.41%
+8      XLI              1.32% 8                         -0.05%
+9      XME              1.28% 6                          1.61%
+10     XLU              1.21% 7                          3.02%

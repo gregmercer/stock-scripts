@@ -11,12 +11,12 @@ def generate_rolling_report(rolling_data):
     report_lines = []
     report_lines.append("=" * 80)
     report_lines.append("Rolling 10-Week Performance Report")
-    report_lines.append("Top 10 ETFs by Weeks Positive")
+    report_lines.append("Top 10 ETFs by Geometric Average")
     report_lines.append("=" * 80)
     report_lines.append("")
 
     # Create table header
-    report_lines.append(f"{'Period':<30} | {'Top 10 ETFs (by Weeks Positive)'}")
+    report_lines.append(f"{'Period':<30} | {'Top 10 ETFs (by Geometric Average)'}")
     report_lines.append("-" * 80)
 
     # Process each rolling period
@@ -46,17 +46,18 @@ def generate_rolling_report(rolling_data):
         report_lines.append("-" * 80)
 
         # Table header for detailed view
-        report_lines.append(f"{'Rank':<6} {'Ticker':<8} {'Weeks Positive':<16} {'Most Recent %':<16}")
+        report_lines.append(f"{'Rank':<6} {'Ticker':<8} {'Geo Avg %':<14} {'Weeks Positive':<16} {'Most Recent %':<16}")
         report_lines.append("-" * 80)
 
         # Add each ETF
         for rank, etf in enumerate(period['top_10_etfs'], 1):
             ticker = etf['ticker']
+            geo_avg = etf.get('geometric_avg', 0.0)
             weeks_pos = etf['weeks_positive']
             recent_change = etf['most_recent_change']
 
             report_lines.append(
-                f"{rank:<6} {ticker:<8} {weeks_pos:<16} {recent_change:>14.2f}%"
+                f"{rank:<6} {ticker:<8} {geo_avg:>12.2f}% {weeks_pos:<16} {recent_change:>14.2f}%"
             )
 
         report_lines.append("")
