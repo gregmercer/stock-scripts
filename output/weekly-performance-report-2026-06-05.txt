@@ -1,0 +1,83 @@
+--- Top 5 ETFs by Geometric Average (10 weeks) ---
+ETF Ticker  Geometric Avg  Weeks Positive  Week 1 (Latest)  Week 2  Week 3  Week 4  Week 5  Week 6  Week 7  Week 8  Week 9  Week 10
+       XSD           6.01               8            -6.75    1.51    9.89   -0.83   11.18    4.06   15.51   11.81   10.18     5.53
+      XNTK           3.58               8            -4.52    6.27    3.80   -1.39    7.75    1.69    4.08    8.07    6.24     4.54
+       XLK           3.34               9            -5.61    5.89    2.34    0.42    8.43    1.03    3.80    8.22    4.88     4.80
+       XTN           2.18               7             0.36    5.05    5.04   -2.98    0.18   -0.83   -7.51   11.21    6.69     5.87
+       XSW           1.98               6            -5.12    7.43    5.32   -3.81    3.87    3.61   -1.50   13.02   -6.17     4.82
+
+Top 5 Legend:
+XSD    - SPDR S&P Semiconductor ETF
+XNTK   - SPDR NYSE Technology ETF
+XLK    - Technology Select Sector SPDR Fund
+XTN    - SPDR S&P Transportation ETF
+XSW    - SPDR S&P Software & Services ETF
+
+--- Full Weekly Performance Report (10 weeks) ---
+ETF Ticker  Geometric Avg  Weeks Positive  Week 1 (Latest)  Week 2  Week 3  Week 4  Week 5  Week 6  Week 7  Week 8  Week 9  Week 10
+       XSD           6.01               8            -6.75    1.51    9.89   -0.83   11.18    4.06   15.51   11.81   10.18     5.53
+      XNTK           3.58               8            -4.52    6.27    3.80   -1.39    7.75    1.69    4.08    8.07    6.24     4.54
+       XLK           3.34               9            -5.61    5.89    2.34    0.42    8.43    1.03    3.80    8.22    4.88     4.80
+       XTN           2.18               7             0.36    5.05    5.04   -2.98    0.18   -0.83   -7.51   11.21    6.69     5.87
+       XSW           1.98               6            -5.12    7.43    5.32   -3.81    3.87    3.61   -1.50   13.02   -6.17     4.82
+       XTL           1.96               7            -5.08    2.07    3.51    1.36   -2.40    4.27   -0.85    6.51    4.35     6.49
+       XHS           1.72              10             1.82    0.75    0.97    0.29    1.58    1.56    0.85    5.11    1.51     2.86
+       XLG           1.65               9            -3.36    1.27    0.02    1.03    2.61    1.11    0.85    5.49    3.79     3.94
+       KCE           1.26               6            -1.55   -0.15    0.36   -1.30    1.99    0.29   -1.75    7.49    3.37     4.28
+       RWR           1.20               7             1.15   -1.22    2.91   -2.13    0.94    1.03   -1.32    3.67    3.12     4.06
+      XLRE           1.18               7             1.61   -1.28    3.08   -2.66    0.20    1.12   -1.46    3.88    2.91     4.70
+       XME           1.14               8            -5.28    6.95    1.28   -4.43    2.02    0.66    0.15    3.56    2.51     4.63
+       KBE           1.09               6             0.99   -0.08    3.02   -3.70   -0.03    0.90   -1.64    2.74    4.32     4.69
+       KRE           1.08               8             0.80    0.35    3.58   -4.12    0.04    1.35   -2.10    2.07    4.45     4.76
+       XPH           0.97               7            -2.08    0.80    1.69   -3.48    0.67    1.90   -3.16    6.09    2.10     5.62
+       XLF           0.95               6             1.40   -0.69    1.64   -0.27   -1.31    0.97   -1.93    3.27    2.50     4.13
+       XLI           0.93               8             0.61    0.79    0.22   -1.04    0.14    0.28   -0.60    1.16    4.73     3.16
+       XLY           0.86               6            -4.97    1.42    2.27   -3.05    1.32   -0.05   -1.43    6.66    4.38     2.54
+       XAR           0.85               6            -5.36    6.20    4.00   -1.76    3.49   -0.00   -7.21    3.20    3.17     3.64
+       XBI           0.73               6            -5.87    3.82    0.74   -2.98    3.29   -2.15   -3.89    7.13    0.37     7.84
+       XHB           0.73               7             0.86    2.62    3.83   -6.04   -2.46   -3.10    1.12    3.28    5.72     2.09
+       XLV           0.70               7             2.37   -0.28    3.30    1.12   -1.15    0.68   -3.10    1.01    0.34     2.90
+       KIE           0.66               6             3.15   -4.25    1.91    0.28   -0.74   -1.63   -1.08    4.40    1.30     3.57
+       XRT           0.53               5            -1.62    1.76    4.36   -6.65   -1.00   -0.24   -1.33    5.10    2.83     2.66
+       XHE           0.47               5             1.67   -2.01    4.66   -1.60   -3.55   -1.26   -2.68    7.38    1.20     1.45
+       XLC           0.46               6            -3.47    0.20   -0.53   -0.74    0.19    1.02   -2.99    4.52    2.01     4.69
+       XLB           0.39               5            -1.02    1.71   -0.02   -2.50    0.47   -1.10    0.08   -0.15    3.07     3.53
+       XLP           0.26               9             0.64   -2.23    0.19    0.55    0.01    1.13    0.93    0.11    0.59     0.70
+       XES          -0.02               4            -1.52   -7.04   -0.04    5.25   -4.05    1.99    8.90   -1.90    2.17    -2.98
+       XLU          -0.21               5            -0.16   -2.05    3.37   -1.90   -3.93    0.80    0.04   -1.70    1.34     2.36
+       XLE          -0.75               5             2.45   -5.38    0.08    6.71   -5.35    3.48    3.36   -3.37   -3.90    -4.67
+       XOP          -1.21               4             1.22   -4.63   -1.25    5.43   -6.51    5.13    5.24   -5.21   -5.21    -5.18
+
+--- Complete ETF Legend ---
+KBE    - SPDR S&P Bank ETF
+KCE    - SPDR S&P Capital Markets ETF
+KIE    - SPDR S&P Insurance ETF
+KRE    - SPDR S&P Regional Banking ETF
+RWR    - SPDR Dow Jones REIT ETF
+XAR    - SPDR S&P Aerospace & Defense ETF
+XBI    - SPDR S&P Biotech ETF
+XES    - SPDR S&P Oil & Gas Equipment & Services ETF
+XHB    - SPDR S&P Homebuilders ETF
+XHE    - SPDR S&P Health Care Equipment ETF
+XHS    - SPDR S&P Health Care Services ETF
+XLB    - Materials Select Sector SPDR Fund
+XLC    - Communication Services Select Sector SPDR Fund
+XLE    - Energy Select Sector SPDR Fund
+XLF    - Financial Select Sector SPDR Fund
+XLG    - Invesco S&P 500 Top 50 ETF
+XLI    - Industrial Select Sector SPDR Fund
+XLK    - Technology Select Sector SPDR Fund
+XLP    - Consumer Staples Select Sector SPDR Fund
+XLRE   - Real Estate Select Sector SPDR Fund
+XLU    - Utilities Select Sector SPDR Fund
+XLV    - Health Care Select Sector SPDR Fund
+XLY    - Consumer Discretionary Select Sector SPDR Fund
+XME    - SPDR S&P Metals & Mining ETF
+XNTK   - SPDR NYSE Technology ETF
+XOP    - SPDR S&P Oil & Gas Exploration & Production ETF
+XPH    - SPDR S&P Pharmaceuticals ETF
+XRT    - SPDR S&P Retail ETF
+XSD    - SPDR S&P Semiconductor ETF
+XSW    - SPDR S&P Software & Services ETF
+XTL    - SPDR S&P Telecom ETF
+XTN    - SPDR S&P Transportation ETF
