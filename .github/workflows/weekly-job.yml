@@ -40,6 +40,8 @@ jobs:
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
 
+          git pull
+
           # Show what files were generated
           echo "Files generated in output/:"
           ls -lh output/
