@@ -26,9 +26,20 @@ jobs:
         run: |
           uv sync
 
+      # Anchor to the most recent Friday rather than today, so a manual run on
+      # any other day still lands on the weekly cadence instead of leaving an
+      # off-cadence report behind. On the Friday schedule this is today.
+      - name: Resolve report date
+        run: |
+          DOW=$(TZ=America/Los_Angeles date +%u)          # 1=Mon .. 7=Sun
+          OFFSET=$(( (DOW - 5 + 7) % 7 ))                 # days back to Friday
+          REPORT_DATE=$(TZ=America/Los_Angeles date -d "-${OFFSET} days" +%Y-%m-%d)
+          echo "REPORT_DATE=${REPORT_DATE}" >> $GITHUB_ENV
+          echo "BACKTEST_YEAR=${REPORT_DATE%%-*}" >> $GITHUB_ENV
+          echo "Reporting for week ending ${REPORT_DATE}"
+
       - name: Run weekly performance report
         run: |
-          REPORT_DATE=$(TZ=America/Los_Angeles date +%Y-%m-%d)
           uv run weekly-performance.py > output/weekly-performance-report-${REPORT_DATE}.txt
 
       - name: Run complete analysis pipeline
@@ -41,7 +52,6 @@ jobs:
       - name: Update current-year backtest
         continue-on-error: true
         run: |
-          BACKTEST_YEAR=$(TZ=America/Los_Angeles date +%Y)
           uv run backtest.py --year ${BACKTEST_YEAR}
 
       - name: Commit and Push changes
@@ -63,8 +73,6 @@ jobs:
           if git diff --staged --quiet; then
             echo "No changes to commit"
           else
-            REPORT_DATE=$(TZ=America/Los_Angeles date +%Y-%m-%d)
-            BACKTEST_YEAR=$(TZ=America/Los_Angeles date +%Y)
             git commit -m "Weekly report ${REPORT_DATE}" \
                        -m "Generated files:" \
                        -m "- weekly-performance-report-${REPORT_DATE}.txt" \

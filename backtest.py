@@ -92,11 +92,13 @@ def slice_to_backtest_window(path, first_week, last_week):
     """
     weekly = json.loads(path.read_text())
 
-    # Cap at the most recent completed week: for a year still in progress
-    # yfinance returns a partial bar for the current week, which would show up
-    # as a real weekly change measured over only part of the week.
+    # Drop weeks that have not ended yet: for a year still in progress yfinance
+    # returns a partial bar for the current week, which would show up as a real
+    # weekly change measured over only part of it. A week ending today counts,
+    # since the weekly job runs after Friday's close - the same bar the live
+    # pipeline uses - and excluding it would leave backtests a week behind.
     lo = first_week.isoformat()
-    hi = min(last_week, date.today() - timedelta(days=1)).isoformat()
+    hi = min(last_week, date.today()).isoformat()
     kept = [w for w in weekly if lo <= w['week_ending'] <= hi]
 
     if not kept:
