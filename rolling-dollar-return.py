@@ -188,8 +188,10 @@ def calculate_portfolio_returns(weekly_data, portfolio_history, sp500_lookup):
     period_index = 0
     current_portfolio_tickers = set(first_entry['portfolio'])
 
-    # Track S&P 500 benchmark with equal capital additions
-    sp500_value = INITIAL_PORTFOLIO_VALUE
+    # Track S&P 500 benchmark with equal capital additions.
+    # Capital is put to work at the close of the week it is added, so it starts
+    # at zero and the initial capital is invested on the first week below.
+    sp500_value = 0.0
     sp500_total_capital_invested = INITIAL_PORTFOLIO_VALUE
 
     # Process each week from start
@@ -225,10 +227,10 @@ def calculate_portfolio_returns(weekly_data, portfolio_history, sp500_lookup):
                         total_capital_invested += capital_needed
                         capital_added_this_week += capital_needed
 
-                        # Add same amount to S&P 500 benchmark
+                        # Add same amount to S&P 500 benchmark (invested at this
+                        # week's close, below, so it skips this week's move too)
                         sp500_total_capital_invested += capital_needed
                         sp500_capital_added_this_week += capital_needed
-                        sp500_value += capital_needed
 
                         cash_available = 0
 
@@ -246,46 +248,48 @@ def calculate_portfolio_returns(weekly_data, portfolio_history, sp500_lookup):
 
         for ticker in current_portfolio_tickers:
             if ticker in position_values:
-                # Get the change for this week
-                if ticker in weekly_changes_lookup and week_ending in weekly_changes_lookup[ticker]:
+                position = position_values[ticker]
+
+                # A position bought at this week's close did not participate in
+                # this week's price move, so it stays flat at its entry value.
+                bought_this_week = position['entry_date'] == week_ending
+
+                if bought_this_week:
+                    change_pct = 0.0
+                elif ticker in weekly_changes_lookup and week_ending in weekly_changes_lookup[ticker]:
                     change_pct = weekly_changes_lookup[ticker][week_ending]
-                    old_value = position_values[ticker]['value']
-                    new_value = old_value * (1 + change_pct / 100)
-                    position_values[ticker]['value'] = new_value
-
-                    position_details.append({
-                        'ticker': ticker,
-                        'value': new_value,
-                        'change_pct': change_pct,
-                        'entry_date': position_values[ticker]['entry_date'],
-                        'entry_value': position_values[ticker]['entry_value'],
-                        'gain_loss': new_value - position_values[ticker]['entry_value']
-                    })
-
-                    week_total += new_value
+                    position['value'] = position['value'] * (1 + change_pct / 100)
                 else:
                     # No data for this week, keep previous value
-                    week_total += position_values[ticker]['value']
-                    position_details.append({
-                        'ticker': ticker,
-                        'value': position_values[ticker]['value'],
-                        'change_pct': 0,
-                        'entry_date': position_values[ticker]['entry_date'],
-                        'entry_value': position_values[ticker]['entry_value'],
-                        'gain_loss': position_values[ticker]['value'] - position_values[ticker]['entry_value']
-                    })
+                    change_pct = 0.0
+
+                week_total += position['value']
+                position_details.append({
+                    'ticker': ticker,
+                    'value': position['value'],
+                    'change_pct': change_pct,
+                    'entry_date': position['entry_date'],
+                    'entry_value': position['entry_value'],
+                    'gain_loss': position['value'] - position['entry_value']
+                })
 
         # Calculate true performance based on capital invested
         net_gain_loss = week_total + cash_available - total_capital_invested
         true_return_pct = (net_gain_loss / total_capital_invested) * 100
 
-        # Update S&P 500 benchmark (apply weekly return AFTER capital additions)
+        # Update S&P 500 benchmark (apply weekly return BEFORE capital additions,
+        # since capital added this week is only invested at this week's close)
         sp500_change_pct = sp500_lookup.get(week_ending, None)
         if sp500_change_pct is not None and sp500_change_pct == sp500_change_pct:  # Check for NaN
             sp500_value = sp500_value * (1 + sp500_change_pct / 100)
         elif sp500_change_pct is None:
             # No SPY data for this week - likely future date or market holiday
             pass
+
+        sp500_value += sp500_capital_added_this_week
+        if week_idx == start_index:
+            # Initial capital is also put to work at the first week's close
+            sp500_value += INITIAL_PORTFOLIO_VALUE
 
         sp500_net_gain_loss = sp500_value - sp500_total_capital_invested
         sp500_return_pct = (sp500_net_gain_loss / sp500_total_capital_invested) * 100
