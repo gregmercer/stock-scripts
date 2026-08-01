@@ -130,9 +130,35 @@ Beats SPY in 4 of 7. The pattern is coherent for a momentum strategy: it lags in
 steady bull years (2019, 2021, 2024) and shines when leadership rotates hard.
 2022 is +30 points, staying positive through a -18% market.
 
-As a sanity check the SPY column tracks known actuals closely (2022: -17.91% vs
-roughly -18.1%; 2023: 26.18% vs roughly 26.3%), which validates the benchmark
-path on historical dates.
+**Results, 2012-2018.** These years run on a partial universe (see below), so
+they are not directly comparable to the table above.
+
+| Year | Strategy |     SPY | Outperform | Universe |
+|------|---------:|--------:|-----------:|---------:|
+| 2012 |   17.91% |  14.05% |     +3.86% |    30/32 |
+| 2013 |   34.85% |  33.94% |     +0.91% |    30/32 |
+| 2014 |   22.13% |  15.63% |     +6.50% |    30/32 |
+| 2015 |    1.81% |   0.74% |     +1.07% |    30/32 |
+| 2016 |   29.82% |  11.57% |    +18.25% |    31/32 |
+| 2017 |   21.76% |  21.71% |     +0.05% |    31/32 |
+| 2018 |    7.28% |  -5.40% |    +12.68% |    31/32 |
+
+Beats SPY in all seven, though four of the margins are under two points. The two
+large wins are again rotational years: 2016 and 2018, the latter staying
+positive through a -5% market. Across 2012-2025 the strategy beats SPY in 11 of
+14 years.
+
+Treat the clean sweep with some caution. A narrower universe means less
+competition for the five slots, and these years sit further from the live
+record, so they lean harder on the assumption that the current ETF list is a
+reasonable one to have picked at the time.
+
+As a check on the benchmark, the SPY column was compared against SPY's actual
+adjusted-close return over each backtest window. The eight years where the
+strategy needed no extra capital match to 0.00 points. The other six differ in
+proportion to the capital added, which is expected: the benchmark receives the
+same capital at the same time as the portfolio, making it a money-weighted
+return rather than a pure buy-and-hold one.
 
 **How the year is framed.** The strategy needs 10 weeks of history to rank ETFs,
 so a backtest of year Y is seeded from the 10 weeks ending on the last Friday of
