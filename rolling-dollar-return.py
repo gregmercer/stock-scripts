@@ -184,9 +184,10 @@ def calculate_portfolio_returns(weekly_data, portfolio_history, sp500_lookup):
     start_week = first_entry['period_end']
     start_index = all_weeks.index(start_week) if start_week in all_weeks else 0
 
-    # Track which portfolio period we're in
+    # Track which portfolio period we're in. Keep the portfolio as a list so the
+    # reported ordering follows the ranking and stays stable between runs.
     period_index = 0
-    current_portfolio_tickers = set(first_entry['portfolio'])
+    current_portfolio = list(first_entry['portfolio'])
 
     # Track S&P 500 benchmark with equal capital additions.
     # Capital is put to work at the close of the week it is added, so it starts
@@ -206,17 +207,22 @@ def calculate_portfolio_returns(weekly_data, portfolio_history, sp500_lookup):
             if week_ending == next_period['period_end']:
                 # Update portfolio for new period
                 period_index += 1
-                new_portfolio_tickers = set(next_period['portfolio'])
+                new_portfolio = list(next_period['portfolio'])
 
                 # Handle drops - sell positions and add to cash
-                for ticker in current_portfolio_tickers - new_portfolio_tickers:
+                for ticker in current_portfolio:
+                    if ticker in new_portfolio:
+                        continue
                     if ticker in position_values:
                         sale_value = position_values[ticker]['value']
                         cash_available += sale_value
                         del position_values[ticker]
 
                 # Handle adds - buy new positions at $20k
-                for ticker in new_portfolio_tickers - current_portfolio_tickers:
+                for ticker in new_portfolio:
+                    if ticker in current_portfolio:
+                        continue
+
                     # Check if we have enough cash
                     if cash_available >= INITIAL_POSITION_VALUE:
                         # Use cash from sales
@@ -240,13 +246,13 @@ def calculate_portfolio_returns(weekly_data, portfolio_history, sp500_lookup):
                         'entry_value': INITIAL_POSITION_VALUE
                     }
 
-                current_portfolio_tickers = new_portfolio_tickers
+                current_portfolio = new_portfolio
 
         # Apply weekly changes to all held positions
         week_total = 0
         position_details = []
 
-        for ticker in current_portfolio_tickers:
+        for ticker in current_portfolio:
             if ticker in position_values:
                 position = position_values[ticker]
 
