@@ -88,7 +88,11 @@ def slice_to_backtest_window(path, first_week, last_week):
     """
     weekly = json.loads(path.read_text())
 
-    lo, hi = first_week.isoformat(), last_week.isoformat()
+    # Cap at the most recent completed week: for a year still in progress
+    # yfinance returns a partial bar for the current week, which would show up
+    # as a real weekly change measured over only part of the week.
+    lo = first_week.isoformat()
+    hi = min(last_week, date.today() - timedelta(days=1)).isoformat()
     kept = [w for w in weekly if lo <= w['week_ending'] <= hi]
 
     if not kept:
@@ -118,7 +122,6 @@ def backtest_year(year, repo_root):
     out_dir.mkdir(parents=True, exist_ok=True)
 
     print(f"  Lookback weeks : {first_week} .. {first_week + timedelta(weeks=LOOKBACK_WEEKS - 1)}")
-    print(f"  Backtest weeks : {first_week + timedelta(weeks=LOOKBACK_WEEKS)} .. {last_week}")
     print(f"  Output         : {out_dir.relative_to(repo_root)}/")
 
     if not run("fetching weekly price changes", [
@@ -129,24 +132,33 @@ def backtest_year(year, repo_root):
     ]):
         return None
 
-    # historical-price-change.py names the file after the last week it fetched,
-    # which includes the buffer, so find it and rename to the true last week.
     produced = sorted(out_dir.glob("weekly-performance-*.json"))
     if not produced:
         print("  FAILED: fetcher produced no file", file=sys.stderr)
         return None
-    weekly_file = out_dir / f"weekly-performance-{last_week.isoformat()}.json"
-    if produced[-1] != weekly_file:
-        produced[-1].rename(weekly_file)
+    raw_file = produced[-1]
     for stale in produced[:-1]:
         stale.unlink()
 
-    kept, min_cov, max_cov = slice_to_backtest_window(weekly_file, first_week, last_week)
+    kept, min_cov, max_cov = slice_to_backtest_window(raw_file, first_week, last_week)
+
+    # A year still in progress stops short of its final Friday, so name every
+    # file after the last week actually covered. The downstream scripts derive
+    # their own names from the data, and this keeps all five consistent.
+    actual_last = kept[-1]['week_ending']
+    weekly_file = out_dir / f"weekly-performance-{actual_last}.json"
+    if raw_file != weekly_file:
+        raw_file.rename(weekly_file)
+
+    covered_from = kept[LOOKBACK_WEEKS]['week_ending'] if len(kept) > LOOKBACK_WEEKS else actual_last
+    print(f"  Backtest weeks : {covered_from} .. {actual_last}")
     print(f"  {len(kept)} weeks, {min_cov}-{max_cov} of 32 ETFs available per week")
+    if actual_last < last_week.isoformat():
+        print(f"  NOTE: {year} is incomplete; covers through {actual_last} rather than {last_week}")
     if min_cov < 32:
         print(f"  NOTE: {year} ran on a partial universe; not comparable to {FULL_UNIVERSE_FROM}+ results")
 
-    rolling_file = out_dir / f"rolling-performance-{last_week.isoformat()}.json"
+    rolling_file = out_dir / f"rolling-performance-{actual_last}.json"
 
     steps = [
         ("computing rolling 10-week rankings",
@@ -163,10 +175,10 @@ def backtest_year(year, repo_root):
         if not run(description, command):
             return None
 
-    return summarise(out_dir / f"report-dollar-return-{last_week.isoformat()}.txt", year, min_cov)
+    return summarise(out_dir / f"report-dollar-return-{actual_last}.txt", year, min_cov, actual_last)
 
 
-def summarise(report_path, year, min_cov):
+def summarise(report_path, year, min_cov, last_week):
     """Pull the headline figures out of a finished dollar-return report."""
     import re
 
@@ -184,6 +196,7 @@ def summarise(report_path, year, min_cov):
         "spy_return": field(spy, "Return"),
         "capital_invested": field(portfolio, "Total Capital Invested"),
         "universe": min_cov,
+        "last_week": last_week,
     }
 
 
@@ -228,8 +241,10 @@ def main():
         print("-" * 70)
         for r in results:
             flag = "" if r["universe"] == 32 else "  *"
+            partial = "" if r["last_week"].startswith(str(r["year"])) and \
+                r["last_week"] >= f"{r['year']}-12-24" else f"  (through {r['last_week']})"
             print(f"{r['year']:<8} {r['portfolio_return']:>9.2f}% {r['spy_return']:>9.2f}% "
-                  f"{r['portfolio_return'] - r['spy_return']:>11.2f}% {r['universe']:>7}/32{flag}")
+                  f"{r['portfolio_return'] - r['spy_return']:>11.2f}% {r['universe']:>7}/32{flag}{partial}")
         if any(r["universe"] < 32 for r in results):
             print("\n  * partial universe - not directly comparable to full-universe years")
 

@@ -114,21 +114,26 @@ uv run backtest.py --from-year 2019 --to-year 2025
 Results are written to `backtests/<year>/` using the same five file types as the
 live pipeline, and a summary table of strategy vs SPY is printed at the end.
 
-**Results, 2019-2025.**
+**Results, 2019 onward.**
 
-| Year | Strategy |     SPY | Outperform |
-|------|---------:|--------:|-----------:|
-| 2019 |   30.02% |  32.78% |     -2.76% |
-| 2020 |   29.21% |  18.63% |    +10.58% |
-| 2021 |   24.87% |  30.43% |     -5.56% |
-| 2022 |   12.32% | -17.91% |    +30.23% |
-| 2023 |   39.34% |  26.18% |    +13.16% |
-| 2024 |   21.42% |  26.72% |     -5.30% |
-| 2025 |   31.55% |  17.38% |    +14.17% |
+| Year  | Strategy |     SPY | Outperform |
+|-------|---------:|--------:|-----------:|
+| 2019  |   30.02% |  32.78% |     -2.76% |
+| 2020  |   29.21% |  18.63% |    +10.58% |
+| 2021  |   24.87% |  30.43% |     -5.56% |
+| 2022  |   12.32% | -17.91% |    +30.23% |
+| 2023  |   39.34% |  26.18% |    +13.16% |
+| 2024  |   21.42% |  26.72% |     -5.30% |
+| 2025  |   31.55% |  17.38% |    +14.17% |
+| 2026* |   32.80% |   8.79% |    +24.01% |
 
-Beats SPY in 4 of 7. The pattern is coherent for a momentum strategy: it lags in
-steady bull years (2019, 2021, 2024) and shines when leadership rotates hard.
-2022 is +30 points, staying positive through a -18% market.
+\* 2026 is still in progress, covering 2026-01-02 through 2026-07-31. Re-run
+`backtest.py --year 2026` to bring it up to date.
+
+Beats SPY in 4 of the 7 completed years, and is well ahead so far in 2026. The
+pattern is coherent for a momentum strategy: it lags in steady bull years (2019,
+2021, 2024) and shines when leadership rotates hard. 2022 is +30 points, staying
+positive through a -18% market.
 
 **Results, 2012-2018.** These years run on a partial universe (see below), so
 they are not directly comparable to the table above.
