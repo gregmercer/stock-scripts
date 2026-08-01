@@ -5,31 +5,68 @@ import json
 from datetime import datetime, timedelta
 from pathlib import Path
 
-def get_weekly_etf_performance(tickers, num_weeks=10, weeks_ago=0):
-    # Download enough historical data to cover the requested weeks plus offset
-    total_weeks_needed = num_weeks + weeks_ago + 4
-    period = f"{max(12, (total_weeks_needed // 4))}mo"
-    df = yf.download(tickers, period=period, interval="1wk", progress=False)
+def select_price_frame(df):
+    """
+    Pick the price frame to work from.
 
-    # Use 'Adj Close' if available, otherwise fall back to 'Close'
-    if 'Adj Close' in df.columns.levels[0]:
-        data = df['Adj Close']
+    yfinance auto-adjusts by default and returns those prices under 'Close',
+    omitting 'Adj Close' entirely. But when a ticker has no data at all for the
+    requested range it still emits an 'Adj Close' group containing only that
+    failed ticker, every value NaN. Naively preferring 'Adj Close' therefore
+    blanks the whole dataset - which is what a backtest spanning an ETF's
+    inception does. Choose whichever group actually carries the most tickers,
+    keeping the old 'Adj Close' preference when both are fully populated.
+    """
+    available = df.columns.levels[0]
+    best_frame, best_usable = None, -1
+    for level in ('Adj Close', 'Close'):
+        if level not in available:
+            continue
+        frame = df[level]
+        usable = sum(1 for t in frame.columns if not frame[t].isna().all())
+        if usable > best_usable:
+            best_frame, best_usable = frame, usable
+    return best_frame
+
+
+def get_weekly_etf_performance(tickers, num_weeks=10, weeks_ago=0, start=None, end=None):
+    """
+    Fetch weekly ETF performance.
+
+    By default the window is anchored to today (num_weeks back, optionally
+    offset by weeks_ago). Passing start/end instead fetches an explicit date
+    range, which is what backtests need so their results stay reproducible
+    rather than shifting as time passes.
+    """
+    if start or end:
+        df = yf.download(tickers, start=start, end=end, interval="1wk", progress=False)
     else:
-        data = df['Close']
+        # Download enough historical data to cover the requested weeks plus offset
+        total_weeks_needed = num_weeks + weeks_ago + 4
+        period = f"{max(12, (total_weeks_needed // 4))}mo"
+        df = yf.download(tickers, period=period, interval="1wk", progress=False)
+
+    data = select_price_frame(df)
 
     # Calculate percentage change for each week
     pct_changes = data.pct_change() * 100
 
-    # Get the window starting from weeks_ago
-    if weeks_ago > 0:
-        end_idx = -(weeks_ago + 1)
-        start_idx = end_idx - num_weeks + 1
+    if start or end:
+        # Keep the whole fetched range; the caller slices to the weeks it wants.
+        # The first row is dropped because pct_change() leaves it undefined.
+        recent_changes = pct_changes.iloc[1:]
+        recent_data = data.iloc[1:]
     else:
-        end_idx = None
-        start_idx = -num_weeks
+        # Get the window starting from weeks_ago
+        if weeks_ago > 0:
+            end_idx = -(weeks_ago + 1)
+            start_idx = end_idx - num_weeks + 1
+        else:
+            end_idx = None
+            start_idx = -num_weeks
 
-    recent_changes = pct_changes.iloc[start_idx:end_idx]
-    recent_data = data.iloc[start_idx:end_idx]
+        recent_changes = pct_changes.iloc[start_idx:end_idx]
+        recent_data = data.iloc[start_idx:end_idx]
 
     # Build list of objects for each week (Friday close)
     weekly_records = []
@@ -110,15 +147,23 @@ if __name__ == "__main__":
                         help='Number of weeks to include (default: 10)')
     parser.add_argument('--ago', type=int, default=0,
                         help='Start the window N weeks ago (default: 0 = most recent)')
+    parser.add_argument('--start', type=str, default=None,
+                        help='Fetch an explicit date range starting YYYY-MM-DD (overrides -w/--ago)')
+    parser.add_argument('--end', type=str, default=None,
+                        help='Fetch an explicit date range ending YYYY-MM-DD (overrides -w/--ago)')
     parser.add_argument('-o', '--output', action='store_true',
-                        help='Write output to file in output/ directory')
+                        help='Write output to file in the output directory')
+    parser.add_argument('--output-dir', type=str, default='output',
+                        help='Directory to write output to (default: output)')
     args = parser.parse_args()
 
     # Get performance data
     weekly_records = get_weekly_etf_performance(
         etf_list,
         num_weeks=args.weeks,
-        weeks_ago=args.ago
+        weeks_ago=args.ago,
+        start=args.start,
+        end=args.end
     )
 
     # Convert to JSON
@@ -127,8 +172,8 @@ if __name__ == "__main__":
     # Output to file or console
     if args.output:
         # Create output directory if it doesn't exist
-        output_dir = Path("output")
-        output_dir.mkdir(exist_ok=True)
+        output_dir = Path(args.output_dir)
+        output_dir.mkdir(parents=True, exist_ok=True)
 
         # Format filename using most recent week ending date
         if weekly_records:

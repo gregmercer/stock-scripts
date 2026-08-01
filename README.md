@@ -15,6 +15,7 @@ This repository implements a momentum-based ETF portfolio strategy that tracks w
 - Calculates dollar returns with SPY (S&P 500) benchmark comparison
 - Generates comprehensive reports automatically
 - Stores historical data and reports in the `output/` directory
+- Backtests the strategy over past calendar years into the `backtests/` directory
 
 ## Ranking Methodology
 
@@ -95,6 +96,63 @@ uv run running-portfolio.py -i output/rolling-performance-2026-02-27.json -o
 uv run rolling-dollar-return.py -w output/weekly-performance-2026-02-27.json -p output/rolling-performance-2026-02-27.json -o
 ```
 
+### Backtesting a Historical Year
+
+Run the same strategy over a past calendar year:
+
+```bash
+# One year
+uv run backtest.py --year 2025
+
+# Several specific years
+uv run backtest.py --year 2019 --year 2022
+
+# An inclusive range
+uv run backtest.py --from-year 2019 --to-year 2025
+```
+
+Results are written to `backtests/<year>/` using the same five file types as the
+live pipeline, and a summary table of strategy vs SPY is printed at the end.
+
+**Results, 2019-2025.**
+
+| Year | Strategy |     SPY | Outperform |
+|------|---------:|--------:|-----------:|
+| 2019 |   30.02% |  32.78% |     -2.76% |
+| 2020 |   29.21% |  18.63% |    +10.58% |
+| 2021 |   24.87% |  30.43% |     -5.56% |
+| 2022 |   12.32% | -17.91% |    +30.23% |
+| 2023 |   39.34% |  26.18% |    +13.16% |
+| 2024 |   21.42% |  26.72% |     -5.30% |
+| 2025 |   31.55% |  17.38% |    +14.17% |
+
+Beats SPY in 4 of 7. The pattern is coherent for a momentum strategy: it lags in
+steady bull years (2019, 2021, 2024) and shines when leadership rotates hard.
+2022 is +30 points, staying positive through a -18% market.
+
+As a sanity check the SPY column tracks known actuals closely (2022: -17.91% vs
+roughly -18.1%; 2023: 26.18% vs roughly 26.3%), which validates the benchmark
+path on historical dates.
+
+**How the year is framed.** The strategy needs 10 weeks of history to rank ETFs,
+so a backtest of year Y is seeded from the 10 weeks ending on the last Friday of
+Y-1. Positions are entered at that close, which makes every week of Y live
+performance and the result a clean calendar-year return. The dollar-return
+report therefore opens with a flat entry row dated to the prior December.
+
+Because both the portfolio and the SPY benchmark are measured over that same
+window, the SPY figure will be close to, but not exactly, a quoted calendar-year
+return.
+
+**Universe coverage.** The 32-ETF list is fully listed only from June 2018, so
+2019 onward is fully comparable. Earlier years run with fewer ETFs and are
+flagged in the summary; 2012 is the earliest supported. An ETF must have a price
+for all 10 weeks of a window to be ranked, so a fund that lists partway through
+cannot win on a short post-launch streak.
+
+Note that the ETF list is today's list, so any backtest uses a universe chosen
+with present-day knowledge.
+
 ### Automated Reports
 
 The GitHub Actions workflow runs automatically every Friday at 2pm PST and:
@@ -149,6 +207,7 @@ You can also trigger the workflow manually from the Actions tab in GitHub.
 - `running-portfolio.py` - Tracks 5-ETF momentum portfolio
 - `rolling-dollar-return.py` - Calculates dollar returns vs SPY
 - `run-analysis.py` - Master script that runs complete pipeline
+- `backtest.py` - Runs the strategy over one or more historical calendar years
 
 ## License
 

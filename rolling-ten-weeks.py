@@ -72,6 +72,15 @@ def calculate_rolling_ten_week_scores(weekly_data):
         # Convert to list and calculate geometric average for each ETF
         etf_list = []
         for ticker, data in etf_scores.items():
+            # An ETF must have a price for every week in the window to be
+            # ranked. Without this, a fund that lists partway through gets a
+            # geometric average over just a few weeks and competes head to head
+            # with ETFs measured over the full ten - a short hot streak right
+            # after launch would take the top slot. Only reachable in backtests
+            # that span an ETF's inception; live data always has all tickers.
+            if len(data['weekly_changes']) < len(window):
+                continue
+
             changes = [w['change'] for w in data['weekly_changes']]
             geo_avg = calculate_geometric_average(changes)
 
@@ -119,7 +128,9 @@ if __name__ == "__main__":
     parser.add_argument('-i', '--input', type=str, required=True,
                         help='Input JSON file path (e.g., output/weekly-performance-02-27-2026.json)')
     parser.add_argument('-o', '--output', action='store_true',
-                        help='Write output to file in output/ directory')
+                        help='Write output to file in the output directory')
+    parser.add_argument('--output-dir', type=str, default='output',
+                        help='Directory to write output to (default: output)')
     args = parser.parse_args()
 
     # Read input JSON file
@@ -144,8 +155,8 @@ if __name__ == "__main__":
     # Output to file or console
     if args.output:
         # Create output directory if it doesn't exist
-        output_dir = Path("output")
-        output_dir.mkdir(exist_ok=True)
+        output_dir = Path(args.output_dir)
+        output_dir.mkdir(parents=True, exist_ok=True)
 
         # Format filename using most recent period end date
         if rolling_scores:

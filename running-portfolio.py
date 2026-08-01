@@ -168,7 +168,9 @@ if __name__ == "__main__":
     parser.add_argument('-i', '--input', type=str, required=True,
                         help='Input JSON file path (e.g., output/rolling-performance-02-27-2026.json)')
     parser.add_argument('-o', '--output', action='store_true',
-                        help='Write output to file in output/ directory')
+                        help='Write output to file in the output directory')
+    parser.add_argument('--output-dir', type=str, default='output',
+                        help='Directory to write output to (default: output)')
     args = parser.parse_args()
 
     # Read input JSON file
@@ -190,8 +192,8 @@ if __name__ == "__main__":
     # Output to file or console
     if args.output:
         # Create output directory if it doesn't exist
-        output_dir = Path("output")
-        output_dir.mkdir(exist_ok=True)
+        output_dir = Path(args.output_dir)
+        output_dir.mkdir(parents=True, exist_ok=True)
 
         # Format filename using most recent period end date
         if portfolio_history:
