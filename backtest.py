@@ -30,6 +30,10 @@ from pathlib import Path
 
 LOOKBACK_WEEKS = 10
 
+# Returned when a year has no completed weeks yet, which happens when the
+# weekly job first runs after a new year starts. Distinct from a failure.
+SKIPPED = object()
+
 # The universe is fully listed from this point on. Earlier years still run, but
 # with fewer than 32 ETFs to choose from, so results are not directly comparable.
 FULL_UNIVERSE_FROM = 2019
@@ -121,6 +125,13 @@ def backtest_year(year, repo_root):
     out_dir = repo_root / "backtests" / str(year)
     out_dir.mkdir(parents=True, exist_ok=True)
 
+    # Start clean. The year still in progress is re-run every week, and the
+    # pipeline scripts name their output after the last week of data, so
+    # anything left behind would linger under an out-of-date name.
+    for old in out_dir.iterdir():
+        if old.is_file():
+            old.unlink()
+
     print(f"  Lookback weeks : {first_week} .. {first_week + timedelta(weeks=LOOKBACK_WEEKS - 1)}")
     print(f"  Output         : {out_dir.relative_to(repo_root)}/")
 
@@ -142,13 +153,22 @@ def backtest_year(year, repo_root):
 
     kept, min_cov, max_cov = slice_to_backtest_window(raw_file, first_week, last_week)
 
-    # A year still in progress stops short of its final Friday, so name every
-    # file after the last week actually covered. The downstream scripts derive
-    # their own names from the data, and this keeps all five consistent.
+    # The pipeline scripts name their output after the last week of data. Inside
+    # backtests/<year>/ that suffix is redundant, and for the year in progress it
+    # would change every week, so strip it. Each report states its own coverage.
     actual_last = kept[-1]['week_ending']
-    weekly_file = out_dir / f"weekly-performance-{actual_last}.json"
-    if raw_file != weekly_file:
-        raw_file.rename(weekly_file)
+    weekly_file = out_dir / "weekly-performance.json"
+    raw_file.rename(weekly_file)
+
+    # Early in a new year there are lookback weeks but nothing to measure yet.
+    # Writing a report here would show a meaningless flat 0.00% return.
+    if not [w for w in kept if w['week_ending'] >= f"{year}-01-01"]:
+        print(f"  SKIPPED: {year} has no completed weeks yet")
+        for leftover in out_dir.iterdir():
+            if leftover.is_file():
+                leftover.unlink()
+        out_dir.rmdir()
+        return SKIPPED
 
     covered_from = kept[LOOKBACK_WEEKS]['week_ending'] if len(kept) > LOOKBACK_WEEKS else actual_last
     print(f"  Backtest weeks : {covered_from} .. {actual_last}")
@@ -158,24 +178,32 @@ def backtest_year(year, repo_root):
     if min_cov < 32:
         print(f"  NOTE: {year} ran on a partial universe; not comparable to {FULL_UNIVERSE_FROM}+ results")
 
-    rolling_file = out_dir / f"rolling-performance-{actual_last}.json"
+    rolling_file = out_dir / "rolling-performance.json"
+    dollar_file = out_dir / "report-dollar-return.txt"
 
+    # Each step writes a file named after the last week of data; rename it to
+    # the stable name once written.
     steps = [
-        ("computing rolling 10-week rankings",
+        ("computing rolling 10-week rankings", rolling_file,
          ["uv", "run", "rolling-ten-weeks.py", "-i", str(weekly_file), "-o", "--output-dir", str(out_dir)]),
-        ("writing rolling performance report",
+        ("writing rolling performance report", out_dir / "report-rolling-performance.txt",
          ["uv", "run", "rolling-ten-weeks-report.py", "-i", str(rolling_file), "-o", "--output-dir", str(out_dir)]),
-        ("writing running portfolio report",
+        ("writing running portfolio report", out_dir / "report-running-portfolio.txt",
          ["uv", "run", "running-portfolio.py", "-i", str(rolling_file), "-o", "--output-dir", str(out_dir)]),
-        ("writing dollar return report",
+        ("writing dollar return report", dollar_file,
          ["uv", "run", "rolling-dollar-return.py", "-w", str(weekly_file), "-p", str(rolling_file),
           "-o", "--output-dir", str(out_dir)]),
     ]
-    for description, command in steps:
+    for description, final_path, command in steps:
         if not run(description, command):
             return None
+        dated = final_path.with_name(f"{final_path.stem}-{actual_last}{final_path.suffix}")
+        if not dated.exists():
+            print(f"  FAILED: expected {dated.name} from '{description}'", file=sys.stderr)
+            return None
+        dated.rename(final_path)
 
-    return summarise(out_dir / f"report-dollar-return-{actual_last}.txt", year, min_cov, actual_last)
+    return summarise(dollar_file, year, min_cov, actual_last)
 
 
 def summarise(report_path, year, min_cov, last_week):
@@ -233,7 +261,8 @@ def main():
             print(f"NOTE: {y} is still in progress; its backtest covers only the weeks so far")
 
     repo_root = Path(__file__).resolve().parent
-    results = [r for r in (backtest_year(y, repo_root) for y in years) if r]
+    outcomes = [backtest_year(y, repo_root) for y in years]
+    results = [r for r in outcomes if r is not None and r is not SKIPPED]
 
     if results:
         print(f"\n{'=' * 70}\nSummary\n{'=' * 70}")
@@ -248,7 +277,7 @@ def main():
         if any(r["universe"] < 32 for r in results):
             print("\n  * partial universe - not directly comparable to full-universe years")
 
-    failed = len(years) - len(results)
+    failed = sum(1 for r in outcomes if r is None)
     if failed:
         print(f"\n{failed} year(s) failed", file=sys.stderr)
     return 1 if failed else 0

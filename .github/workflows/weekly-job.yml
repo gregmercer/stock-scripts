@@ -35,6 +35,15 @@ jobs:
         run: |
           uv run run-analysis.py
 
+      # Refreshes backtests/<current year>/ so the year-to-date result keeps up
+      # with the weekly reports. Allowed to fail: it is a second network fetch,
+      # and a bad day at Yahoo should not hold back the weekly reports.
+      - name: Update current-year backtest
+        continue-on-error: true
+        run: |
+          BACKTEST_YEAR=$(TZ=America/Los_Angeles date +%Y)
+          uv run backtest.py --year ${BACKTEST_YEAR}
+
       - name: Commit and Push changes
         run: |
           git config --global user.name "github-actions[bot]"
@@ -46,14 +55,16 @@ jobs:
           echo "Files generated in output/:"
           ls -lh output/
 
-          # Add all output files
+          # Add all output files, plus the refreshed current-year backtest
           git add output/*.txt output/*.json
+          git add backtests/ || true
 
           # Check if there are changes to commit
           if git diff --staged --quiet; then
             echo "No changes to commit"
           else
             REPORT_DATE=$(TZ=America/Los_Angeles date +%Y-%m-%d)
+            BACKTEST_YEAR=$(TZ=America/Los_Angeles date +%Y)
             git commit -m "Weekly report ${REPORT_DATE}" \
                        -m "Generated files:" \
                        -m "- weekly-performance-report-${REPORT_DATE}.txt" \
@@ -61,7 +72,8 @@ jobs:
                        -m "- rolling-performance-${REPORT_DATE}.json" \
                        -m "- report-rolling-performance-${REPORT_DATE}.txt" \
                        -m "- report-running-portfolio-${REPORT_DATE}.txt" \
-                       -m "- report-dollar-return-${REPORT_DATE}.txt"
+                       -m "- report-dollar-return-${REPORT_DATE}.txt" \
+                       -m "- backtests/${BACKTEST_YEAR}/ (year to date)"
             git push
             echo "Changes pushed successfully"
           fi

@@ -113,6 +113,12 @@ uv run backtest.py --from-year 2019 --to-year 2025
 
 Results are written to `backtests/<year>/` using the same five file types as the
 live pipeline, and a summary table of strategy vs SPY is printed at the end.
+Filenames carry no date inside these folders, since the folder is the year and
+the current year is rewritten every week; each report states its own coverage.
+
+The current year is refreshed automatically by the Friday job, so
+`backtests/<this year>/` always reflects the year so far. Completed years are
+left alone once written.
 
 **Results, 2019 onward.**
 
@@ -127,8 +133,8 @@ live pipeline, and a summary table of strategy vs SPY is printed at the end.
 | 2025  |   31.55% |  17.38% |    +14.17% |
 | 2026* |   32.80% |   8.79% |    +24.01% |
 
-\* 2026 is still in progress, covering 2026-01-02 through 2026-07-31. Re-run
-`backtest.py --year 2026` to bring it up to date.
+\* 2026 is still in progress, covering 2026-01-02 through 2026-07-31. The Friday
+job extends it each week.
 
 Beats SPY in 4 of the 7 completed years, and is well ahead so far in 2026. The
 pattern is coherent for a momentum strategy: it lags in steady bull years (2019,
@@ -196,7 +202,10 @@ The GitHub Actions workflow runs automatically every Friday at 2pm PST and:
    - `report-rolling-performance-YYYY-MM-DD.txt` - Rolling period breakdown
    - `report-running-portfolio-YYYY-MM-DD.txt` - Portfolio rotation history
    - `report-dollar-return-YYYY-MM-DD.txt` - Dollar returns vs SPY
-4. Commits and pushes changes
+4. Refreshes `backtests/<current year>/` with the year-to-date backtest. This
+   step is allowed to fail without holding back the weekly reports, and is
+   skipped in early January until the new year has a completed week.
+5. Commits and pushes changes
 
 You can also trigger the workflow manually from the Actions tab in GitHub.
 
