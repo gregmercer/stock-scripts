@@ -1,5 +1,4865 @@
 [
   {
+    "period_start": "2025-08-15",
+    "period_end": "2025-10-17",
+    "top_10_etfs": [
+      {
+        "ticker": "XME",
+        "geometric_avg": 2.59,
+        "weeks_positive": 10,
+        "most_recent_change": 1.37,
+        "weekly_changes": [
+          {
+            "change": 0.62,
+            "week_ending": "2025-08-15"
+          },
+          {
+            "change": 0.44,
+            "week_ending": "2025-08-22"
+          },
+          {
+            "change": 2.75,
+            "week_ending": "2025-08-29"
+          },
+          {
+            "change": 1.94,
+            "week_ending": "2025-09-05"
+          },
+          {
+            "change": 1.95,
+            "week_ending": "2025-09-12"
+          },
+          {
+            "change": 5.63,
+            "week_ending": "2025-09-19"
+          },
+          {
+            "change": 2.12,
+            "week_ending": "2025-09-26"
+          },
+          {
+            "change": 5.81,
+            "week_ending": "2025-10-03"
+          },
+          {
+            "change": 3.4,
+            "week_ending": "2025-10-10"
+          },
+          {
+            "change": 1.37,
+            "week_ending": "2025-10-17"
+          }
+        ]
+      },
+      {
+        "ticker": "XSD",
+        "geometric_avg": 2.43,
+        "weeks_positive": 8,
+        "most_recent_change": 8.73,
+        "weekly_changes": [
+          {
+            "change": 3.95,
+            "week_ending": "2025-08-15"
+          },
+          {
+            "change": 1.87,
+            "week_ending": "2025-08-22"
+          },
+          {
+            "change": 0.05,
+            "week_ending": "2025-08-29"
+          },
+          {
+            "change": 1.2,
+            "week_ending": "2025-09-05"
+          },
+          {
+            "change": 3.15,
+            "week_ending": "2025-09-12"
+          },
+          {
+            "change": 6.68,
+            "week_ending": "2025-09-19"
+          },
+          {
+            "change": -0.13,
+            "week_ending": "2025-09-26"
+          },
+          {
+            "change": 3.68,
+            "week_ending": "2025-10-03"
+          },
+          {
+            "change": -4.32,
+            "week_ending": "2025-10-10"
+          },
+          {
+            "change": 8.73,
+            "week_ending": "2025-10-17"
+          }
+        ]
+      },
+      {
+        "ticker": "XBI",
+        "geometric_avg": 2.36,
+        "weeks_positive": 8,
+        "most_recent_change": 2.68,
+        "weekly_changes": [
+          {
+            "change": 6.15,
+            "week_ending": "2025-08-15"
+          },
+          {
+            "change": 0.26,
+            "week_ending": "2025-08-22"
+          },
+          {
+            "change": -1.18,
+            "week_ending": "2025-08-29"
+          },
+          {
+            "change": 6.25,
+            "week_ending": "2025-09-05"
+          },
+          {
+            "change": -1.41,
+            "week_ending": "2025-09-12"
+          },
+          {
+            "change": 1.57,
+            "week_ending": "2025-09-19"
+          },
+          {
+            "change": 2.49,
+            "week_ending": "2025-09-26"
+          },
+          {
+            "change": 5.77,
+            "week_ending": "2025-10-03"
+          },
+          {
+            "change": 1.34,
+            "week_ending": "2025-10-10"
+          },
+          {
+            "change": 2.68,
+            "week_ending": "2025-10-17"
+          }
+        ]
+      },
+      {
+        "ticker": "XTL",
+        "geometric_avg": 1.71,
+        "weeks_positive": 8,
+        "most_recent_change": 1.73,
+        "weekly_changes": [
+          {
+            "change": 0.58,
+            "week_ending": "2025-08-15"
+          },
+          {
+            "change": 2.47,
+            "week_ending": "2025-08-22"
+          },
+          {
+            "change": 3.2,
+            "week_ending": "2025-08-29"
+          },
+          {
+            "change": 1.41,
+            "week_ending": "2025-09-05"
+          },
+          {
+            "change": 1.56,
+            "week_ending": "2025-09-12"
+          },
+          {
+            "change": 2.02,
+            "week_ending": "2025-09-19"
+          },
+          {
+            "change": -0.5,
+            "week_ending": "2025-09-26"
+          },
+          {
+            "change": 5.38,
+            "week_ending": "2025-10-03"
+          },
+          {
+            "change": -0.66,
+            "week_ending": "2025-10-10"
+          },
+          {
+            "change": 1.73,
+            "week_ending": "2025-10-17"
+          }
+        ]
+      },
+      {
+        "ticker": "XNTK",
+        "geometric_avg": 1.34,
+        "weeks_positive": 7,
+        "most_recent_change": 3.51,
+        "weekly_changes": [
+          {
+            "change": 0.11,
+            "week_ending": "2025-08-15"
+          },
+          {
+            "change": -0.69,
+            "week_ending": "2025-08-22"
+          },
+          {
+            "change": -0.05,
+            "week_ending": "2025-08-29"
+          },
+          {
+            "change": 1.32,
+            "week_ending": "2025-09-05"
+          },
+          {
+            "change": 5.08,
+            "week_ending": "2025-09-12"
+          },
+          {
+            "change": 4.72,
+            "week_ending": "2025-09-19"
+          },
+          {
+            "change": 0.07,
+            "week_ending": "2025-09-26"
+          },
+          {
+            "change": 3.24,
+            "week_ending": "2025-10-03"
+          },
+          {
+            "change": -3.57,
+            "week_ending": "2025-10-10"
+          },
+          {
+            "change": 3.51,
+            "week_ending": "2025-10-17"
+          }
+        ]
+      },
+      {
+        "ticker": "XPH",
+        "geometric_avg": 1.13,
+        "weeks_positive": 8,
+        "most_recent_change": 1.86,
+        "weekly_changes": [
+          {
+            "change": 6.74,
+            "week_ending": "2025-08-15"
+          },
+          {
+            "change": 2.69,
+            "week_ending": "2025-08-22"
+          },
+          {
+            "change": 0.32,
+            "week_ending": "2025-08-29"
+          },
+          {
+            "change": 0.8,
+            "week_ending": "2025-09-05"
+          },
+          {
+            "change": -2.82,
+            "week_ending": "2025-09-12"
+          },
+          {
+            "change": 0.13,
+            "week_ending": "2025-09-19"
+          },
+          {
+            "change": 1.21,
+            "week_ending": "2025-09-26"
+          },
+          {
+            "change": 4.21,
+            "week_ending": "2025-10-03"
+          },
+          {
+            "change": -3.43,
+            "week_ending": "2025-10-10"
+          },
+          {
+            "change": 1.86,
+            "week_ending": "2025-10-17"
+          }
+        ]
+      },
+      {
+        "ticker": "XHS",
+        "geometric_avg": 1.12,
+        "weeks_positive": 7,
+        "most_recent_change": 1.86,
+        "weekly_changes": [
+          {
+            "change": 5.24,
+            "week_ending": "2025-08-15"
+          },
+          {
+            "change": 3.2,
+            "week_ending": "2025-08-22"
+          },
+          {
+            "change": 0.54,
+            "week_ending": "2025-08-29"
+          },
+          {
+            "change": 0.16,
+            "week_ending": "2025-09-05"
+          },
+          {
+            "change": -0.67,
+            "week_ending": "2025-09-12"
+          },
+          {
+            "change": -0.14,
+            "week_ending": "2025-09-19"
+          },
+          {
+            "change": 2.52,
+            "week_ending": "2025-09-26"
+          },
+          {
+            "change": 0.91,
+            "week_ending": "2025-10-03"
+          },
+          {
+            "change": -2.18,
+            "week_ending": "2025-10-10"
+          },
+          {
+            "change": 1.86,
+            "week_ending": "2025-10-17"
+          }
+        ]
+      },
+      {
+        "ticker": "XLV",
+        "geometric_avg": 1.01,
+        "weeks_positive": 6,
+        "most_recent_change": 0.82,
+        "weekly_changes": [
+          {
+            "change": 4.65,
+            "week_ending": "2025-08-15"
+          },
+          {
+            "change": 1.44,
+            "week_ending": "2025-08-22"
+          },
+          {
+            "change": -0.54,
+            "week_ending": "2025-08-29"
+          },
+          {
+            "change": 0.34,
+            "week_ending": "2025-09-05"
+          },
+          {
+            "change": 0.15,
+            "week_ending": "2025-09-12"
+          },
+          {
+            "change": -0.59,
+            "week_ending": "2025-09-19"
+          },
+          {
+            "change": -0.85,
+            "week_ending": "2025-09-26"
+          },
+          {
+            "change": 6.88,
+            "week_ending": "2025-10-03"
+          },
+          {
+            "change": -1.87,
+            "week_ending": "2025-10-10"
+          },
+          {
+            "change": 0.82,
+            "week_ending": "2025-10-17"
+          }
+        ]
+      },
+      {
+        "ticker": "XES",
+        "geometric_avg": 0.99,
+        "weeks_positive": 5,
+        "most_recent_change": 5.41,
+        "weekly_changes": [
+          {
+            "change": -0.05,
+            "week_ending": "2025-08-15"
+          },
+          {
+            "change": 6.32,
+            "week_ending": "2025-08-22"
+          },
+          {
+            "change": 1.73,
+            "week_ending": "2025-08-29"
+          },
+          {
+            "change": -1.17,
+            "week_ending": "2025-09-05"
+          },
+          {
+            "change": 0.97,
+            "week_ending": "2025-09-12"
+          },
+          {
+            "change": -0.3,
+            "week_ending": "2025-09-19"
+          },
+          {
+            "change": 6.58,
+            "week_ending": "2025-09-26"
+          },
+          {
+            "change": -1.61,
+            "week_ending": "2025-10-03"
+          },
+          {
+            "change": -7.19,
+            "week_ending": "2025-10-10"
+          },
+          {
+            "change": 5.41,
+            "week_ending": "2025-10-17"
+          }
+        ]
+      },
+      {
+        "ticker": "XAR",
+        "geometric_avg": 0.96,
+        "weeks_positive": 7,
+        "most_recent_change": -1.47,
+        "weekly_changes": [
+          {
+            "change": 0.52,
+            "week_ending": "2025-08-15"
+          },
+          {
+            "change": 0.3,
+            "week_ending": "2025-08-22"
+          },
+          {
+            "change": 0.6,
+            "week_ending": "2025-08-29"
+          },
+          {
+            "change": -0.37,
+            "week_ending": "2025-09-05"
+          },
+          {
+            "change": 2.16,
+            "week_ending": "2025-09-12"
+          },
+          {
+            "change": 2.53,
+            "week_ending": "2025-09-19"
+          },
+          {
+            "change": 1.74,
+            "week_ending": "2025-09-26"
+          },
+          {
+            "change": 4.49,
+            "week_ending": "2025-10-03"
+          },
+          {
+            "change": -0.72,
+            "week_ending": "2025-10-10"
+          },
+          {
+            "change": -1.47,
+            "week_ending": "2025-10-17"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "period_start": "2025-08-22",
+    "period_end": "2025-10-24",
+    "top_10_etfs": [
+      {
+        "ticker": "XME",
+        "geometric_avg": 2.28,
+        "weeks_positive": 9,
+        "most_recent_change": -2.39,
+        "weekly_changes": [
+          {
+            "change": 0.44,
+            "week_ending": "2025-08-22"
+          },
+          {
+            "change": 2.75,
+            "week_ending": "2025-08-29"
+          },
+          {
+            "change": 1.94,
+            "week_ending": "2025-09-05"
+          },
+          {
+            "change": 1.95,
+            "week_ending": "2025-09-12"
+          },
+          {
+            "change": 5.63,
+            "week_ending": "2025-09-19"
+          },
+          {
+            "change": 2.12,
+            "week_ending": "2025-09-26"
+          },
+          {
+            "change": 5.81,
+            "week_ending": "2025-10-03"
+          },
+          {
+            "change": 3.4,
+            "week_ending": "2025-10-10"
+          },
+          {
+            "change": 1.37,
+            "week_ending": "2025-10-17"
+          },
+          {
+            "change": -2.39,
+            "week_ending": "2025-10-24"
+          }
+        ]
+      },
+      {
+        "ticker": "XSD",
+        "geometric_avg": 2.09,
+        "weeks_positive": 8,
+        "most_recent_change": 0.61,
+        "weekly_changes": [
+          {
+            "change": 1.87,
+            "week_ending": "2025-08-22"
+          },
+          {
+            "change": 0.05,
+            "week_ending": "2025-08-29"
+          },
+          {
+            "change": 1.2,
+            "week_ending": "2025-09-05"
+          },
+          {
+            "change": 3.15,
+            "week_ending": "2025-09-12"
+          },
+          {
+            "change": 6.68,
+            "week_ending": "2025-09-19"
+          },
+          {
+            "change": -0.13,
+            "week_ending": "2025-09-26"
+          },
+          {
+            "change": 3.68,
+            "week_ending": "2025-10-03"
+          },
+          {
+            "change": -4.32,
+            "week_ending": "2025-10-10"
+          },
+          {
+            "change": 8.73,
+            "week_ending": "2025-10-17"
+          },
+          {
+            "change": 0.61,
+            "week_ending": "2025-10-24"
+          }
+        ]
+      },
+      {
+        "ticker": "XES",
+        "geometric_avg": 1.94,
+        "weeks_positive": 6,
+        "most_recent_change": 9.77,
+        "weekly_changes": [
+          {
+            "change": 6.32,
+            "week_ending": "2025-08-22"
+          },
+          {
+            "change": 1.73,
+            "week_ending": "2025-08-29"
+          },
+          {
+            "change": -1.17,
+            "week_ending": "2025-09-05"
+          },
+          {
+            "change": 0.97,
+            "week_ending": "2025-09-12"
+          },
+          {
+            "change": -0.3,
+            "week_ending": "2025-09-19"
+          },
+          {
+            "change": 6.58,
+            "week_ending": "2025-09-26"
+          },
+          {
+            "change": -1.61,
+            "week_ending": "2025-10-03"
+          },
+          {
+            "change": -7.19,
+            "week_ending": "2025-10-10"
+          },
+          {
+            "change": 5.41,
+            "week_ending": "2025-10-17"
+          },
+          {
+            "change": 9.77,
+            "week_ending": "2025-10-24"
+          }
+        ]
+      },
+      {
+        "ticker": "XTL",
+        "geometric_avg": 1.81,
+        "weeks_positive": 8,
+        "most_recent_change": 1.59,
+        "weekly_changes": [
+          {
+            "change": 2.47,
+            "week_ending": "2025-08-22"
+          },
+          {
+            "change": 3.2,
+            "week_ending": "2025-08-29"
+          },
+          {
+            "change": 1.41,
+            "week_ending": "2025-09-05"
+          },
+          {
+            "change": 1.56,
+            "week_ending": "2025-09-12"
+          },
+          {
+            "change": 2.02,
+            "week_ending": "2025-09-19"
+          },
+          {
+            "change": -0.5,
+            "week_ending": "2025-09-26"
+          },
+          {
+            "change": 5.38,
+            "week_ending": "2025-10-03"
+          },
+          {
+            "change": -0.66,
+            "week_ending": "2025-10-10"
+          },
+          {
+            "change": 1.73,
+            "week_ending": "2025-10-17"
+          },
+          {
+            "change": 1.59,
+            "week_ending": "2025-10-24"
+          }
+        ]
+      },
+      {
+        "ticker": "XBI",
+        "geometric_avg": 1.8,
+        "weeks_positive": 8,
+        "most_recent_change": 0.55,
+        "weekly_changes": [
+          {
+            "change": 0.26,
+            "week_ending": "2025-08-22"
+          },
+          {
+            "change": -1.18,
+            "week_ending": "2025-08-29"
+          },
+          {
+            "change": 6.25,
+            "week_ending": "2025-09-05"
+          },
+          {
+            "change": -1.41,
+            "week_ending": "2025-09-12"
+          },
+          {
+            "change": 1.57,
+            "week_ending": "2025-09-19"
+          },
+          {
+            "change": 2.49,
+            "week_ending": "2025-09-26"
+          },
+          {
+            "change": 5.77,
+            "week_ending": "2025-10-03"
+          },
+          {
+            "change": 1.34,
+            "week_ending": "2025-10-10"
+          },
+          {
+            "change": 2.68,
+            "week_ending": "2025-10-17"
+          },
+          {
+            "change": 0.55,
+            "week_ending": "2025-10-24"
+          }
+        ]
+      },
+      {
+        "ticker": "XNTK",
+        "geometric_avg": 1.63,
+        "weeks_positive": 7,
+        "most_recent_change": 3.0,
+        "weekly_changes": [
+          {
+            "change": -0.69,
+            "week_ending": "2025-08-22"
+          },
+          {
+            "change": -0.05,
+            "week_ending": "2025-08-29"
+          },
+          {
+            "change": 1.32,
+            "week_ending": "2025-09-05"
+          },
+          {
+            "change": 5.08,
+            "week_ending": "2025-09-12"
+          },
+          {
+            "change": 4.72,
+            "week_ending": "2025-09-19"
+          },
+          {
+            "change": 0.07,
+            "week_ending": "2025-09-26"
+          },
+          {
+            "change": 3.24,
+            "week_ending": "2025-10-03"
+          },
+          {
+            "change": -3.57,
+            "week_ending": "2025-10-10"
+          },
+          {
+            "change": 3.51,
+            "week_ending": "2025-10-17"
+          },
+          {
+            "change": 3.0,
+            "week_ending": "2025-10-24"
+          }
+        ]
+      },
+      {
+        "ticker": "XAR",
+        "geometric_avg": 1.52,
+        "weeks_positive": 7,
+        "most_recent_change": 6.21,
+        "weekly_changes": [
+          {
+            "change": 0.3,
+            "week_ending": "2025-08-22"
+          },
+          {
+            "change": 0.6,
+            "week_ending": "2025-08-29"
+          },
+          {
+            "change": -0.37,
+            "week_ending": "2025-09-05"
+          },
+          {
+            "change": 2.16,
+            "week_ending": "2025-09-12"
+          },
+          {
+            "change": 2.53,
+            "week_ending": "2025-09-19"
+          },
+          {
+            "change": 1.74,
+            "week_ending": "2025-09-26"
+          },
+          {
+            "change": 4.49,
+            "week_ending": "2025-10-03"
+          },
+          {
+            "change": -0.72,
+            "week_ending": "2025-10-10"
+          },
+          {
+            "change": -1.47,
+            "week_ending": "2025-10-17"
+          },
+          {
+            "change": 6.21,
+            "week_ending": "2025-10-24"
+          }
+        ]
+      },
+      {
+        "ticker": "XLK",
+        "geometric_avg": 1.02,
+        "weeks_positive": 8,
+        "most_recent_change": 3.01,
+        "weekly_changes": [
+          {
+            "change": -1.23,
+            "week_ending": "2025-08-22"
+          },
+          {
+            "change": 0.01,
+            "week_ending": "2025-08-29"
+          },
+          {
+            "change": 0.16,
+            "week_ending": "2025-09-05"
+          },
+          {
+            "change": 3.05,
+            "week_ending": "2025-09-12"
+          },
+          {
+            "change": 2.97,
+            "week_ending": "2025-09-19"
+          },
+          {
+            "change": 0.1,
+            "week_ending": "2025-09-26"
+          },
+          {
+            "change": 2.11,
+            "week_ending": "2025-10-03"
+          },
+          {
+            "change": -2.22,
+            "week_ending": "2025-10-10"
+          },
+          {
+            "change": 2.38,
+            "week_ending": "2025-10-17"
+          },
+          {
+            "change": 3.01,
+            "week_ending": "2025-10-24"
+          }
+        ]
+      },
+      {
+        "ticker": "XHS",
+        "geometric_avg": 1.0,
+        "weeks_positive": 7,
+        "most_recent_change": 3.92,
+        "weekly_changes": [
+          {
+            "change": 3.2,
+            "week_ending": "2025-08-22"
+          },
+          {
+            "change": 0.54,
+            "week_ending": "2025-08-29"
+          },
+          {
+            "change": 0.16,
+            "week_ending": "2025-09-05"
+          },
+          {
+            "change": -0.67,
+            "week_ending": "2025-09-12"
+          },
+          {
+            "change": -0.14,
+            "week_ending": "2025-09-19"
+          },
+          {
+            "change": 2.52,
+            "week_ending": "2025-09-26"
+          },
+          {
+            "change": 0.91,
+            "week_ending": "2025-10-03"
+          },
+          {
+            "change": -2.18,
+            "week_ending": "2025-10-10"
+          },
+          {
+            "change": 1.86,
+            "week_ending": "2025-10-17"
+          },
+          {
+            "change": 3.92,
+            "week_ending": "2025-10-24"
+          }
+        ]
+      },
+      {
+        "ticker": "XSW",
+        "geometric_avg": 0.95,
+        "weeks_positive": 7,
+        "most_recent_change": 3.55,
+        "weekly_changes": [
+          {
+            "change": 2.29,
+            "week_ending": "2025-08-22"
+          },
+          {
+            "change": 1.37,
+            "week_ending": "2025-08-29"
+          },
+          {
+            "change": 0.07,
+            "week_ending": "2025-09-05"
+          },
+          {
+            "change": 1.62,
+            "week_ending": "2025-09-12"
+          },
+          {
+            "change": 4.11,
+            "week_ending": "2025-09-19"
+          },
+          {
+            "change": -1.22,
+            "week_ending": "2025-09-26"
+          },
+          {
+            "change": -0.04,
+            "week_ending": "2025-10-03"
+          },
+          {
+            "change": -2.47,
+            "week_ending": "2025-10-10"
+          },
+          {
+            "change": 0.42,
+            "week_ending": "2025-10-17"
+          },
+          {
+            "change": 3.55,
+            "week_ending": "2025-10-24"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "period_start": "2025-08-29",
+    "period_end": "2025-10-31",
+    "top_10_etfs": [
+      {
+        "ticker": "XBI",
+        "geometric_avg": 2.18,
+        "weeks_positive": 8,
+        "most_recent_change": 3.99,
+        "weekly_changes": [
+          {
+            "change": -1.18,
+            "week_ending": "2025-08-29"
+          },
+          {
+            "change": 6.25,
+            "week_ending": "2025-09-05"
+          },
+          {
+            "change": -1.41,
+            "week_ending": "2025-09-12"
+          },
+          {
+            "change": 1.57,
+            "week_ending": "2025-09-19"
+          },
+          {
+            "change": 2.49,
+            "week_ending": "2025-09-26"
+          },
+          {
+            "change": 5.77,
+            "week_ending": "2025-10-03"
+          },
+          {
+            "change": 1.34,
+            "week_ending": "2025-10-10"
+          },
+          {
+            "change": 2.68,
+            "week_ending": "2025-10-17"
+          },
+          {
+            "change": 0.55,
+            "week_ending": "2025-10-24"
+          },
+          {
+            "change": 3.99,
+            "week_ending": "2025-10-31"
+          }
+        ]
+      },
+      {
+        "ticker": "XSD",
+        "geometric_avg": 2.11,
+        "weeks_positive": 8,
+        "most_recent_change": 2.02,
+        "weekly_changes": [
+          {
+            "change": 0.05,
+            "week_ending": "2025-08-29"
+          },
+          {
+            "change": 1.2,
+            "week_ending": "2025-09-05"
+          },
+          {
+            "change": 3.15,
+            "week_ending": "2025-09-12"
+          },
+          {
+            "change": 6.68,
+            "week_ending": "2025-09-19"
+          },
+          {
+            "change": -0.13,
+            "week_ending": "2025-09-26"
+          },
+          {
+            "change": 3.68,
+            "week_ending": "2025-10-03"
+          },
+          {
+            "change": -4.32,
+            "week_ending": "2025-10-10"
+          },
+          {
+            "change": 8.73,
+            "week_ending": "2025-10-17"
+          },
+          {
+            "change": 0.61,
+            "week_ending": "2025-10-24"
+          },
+          {
+            "change": 2.02,
+            "week_ending": "2025-10-31"
+          }
+        ]
+      },
+      {
+        "ticker": "XTL",
+        "geometric_avg": 1.91,
+        "weeks_positive": 8,
+        "most_recent_change": 3.54,
+        "weekly_changes": [
+          {
+            "change": 3.2,
+            "week_ending": "2025-08-29"
+          },
+          {
+            "change": 1.41,
+            "week_ending": "2025-09-05"
+          },
+          {
+            "change": 1.56,
+            "week_ending": "2025-09-12"
+          },
+          {
+            "change": 2.02,
+            "week_ending": "2025-09-19"
+          },
+          {
+            "change": -0.5,
+            "week_ending": "2025-09-26"
+          },
+          {
+            "change": 5.38,
+            "week_ending": "2025-10-03"
+          },
+          {
+            "change": -0.66,
+            "week_ending": "2025-10-10"
+          },
+          {
+            "change": 1.73,
+            "week_ending": "2025-10-17"
+          },
+          {
+            "change": 1.59,
+            "week_ending": "2025-10-24"
+          },
+          {
+            "change": 3.54,
+            "week_ending": "2025-10-31"
+          }
+        ]
+      },
+      {
+        "ticker": "XME",
+        "geometric_avg": 1.9,
+        "weeks_positive": 8,
+        "most_recent_change": -3.24,
+        "weekly_changes": [
+          {
+            "change": 2.75,
+            "week_ending": "2025-08-29"
+          },
+          {
+            "change": 1.94,
+            "week_ending": "2025-09-05"
+          },
+          {
+            "change": 1.95,
+            "week_ending": "2025-09-12"
+          },
+          {
+            "change": 5.63,
+            "week_ending": "2025-09-19"
+          },
+          {
+            "change": 2.12,
+            "week_ending": "2025-09-26"
+          },
+          {
+            "change": 5.81,
+            "week_ending": "2025-10-03"
+          },
+          {
+            "change": 3.4,
+            "week_ending": "2025-10-10"
+          },
+          {
+            "change": 1.37,
+            "week_ending": "2025-10-17"
+          },
+          {
+            "change": -2.39,
+            "week_ending": "2025-10-24"
+          },
+          {
+            "change": -3.24,
+            "week_ending": "2025-10-31"
+          }
+        ]
+      },
+      {
+        "ticker": "XNTK",
+        "geometric_avg": 1.89,
+        "weeks_positive": 8,
+        "most_recent_change": 1.87,
+        "weekly_changes": [
+          {
+            "change": -0.05,
+            "week_ending": "2025-08-29"
+          },
+          {
+            "change": 1.32,
+            "week_ending": "2025-09-05"
+          },
+          {
+            "change": 5.08,
+            "week_ending": "2025-09-12"
+          },
+          {
+            "change": 4.72,
+            "week_ending": "2025-09-19"
+          },
+          {
+            "change": 0.07,
+            "week_ending": "2025-09-26"
+          },
+          {
+            "change": 3.24,
+            "week_ending": "2025-10-03"
+          },
+          {
+            "change": -3.57,
+            "week_ending": "2025-10-10"
+          },
+          {
+            "change": 3.51,
+            "week_ending": "2025-10-17"
+          },
+          {
+            "change": 3.0,
+            "week_ending": "2025-10-24"
+          },
+          {
+            "change": 1.87,
+            "week_ending": "2025-10-31"
+          }
+        ]
+      },
+      {
+        "ticker": "XES",
+        "geometric_avg": 1.59,
+        "weeks_positive": 6,
+        "most_recent_change": 2.68,
+        "weekly_changes": [
+          {
+            "change": 1.73,
+            "week_ending": "2025-08-29"
+          },
+          {
+            "change": -1.17,
+            "week_ending": "2025-09-05"
+          },
+          {
+            "change": 0.97,
+            "week_ending": "2025-09-12"
+          },
+          {
+            "change": -0.3,
+            "week_ending": "2025-09-19"
+          },
+          {
+            "change": 6.58,
+            "week_ending": "2025-09-26"
+          },
+          {
+            "change": -1.61,
+            "week_ending": "2025-10-03"
+          },
+          {
+            "change": -7.19,
+            "week_ending": "2025-10-10"
+          },
+          {
+            "change": 5.41,
+            "week_ending": "2025-10-17"
+          },
+          {
+            "change": 9.77,
+            "week_ending": "2025-10-24"
+          },
+          {
+            "change": 2.68,
+            "week_ending": "2025-10-31"
+          }
+        ]
+      },
+      {
+        "ticker": "XAR",
+        "geometric_avg": 1.43,
+        "weeks_positive": 6,
+        "most_recent_change": -0.6,
+        "weekly_changes": [
+          {
+            "change": 0.6,
+            "week_ending": "2025-08-29"
+          },
+          {
+            "change": -0.37,
+            "week_ending": "2025-09-05"
+          },
+          {
+            "change": 2.16,
+            "week_ending": "2025-09-12"
+          },
+          {
+            "change": 2.53,
+            "week_ending": "2025-09-19"
+          },
+          {
+            "change": 1.74,
+            "week_ending": "2025-09-26"
+          },
+          {
+            "change": 4.49,
+            "week_ending": "2025-10-03"
+          },
+          {
+            "change": -0.72,
+            "week_ending": "2025-10-10"
+          },
+          {
+            "change": -1.47,
+            "week_ending": "2025-10-17"
+          },
+          {
+            "change": 6.21,
+            "week_ending": "2025-10-24"
+          },
+          {
+            "change": -0.6,
+            "week_ending": "2025-10-31"
+          }
+        ]
+      },
+      {
+        "ticker": "XLK",
+        "geometric_avg": 1.38,
+        "weeks_positive": 9,
+        "most_recent_change": 2.42,
+        "weekly_changes": [
+          {
+            "change": 0.01,
+            "week_ending": "2025-08-29"
+          },
+          {
+            "change": 0.16,
+            "week_ending": "2025-09-05"
+          },
+          {
+            "change": 3.05,
+            "week_ending": "2025-09-12"
+          },
+          {
+            "change": 2.97,
+            "week_ending": "2025-09-19"
+          },
+          {
+            "change": 0.1,
+            "week_ending": "2025-09-26"
+          },
+          {
+            "change": 2.11,
+            "week_ending": "2025-10-03"
+          },
+          {
+            "change": -2.22,
+            "week_ending": "2025-10-10"
+          },
+          {
+            "change": 2.38,
+            "week_ending": "2025-10-17"
+          },
+          {
+            "change": 3.01,
+            "week_ending": "2025-10-24"
+          },
+          {
+            "change": 2.42,
+            "week_ending": "2025-10-31"
+          }
+        ]
+      },
+      {
+        "ticker": "XLG",
+        "geometric_avg": 0.91,
+        "weeks_positive": 8,
+        "most_recent_change": 2.06,
+        "weekly_changes": [
+          {
+            "change": 0.2,
+            "week_ending": "2025-08-29"
+          },
+          {
+            "change": 0.78,
+            "week_ending": "2025-09-05"
+          },
+          {
+            "change": 2.35,
+            "week_ending": "2025-09-12"
+          },
+          {
+            "change": 1.69,
+            "week_ending": "2025-09-19"
+          },
+          {
+            "change": -0.64,
+            "week_ending": "2025-09-26"
+          },
+          {
+            "change": 0.84,
+            "week_ending": "2025-10-03"
+          },
+          {
+            "change": -1.96,
+            "week_ending": "2025-10-10"
+          },
+          {
+            "change": 1.86,
+            "week_ending": "2025-10-17"
+          },
+          {
+            "change": 1.98,
+            "week_ending": "2025-10-24"
+          },
+          {
+            "change": 2.06,
+            "week_ending": "2025-10-31"
+          }
+        ]
+      },
+      {
+        "ticker": "XSW",
+        "geometric_avg": 0.54,
+        "weeks_positive": 6,
+        "most_recent_change": -1.85,
+        "weekly_changes": [
+          {
+            "change": 1.37,
+            "week_ending": "2025-08-29"
+          },
+          {
+            "change": 0.07,
+            "week_ending": "2025-09-05"
+          },
+          {
+            "change": 1.62,
+            "week_ending": "2025-09-12"
+          },
+          {
+            "change": 4.11,
+            "week_ending": "2025-09-19"
+          },
+          {
+            "change": -1.22,
+            "week_ending": "2025-09-26"
+          },
+          {
+            "change": -0.04,
+            "week_ending": "2025-10-03"
+          },
+          {
+            "change": -2.47,
+            "week_ending": "2025-10-10"
+          },
+          {
+            "change": 0.42,
+            "week_ending": "2025-10-17"
+          },
+          {
+            "change": 3.55,
+            "week_ending": "2025-10-24"
+          },
+          {
+            "change": -1.85,
+            "week_ending": "2025-10-31"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "period_start": "2025-09-05",
+    "period_end": "2025-11-07",
+    "top_10_etfs": [
+      {
+        "ticker": "XBI",
+        "geometric_avg": 1.95,
+        "weeks_positive": 8,
+        "most_recent_change": -3.33,
+        "weekly_changes": [
+          {
+            "change": 6.25,
+            "week_ending": "2025-09-05"
+          },
+          {
+            "change": -1.41,
+            "week_ending": "2025-09-12"
+          },
+          {
+            "change": 1.57,
+            "week_ending": "2025-09-19"
+          },
+          {
+            "change": 2.49,
+            "week_ending": "2025-09-26"
+          },
+          {
+            "change": 5.77,
+            "week_ending": "2025-10-03"
+          },
+          {
+            "change": 1.34,
+            "week_ending": "2025-10-10"
+          },
+          {
+            "change": 2.68,
+            "week_ending": "2025-10-17"
+          },
+          {
+            "change": 0.55,
+            "week_ending": "2025-10-24"
+          },
+          {
+            "change": 3.99,
+            "week_ending": "2025-10-31"
+          },
+          {
+            "change": -3.33,
+            "week_ending": "2025-11-07"
+          }
+        ]
+      },
+      {
+        "ticker": "XNTK",
+        "geometric_avg": 1.43,
+        "weeks_positive": 8,
+        "most_recent_change": -4.42,
+        "weekly_changes": [
+          {
+            "change": 1.32,
+            "week_ending": "2025-09-05"
+          },
+          {
+            "change": 5.08,
+            "week_ending": "2025-09-12"
+          },
+          {
+            "change": 4.72,
+            "week_ending": "2025-09-19"
+          },
+          {
+            "change": 0.07,
+            "week_ending": "2025-09-26"
+          },
+          {
+            "change": 3.24,
+            "week_ending": "2025-10-03"
+          },
+          {
+            "change": -3.57,
+            "week_ending": "2025-10-10"
+          },
+          {
+            "change": 3.51,
+            "week_ending": "2025-10-17"
+          },
+          {
+            "change": 3.0,
+            "week_ending": "2025-10-24"
+          },
+          {
+            "change": 1.87,
+            "week_ending": "2025-10-31"
+          },
+          {
+            "change": -4.42,
+            "week_ending": "2025-11-07"
+          }
+        ]
+      },
+      {
+        "ticker": "XSD",
+        "geometric_avg": 1.34,
+        "weeks_positive": 7,
+        "most_recent_change": -7.25,
+        "weekly_changes": [
+          {
+            "change": 1.2,
+            "week_ending": "2025-09-05"
+          },
+          {
+            "change": 3.15,
+            "week_ending": "2025-09-12"
+          },
+          {
+            "change": 6.68,
+            "week_ending": "2025-09-19"
+          },
+          {
+            "change": -0.13,
+            "week_ending": "2025-09-26"
+          },
+          {
+            "change": 3.68,
+            "week_ending": "2025-10-03"
+          },
+          {
+            "change": -4.32,
+            "week_ending": "2025-10-10"
+          },
+          {
+            "change": 8.73,
+            "week_ending": "2025-10-17"
+          },
+          {
+            "change": 0.61,
+            "week_ending": "2025-10-24"
+          },
+          {
+            "change": 2.02,
+            "week_ending": "2025-10-31"
+          },
+          {
+            "change": -7.25,
+            "week_ending": "2025-11-07"
+          }
+        ]
+      },
+      {
+        "ticker": "XES",
+        "geometric_avg": 1.3,
+        "weeks_positive": 5,
+        "most_recent_change": -1.11,
+        "weekly_changes": [
+          {
+            "change": -1.17,
+            "week_ending": "2025-09-05"
+          },
+          {
+            "change": 0.97,
+            "week_ending": "2025-09-12"
+          },
+          {
+            "change": -0.3,
+            "week_ending": "2025-09-19"
+          },
+          {
+            "change": 6.58,
+            "week_ending": "2025-09-26"
+          },
+          {
+            "change": -1.61,
+            "week_ending": "2025-10-03"
+          },
+          {
+            "change": -7.19,
+            "week_ending": "2025-10-10"
+          },
+          {
+            "change": 5.41,
+            "week_ending": "2025-10-17"
+          },
+          {
+            "change": 9.77,
+            "week_ending": "2025-10-24"
+          },
+          {
+            "change": 2.68,
+            "week_ending": "2025-10-31"
+          },
+          {
+            "change": -1.11,
+            "week_ending": "2025-11-07"
+          }
+        ]
+      },
+      {
+        "ticker": "XME",
+        "geometric_avg": 1.3,
+        "weeks_positive": 7,
+        "most_recent_change": -3.14,
+        "weekly_changes": [
+          {
+            "change": 1.94,
+            "week_ending": "2025-09-05"
+          },
+          {
+            "change": 1.95,
+            "week_ending": "2025-09-12"
+          },
+          {
+            "change": 5.63,
+            "week_ending": "2025-09-19"
+          },
+          {
+            "change": 2.12,
+            "week_ending": "2025-09-26"
+          },
+          {
+            "change": 5.81,
+            "week_ending": "2025-10-03"
+          },
+          {
+            "change": 3.4,
+            "week_ending": "2025-10-10"
+          },
+          {
+            "change": 1.37,
+            "week_ending": "2025-10-17"
+          },
+          {
+            "change": -2.39,
+            "week_ending": "2025-10-24"
+          },
+          {
+            "change": -3.24,
+            "week_ending": "2025-10-31"
+          },
+          {
+            "change": -3.14,
+            "week_ending": "2025-11-07"
+          }
+        ]
+      },
+      {
+        "ticker": "XLK",
+        "geometric_avg": 0.95,
+        "weeks_positive": 8,
+        "most_recent_change": -4.16,
+        "weekly_changes": [
+          {
+            "change": 0.16,
+            "week_ending": "2025-09-05"
+          },
+          {
+            "change": 3.05,
+            "week_ending": "2025-09-12"
+          },
+          {
+            "change": 2.97,
+            "week_ending": "2025-09-19"
+          },
+          {
+            "change": 0.1,
+            "week_ending": "2025-09-26"
+          },
+          {
+            "change": 2.11,
+            "week_ending": "2025-10-03"
+          },
+          {
+            "change": -2.22,
+            "week_ending": "2025-10-10"
+          },
+          {
+            "change": 2.38,
+            "week_ending": "2025-10-17"
+          },
+          {
+            "change": 3.01,
+            "week_ending": "2025-10-24"
+          },
+          {
+            "change": 2.42,
+            "week_ending": "2025-10-31"
+          },
+          {
+            "change": -4.16,
+            "week_ending": "2025-11-07"
+          }
+        ]
+      },
+      {
+        "ticker": "XTL",
+        "geometric_avg": 0.88,
+        "weeks_positive": 7,
+        "most_recent_change": -6.76,
+        "weekly_changes": [
+          {
+            "change": 1.41,
+            "week_ending": "2025-09-05"
+          },
+          {
+            "change": 1.56,
+            "week_ending": "2025-09-12"
+          },
+          {
+            "change": 2.02,
+            "week_ending": "2025-09-19"
+          },
+          {
+            "change": -0.5,
+            "week_ending": "2025-09-26"
+          },
+          {
+            "change": 5.38,
+            "week_ending": "2025-10-03"
+          },
+          {
+            "change": -0.66,
+            "week_ending": "2025-10-10"
+          },
+          {
+            "change": 1.73,
+            "week_ending": "2025-10-17"
+          },
+          {
+            "change": 1.59,
+            "week_ending": "2025-10-24"
+          },
+          {
+            "change": 3.54,
+            "week_ending": "2025-10-31"
+          },
+          {
+            "change": -6.76,
+            "week_ending": "2025-11-07"
+          }
+        ]
+      },
+      {
+        "ticker": "XAR",
+        "geometric_avg": 0.77,
+        "weeks_positive": 5,
+        "most_recent_change": -5.72,
+        "weekly_changes": [
+          {
+            "change": -0.37,
+            "week_ending": "2025-09-05"
+          },
+          {
+            "change": 2.16,
+            "week_ending": "2025-09-12"
+          },
+          {
+            "change": 2.53,
+            "week_ending": "2025-09-19"
+          },
+          {
+            "change": 1.74,
+            "week_ending": "2025-09-26"
+          },
+          {
+            "change": 4.49,
+            "week_ending": "2025-10-03"
+          },
+          {
+            "change": -0.72,
+            "week_ending": "2025-10-10"
+          },
+          {
+            "change": -1.47,
+            "week_ending": "2025-10-17"
+          },
+          {
+            "change": 6.21,
+            "week_ending": "2025-10-24"
+          },
+          {
+            "change": -0.6,
+            "week_ending": "2025-10-31"
+          },
+          {
+            "change": -5.72,
+            "week_ending": "2025-11-07"
+          }
+        ]
+      },
+      {
+        "ticker": "XLU",
+        "geometric_avg": 0.69,
+        "weeks_positive": 6,
+        "most_recent_change": 0.66,
+        "weekly_changes": [
+          {
+            "change": -1.01,
+            "week_ending": "2025-09-05"
+          },
+          {
+            "change": 2.43,
+            "week_ending": "2025-09-12"
+          },
+          {
+            "change": -0.64,
+            "week_ending": "2025-09-19"
+          },
+          {
+            "change": 2.88,
+            "week_ending": "2025-09-26"
+          },
+          {
+            "change": 2.42,
+            "week_ending": "2025-10-03"
+          },
+          {
+            "change": 1.45,
+            "week_ending": "2025-10-10"
+          },
+          {
+            "change": 1.52,
+            "week_ending": "2025-10-17"
+          },
+          {
+            "change": -0.2,
+            "week_ending": "2025-10-24"
+          },
+          {
+            "change": -2.51,
+            "week_ending": "2025-10-31"
+          },
+          {
+            "change": 0.66,
+            "week_ending": "2025-11-07"
+          }
+        ]
+      },
+      {
+        "ticker": "XLV",
+        "geometric_avg": 0.66,
+        "weeks_positive": 6,
+        "most_recent_change": 1.31,
+        "weekly_changes": [
+          {
+            "change": 0.34,
+            "week_ending": "2025-09-05"
+          },
+          {
+            "change": 0.15,
+            "week_ending": "2025-09-12"
+          },
+          {
+            "change": -0.59,
+            "week_ending": "2025-09-19"
+          },
+          {
+            "change": -0.85,
+            "week_ending": "2025-09-26"
+          },
+          {
+            "change": 6.88,
+            "week_ending": "2025-10-03"
+          },
+          {
+            "change": -1.87,
+            "week_ending": "2025-10-10"
+          },
+          {
+            "change": 0.82,
+            "week_ending": "2025-10-17"
+          },
+          {
+            "change": 1.93,
+            "week_ending": "2025-10-24"
+          },
+          {
+            "change": -1.22,
+            "week_ending": "2025-10-31"
+          },
+          {
+            "change": 1.31,
+            "week_ending": "2025-11-07"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "period_start": "2025-09-12",
+    "period_end": "2025-11-14",
+    "top_10_etfs": [
+      {
+        "ticker": "XBI",
+        "geometric_avg": 1.79,
+        "weeks_positive": 8,
+        "most_recent_change": 4.63,
+        "weekly_changes": [
+          {
+            "change": -1.41,
+            "week_ending": "2025-09-12"
+          },
+          {
+            "change": 1.57,
+            "week_ending": "2025-09-19"
+          },
+          {
+            "change": 2.49,
+            "week_ending": "2025-09-26"
+          },
+          {
+            "change": 5.77,
+            "week_ending": "2025-10-03"
+          },
+          {
+            "change": 1.34,
+            "week_ending": "2025-10-10"
+          },
+          {
+            "change": 2.68,
+            "week_ending": "2025-10-17"
+          },
+          {
+            "change": 0.55,
+            "week_ending": "2025-10-24"
+          },
+          {
+            "change": 3.99,
+            "week_ending": "2025-10-31"
+          },
+          {
+            "change": -3.33,
+            "week_ending": "2025-11-07"
+          },
+          {
+            "change": 4.63,
+            "week_ending": "2025-11-14"
+          }
+        ]
+      },
+      {
+        "ticker": "XES",
+        "geometric_avg": 1.4,
+        "weeks_positive": 5,
+        "most_recent_change": -0.19,
+        "weekly_changes": [
+          {
+            "change": 0.97,
+            "week_ending": "2025-09-12"
+          },
+          {
+            "change": -0.3,
+            "week_ending": "2025-09-19"
+          },
+          {
+            "change": 6.58,
+            "week_ending": "2025-09-26"
+          },
+          {
+            "change": -1.61,
+            "week_ending": "2025-10-03"
+          },
+          {
+            "change": -7.19,
+            "week_ending": "2025-10-10"
+          },
+          {
+            "change": 5.41,
+            "week_ending": "2025-10-17"
+          },
+          {
+            "change": 9.77,
+            "week_ending": "2025-10-24"
+          },
+          {
+            "change": 2.68,
+            "week_ending": "2025-10-31"
+          },
+          {
+            "change": -1.11,
+            "week_ending": "2025-11-07"
+          },
+          {
+            "change": -0.19,
+            "week_ending": "2025-11-14"
+          }
+        ]
+      },
+      {
+        "ticker": "XNTK",
+        "geometric_avg": 1.15,
+        "weeks_positive": 7,
+        "most_recent_change": -1.49,
+        "weekly_changes": [
+          {
+            "change": 5.08,
+            "week_ending": "2025-09-12"
+          },
+          {
+            "change": 4.72,
+            "week_ending": "2025-09-19"
+          },
+          {
+            "change": 0.07,
+            "week_ending": "2025-09-26"
+          },
+          {
+            "change": 3.24,
+            "week_ending": "2025-10-03"
+          },
+          {
+            "change": -3.57,
+            "week_ending": "2025-10-10"
+          },
+          {
+            "change": 3.51,
+            "week_ending": "2025-10-17"
+          },
+          {
+            "change": 3.0,
+            "week_ending": "2025-10-24"
+          },
+          {
+            "change": 1.87,
+            "week_ending": "2025-10-31"
+          },
+          {
+            "change": -4.42,
+            "week_ending": "2025-11-07"
+          },
+          {
+            "change": -1.49,
+            "week_ending": "2025-11-14"
+          }
+        ]
+      },
+      {
+        "ticker": "XLV",
+        "geometric_avg": 1.01,
+        "weeks_positive": 6,
+        "most_recent_change": 3.89,
+        "weekly_changes": [
+          {
+            "change": 0.15,
+            "week_ending": "2025-09-12"
+          },
+          {
+            "change": -0.59,
+            "week_ending": "2025-09-19"
+          },
+          {
+            "change": -0.85,
+            "week_ending": "2025-09-26"
+          },
+          {
+            "change": 6.88,
+            "week_ending": "2025-10-03"
+          },
+          {
+            "change": -1.87,
+            "week_ending": "2025-10-10"
+          },
+          {
+            "change": 0.82,
+            "week_ending": "2025-10-17"
+          },
+          {
+            "change": 1.93,
+            "week_ending": "2025-10-24"
+          },
+          {
+            "change": -1.22,
+            "week_ending": "2025-10-31"
+          },
+          {
+            "change": 1.31,
+            "week_ending": "2025-11-07"
+          },
+          {
+            "change": 3.89,
+            "week_ending": "2025-11-14"
+          }
+        ]
+      },
+      {
+        "ticker": "XLK",
+        "geometric_avg": 0.94,
+        "weeks_positive": 7,
+        "most_recent_change": -0.0,
+        "weekly_changes": [
+          {
+            "change": 3.05,
+            "week_ending": "2025-09-12"
+          },
+          {
+            "change": 2.97,
+            "week_ending": "2025-09-19"
+          },
+          {
+            "change": 0.1,
+            "week_ending": "2025-09-26"
+          },
+          {
+            "change": 2.11,
+            "week_ending": "2025-10-03"
+          },
+          {
+            "change": -2.22,
+            "week_ending": "2025-10-10"
+          },
+          {
+            "change": 2.38,
+            "week_ending": "2025-10-17"
+          },
+          {
+            "change": 3.01,
+            "week_ending": "2025-10-24"
+          },
+          {
+            "change": 2.42,
+            "week_ending": "2025-10-31"
+          },
+          {
+            "change": -4.16,
+            "week_ending": "2025-11-07"
+          },
+          {
+            "change": -0.0,
+            "week_ending": "2025-11-14"
+          }
+        ]
+      },
+      {
+        "ticker": "XME",
+        "geometric_avg": 0.91,
+        "weeks_positive": 6,
+        "most_recent_change": -1.84,
+        "weekly_changes": [
+          {
+            "change": 1.95,
+            "week_ending": "2025-09-12"
+          },
+          {
+            "change": 5.63,
+            "week_ending": "2025-09-19"
+          },
+          {
+            "change": 2.12,
+            "week_ending": "2025-09-26"
+          },
+          {
+            "change": 5.81,
+            "week_ending": "2025-10-03"
+          },
+          {
+            "change": 3.4,
+            "week_ending": "2025-10-10"
+          },
+          {
+            "change": 1.37,
+            "week_ending": "2025-10-17"
+          },
+          {
+            "change": -2.39,
+            "week_ending": "2025-10-24"
+          },
+          {
+            "change": -3.24,
+            "week_ending": "2025-10-31"
+          },
+          {
+            "change": -3.14,
+            "week_ending": "2025-11-07"
+          },
+          {
+            "change": -1.84,
+            "week_ending": "2025-11-14"
+          }
+        ]
+      },
+      {
+        "ticker": "XSD",
+        "geometric_avg": 0.69,
+        "weeks_positive": 6,
+        "most_recent_change": -5.12,
+        "weekly_changes": [
+          {
+            "change": 3.15,
+            "week_ending": "2025-09-12"
+          },
+          {
+            "change": 6.68,
+            "week_ending": "2025-09-19"
+          },
+          {
+            "change": -0.13,
+            "week_ending": "2025-09-26"
+          },
+          {
+            "change": 3.68,
+            "week_ending": "2025-10-03"
+          },
+          {
+            "change": -4.32,
+            "week_ending": "2025-10-10"
+          },
+          {
+            "change": 8.73,
+            "week_ending": "2025-10-17"
+          },
+          {
+            "change": 0.61,
+            "week_ending": "2025-10-24"
+          },
+          {
+            "change": 2.02,
+            "week_ending": "2025-10-31"
+          },
+          {
+            "change": -7.25,
+            "week_ending": "2025-11-07"
+          },
+          {
+            "change": -5.12,
+            "week_ending": "2025-11-14"
+          }
+        ]
+      },
+      {
+        "ticker": "XLU",
+        "geometric_avg": 0.68,
+        "weeks_positive": 6,
+        "most_recent_change": -1.04,
+        "weekly_changes": [
+          {
+            "change": 2.43,
+            "week_ending": "2025-09-12"
+          },
+          {
+            "change": -0.64,
+            "week_ending": "2025-09-19"
+          },
+          {
+            "change": 2.88,
+            "week_ending": "2025-09-26"
+          },
+          {
+            "change": 2.42,
+            "week_ending": "2025-10-03"
+          },
+          {
+            "change": 1.45,
+            "week_ending": "2025-10-10"
+          },
+          {
+            "change": 1.52,
+            "week_ending": "2025-10-17"
+          },
+          {
+            "change": -0.2,
+            "week_ending": "2025-10-24"
+          },
+          {
+            "change": -2.51,
+            "week_ending": "2025-10-31"
+          },
+          {
+            "change": 0.66,
+            "week_ending": "2025-11-07"
+          },
+          {
+            "change": -1.04,
+            "week_ending": "2025-11-14"
+          }
+        ]
+      },
+      {
+        "ticker": "XPH",
+        "geometric_avg": 0.61,
+        "weeks_positive": 7,
+        "most_recent_change": 5.09,
+        "weekly_changes": [
+          {
+            "change": -2.82,
+            "week_ending": "2025-09-12"
+          },
+          {
+            "change": 0.13,
+            "week_ending": "2025-09-19"
+          },
+          {
+            "change": 1.21,
+            "week_ending": "2025-09-26"
+          },
+          {
+            "change": 4.21,
+            "week_ending": "2025-10-03"
+          },
+          {
+            "change": -3.43,
+            "week_ending": "2025-10-10"
+          },
+          {
+            "change": 1.86,
+            "week_ending": "2025-10-17"
+          },
+          {
+            "change": 1.08,
+            "week_ending": "2025-10-24"
+          },
+          {
+            "change": 1.95,
+            "week_ending": "2025-10-31"
+          },
+          {
+            "change": -2.76,
+            "week_ending": "2025-11-07"
+          },
+          {
+            "change": 5.09,
+            "week_ending": "2025-11-14"
+          }
+        ]
+      },
+      {
+        "ticker": "XLE",
+        "geometric_avg": 0.61,
+        "weeks_positive": 7,
+        "most_recent_change": 2.77,
+        "weekly_changes": [
+          {
+            "change": 1.42,
+            "week_ending": "2025-09-12"
+          },
+          {
+            "change": -0.09,
+            "week_ending": "2025-09-19"
+          },
+          {
+            "change": 4.81,
+            "week_ending": "2025-09-26"
+          },
+          {
+            "change": -3.35,
+            "week_ending": "2025-10-03"
+          },
+          {
+            "change": -4.15,
+            "week_ending": "2025-10-10"
+          },
+          {
+            "change": 0.89,
+            "week_ending": "2025-10-17"
+          },
+          {
+            "change": 2.43,
+            "week_ending": "2025-10-24"
+          },
+          {
+            "change": 0.07,
+            "week_ending": "2025-10-31"
+          },
+          {
+            "change": 1.6,
+            "week_ending": "2025-11-07"
+          },
+          {
+            "change": 2.77,
+            "week_ending": "2025-11-14"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "period_start": "2025-09-19",
+    "period_end": "2025-11-21",
+    "top_10_etfs": [
+      {
+        "ticker": "XBI",
+        "geometric_avg": 2.17,
+        "weeks_positive": 9,
+        "most_recent_change": 2.32,
+        "weekly_changes": [
+          {
+            "change": 1.57,
+            "week_ending": "2025-09-19"
+          },
+          {
+            "change": 2.49,
+            "week_ending": "2025-09-26"
+          },
+          {
+            "change": 5.77,
+            "week_ending": "2025-10-03"
+          },
+          {
+            "change": 1.34,
+            "week_ending": "2025-10-10"
+          },
+          {
+            "change": 2.68,
+            "week_ending": "2025-10-17"
+          },
+          {
+            "change": 0.55,
+            "week_ending": "2025-10-24"
+          },
+          {
+            "change": 3.99,
+            "week_ending": "2025-10-31"
+          },
+          {
+            "change": -3.33,
+            "week_ending": "2025-11-07"
+          },
+          {
+            "change": 4.63,
+            "week_ending": "2025-11-14"
+          },
+          {
+            "change": 2.32,
+            "week_ending": "2025-11-21"
+          }
+        ]
+      },
+      {
+        "ticker": "XPH",
+        "geometric_avg": 1.18,
+        "weeks_positive": 8,
+        "most_recent_change": 2.82,
+        "weekly_changes": [
+          {
+            "change": 0.13,
+            "week_ending": "2025-09-19"
+          },
+          {
+            "change": 1.21,
+            "week_ending": "2025-09-26"
+          },
+          {
+            "change": 4.21,
+            "week_ending": "2025-10-03"
+          },
+          {
+            "change": -3.43,
+            "week_ending": "2025-10-10"
+          },
+          {
+            "change": 1.86,
+            "week_ending": "2025-10-17"
+          },
+          {
+            "change": 1.08,
+            "week_ending": "2025-10-24"
+          },
+          {
+            "change": 1.95,
+            "week_ending": "2025-10-31"
+          },
+          {
+            "change": -2.76,
+            "week_ending": "2025-11-07"
+          },
+          {
+            "change": 5.09,
+            "week_ending": "2025-11-14"
+          },
+          {
+            "change": 2.82,
+            "week_ending": "2025-11-21"
+          }
+        ]
+      },
+      {
+        "ticker": "XLV",
+        "geometric_avg": 1.18,
+        "weeks_positive": 6,
+        "most_recent_change": 1.83,
+        "weekly_changes": [
+          {
+            "change": -0.59,
+            "week_ending": "2025-09-19"
+          },
+          {
+            "change": -0.85,
+            "week_ending": "2025-09-26"
+          },
+          {
+            "change": 6.88,
+            "week_ending": "2025-10-03"
+          },
+          {
+            "change": -1.87,
+            "week_ending": "2025-10-10"
+          },
+          {
+            "change": 0.82,
+            "week_ending": "2025-10-17"
+          },
+          {
+            "change": 1.93,
+            "week_ending": "2025-10-24"
+          },
+          {
+            "change": -1.22,
+            "week_ending": "2025-10-31"
+          },
+          {
+            "change": 1.31,
+            "week_ending": "2025-11-07"
+          },
+          {
+            "change": 3.89,
+            "week_ending": "2025-11-14"
+          },
+          {
+            "change": 1.83,
+            "week_ending": "2025-11-21"
+          }
+        ]
+      },
+      {
+        "ticker": "XES",
+        "geometric_avg": 1.04,
+        "weeks_positive": 4,
+        "most_recent_change": -2.49,
+        "weekly_changes": [
+          {
+            "change": -0.3,
+            "week_ending": "2025-09-19"
+          },
+          {
+            "change": 6.58,
+            "week_ending": "2025-09-26"
+          },
+          {
+            "change": -1.61,
+            "week_ending": "2025-10-03"
+          },
+          {
+            "change": -7.19,
+            "week_ending": "2025-10-10"
+          },
+          {
+            "change": 5.41,
+            "week_ending": "2025-10-17"
+          },
+          {
+            "change": 9.77,
+            "week_ending": "2025-10-24"
+          },
+          {
+            "change": 2.68,
+            "week_ending": "2025-10-31"
+          },
+          {
+            "change": -1.11,
+            "week_ending": "2025-11-07"
+          },
+          {
+            "change": -0.19,
+            "week_ending": "2025-11-14"
+          },
+          {
+            "change": -2.49,
+            "week_ending": "2025-11-21"
+          }
+        ]
+      },
+      {
+        "ticker": "XHS",
+        "geometric_avg": 0.73,
+        "weeks_positive": 6,
+        "most_recent_change": 4.77,
+        "weekly_changes": [
+          {
+            "change": -0.14,
+            "week_ending": "2025-09-19"
+          },
+          {
+            "change": 2.52,
+            "week_ending": "2025-09-26"
+          },
+          {
+            "change": 0.91,
+            "week_ending": "2025-10-03"
+          },
+          {
+            "change": -2.18,
+            "week_ending": "2025-10-10"
+          },
+          {
+            "change": 1.86,
+            "week_ending": "2025-10-17"
+          },
+          {
+            "change": 3.92,
+            "week_ending": "2025-10-24"
+          },
+          {
+            "change": -2.84,
+            "week_ending": "2025-10-31"
+          },
+          {
+            "change": 0.87,
+            "week_ending": "2025-11-07"
+          },
+          {
+            "change": -2.1,
+            "week_ending": "2025-11-14"
+          },
+          {
+            "change": 4.77,
+            "week_ending": "2025-11-21"
+          }
+        ]
+      },
+      {
+        "ticker": "XHE",
+        "geometric_avg": 0.56,
+        "weeks_positive": 6,
+        "most_recent_change": 3.68,
+        "weekly_changes": [
+          {
+            "change": -0.94,
+            "week_ending": "2025-09-19"
+          },
+          {
+            "change": -2.27,
+            "week_ending": "2025-09-26"
+          },
+          {
+            "change": 3.54,
+            "week_ending": "2025-10-03"
+          },
+          {
+            "change": -4.44,
+            "week_ending": "2025-10-10"
+          },
+          {
+            "change": 2.99,
+            "week_ending": "2025-10-17"
+          },
+          {
+            "change": 2.14,
+            "week_ending": "2025-10-24"
+          },
+          {
+            "change": -1.74,
+            "week_ending": "2025-10-31"
+          },
+          {
+            "change": 1.27,
+            "week_ending": "2025-11-07"
+          },
+          {
+            "change": 1.67,
+            "week_ending": "2025-11-14"
+          },
+          {
+            "change": 3.68,
+            "week_ending": "2025-11-21"
+          }
+        ]
+      },
+      {
+        "ticker": "XLU",
+        "geometric_avg": 0.37,
+        "weeks_positive": 5,
+        "most_recent_change": -0.69,
+        "weekly_changes": [
+          {
+            "change": -0.64,
+            "week_ending": "2025-09-19"
+          },
+          {
+            "change": 2.88,
+            "week_ending": "2025-09-26"
+          },
+          {
+            "change": 2.42,
+            "week_ending": "2025-10-03"
+          },
+          {
+            "change": 1.45,
+            "week_ending": "2025-10-10"
+          },
+          {
+            "change": 1.52,
+            "week_ending": "2025-10-17"
+          },
+          {
+            "change": -0.2,
+            "week_ending": "2025-10-24"
+          },
+          {
+            "change": -2.51,
+            "week_ending": "2025-10-31"
+          },
+          {
+            "change": 0.66,
+            "week_ending": "2025-11-07"
+          },
+          {
+            "change": -1.04,
+            "week_ending": "2025-11-14"
+          },
+          {
+            "change": -0.69,
+            "week_ending": "2025-11-21"
+          }
+        ]
+      },
+      {
+        "ticker": "XME",
+        "geometric_avg": 0.37,
+        "weeks_positive": 5,
+        "most_recent_change": -3.44,
+        "weekly_changes": [
+          {
+            "change": 5.63,
+            "week_ending": "2025-09-19"
+          },
+          {
+            "change": 2.12,
+            "week_ending": "2025-09-26"
+          },
+          {
+            "change": 5.81,
+            "week_ending": "2025-10-03"
+          },
+          {
+            "change": 3.4,
+            "week_ending": "2025-10-10"
+          },
+          {
+            "change": 1.37,
+            "week_ending": "2025-10-17"
+          },
+          {
+            "change": -2.39,
+            "week_ending": "2025-10-24"
+          },
+          {
+            "change": -3.24,
+            "week_ending": "2025-10-31"
+          },
+          {
+            "change": -3.14,
+            "week_ending": "2025-11-07"
+          },
+          {
+            "change": -1.84,
+            "week_ending": "2025-11-14"
+          },
+          {
+            "change": -3.44,
+            "week_ending": "2025-11-21"
+          }
+        ]
+      },
+      {
+        "ticker": "XLE",
+        "geometric_avg": 0.18,
+        "weeks_positive": 6,
+        "most_recent_change": -2.83,
+        "weekly_changes": [
+          {
+            "change": -0.09,
+            "week_ending": "2025-09-19"
+          },
+          {
+            "change": 4.81,
+            "week_ending": "2025-09-26"
+          },
+          {
+            "change": -3.35,
+            "week_ending": "2025-10-03"
+          },
+          {
+            "change": -4.15,
+            "week_ending": "2025-10-10"
+          },
+          {
+            "change": 0.89,
+            "week_ending": "2025-10-17"
+          },
+          {
+            "change": 2.43,
+            "week_ending": "2025-10-24"
+          },
+          {
+            "change": 0.07,
+            "week_ending": "2025-10-31"
+          },
+          {
+            "change": 1.6,
+            "week_ending": "2025-11-07"
+          },
+          {
+            "change": 2.77,
+            "week_ending": "2025-11-14"
+          },
+          {
+            "change": -2.83,
+            "week_ending": "2025-11-21"
+          }
+        ]
+      },
+      {
+        "ticker": "XLG",
+        "geometric_avg": 0.14,
+        "weeks_positive": 6,
+        "most_recent_change": -2.23,
+        "weekly_changes": [
+          {
+            "change": 1.69,
+            "week_ending": "2025-09-19"
+          },
+          {
+            "change": -0.64,
+            "week_ending": "2025-09-26"
+          },
+          {
+            "change": 0.84,
+            "week_ending": "2025-10-03"
+          },
+          {
+            "change": -1.96,
+            "week_ending": "2025-10-10"
+          },
+          {
+            "change": 1.86,
+            "week_ending": "2025-10-17"
+          },
+          {
+            "change": 1.98,
+            "week_ending": "2025-10-24"
+          },
+          {
+            "change": 2.06,
+            "week_ending": "2025-10-31"
+          },
+          {
+            "change": -2.42,
+            "week_ending": "2025-11-07"
+          },
+          {
+            "change": 0.34,
+            "week_ending": "2025-11-14"
+          },
+          {
+            "change": -2.23,
+            "week_ending": "2025-11-21"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "period_start": "2025-09-26",
+    "period_end": "2025-11-28",
+    "top_10_etfs": [
+      {
+        "ticker": "XBI",
+        "geometric_avg": 2.57,
+        "weeks_positive": 9,
+        "most_recent_change": 5.58,
+        "weekly_changes": [
+          {
+            "change": 2.49,
+            "week_ending": "2025-09-26"
+          },
+          {
+            "change": 5.77,
+            "week_ending": "2025-10-03"
+          },
+          {
+            "change": 1.34,
+            "week_ending": "2025-10-10"
+          },
+          {
+            "change": 2.68,
+            "week_ending": "2025-10-17"
+          },
+          {
+            "change": 0.55,
+            "week_ending": "2025-10-24"
+          },
+          {
+            "change": 3.99,
+            "week_ending": "2025-10-31"
+          },
+          {
+            "change": -3.33,
+            "week_ending": "2025-11-07"
+          },
+          {
+            "change": 4.63,
+            "week_ending": "2025-11-14"
+          },
+          {
+            "change": 2.32,
+            "week_ending": "2025-11-21"
+          },
+          {
+            "change": 5.58,
+            "week_ending": "2025-11-28"
+          }
+        ]
+      },
+      {
+        "ticker": "XPH",
+        "geometric_avg": 1.66,
+        "weeks_positive": 8,
+        "most_recent_change": 5.0,
+        "weekly_changes": [
+          {
+            "change": 1.21,
+            "week_ending": "2025-09-26"
+          },
+          {
+            "change": 4.21,
+            "week_ending": "2025-10-03"
+          },
+          {
+            "change": -3.43,
+            "week_ending": "2025-10-10"
+          },
+          {
+            "change": 1.86,
+            "week_ending": "2025-10-17"
+          },
+          {
+            "change": 1.08,
+            "week_ending": "2025-10-24"
+          },
+          {
+            "change": 1.95,
+            "week_ending": "2025-10-31"
+          },
+          {
+            "change": -2.76,
+            "week_ending": "2025-11-07"
+          },
+          {
+            "change": 5.09,
+            "week_ending": "2025-11-14"
+          },
+          {
+            "change": 2.82,
+            "week_ending": "2025-11-21"
+          },
+          {
+            "change": 5.0,
+            "week_ending": "2025-11-28"
+          }
+        ]
+      },
+      {
+        "ticker": "XES",
+        "geometric_avg": 1.5,
+        "weeks_positive": 5,
+        "most_recent_change": 4.32,
+        "weekly_changes": [
+          {
+            "change": 6.58,
+            "week_ending": "2025-09-26"
+          },
+          {
+            "change": -1.61,
+            "week_ending": "2025-10-03"
+          },
+          {
+            "change": -7.19,
+            "week_ending": "2025-10-10"
+          },
+          {
+            "change": 5.41,
+            "week_ending": "2025-10-17"
+          },
+          {
+            "change": 9.77,
+            "week_ending": "2025-10-24"
+          },
+          {
+            "change": 2.68,
+            "week_ending": "2025-10-31"
+          },
+          {
+            "change": -1.11,
+            "week_ending": "2025-11-07"
+          },
+          {
+            "change": -0.19,
+            "week_ending": "2025-11-14"
+          },
+          {
+            "change": -2.49,
+            "week_ending": "2025-11-21"
+          },
+          {
+            "change": 4.32,
+            "week_ending": "2025-11-28"
+          }
+        ]
+      },
+      {
+        "ticker": "XLV",
+        "geometric_avg": 1.44,
+        "weeks_positive": 7,
+        "most_recent_change": 1.97,
+        "weekly_changes": [
+          {
+            "change": -0.85,
+            "week_ending": "2025-09-26"
+          },
+          {
+            "change": 6.88,
+            "week_ending": "2025-10-03"
+          },
+          {
+            "change": -1.87,
+            "week_ending": "2025-10-10"
+          },
+          {
+            "change": 0.82,
+            "week_ending": "2025-10-17"
+          },
+          {
+            "change": 1.93,
+            "week_ending": "2025-10-24"
+          },
+          {
+            "change": -1.22,
+            "week_ending": "2025-10-31"
+          },
+          {
+            "change": 1.31,
+            "week_ending": "2025-11-07"
+          },
+          {
+            "change": 3.89,
+            "week_ending": "2025-11-14"
+          },
+          {
+            "change": 1.83,
+            "week_ending": "2025-11-21"
+          },
+          {
+            "change": 1.97,
+            "week_ending": "2025-11-28"
+          }
+        ]
+      },
+      {
+        "ticker": "XHS",
+        "geometric_avg": 1.18,
+        "weeks_positive": 7,
+        "most_recent_change": 4.41,
+        "weekly_changes": [
+          {
+            "change": 2.52,
+            "week_ending": "2025-09-26"
+          },
+          {
+            "change": 0.91,
+            "week_ending": "2025-10-03"
+          },
+          {
+            "change": -2.18,
+            "week_ending": "2025-10-10"
+          },
+          {
+            "change": 1.86,
+            "week_ending": "2025-10-17"
+          },
+          {
+            "change": 3.92,
+            "week_ending": "2025-10-24"
+          },
+          {
+            "change": -2.84,
+            "week_ending": "2025-10-31"
+          },
+          {
+            "change": 0.87,
+            "week_ending": "2025-11-07"
+          },
+          {
+            "change": -2.1,
+            "week_ending": "2025-11-14"
+          },
+          {
+            "change": 4.77,
+            "week_ending": "2025-11-21"
+          },
+          {
+            "change": 4.41,
+            "week_ending": "2025-11-28"
+          }
+        ]
+      },
+      {
+        "ticker": "XHE",
+        "geometric_avg": 1.08,
+        "weeks_positive": 7,
+        "most_recent_change": 4.4,
+        "weekly_changes": [
+          {
+            "change": -2.27,
+            "week_ending": "2025-09-26"
+          },
+          {
+            "change": 3.54,
+            "week_ending": "2025-10-03"
+          },
+          {
+            "change": -4.44,
+            "week_ending": "2025-10-10"
+          },
+          {
+            "change": 2.99,
+            "week_ending": "2025-10-17"
+          },
+          {
+            "change": 2.14,
+            "week_ending": "2025-10-24"
+          },
+          {
+            "change": -1.74,
+            "week_ending": "2025-10-31"
+          },
+          {
+            "change": 1.27,
+            "week_ending": "2025-11-07"
+          },
+          {
+            "change": 1.67,
+            "week_ending": "2025-11-14"
+          },
+          {
+            "change": 3.68,
+            "week_ending": "2025-11-21"
+          },
+          {
+            "change": 4.4,
+            "week_ending": "2025-11-28"
+          }
+        ]
+      },
+      {
+        "ticker": "XME",
+        "geometric_avg": 0.73,
+        "weeks_positive": 5,
+        "most_recent_change": 9.48,
+        "weekly_changes": [
+          {
+            "change": 2.12,
+            "week_ending": "2025-09-26"
+          },
+          {
+            "change": 5.81,
+            "week_ending": "2025-10-03"
+          },
+          {
+            "change": 3.4,
+            "week_ending": "2025-10-10"
+          },
+          {
+            "change": 1.37,
+            "week_ending": "2025-10-17"
+          },
+          {
+            "change": -2.39,
+            "week_ending": "2025-10-24"
+          },
+          {
+            "change": -3.24,
+            "week_ending": "2025-10-31"
+          },
+          {
+            "change": -3.14,
+            "week_ending": "2025-11-07"
+          },
+          {
+            "change": -1.84,
+            "week_ending": "2025-11-14"
+          },
+          {
+            "change": -3.44,
+            "week_ending": "2025-11-21"
+          },
+          {
+            "change": 9.48,
+            "week_ending": "2025-11-28"
+          }
+        ]
+      },
+      {
+        "ticker": "XLU",
+        "geometric_avg": 0.72,
+        "weeks_positive": 6,
+        "most_recent_change": 2.81,
+        "weekly_changes": [
+          {
+            "change": 2.88,
+            "week_ending": "2025-09-26"
+          },
+          {
+            "change": 2.42,
+            "week_ending": "2025-10-03"
+          },
+          {
+            "change": 1.45,
+            "week_ending": "2025-10-10"
+          },
+          {
+            "change": 1.52,
+            "week_ending": "2025-10-17"
+          },
+          {
+            "change": -0.2,
+            "week_ending": "2025-10-24"
+          },
+          {
+            "change": -2.51,
+            "week_ending": "2025-10-31"
+          },
+          {
+            "change": 0.66,
+            "week_ending": "2025-11-07"
+          },
+          {
+            "change": -1.04,
+            "week_ending": "2025-11-14"
+          },
+          {
+            "change": -0.69,
+            "week_ending": "2025-11-21"
+          },
+          {
+            "change": 2.81,
+            "week_ending": "2025-11-28"
+          }
+        ]
+      },
+      {
+        "ticker": "XTL",
+        "geometric_avg": 0.48,
+        "weeks_positive": 5,
+        "most_recent_change": 8.1,
+        "weekly_changes": [
+          {
+            "change": -0.5,
+            "week_ending": "2025-09-26"
+          },
+          {
+            "change": 5.38,
+            "week_ending": "2025-10-03"
+          },
+          {
+            "change": -0.66,
+            "week_ending": "2025-10-10"
+          },
+          {
+            "change": 1.73,
+            "week_ending": "2025-10-17"
+          },
+          {
+            "change": 1.59,
+            "week_ending": "2025-10-24"
+          },
+          {
+            "change": 3.54,
+            "week_ending": "2025-10-31"
+          },
+          {
+            "change": -6.76,
+            "week_ending": "2025-11-07"
+          },
+          {
+            "change": -2.5,
+            "week_ending": "2025-11-14"
+          },
+          {
+            "change": -4.18,
+            "week_ending": "2025-11-21"
+          },
+          {
+            "change": 8.1,
+            "week_ending": "2025-11-28"
+          }
+        ]
+      },
+      {
+        "ticker": "XOP",
+        "geometric_avg": 0.37,
+        "weeks_positive": 5,
+        "most_recent_change": 3.3,
+        "weekly_changes": [
+          {
+            "change": 6.21,
+            "week_ending": "2025-09-26"
+          },
+          {
+            "change": -2.95,
+            "week_ending": "2025-10-03"
+          },
+          {
+            "change": -6.93,
+            "week_ending": "2025-10-10"
+          },
+          {
+            "change": -0.31,
+            "week_ending": "2025-10-17"
+          },
+          {
+            "change": 3.96,
+            "week_ending": "2025-10-24"
+          },
+          {
+            "change": -1.28,
+            "week_ending": "2025-10-31"
+          },
+          {
+            "change": 2.1,
+            "week_ending": "2025-11-07"
+          },
+          {
+            "change": 3.5,
+            "week_ending": "2025-11-14"
+          },
+          {
+            "change": -3.19,
+            "week_ending": "2025-11-21"
+          },
+          {
+            "change": 3.3,
+            "week_ending": "2025-11-28"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "period_start": "2025-10-03",
+    "period_end": "2025-12-05",
+    "top_10_etfs": [
+      {
+        "ticker": "XBI",
+        "geometric_avg": 2.34,
+        "weeks_positive": 9,
+        "most_recent_change": 0.2,
+        "weekly_changes": [
+          {
+            "change": 5.77,
+            "week_ending": "2025-10-03"
+          },
+          {
+            "change": 1.34,
+            "week_ending": "2025-10-10"
+          },
+          {
+            "change": 2.68,
+            "week_ending": "2025-10-17"
+          },
+          {
+            "change": 0.55,
+            "week_ending": "2025-10-24"
+          },
+          {
+            "change": 3.99,
+            "week_ending": "2025-10-31"
+          },
+          {
+            "change": -3.33,
+            "week_ending": "2025-11-07"
+          },
+          {
+            "change": 4.63,
+            "week_ending": "2025-11-14"
+          },
+          {
+            "change": 2.32,
+            "week_ending": "2025-11-21"
+          },
+          {
+            "change": 5.58,
+            "week_ending": "2025-11-28"
+          },
+          {
+            "change": 0.2,
+            "week_ending": "2025-12-05"
+          }
+        ]
+      },
+      {
+        "ticker": "XES",
+        "geometric_avg": 1.52,
+        "weeks_positive": 5,
+        "most_recent_change": 6.76,
+        "weekly_changes": [
+          {
+            "change": -1.61,
+            "week_ending": "2025-10-03"
+          },
+          {
+            "change": -7.19,
+            "week_ending": "2025-10-10"
+          },
+          {
+            "change": 5.41,
+            "week_ending": "2025-10-17"
+          },
+          {
+            "change": 9.77,
+            "week_ending": "2025-10-24"
+          },
+          {
+            "change": 2.68,
+            "week_ending": "2025-10-31"
+          },
+          {
+            "change": -1.11,
+            "week_ending": "2025-11-07"
+          },
+          {
+            "change": -0.19,
+            "week_ending": "2025-11-14"
+          },
+          {
+            "change": -2.49,
+            "week_ending": "2025-11-21"
+          },
+          {
+            "change": 4.32,
+            "week_ending": "2025-11-28"
+          },
+          {
+            "change": 6.76,
+            "week_ending": "2025-12-05"
+          }
+        ]
+      },
+      {
+        "ticker": "XPH",
+        "geometric_avg": 1.46,
+        "weeks_positive": 7,
+        "most_recent_change": -0.8,
+        "weekly_changes": [
+          {
+            "change": 4.21,
+            "week_ending": "2025-10-03"
+          },
+          {
+            "change": -3.43,
+            "week_ending": "2025-10-10"
+          },
+          {
+            "change": 1.86,
+            "week_ending": "2025-10-17"
+          },
+          {
+            "change": 1.08,
+            "week_ending": "2025-10-24"
+          },
+          {
+            "change": 1.95,
+            "week_ending": "2025-10-31"
+          },
+          {
+            "change": -2.76,
+            "week_ending": "2025-11-07"
+          },
+          {
+            "change": 5.09,
+            "week_ending": "2025-11-14"
+          },
+          {
+            "change": 2.82,
+            "week_ending": "2025-11-21"
+          },
+          {
+            "change": 5.0,
+            "week_ending": "2025-11-28"
+          },
+          {
+            "change": -0.8,
+            "week_ending": "2025-12-05"
+          }
+        ]
+      },
+      {
+        "ticker": "XHE",
+        "geometric_avg": 1.36,
+        "weeks_positive": 8,
+        "most_recent_change": 0.47,
+        "weekly_changes": [
+          {
+            "change": 3.54,
+            "week_ending": "2025-10-03"
+          },
+          {
+            "change": -4.44,
+            "week_ending": "2025-10-10"
+          },
+          {
+            "change": 2.99,
+            "week_ending": "2025-10-17"
+          },
+          {
+            "change": 2.14,
+            "week_ending": "2025-10-24"
+          },
+          {
+            "change": -1.74,
+            "week_ending": "2025-10-31"
+          },
+          {
+            "change": 1.27,
+            "week_ending": "2025-11-07"
+          },
+          {
+            "change": 1.67,
+            "week_ending": "2025-11-14"
+          },
+          {
+            "change": 3.68,
+            "week_ending": "2025-11-21"
+          },
+          {
+            "change": 4.4,
+            "week_ending": "2025-11-28"
+          },
+          {
+            "change": 0.47,
+            "week_ending": "2025-12-05"
+          }
+        ]
+      },
+      {
+        "ticker": "XLV",
+        "geometric_avg": 1.24,
+        "weeks_positive": 7,
+        "most_recent_change": -2.78,
+        "weekly_changes": [
+          {
+            "change": 6.88,
+            "week_ending": "2025-10-03"
+          },
+          {
+            "change": -1.87,
+            "week_ending": "2025-10-10"
+          },
+          {
+            "change": 0.82,
+            "week_ending": "2025-10-17"
+          },
+          {
+            "change": 1.93,
+            "week_ending": "2025-10-24"
+          },
+          {
+            "change": -1.22,
+            "week_ending": "2025-10-31"
+          },
+          {
+            "change": 1.31,
+            "week_ending": "2025-11-07"
+          },
+          {
+            "change": 3.89,
+            "week_ending": "2025-11-14"
+          },
+          {
+            "change": 1.83,
+            "week_ending": "2025-11-21"
+          },
+          {
+            "change": 1.97,
+            "week_ending": "2025-11-28"
+          },
+          {
+            "change": -2.78,
+            "week_ending": "2025-12-05"
+          }
+        ]
+      },
+      {
+        "ticker": "XTN",
+        "geometric_avg": 0.91,
+        "weeks_positive": 6,
+        "most_recent_change": 5.97,
+        "weekly_changes": [
+          {
+            "change": 1.18,
+            "week_ending": "2025-10-03"
+          },
+          {
+            "change": -4.29,
+            "week_ending": "2025-10-10"
+          },
+          {
+            "change": 4.1,
+            "week_ending": "2025-10-17"
+          },
+          {
+            "change": -0.59,
+            "week_ending": "2025-10-24"
+          },
+          {
+            "change": 1.16,
+            "week_ending": "2025-10-31"
+          },
+          {
+            "change": 0.34,
+            "week_ending": "2025-11-07"
+          },
+          {
+            "change": -2.65,
+            "week_ending": "2025-11-14"
+          },
+          {
+            "change": -1.24,
+            "week_ending": "2025-11-21"
+          },
+          {
+            "change": 5.62,
+            "week_ending": "2025-11-28"
+          },
+          {
+            "change": 5.97,
+            "week_ending": "2025-12-05"
+          }
+        ]
+      },
+      {
+        "ticker": "XTL",
+        "geometric_avg": 0.85,
+        "weeks_positive": 6,
+        "most_recent_change": 3.15,
+        "weekly_changes": [
+          {
+            "change": 5.38,
+            "week_ending": "2025-10-03"
+          },
+          {
+            "change": -0.66,
+            "week_ending": "2025-10-10"
+          },
+          {
+            "change": 1.73,
+            "week_ending": "2025-10-17"
+          },
+          {
+            "change": 1.59,
+            "week_ending": "2025-10-24"
+          },
+          {
+            "change": 3.54,
+            "week_ending": "2025-10-31"
+          },
+          {
+            "change": -6.76,
+            "week_ending": "2025-11-07"
+          },
+          {
+            "change": -2.5,
+            "week_ending": "2025-11-14"
+          },
+          {
+            "change": -4.18,
+            "week_ending": "2025-11-21"
+          },
+          {
+            "change": 8.1,
+            "week_ending": "2025-11-28"
+          },
+          {
+            "change": 3.15,
+            "week_ending": "2025-12-05"
+          }
+        ]
+      },
+      {
+        "ticker": "XME",
+        "geometric_avg": 0.79,
+        "weeks_positive": 5,
+        "most_recent_change": 2.73,
+        "weekly_changes": [
+          {
+            "change": 5.81,
+            "week_ending": "2025-10-03"
+          },
+          {
+            "change": 3.4,
+            "week_ending": "2025-10-10"
+          },
+          {
+            "change": 1.37,
+            "week_ending": "2025-10-17"
+          },
+          {
+            "change": -2.39,
+            "week_ending": "2025-10-24"
+          },
+          {
+            "change": -3.24,
+            "week_ending": "2025-10-31"
+          },
+          {
+            "change": -3.14,
+            "week_ending": "2025-11-07"
+          },
+          {
+            "change": -1.84,
+            "week_ending": "2025-11-14"
+          },
+          {
+            "change": -3.44,
+            "week_ending": "2025-11-21"
+          },
+          {
+            "change": 9.48,
+            "week_ending": "2025-11-28"
+          },
+          {
+            "change": 2.73,
+            "week_ending": "2025-12-05"
+          }
+        ]
+      },
+      {
+        "ticker": "XSD",
+        "geometric_avg": 0.72,
+        "weeks_positive": 6,
+        "most_recent_change": 6.42,
+        "weekly_changes": [
+          {
+            "change": 3.68,
+            "week_ending": "2025-10-03"
+          },
+          {
+            "change": -4.32,
+            "week_ending": "2025-10-10"
+          },
+          {
+            "change": 8.73,
+            "week_ending": "2025-10-17"
+          },
+          {
+            "change": 0.61,
+            "week_ending": "2025-10-24"
+          },
+          {
+            "change": 2.02,
+            "week_ending": "2025-10-31"
+          },
+          {
+            "change": -7.25,
+            "week_ending": "2025-11-07"
+          },
+          {
+            "change": -5.12,
+            "week_ending": "2025-11-14"
+          },
+          {
+            "change": -4.7,
+            "week_ending": "2025-11-21"
+          },
+          {
+            "change": 8.78,
+            "week_ending": "2025-11-28"
+          },
+          {
+            "change": 6.42,
+            "week_ending": "2025-12-05"
+          }
+        ]
+      },
+      {
+        "ticker": "XHS",
+        "geometric_avg": 0.58,
+        "weeks_positive": 6,
+        "most_recent_change": -3.39,
+        "weekly_changes": [
+          {
+            "change": 0.91,
+            "week_ending": "2025-10-03"
+          },
+          {
+            "change": -2.18,
+            "week_ending": "2025-10-10"
+          },
+          {
+            "change": 1.86,
+            "week_ending": "2025-10-17"
+          },
+          {
+            "change": 3.92,
+            "week_ending": "2025-10-24"
+          },
+          {
+            "change": -2.84,
+            "week_ending": "2025-10-31"
+          },
+          {
+            "change": 0.87,
+            "week_ending": "2025-11-07"
+          },
+          {
+            "change": -2.1,
+            "week_ending": "2025-11-14"
+          },
+          {
+            "change": 4.77,
+            "week_ending": "2025-11-21"
+          },
+          {
+            "change": 4.41,
+            "week_ending": "2025-11-28"
+          },
+          {
+            "change": -3.39,
+            "week_ending": "2025-12-05"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "period_start": "2025-10-10",
+    "period_end": "2025-12-12",
+    "top_10_etfs": [
+      {
+        "ticker": "XBI",
+        "geometric_avg": 1.74,
+        "weeks_positive": 8,
+        "most_recent_change": -0.23,
+        "weekly_changes": [
+          {
+            "change": 1.34,
+            "week_ending": "2025-10-10"
+          },
+          {
+            "change": 2.68,
+            "week_ending": "2025-10-17"
+          },
+          {
+            "change": 0.55,
+            "week_ending": "2025-10-24"
+          },
+          {
+            "change": 3.99,
+            "week_ending": "2025-10-31"
+          },
+          {
+            "change": -3.33,
+            "week_ending": "2025-11-07"
+          },
+          {
+            "change": 4.63,
+            "week_ending": "2025-11-14"
+          },
+          {
+            "change": 2.32,
+            "week_ending": "2025-11-21"
+          },
+          {
+            "change": 5.58,
+            "week_ending": "2025-11-28"
+          },
+          {
+            "change": 0.2,
+            "week_ending": "2025-12-05"
+          },
+          {
+            "change": -0.23,
+            "week_ending": "2025-12-12"
+          }
+        ]
+      },
+      {
+        "ticker": "XES",
+        "geometric_avg": 1.44,
+        "weeks_positive": 5,
+        "most_recent_change": -2.38,
+        "weekly_changes": [
+          {
+            "change": -7.19,
+            "week_ending": "2025-10-10"
+          },
+          {
+            "change": 5.41,
+            "week_ending": "2025-10-17"
+          },
+          {
+            "change": 9.77,
+            "week_ending": "2025-10-24"
+          },
+          {
+            "change": 2.68,
+            "week_ending": "2025-10-31"
+          },
+          {
+            "change": -1.11,
+            "week_ending": "2025-11-07"
+          },
+          {
+            "change": -0.19,
+            "week_ending": "2025-11-14"
+          },
+          {
+            "change": -2.49,
+            "week_ending": "2025-11-21"
+          },
+          {
+            "change": 4.32,
+            "week_ending": "2025-11-28"
+          },
+          {
+            "change": 6.76,
+            "week_ending": "2025-12-05"
+          },
+          {
+            "change": -2.38,
+            "week_ending": "2025-12-12"
+          }
+        ]
+      },
+      {
+        "ticker": "XPH",
+        "geometric_avg": 1.39,
+        "weeks_positive": 7,
+        "most_recent_change": 3.48,
+        "weekly_changes": [
+          {
+            "change": -3.43,
+            "week_ending": "2025-10-10"
+          },
+          {
+            "change": 1.86,
+            "week_ending": "2025-10-17"
+          },
+          {
+            "change": 1.08,
+            "week_ending": "2025-10-24"
+          },
+          {
+            "change": 1.95,
+            "week_ending": "2025-10-31"
+          },
+          {
+            "change": -2.76,
+            "week_ending": "2025-11-07"
+          },
+          {
+            "change": 5.09,
+            "week_ending": "2025-11-14"
+          },
+          {
+            "change": 2.82,
+            "week_ending": "2025-11-21"
+          },
+          {
+            "change": 5.0,
+            "week_ending": "2025-11-28"
+          },
+          {
+            "change": -0.8,
+            "week_ending": "2025-12-05"
+          },
+          {
+            "change": 3.48,
+            "week_ending": "2025-12-12"
+          }
+        ]
+      },
+      {
+        "ticker": "XHE",
+        "geometric_avg": 1.01,
+        "weeks_positive": 8,
+        "most_recent_change": 0.02,
+        "weekly_changes": [
+          {
+            "change": -4.44,
+            "week_ending": "2025-10-10"
+          },
+          {
+            "change": 2.99,
+            "week_ending": "2025-10-17"
+          },
+          {
+            "change": 2.14,
+            "week_ending": "2025-10-24"
+          },
+          {
+            "change": -1.74,
+            "week_ending": "2025-10-31"
+          },
+          {
+            "change": 1.27,
+            "week_ending": "2025-11-07"
+          },
+          {
+            "change": 1.67,
+            "week_ending": "2025-11-14"
+          },
+          {
+            "change": 3.68,
+            "week_ending": "2025-11-21"
+          },
+          {
+            "change": 4.4,
+            "week_ending": "2025-11-28"
+          },
+          {
+            "change": 0.47,
+            "week_ending": "2025-12-05"
+          },
+          {
+            "change": 0.02,
+            "week_ending": "2025-12-12"
+          }
+        ]
+      },
+      {
+        "ticker": "XTN",
+        "geometric_avg": 1.01,
+        "weeks_positive": 6,
+        "most_recent_change": 2.24,
+        "weekly_changes": [
+          {
+            "change": -4.29,
+            "week_ending": "2025-10-10"
+          },
+          {
+            "change": 4.1,
+            "week_ending": "2025-10-17"
+          },
+          {
+            "change": -0.59,
+            "week_ending": "2025-10-24"
+          },
+          {
+            "change": 1.16,
+            "week_ending": "2025-10-31"
+          },
+          {
+            "change": 0.34,
+            "week_ending": "2025-11-07"
+          },
+          {
+            "change": -2.65,
+            "week_ending": "2025-11-14"
+          },
+          {
+            "change": -1.24,
+            "week_ending": "2025-11-21"
+          },
+          {
+            "change": 5.62,
+            "week_ending": "2025-11-28"
+          },
+          {
+            "change": 5.97,
+            "week_ending": "2025-12-05"
+          },
+          {
+            "change": 2.24,
+            "week_ending": "2025-12-12"
+          }
+        ]
+      },
+      {
+        "ticker": "XHS",
+        "geometric_avg": 0.72,
+        "weeks_positive": 6,
+        "most_recent_change": 2.28,
+        "weekly_changes": [
+          {
+            "change": -2.18,
+            "week_ending": "2025-10-10"
+          },
+          {
+            "change": 1.86,
+            "week_ending": "2025-10-17"
+          },
+          {
+            "change": 3.92,
+            "week_ending": "2025-10-24"
+          },
+          {
+            "change": -2.84,
+            "week_ending": "2025-10-31"
+          },
+          {
+            "change": 0.87,
+            "week_ending": "2025-11-07"
+          },
+          {
+            "change": -2.1,
+            "week_ending": "2025-11-14"
+          },
+          {
+            "change": 4.77,
+            "week_ending": "2025-11-21"
+          },
+          {
+            "change": 4.41,
+            "week_ending": "2025-11-28"
+          },
+          {
+            "change": -3.39,
+            "week_ending": "2025-12-05"
+          },
+          {
+            "change": 2.28,
+            "week_ending": "2025-12-12"
+          }
+        ]
+      },
+      {
+        "ticker": "XLV",
+        "geometric_avg": 0.62,
+        "weeks_positive": 7,
+        "most_recent_change": 0.52,
+        "weekly_changes": [
+          {
+            "change": -1.87,
+            "week_ending": "2025-10-10"
+          },
+          {
+            "change": 0.82,
+            "week_ending": "2025-10-17"
+          },
+          {
+            "change": 1.93,
+            "week_ending": "2025-10-24"
+          },
+          {
+            "change": -1.22,
+            "week_ending": "2025-10-31"
+          },
+          {
+            "change": 1.31,
+            "week_ending": "2025-11-07"
+          },
+          {
+            "change": 3.89,
+            "week_ending": "2025-11-14"
+          },
+          {
+            "change": 1.83,
+            "week_ending": "2025-11-21"
+          },
+          {
+            "change": 1.97,
+            "week_ending": "2025-11-28"
+          },
+          {
+            "change": -2.78,
+            "week_ending": "2025-12-05"
+          },
+          {
+            "change": 0.52,
+            "week_ending": "2025-12-12"
+          }
+        ]
+      },
+      {
+        "ticker": "KRE",
+        "geometric_avg": 0.56,
+        "weeks_positive": 6,
+        "most_recent_change": 3.65,
+        "weekly_changes": [
+          {
+            "change": -5.14,
+            "week_ending": "2025-10-10"
+          },
+          {
+            "change": -1.86,
+            "week_ending": "2025-10-17"
+          },
+          {
+            "change": 3.64,
+            "week_ending": "2025-10-24"
+          },
+          {
+            "change": -1.99,
+            "week_ending": "2025-10-31"
+          },
+          {
+            "change": 1.68,
+            "week_ending": "2025-11-07"
+          },
+          {
+            "change": -0.15,
+            "week_ending": "2025-11-14"
+          },
+          {
+            "change": 1.13,
+            "week_ending": "2025-11-21"
+          },
+          {
+            "change": 2.24,
+            "week_ending": "2025-11-28"
+          },
+          {
+            "change": 2.75,
+            "week_ending": "2025-12-05"
+          },
+          {
+            "change": 3.65,
+            "week_ending": "2025-12-12"
+          }
+        ]
+      },
+      {
+        "ticker": "KBE",
+        "geometric_avg": 0.53,
+        "weeks_positive": 6,
+        "most_recent_change": 3.58,
+        "weekly_changes": [
+          {
+            "change": -4.72,
+            "week_ending": "2025-10-10"
+          },
+          {
+            "change": -1.1,
+            "week_ending": "2025-10-17"
+          },
+          {
+            "change": 3.47,
+            "week_ending": "2025-10-24"
+          },
+          {
+            "change": -1.83,
+            "week_ending": "2025-10-31"
+          },
+          {
+            "change": 1.25,
+            "week_ending": "2025-11-07"
+          },
+          {
+            "change": -0.33,
+            "week_ending": "2025-11-14"
+          },
+          {
+            "change": 0.7,
+            "week_ending": "2025-11-21"
+          },
+          {
+            "change": 2.29,
+            "week_ending": "2025-11-28"
+          },
+          {
+            "change": 2.27,
+            "week_ending": "2025-12-05"
+          },
+          {
+            "change": 3.58,
+            "week_ending": "2025-12-12"
+          }
+        ]
+      },
+      {
+        "ticker": "XME",
+        "geometric_avg": 0.46,
+        "weeks_positive": 5,
+        "most_recent_change": 2.41,
+        "weekly_changes": [
+          {
+            "change": 3.4,
+            "week_ending": "2025-10-10"
+          },
+          {
+            "change": 1.37,
+            "week_ending": "2025-10-17"
+          },
+          {
+            "change": -2.39,
+            "week_ending": "2025-10-24"
+          },
+          {
+            "change": -3.24,
+            "week_ending": "2025-10-31"
+          },
+          {
+            "change": -3.14,
+            "week_ending": "2025-11-07"
+          },
+          {
+            "change": -1.84,
+            "week_ending": "2025-11-14"
+          },
+          {
+            "change": -3.44,
+            "week_ending": "2025-11-21"
+          },
+          {
+            "change": 9.48,
+            "week_ending": "2025-11-28"
+          },
+          {
+            "change": 2.73,
+            "week_ending": "2025-12-05"
+          },
+          {
+            "change": 2.41,
+            "week_ending": "2025-12-12"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "period_start": "2025-10-17",
+    "period_end": "2025-12-19",
+    "top_10_etfs": [
+      {
+        "ticker": "XPH",
+        "geometric_avg": 1.74,
+        "weeks_positive": 7,
+        "most_recent_change": -0.07,
+        "weekly_changes": [
+          {
+            "change": 1.86,
+            "week_ending": "2025-10-17"
+          },
+          {
+            "change": 1.08,
+            "week_ending": "2025-10-24"
+          },
+          {
+            "change": 1.95,
+            "week_ending": "2025-10-31"
+          },
+          {
+            "change": -2.76,
+            "week_ending": "2025-11-07"
+          },
+          {
+            "change": 5.09,
+            "week_ending": "2025-11-14"
+          },
+          {
+            "change": 2.82,
+            "week_ending": "2025-11-21"
+          },
+          {
+            "change": 5.0,
+            "week_ending": "2025-11-28"
+          },
+          {
+            "change": -0.8,
+            "week_ending": "2025-12-05"
+          },
+          {
+            "change": 3.48,
+            "week_ending": "2025-12-12"
+          },
+          {
+            "change": -0.07,
+            "week_ending": "2025-12-19"
+          }
+        ]
+      },
+      {
+        "ticker": "XES",
+        "geometric_avg": 1.69,
+        "weeks_positive": 5,
+        "most_recent_change": -4.92,
+        "weekly_changes": [
+          {
+            "change": 5.41,
+            "week_ending": "2025-10-17"
+          },
+          {
+            "change": 9.77,
+            "week_ending": "2025-10-24"
+          },
+          {
+            "change": 2.68,
+            "week_ending": "2025-10-31"
+          },
+          {
+            "change": -1.11,
+            "week_ending": "2025-11-07"
+          },
+          {
+            "change": -0.19,
+            "week_ending": "2025-11-14"
+          },
+          {
+            "change": -2.49,
+            "week_ending": "2025-11-21"
+          },
+          {
+            "change": 4.32,
+            "week_ending": "2025-11-28"
+          },
+          {
+            "change": 6.76,
+            "week_ending": "2025-12-05"
+          },
+          {
+            "change": -2.38,
+            "week_ending": "2025-12-12"
+          },
+          {
+            "change": -4.92,
+            "week_ending": "2025-12-19"
+          }
+        ]
+      },
+      {
+        "ticker": "XBI",
+        "geometric_avg": 1.63,
+        "weeks_positive": 8,
+        "most_recent_change": 0.24,
+        "weekly_changes": [
+          {
+            "change": 2.68,
+            "week_ending": "2025-10-17"
+          },
+          {
+            "change": 0.55,
+            "week_ending": "2025-10-24"
+          },
+          {
+            "change": 3.99,
+            "week_ending": "2025-10-31"
+          },
+          {
+            "change": -3.33,
+            "week_ending": "2025-11-07"
+          },
+          {
+            "change": 4.63,
+            "week_ending": "2025-11-14"
+          },
+          {
+            "change": 2.32,
+            "week_ending": "2025-11-21"
+          },
+          {
+            "change": 5.58,
+            "week_ending": "2025-11-28"
+          },
+          {
+            "change": 0.2,
+            "week_ending": "2025-12-05"
+          },
+          {
+            "change": -0.23,
+            "week_ending": "2025-12-12"
+          },
+          {
+            "change": 0.24,
+            "week_ending": "2025-12-19"
+          }
+        ]
+      },
+      {
+        "ticker": "XHE",
+        "geometric_avg": 1.42,
+        "weeks_positive": 8,
+        "most_recent_change": -0.49,
+        "weekly_changes": [
+          {
+            "change": 2.99,
+            "week_ending": "2025-10-17"
+          },
+          {
+            "change": 2.14,
+            "week_ending": "2025-10-24"
+          },
+          {
+            "change": -1.74,
+            "week_ending": "2025-10-31"
+          },
+          {
+            "change": 1.27,
+            "week_ending": "2025-11-07"
+          },
+          {
+            "change": 1.67,
+            "week_ending": "2025-11-14"
+          },
+          {
+            "change": 3.68,
+            "week_ending": "2025-11-21"
+          },
+          {
+            "change": 4.4,
+            "week_ending": "2025-11-28"
+          },
+          {
+            "change": 0.47,
+            "week_ending": "2025-12-05"
+          },
+          {
+            "change": 0.02,
+            "week_ending": "2025-12-12"
+          },
+          {
+            "change": -0.49,
+            "week_ending": "2025-12-19"
+          }
+        ]
+      },
+      {
+        "ticker": "XTN",
+        "geometric_avg": 1.35,
+        "weeks_positive": 6,
+        "most_recent_change": -1.02,
+        "weekly_changes": [
+          {
+            "change": 4.1,
+            "week_ending": "2025-10-17"
+          },
+          {
+            "change": -0.59,
+            "week_ending": "2025-10-24"
+          },
+          {
+            "change": 1.16,
+            "week_ending": "2025-10-31"
+          },
+          {
+            "change": 0.34,
+            "week_ending": "2025-11-07"
+          },
+          {
+            "change": -2.65,
+            "week_ending": "2025-11-14"
+          },
+          {
+            "change": -1.24,
+            "week_ending": "2025-11-21"
+          },
+          {
+            "change": 5.62,
+            "week_ending": "2025-11-28"
+          },
+          {
+            "change": 5.97,
+            "week_ending": "2025-12-05"
+          },
+          {
+            "change": 2.24,
+            "week_ending": "2025-12-12"
+          },
+          {
+            "change": -1.02,
+            "week_ending": "2025-12-19"
+          }
+        ]
+      },
+      {
+        "ticker": "KRE",
+        "geometric_avg": 1.11,
+        "weeks_positive": 7,
+        "most_recent_change": 0.24,
+        "weekly_changes": [
+          {
+            "change": -1.86,
+            "week_ending": "2025-10-17"
+          },
+          {
+            "change": 3.64,
+            "week_ending": "2025-10-24"
+          },
+          {
+            "change": -1.99,
+            "week_ending": "2025-10-31"
+          },
+          {
+            "change": 1.68,
+            "week_ending": "2025-11-07"
+          },
+          {
+            "change": -0.15,
+            "week_ending": "2025-11-14"
+          },
+          {
+            "change": 1.13,
+            "week_ending": "2025-11-21"
+          },
+          {
+            "change": 2.24,
+            "week_ending": "2025-11-28"
+          },
+          {
+            "change": 2.75,
+            "week_ending": "2025-12-05"
+          },
+          {
+            "change": 3.65,
+            "week_ending": "2025-12-12"
+          },
+          {
+            "change": 0.24,
+            "week_ending": "2025-12-19"
+          }
+        ]
+      },
+      {
+        "ticker": "KBE",
+        "geometric_avg": 1.04,
+        "weeks_positive": 7,
+        "most_recent_change": 0.22,
+        "weekly_changes": [
+          {
+            "change": -1.1,
+            "week_ending": "2025-10-17"
+          },
+          {
+            "change": 3.47,
+            "week_ending": "2025-10-24"
+          },
+          {
+            "change": -1.83,
+            "week_ending": "2025-10-31"
+          },
+          {
+            "change": 1.25,
+            "week_ending": "2025-11-07"
+          },
+          {
+            "change": -0.33,
+            "week_ending": "2025-11-14"
+          },
+          {
+            "change": 0.7,
+            "week_ending": "2025-11-21"
+          },
+          {
+            "change": 2.29,
+            "week_ending": "2025-11-28"
+          },
+          {
+            "change": 2.27,
+            "week_ending": "2025-12-05"
+          },
+          {
+            "change": 3.58,
+            "week_ending": "2025-12-12"
+          },
+          {
+            "change": 0.22,
+            "week_ending": "2025-12-19"
+          }
+        ]
+      },
+      {
+        "ticker": "XLV",
+        "geometric_avg": 0.87,
+        "weeks_positive": 8,
+        "most_recent_change": 0.57,
+        "weekly_changes": [
+          {
+            "change": 0.82,
+            "week_ending": "2025-10-17"
+          },
+          {
+            "change": 1.93,
+            "week_ending": "2025-10-24"
+          },
+          {
+            "change": -1.22,
+            "week_ending": "2025-10-31"
+          },
+          {
+            "change": 1.31,
+            "week_ending": "2025-11-07"
+          },
+          {
+            "change": 3.89,
+            "week_ending": "2025-11-14"
+          },
+          {
+            "change": 1.83,
+            "week_ending": "2025-11-21"
+          },
+          {
+            "change": 1.97,
+            "week_ending": "2025-11-28"
+          },
+          {
+            "change": -2.78,
+            "week_ending": "2025-12-05"
+          },
+          {
+            "change": 0.52,
+            "week_ending": "2025-12-12"
+          },
+          {
+            "change": 0.57,
+            "week_ending": "2025-12-19"
+          }
+        ]
+      },
+      {
+        "ticker": "XHS",
+        "geometric_avg": 0.82,
+        "weeks_positive": 6,
+        "most_recent_change": -1.18,
+        "weekly_changes": [
+          {
+            "change": 1.86,
+            "week_ending": "2025-10-17"
+          },
+          {
+            "change": 3.92,
+            "week_ending": "2025-10-24"
+          },
+          {
+            "change": -2.84,
+            "week_ending": "2025-10-31"
+          },
+          {
+            "change": 0.87,
+            "week_ending": "2025-11-07"
+          },
+          {
+            "change": -2.1,
+            "week_ending": "2025-11-14"
+          },
+          {
+            "change": 4.77,
+            "week_ending": "2025-11-21"
+          },
+          {
+            "change": 4.41,
+            "week_ending": "2025-11-28"
+          },
+          {
+            "change": -3.39,
+            "week_ending": "2025-12-05"
+          },
+          {
+            "change": 2.28,
+            "week_ending": "2025-12-12"
+          },
+          {
+            "change": -1.18,
+            "week_ending": "2025-12-19"
+          }
+        ]
+      },
+      {
+        "ticker": "XRT",
+        "geometric_avg": 0.79,
+        "weeks_positive": 6,
+        "most_recent_change": -0.43,
+        "weekly_changes": [
+          {
+            "change": 3.82,
+            "week_ending": "2025-10-17"
+          },
+          {
+            "change": 0.92,
+            "week_ending": "2025-10-24"
+          },
+          {
+            "change": -4.43,
+            "week_ending": "2025-10-31"
+          },
+          {
+            "change": -1.39,
+            "week_ending": "2025-11-07"
+          },
+          {
+            "change": 0.16,
+            "week_ending": "2025-11-14"
+          },
+          {
+            "change": -0.11,
+            "week_ending": "2025-11-21"
+          },
+          {
+            "change": 5.52,
+            "week_ending": "2025-11-28"
+          },
+          {
+            "change": 2.23,
+            "week_ending": "2025-12-05"
+          },
+          {
+            "change": 1.93,
+            "week_ending": "2025-12-12"
+          },
+          {
+            "change": -0.43,
+            "week_ending": "2025-12-19"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "period_start": "2025-10-24",
     "period_end": "2025-12-26",
     "top_10_etfs": [

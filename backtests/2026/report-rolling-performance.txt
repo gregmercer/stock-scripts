@@ -37,6 +37,7 @@ Period                         | Top 10 ETFs (by Geometric Average)
 2026-05-15 - 2026-07-17        | XHS, XPH, XBI, KIE, XLV, XTN, XHE, KRE, KBE, XLF
 2026-05-22 - 2026-07-24        | XPH, XHS, XBI, KIE, KRE, KBE, XHB, XLV, XTN, RWR
 2026-05-29 - 2026-07-31        | XPH, XHS, KIE, XBI, XSW, XHE, KRE, KBE, XLF, XRT
+2026-06-05 - 2026-08-07        | XPH, XHS, KIE, XHE, XBI, XLF, XLV, KBE, XSW, KRE
 
 ================================================================================
 Detailed Breakdown
@@ -512,7 +513,7 @@ Period: 2026-05-29 to 2026-07-31
 Rank   Ticker   Geo Avg %      Weeks Positive   Most Recent %   
 --------------------------------------------------------------------------------
 1      XPH              1.66% 8                          0.16%
-2      XHS              1.56% 6                         -0.09%
+2      XHS              1.56% 6                         -0.08%
 3      KIE              1.13% 6                          0.16%
 4      XBI              1.12% 5                         -2.31%
 5      XSW              1.03% 6                          7.79%
@@ -521,3 +522,18 @@ Rank   Ticker   Geo Avg %      Weeks Positive   Most Recent %
 8      KBE              0.98% 7                          0.42%
 9      XLF              0.96% 9                          1.12%
 10     XRT              0.87% 6                          3.18%
+
+Period: 2026-06-05 to 2026-08-07
+--------------------------------------------------------------------------------
+Rank   Ticker   Geo Avg %      Weeks Positive   Most Recent %   
+--------------------------------------------------------------------------------
+1      XPH              1.94% 8                          3.61%
+2      XHS              1.69% 6                          2.00%
+3      KIE              1.62% 7                          0.50%
+4      XHE              1.57% 7                          3.74%
+5      XBI              1.43% 5                          7.05%
+6      XLF              1.15% 10                         1.16%
+7      XLV              1.08% 7                          1.93%
+8      KBE              1.03% 8                          0.46%
+9      XSW              1.00% 6                          7.12%
+10     KRE              0.97% 6                          0.20%
