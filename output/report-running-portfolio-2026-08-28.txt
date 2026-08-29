@@ -13,24 +13,31 @@ Rules:
 
 Period                         | Portfolio (5 ETFs)                       | Changes
 ----------------------------------------------------------------------------------------------------
-2025-10-24 - 2025-12-26        | XPH, XBI, KRE, XES, XHE                  | +XPH, XBI, KRE, XES, XHE
-2025-10-31 - 2026-01-02        | XPH, XBI, KRE, XES, XHE                  | No changes
-2025-11-07 - 2026-01-09        | XPH, XBI, KRE, XHE, XME                  | +XME -XES
-2025-11-14 - 2026-01-16        | XPH, XBI, KRE, XME, XAR                  | +XAR -XHE
-2025-11-21 - 2026-01-23        | XBI, KRE, XME, XAR, XES                  | +XES -XPH
-2025-11-28 - 2026-01-30        | KRE, XME, XAR, XES, XTL                  | +XTL -XBI
-2025-12-05 - 2026-02-06        | KRE, XME, XAR, XES, XTL                  | No changes
-2025-12-12 - 2026-02-13        | KRE, XME, XAR, XES, XTL                  | No changes
-2025-12-19 - 2026-02-20        | XME, XAR, XES, XTL, XLE                  | +XLE -KRE
-2025-12-26 - 2026-02-27        | XME, XAR, XES, XTL, XLE                  | No changes
-2026-01-02 - 2026-03-06        | XAR, XES, XTL, XLE, XOP                  | +XOP -XME
-2026-01-09 - 2026-03-13        | XAR, XES, XTL, XLE, XOP                  | No changes
-2026-01-16 - 2026-03-20        | XES, XTL, XLE, XOP, XLU                  | +XLU -XAR
-2026-01-23 - 2026-03-27        | XES, XTL, XLE, XOP, XLU                  | No changes
-2026-01-30 - 2026-04-03        | XES, XTL, XLE, XOP, XLU                  | No changes
-2026-02-06 - 2026-04-10        | XES, XTL, XLE, XOP, XLU                  | No changes
-2026-02-13 - 2026-04-17        | XES, XTL, XOP, XLU, XSD                  | +XSD -XLE
-2026-02-20 - 2026-04-24        | XES, XTL, XOP, XSD, XNTK                 | +XNTK -XLU
+2025-09-05 - 2025-11-07        | XBI, XNTK, XSD, XES, XME                 | +XBI, XNTK, XSD, XES, XME
+2025-09-12 - 2025-11-14        | XBI, XNTK, XSD, XES, XME                 | No changes
+2025-09-19 - 2025-11-21        | XBI, XES, XME, XPH, XLV                  | +XPH, XLV -XNTK, XSD
+2025-09-26 - 2025-11-28        | XBI, XES, XME, XPH, XLV                  | No changes
+2025-10-03 - 2025-12-05        | XBI, XES, XME, XPH, XLV                  | No changes
+2025-10-10 - 2025-12-12        | XBI, XES, XME, XPH, XLV                  | No changes
+2025-10-17 - 2025-12-19        | XBI, XES, XPH, XLV, XHE                  | +XHE -XME
+2025-10-24 - 2025-12-26        | XBI, XES, XPH, XLV, XHE                  | No changes
+2025-10-31 - 2026-01-02        | XBI, XES, XPH, XLV, XHE                  | No changes
+2025-11-07 - 2026-01-09        | XBI, XPH, XHE, XME, XTN                  | +XME, XTN -XES, XLV
+2025-11-14 - 2026-01-16        | XBI, XPH, XME, XTN, XAR                  | +XAR -XHE
+2025-11-21 - 2026-01-23        | XBI, XME, XTN, XAR, XES                  | +XES -XPH
+2025-11-28 - 2026-01-30        | XME, XTN, XAR, XES, XTL                  | +XTL -XBI
+2025-12-05 - 2026-02-06        | XME, XTN, XAR, XES, XTL                  | No changes
+2025-12-12 - 2026-02-13        | XME, XAR, XES, XTL, XLB                  | +XLB -XTN
+2025-12-19 - 2026-02-20        | XME, XAR, XES, XTL, XLB                  | No changes
+2025-12-26 - 2026-02-27        | XME, XAR, XES, XTL, XLB                  | No changes
+2026-01-02 - 2026-03-06        | XAR, XES, XTL, XLB, XOP                  | +XOP -XME
+2026-01-09 - 2026-03-13        | XAR, XES, XTL, XLB, XOP                  | No changes
+2026-01-16 - 2026-03-20        | XES, XTL, XLB, XOP, XLE                  | +XLE -XAR
+2026-01-23 - 2026-03-27        | XES, XTL, XLB, XOP, XLE                  | No changes
+2026-01-30 - 2026-04-03        | XES, XTL, XLB, XOP, XLE                  | No changes
+2026-02-06 - 2026-04-10        | XES, XTL, XLB, XOP, XLE                  | No changes
+2026-02-13 - 2026-04-17        | XES, XTL, XOP, XSD, XNTK                 | +XSD, XNTK -XLB, XLE
+2026-02-20 - 2026-04-24        | XES, XTL, XOP, XSD, XNTK                 | No changes
 2026-02-27 - 2026-05-01        | XES, XTL, XOP, XSD, XNTK                 | No changes
 2026-03-06 - 2026-05-08        | XES, XTL, XOP, XSD, XNTK                 | No changes
 2026-03-13 - 2026-05-15        | XES, XTL, XOP, XSD, XNTK                 | No changes
@@ -54,104 +61,140 @@ Period                         | Portfolio (5 ETFs)                       | Chan
 Detailed Period Breakdown
 ====================================================================================================
 
+Period: 2025-09-05 to 2025-11-07
+----------------------------------------------------------------------------------------------------
+Portfolio: XBI, XNTK, XSD, XES, XME
+Added:    XBI, XNTK, XSD, XES, XME
+
+Period: 2025-09-12 to 2025-11-14
+----------------------------------------------------------------------------------------------------
+Portfolio: XBI, XNTK, XSD, XES, XME
+No changes from previous period
+
+Period: 2025-09-19 to 2025-11-21
+----------------------------------------------------------------------------------------------------
+Portfolio: XBI, XES, XME, XPH, XLV
+Added:    XPH, XLV
+Dropped:  XNTK, XSD
+
+Period: 2025-09-26 to 2025-11-28
+----------------------------------------------------------------------------------------------------
+Portfolio: XBI, XES, XME, XPH, XLV
+No changes from previous period
+
+Period: 2025-10-03 to 2025-12-05
+----------------------------------------------------------------------------------------------------
+Portfolio: XBI, XES, XME, XPH, XLV
+No changes from previous period
+
+Period: 2025-10-10 to 2025-12-12
+----------------------------------------------------------------------------------------------------
+Portfolio: XBI, XES, XME, XPH, XLV
+No changes from previous period
+
+Period: 2025-10-17 to 2025-12-19
+----------------------------------------------------------------------------------------------------
+Portfolio: XBI, XES, XPH, XLV, XHE
+Added:    XHE
+Dropped:  XME
+
 Period: 2025-10-24 to 2025-12-26
 ----------------------------------------------------------------------------------------------------
-Portfolio: XPH, XBI, KRE, XES, XHE
-Added:    XPH, XBI, KRE, XES, XHE
+Portfolio: XBI, XES, XPH, XLV, XHE
+No changes from previous period
 
 Period: 2025-10-31 to 2026-01-02
 ----------------------------------------------------------------------------------------------------
-Portfolio: XPH, XBI, KRE, XES, XHE
+Portfolio: XBI, XES, XPH, XLV, XHE
 No changes from previous period
 
 Period: 2025-11-07 to 2026-01-09
 ----------------------------------------------------------------------------------------------------
-Portfolio: XPH, XBI, KRE, XHE, XME
-Added:    XME
-Dropped:  XES
+Portfolio: XBI, XPH, XHE, XME, XTN
+Added:    XME, XTN
+Dropped:  XES, XLV
 
 Period: 2025-11-14 to 2026-01-16
 ----------------------------------------------------------------------------------------------------
-Portfolio: XPH, XBI, KRE, XME, XAR
+Portfolio: XBI, XPH, XME, XTN, XAR
 Added:    XAR
 Dropped:  XHE
 
 Period: 2025-11-21 to 2026-01-23
 ----------------------------------------------------------------------------------------------------
-Portfolio: XBI, KRE, XME, XAR, XES
+Portfolio: XBI, XME, XTN, XAR, XES
 Added:    XES
 Dropped:  XPH
 
 Period: 2025-11-28 to 2026-01-30
 ----------------------------------------------------------------------------------------------------
-Portfolio: KRE, XME, XAR, XES, XTL
+Portfolio: XME, XTN, XAR, XES, XTL
 Added:    XTL
 Dropped:  XBI
 
 Period: 2025-12-05 to 2026-02-06
 ----------------------------------------------------------------------------------------------------
-Portfolio: KRE, XME, XAR, XES, XTL
+Portfolio: XME, XTN, XAR, XES, XTL
 No changes from previous period
 
 Period: 2025-12-12 to 2026-02-13
 ----------------------------------------------------------------------------------------------------
-Portfolio: KRE, XME, XAR, XES, XTL
-No changes from previous period
+Portfolio: XME, XAR, XES, XTL, XLB
+Added:    XLB
+Dropped:  XTN
 
 Period: 2025-12-19 to 2026-02-20
 ----------------------------------------------------------------------------------------------------
-Portfolio: XME, XAR, XES, XTL, XLE
-Added:    XLE
-Dropped:  KRE
+Portfolio: XME, XAR, XES, XTL, XLB
+No changes from previous period
 
 Period: 2025-12-26 to 2026-02-27
 ----------------------------------------------------------------------------------------------------
-Portfolio: XME, XAR, XES, XTL, XLE
+Portfolio: XME, XAR, XES, XTL, XLB
 No changes from previous period
 
 Period: 2026-01-02 to 2026-03-06
 ----------------------------------------------------------------------------------------------------
-Portfolio: XAR, XES, XTL, XLE, XOP
+Portfolio: XAR, XES, XTL, XLB, XOP
 Added:    XOP
 Dropped:  XME
 
 Period: 2026-01-09 to 2026-03-13
 ----------------------------------------------------------------------------------------------------
-Portfolio: XAR, XES, XTL, XLE, XOP
+Portfolio: XAR, XES, XTL, XLB, XOP
 No changes from previous period
 
 Period: 2026-01-16 to 2026-03-20
 ----------------------------------------------------------------------------------------------------
-Portfolio: XES, XTL, XLE, XOP, XLU
-Added:    XLU
+Portfolio: XES, XTL, XLB, XOP, XLE
+Added:    XLE
 Dropped:  XAR
 
 Period: 2026-01-23 to 2026-03-27
 ----------------------------------------------------------------------------------------------------
-Portfolio: XES, XTL, XLE, XOP, XLU
+Portfolio: XES, XTL, XLB, XOP, XLE
 No changes from previous period
 
 Period: 2026-01-30 to 2026-04-03
 ----------------------------------------------------------------------------------------------------
-Portfolio: XES, XTL, XLE, XOP, XLU
+Portfolio: XES, XTL, XLB, XOP, XLE
 No changes from previous period
 
 Period: 2026-02-06 to 2026-04-10
 ----------------------------------------------------------------------------------------------------
-Portfolio: XES, XTL, XLE, XOP, XLU
+Portfolio: XES, XTL, XLB, XOP, XLE
 No changes from previous period
 
 Period: 2026-02-13 to 2026-04-17
 ----------------------------------------------------------------------------------------------------
-Portfolio: XES, XTL, XOP, XLU, XSD
-Added:    XSD
-Dropped:  XLE
+Portfolio: XES, XTL, XOP, XSD, XNTK
+Added:    XSD, XNTK
+Dropped:  XLB, XLE
 
 Period: 2026-02-20 to 2026-04-24
 ----------------------------------------------------------------------------------------------------
 Portfolio: XES, XTL, XOP, XSD, XNTK
-Added:    XNTK
-Dropped:  XLU
+No changes from previous period
 
 Period: 2026-02-27 to 2026-05-01
 ----------------------------------------------------------------------------------------------------
@@ -252,6 +295,111 @@ No changes from previous period
 ====================================================================================================
 Top 10 Reference Data (for verification)
 ====================================================================================================
+
+Period: 2025-09-05 to 2025-11-07
+----------------------------------------------------------------------------------------------------
+Rank   Ticker   Geo Avg %      Weeks Positive   Most Recent %   
+----------------------------------------------------------------------------------------------------
+1      XBI              1.95% 8                         -3.33%
+2      XNTK             1.43% 8                         -4.42%
+3      XSD              1.34% 7                         -7.25%
+4      XES              1.30% 5                         -1.11%
+5      XME              1.30% 7                         -3.14%
+6      XLK              0.95% 8                         -4.16%
+7      XTL              0.88% 7                         -6.76%
+8      XAR              0.77% 5                         -5.72%
+9      XLU              0.69% 6                          0.66%
+10     XLV              0.66% 6                          1.31%
+
+Period: 2025-09-12 to 2025-11-14
+----------------------------------------------------------------------------------------------------
+Rank   Ticker   Geo Avg %      Weeks Positive   Most Recent %   
+----------------------------------------------------------------------------------------------------
+1      XBI              1.79% 8                          4.63%
+2      XES              1.40% 5                         -0.19%
+3      XNTK             1.15% 7                         -1.49%
+4      XLV              1.01% 6                          3.89%
+5      XLK              0.94% 7                         -0.00%
+6      XME              0.91% 6                         -1.84%
+7      XSD              0.69% 6                         -5.12%
+8      XLU              0.68% 6                         -1.04%
+9      XPH              0.61% 7                          5.09%
+10     XLE              0.61% 7                          2.77%
+
+Period: 2025-09-19 to 2025-11-21
+----------------------------------------------------------------------------------------------------
+Rank   Ticker   Geo Avg %      Weeks Positive   Most Recent %   
+----------------------------------------------------------------------------------------------------
+1      XBI              2.17% 9                          2.32%
+2      XPH              1.18% 8                          2.82%
+3      XLV              1.18% 6                          1.83%
+4      XES              1.04% 4                         -2.49%
+5      XHS              0.73% 6                          4.77%
+6      XHE              0.56% 6                          3.68%
+7      XLU              0.37% 5                         -0.69%
+8      XME              0.37% 5                         -3.44%
+9      XLE              0.18% 6                         -2.83%
+10     XLG              0.14% 6                         -2.23%
+
+Period: 2025-09-26 to 2025-11-28
+----------------------------------------------------------------------------------------------------
+Rank   Ticker   Geo Avg %      Weeks Positive   Most Recent %   
+----------------------------------------------------------------------------------------------------
+1      XBI              2.57% 9                          5.58%
+2      XPH              1.66% 8                          5.00%
+3      XES              1.50% 5                          4.32%
+4      XLV              1.44% 7                          1.97%
+5      XHS              1.18% 7                          4.41%
+6      XHE              1.08% 7                          4.40%
+7      XME              0.73% 5                          9.48%
+8      XLU              0.72% 6                          2.81%
+9      XTL              0.48% 5                          8.10%
+10     XOP              0.37% 5                          3.30%
+
+Period: 2025-10-03 to 2025-12-05
+----------------------------------------------------------------------------------------------------
+Rank   Ticker   Geo Avg %      Weeks Positive   Most Recent %   
+----------------------------------------------------------------------------------------------------
+1      XBI              2.34% 9                          0.20%
+2      XES              1.52% 5                          6.76%
+3      XPH              1.46% 7                         -0.80%
+4      XHE              1.36% 8                          0.47%
+5      XLV              1.24% 7                         -2.78%
+6      XTN              0.91% 6                          5.97%
+7      XTL              0.85% 6                          3.15%
+8      XME              0.79% 5                          2.73%
+9      XSD              0.72% 6                          6.42%
+10     XHS              0.58% 6                         -3.39%
+
+Period: 2025-10-10 to 2025-12-12
+----------------------------------------------------------------------------------------------------
+Rank   Ticker   Geo Avg %      Weeks Positive   Most Recent %   
+----------------------------------------------------------------------------------------------------
+1      XBI              1.74% 8                         -0.23%
+2      XES              1.44% 5                         -2.38%
+3      XPH              1.39% 7                          3.48%
+4      XHE              1.01% 8                          0.02%
+5      XTN              1.01% 6                          2.24%
+6      XHS              0.72% 6                          2.28%
+7      XLV              0.62% 7                          0.52%
+8      KRE              0.56% 6                          3.65%
+9      KBE              0.53% 6                          3.58%
+10     XME              0.46% 5                          2.41%
+
+Period: 2025-10-17 to 2025-12-19
+----------------------------------------------------------------------------------------------------
+Rank   Ticker   Geo Avg %      Weeks Positive   Most Recent %   
+----------------------------------------------------------------------------------------------------
+1      XPH              1.74% 7                         -0.07%
+2      XES              1.69% 5                         -4.92%
+3      XBI              1.63% 8                          0.24%
+4      XHE              1.42% 8                         -0.49%
+5      XTN              1.35% 6                         -1.02%
+6      KRE              1.11% 7                          0.24%
+7      KBE              1.04% 7                          0.22%
+8      XLV              0.87% 8                          0.57%
+9      XHS              0.82% 6                         -1.18%
+10     XRT              0.79% 6                         -0.43%
 
 Period: 2025-10-24 to 2025-12-26
 ----------------------------------------------------------------------------------------------------
