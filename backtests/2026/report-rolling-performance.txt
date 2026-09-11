@@ -42,6 +42,7 @@ Period                         | Top 10 ETFs (by Geometric Average)
 2026-06-19 - 2026-08-21        | XBI, XSW, XPH, XHE, XOP, XLV, XHS, XLE, KCE, KIE
 2026-06-26 - 2026-08-28        | XSW, XOP, XLE, XPH, XBI, XHE, XLV, KCE, XHS, KIE
 2026-07-03 - 2026-09-04        | XOP, XSW, XLE, KCE, XME, XHE, XLF, XES, XPH, XLV
+2026-07-10 - 2026-09-11        | XOP, XLE, XES, XSW, XME, KCE, XLK, XLG, XLF, XLC
 
 ================================================================================
 Detailed Breakdown
@@ -594,10 +595,25 @@ Rank   Ticker   Geo Avg %      Weeks Positive   Most Recent %
 1      XOP              2.11% 7                          2.57%
 2      XSW              1.94% 8                         -2.97%
 3      XLE              1.75% 6                          2.20%
-4      KCE              1.48% 8                         -0.28%
+4      KCE              1.48% 8                         -0.27%
 5      XME              0.94% 4                         -0.10%
 6      XHE              0.88% 5                         -0.79%
 7      XLF              0.82% 8                          0.00%
 8      XES              0.79% 6                          2.22%
 9      XPH              0.73% 8                          0.20%
 10     XLV              0.67% 7                          0.17%
+
+Period: 2026-07-10 to 2026-09-11
+--------------------------------------------------------------------------------
+Rank   Ticker   Geo Avg %      Weeks Positive   Most Recent %   
+--------------------------------------------------------------------------------
+1      XOP              2.38% 8                          2.63%
+2      XLE              2.04% 7                          1.69%
+3      XES              1.34% 6                         -0.38%
+4      XSW              1.02% 7                         -3.77%
+5      XME              0.78% 4                         -4.21%
+6      KCE              0.63% 7                         -4.47%
+7      XLK              0.39% 7                          0.21%
+8      XLG              0.35% 5                         -0.22%
+9      XLF              0.29% 7                         -1.46%
+10     XLC              0.27% 6                          0.51%
