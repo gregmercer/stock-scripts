@@ -53,6 +53,7 @@ Period                         | Portfolio (5 ETFs)                       | Chan
 2026-07-10 - 2026-09-11        | XSW, XOP, XLE, KCE, XES                  | +XES -XPH
 2026-07-17 - 2026-09-18        | XSW, XOP, XLE, KCE, XES                  | No changes
 2026-07-24 - 2026-09-25        | XSW, XOP, XLE, XNTK, XLK                 | +XNTK, XLK -KCE, XES
+2026-07-31 - 2026-10-02        | XSW, XOP, XLE, XNTK, XLK                 | No changes
 
 ====================================================================================================
 Detailed Period Breakdown
@@ -275,6 +276,11 @@ Period: 2026-07-24 to 2026-09-25
 Portfolio: XSW, XOP, XLE, XNTK, XLK
 Added:    XNTK, XLK
 Dropped:  KCE, XES
+
+Period: 2026-07-31 to 2026-10-02
+----------------------------------------------------------------------------------------------------
+Portfolio: XSW, XOP, XLE, XNTK, XLK
+No changes from previous period
 
 ====================================================================================================
 Top 10 Reference Data (for verification)
@@ -879,3 +885,18 @@ Rank   Ticker   Geo Avg %      Weeks Positive   Most Recent %
 8      XLV              0.62% 7                          1.76%
 9      XLG              0.59% 6                          1.90%
 10     XHE              0.42% 6                          0.34%
+
+Period: 2026-07-31 to 2026-10-02
+----------------------------------------------------------------------------------------------------
+Rank   Ticker   Geo Avg %      Weeks Positive   Most Recent %   
+----------------------------------------------------------------------------------------------------
+1      XSW              1.56% 7                          1.17%
+2      XNTK             1.43% 8                          1.60%
+3      XLK              1.30% 8                          1.80%
+4      XSD              1.17% 6                          2.68%
+5      XLG              0.70% 6                         -0.08%
+6      XOP              0.65% 6                          1.89%
+7      XLE              0.58% 5                          1.26%
+8      XHE              0.42% 6                         -2.73%
+9      XLC              0.41% 6                         -2.34%
+10     XME              0.39% 3                         -2.39%
