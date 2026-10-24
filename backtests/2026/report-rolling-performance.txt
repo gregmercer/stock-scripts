@@ -48,6 +48,7 @@ Period                         | Top 10 ETFs (by Geometric Average)
 2026-07-31 - 2026-10-02        | XSW, XNTK, XLK, XSD, XLG, XOP, XLE, XHE, XLC, XME
 2026-08-07 - 2026-10-09        | XNTK, XLK, XSW, XLE, XOP, XSD, XLG, XME, XLV, XBI
 2026-08-14 - 2026-10-16        | XOP, XLE, XLV, XLP, XHS, XSW, XLG, XLC, XLK, XLU
+2026-08-21 - 2026-10-23        | XLE, XOP, XLV, XSW, XHS, XLP, XLG, XRT, KIE, XLB
 
 ================================================================================
 Detailed Breakdown
@@ -697,3 +698,18 @@ Rank   Ticker   Geo Avg %      Weeks Positive   Most Recent %
 8      XLC             -0.05% 5                         -0.05%
 9      XLK             -0.23% 7                         -7.70%
 10     XLU             -0.25% 5                          1.93%
+
+Period: 2026-08-21 to 2026-10-23
+--------------------------------------------------------------------------------
+Rank   Ticker   Geo Avg %      Weeks Positive   Most Recent %   
+--------------------------------------------------------------------------------
+1      XLE              1.20% 7                          1.60%
+2      XOP              1.16% 7                          0.65%
+3      XLV              0.73% 7                          1.45%
+4      XSW              0.73% 6                          8.70%
+5      XHS              0.43% 7                          2.75%
+6      XLP              0.31% 3                          0.73%
+7      XLG             -0.12% 5                         -1.16%
+8      XRT             -0.13% 6                          0.72%
+9      KIE             -0.18% 4                          0.54%
+10     XLB             -0.19% 5                          0.77%
